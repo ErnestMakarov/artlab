@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-import PageIntro from "../../components/ui/PageIntro.jsx";
 import Seo from "../../components/seo/Seo.jsx";
+import HomeHero from "./HomeHero.jsx";
 
 export default function HomePage() {
   const { t } = useTranslation("home");
@@ -14,11 +14,7 @@ export default function HomePage() {
         path="/"
       />
 
-      <PageIntro
-        eyebrow={t("hero.eyebrow")}
-        title={t("hero.title")}
-        description={t("hero.description")}
-      />
+      <HomeHero />
     </>
   );
 }

@@ -4,8 +4,20 @@
     "description": "Kunsti- ja loovtegevused lastele ning täiskasvanutele Tallinnas: kunst, loovtöö, käsitöö, meistriklassid ja sünnipäevad."
   },
   "hero": {
-    "eyebrow": "Loovstuudio lastele ja täiskasvanutele",
-    "title": "Armastus loovuse vastu esimesest hetkest.",
-    "description": "ART Lab on koht, kus lapsed ja täiskasvanud avastavad oma ideid, katsetavad erinevaid tehnikaid ja loovad rõõmuga."
+    "eyebrow": "Loovstuudio Tallinnas",
+    "title": {
+      "first": "Sütitame armastuse",
+      "second": "loomingu vastu",
+      "accent": "esimesest hetkest"
+    },
+    "description": "ART Lab on koht, kus lapsed ja täiskasvanud proovivad erinevaid loomesuundi ning naudivad kogu loomeprotsessi.",
+    "primaryCta": "Registreeru tundi",
+    "secondaryCta": "Vaata tunniplaani",
+    "imageAlt": "Tüdruk maalib ART Labi loovstuudios molbertil",
+    "features": {
+      "individual": "Individuaalselt ja rühmades",
+      "materials": "Kõik materjalid on hinna sees",
+      "audience": "Lastele ja täiskasvanutele"
+    }
   }
 }

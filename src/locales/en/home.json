@@ -4,8 +4,20 @@
     "description": "Creative classes for children and adults in Tallinn: art, creative workshops, handicrafts, masterclasses and birthday celebrations."
   },
   "hero": {
-    "eyebrow": "Creative studio for children and adults",
-    "title": "Inspiring a love for creativity from the very first moment.",
-    "description": "ART Lab is a space where children and adults explore their ideas, try different techniques and create with joy."
+    "eyebrow": "Creative studio in Tallinn",
+    "title": {
+      "first": "Sparking a love",
+      "second": "for creativity",
+      "accent": "from the first moment"
+    },
+    "description": "ART Lab is a space where children and adults explore different creative directions and enjoy the process itself.",
+    "primaryCta": "Book a class",
+    "secondaryCta": "View schedule",
+    "imageAlt": "A girl painting at an easel in the ART Lab creative studio",
+    "features": {
+      "individual": "Individual and group classes",
+      "materials": "All materials included",
+      "audience": "For children and adults"
+    }
   }
 }
