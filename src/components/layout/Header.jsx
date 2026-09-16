@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
+import logo from "../../assets/images/brand/artlab-logo.png";
+
 import Container from "../ui/Container.jsx";
 
 const navigation = [
@@ -183,11 +185,14 @@ export default function Header() {
             onClick={() => setIsMenuOpen(false)}
           >
             <img
-              src="/images/brand/artlab-logo.png"
+              src={logo}
               alt="ART Lab"
-              width="70"
-              height="60"
-              className="h-11 w-auto object-contain sm:h-[52px]"
+              width="280"
+              height="240"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              className="h-11 w-[52px] object-contain sm:h-[52px] sm:w-[62px]"
             />
           </Link>
 
