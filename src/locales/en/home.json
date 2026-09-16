@@ -27,5 +27,35 @@
     "description": "During classes, children and adults explore different art materials and techniques. They learn to work with colour, form and composition while developing imagination, focus and creative thinking.",
     "statement": "For us, it is not only about teaching technique, but also helping everyone feel confident in their ideas and proud of what they create.",
     "imageAlt": "The bright ART Lab creative studio in Tallinn"
+  },
+  "directions": {
+  "eyebrow": "Creative directions",
+  "title": "Find your direction.",
+  "intro": "Three formats with different personalities: focus on art, experiment freely or create something with your own hands.",
+  "swipeHint": "Swipe to explore every direction →",
+  "listAria": "ART Lab class directions",
+  "cardLabel": "{{number}} · direction",
+  "more": "Learn more",
+  "openAria": "Learn more about {{title}}",
+  "items": {
+    "art": {
+      "title": "Art classes",
+      "description": "Work with different materials, explore colour, form and composition, and gradually develop your own creative voice.",
+      "audience": "Ages 4+ and adults",
+      "imageAlt": "An art class at the ART Lab creative studio"
+    },
+    "creative": {
+      "title": "Creative workshop",
+      "description": "Combine drawing, sculpting and decorative techniques, experiment with materials and turn ideas into finished projects.",
+      "audience": "For children aged 7+",
+      "imageAlt": "Children creating projects in the ART Lab creative workshop"
+    },
+    "handicraft": {
+      "title": "Handicraft club",
+      "description": "Explore crochet, macramé, beadwork and other techniques while making toys, accessories and decorations by hand.",
+      "audience": "For children aged 7+",
+      "imageAlt": "A handicraft class at the ART Lab creative studio"
+    }
   }
+}
 }

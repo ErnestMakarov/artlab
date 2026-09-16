@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import Seo from "../../components/seo/Seo.jsx";
 import HomeAbout from "./HomeAbout.jsx";
+import HomeDirections from "./HomeDirections.jsx";
 import HomeHero from "./HomeHero.jsx";
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
 
       <HomeHero />
       <HomeAbout />
+      <HomeDirections />
     </>
   );
 }

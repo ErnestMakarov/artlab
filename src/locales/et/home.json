@@ -27,5 +27,35 @@
     "description": "Tundides tutvuvad lapsed ja täiskasvanud erinevate kunstimaterjalide ning -tehnikatega. Nad õpivad töötama värvi, vormi ja kompositsiooniga ning arendavad kujutlusvõimet, tähelepanu ja loovat mõtlemist.",
     "statement": "Meie jaoks ei ole tähtis õpetada ainult tehnikat, vaid aidata igaühel tunda kindlust oma ideedes ja rõõmu enda loodud tulemusest.",
     "imageAlt": "Valgusküllane ART Labi loovstuudio Tallinnas"
+  },
+  "directions": {
+  "eyebrow": "Loomesuunad",
+  "title": "Leia oma suund.",
+  "intro": "Kolm erineva iseloomuga formaati: keskendu kunstile, katseta vabalt või loo midagi oma kätega.",
+  "swipeHint": "Kõigi suundade vaatamiseks libista →",
+  "listAria": "ART Labi loomesuunad",
+  "cardLabel": "{{number}} · suund",
+  "more": "Vaata lähemalt",
+  "openAria": "Loe lähemalt suuna „{{title}}“ kohta",
+  "items": {
+    "art": {
+      "title": "Kunstilooming",
+      "description": "Maalime erinevate materjalidega, õpime tundma värvi, vormi ja kompositsiooni ning leiame samm-sammult oma loomingulise väljendusviisi.",
+      "audience": "Alates 4. eluaastast ja täiskasvanutele",
+      "imageAlt": "Kunstitund ART Labi loovstuudios"
+    },
+    "creative": {
+      "title": "Loovtöötuba",
+      "description": "Ühendame joonistamise, voolimise ja dekoratiivtehnikad, katsetame materjalidega ning viime ideed valmis projektideni.",
+      "audience": "Lastele alates 7. eluaastast",
+      "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
+    },
+    "handicraft": {
+      "title": "Käsitööklubi",
+      "description": "Õpime heegeldamist, makrameed, helmestööd ja teisi tehnikaid ning valmistame oma kätega mänguasju, aksessuaare ja dekoratsioone.",
+      "audience": "Lastele alates 7. eluaastast",
+      "imageAlt": "Käsitöötund ART Labi loovstuudios"
+    }
   }
+}
 }
