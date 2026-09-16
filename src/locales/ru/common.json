@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "home": "Главная",
+    "works": "Работы",
+    "services": "Услуги",
+    "process": "Процесс",
+    "about": "Обо мне",
+    "contacts": "Контакты"
+  }
+}

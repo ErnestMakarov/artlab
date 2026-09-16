@@ -1,0 +1,12 @@
+{
+    "contact": {
+        "title": "Võta meiega ühendust",
+        "description": "Meie olemas on aidata teid. Palun täitke allolev vorm ja me võtame teaga ühendust võimalikult varsti.",
+        "form": {
+            "name": "Nimi",
+            "email": "E-post",
+            "message": "Sõnum",
+            "submit": "Saada"
+        }
+    }
+}
