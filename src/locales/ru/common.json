@@ -1,10 +1,34 @@
 {
   "navigation": {
+    "ariaLabel": "Основная навигация",
     "home": "Главная",
-    "works": "Работы",
-    "services": "Услуги",
-    "process": "Процесс",
-    "about": "Обо мне",
+    "about": "О студии",
+    "directions": "Направления",
+    "prices": "Цены",
+    "gallery": "Галерея",
     "contacts": "Контакты"
+  },
+  "actions": {
+    "book": "Записаться"
+  },
+  "language": {
+    "label": "Выбор языка",
+    "change": "Выбрать {{language}} язык",
+    "names": {
+      "et": "эстонский",
+      "en": "английский",
+      "ru": "русский"
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Перейти к основному содержанию",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
+  },
+  "footer": {
+    "copyright": "ARTLab Studio OÜ. Все права защищены.",
+    "privacy": "Политика конфиденциальности",
+    "email": "Эл. почта",
+    "instagram": "Instagram"
   }
 }

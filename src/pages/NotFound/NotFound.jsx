@@ -1,26 +1,40 @@
-import { NavLink } from "react-router";
+import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
-export default function NotFound() {
+import Container from "../../components/ui/Container.jsx";
+import Seo from "../../components/seo/Seo.jsx";
+
+export default function NotFoundPage() {
+  const { t } = useTranslation("notFound");
+
   return (
-    <section className="flex min-h-[70vh] flex-col items-center justify-center px-4 text-center">
-      <p className="mb-2 text-sm text-gray-500">
-        404
-      </p>
+    <>
+      <Seo
+        title={t("meta.title")}
+        description={t("meta.description")}
+        noIndex
+      />
 
-      <h1 className="mb-4 text-5xl font-bold">
-        Page not found
-      </h1>
-
-      <p className="mb-8 max-w-md text-gray-600">
-        The page you are looking for may have been removed or the address is incorrect.
-      </p>
-
-      <NavLink
-        to="/"
-        className="rounded bg-black px-6 py-3 text-white"
-      >
-        Back to home
-      </NavLink>
-    </section>
+      <section className="flex min-h-[70svh] items-center bg-surface-lilac py-20 text-center">
+        <Container>
+          <p className="text-sm font-bold uppercase tracking-[0.22em] text-accent-pink">
+            404
+          </p>
+          <h1 className="mx-auto mt-4 max-w-3xl text-5xl font-extrabold leading-none tracking-[-0.05em] text-ink sm:text-7xl">
+            {t("title")}
+          </h1>
+          <p className="mx-auto mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
+            {t("description")}
+          </p>
+          <Link
+            to="/"
+            className="mt-8 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-brand px-7 font-bold text-white shadow-button transition-all hover:-translate-y-0.5 hover:bg-brand-dark"
+          >
+            {t("backHome")}
+            <span aria-hidden="true">→</span>
+          </Link>
+        </Container>
+      </section>
+    </>
   );
 }

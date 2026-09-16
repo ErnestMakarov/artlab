@@ -1,0 +1,9 @@
+{
+  "name": "ART Lab",
+  "short_name": "ART Lab",
+  "lang": "et",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

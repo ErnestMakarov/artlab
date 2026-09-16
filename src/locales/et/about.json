@@ -1,7 +1,11 @@
 {
-    "about": {
-        "title": "Meist",
-        "description": "me oleme head",
-        "button": "Loe rohkem"
-    }
+  "meta": {
+    "title": "Stuudiost | ART Lab",
+    "description": "Tutvu ART Labi loovstuudio, selle väärtuste, õpetajate ja inspireeriva keskkonnaga Tallinnas."
+  },
+  "intro": {
+    "eyebrow": "Stuudiost",
+    "title": "Loovus algab siin.",
+    "description": "ART Lab on soe ja inspireeriv ruum, kus igaüks saab julgelt proovida, õppida ja oma ideid ellu viia."
+  }
 }

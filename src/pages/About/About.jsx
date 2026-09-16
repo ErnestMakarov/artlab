@@ -1,18 +1,23 @@
-import React from 'react'
 import { useTranslation } from "react-i18next";
 
-export default function About() {
+import PageIntro from "../../components/ui/PageIntro.jsx";
+import Seo from "../../components/seo/Seo.jsx";
+
+export default function AboutPage() {
   const { t } = useTranslation("about");
 
   return (
-    <section className="bg-gray-200 p-4">
-        <h2 className="text-xl font-bold mb-2">{t("about.title")}</h2>
-
-        <p>{t("about.description")}</p>
-
-        <button className="bg-blue-500 text-white p-2 rounded" type="button">
-          {t("about.button")}
-        </button>
-    </section>
-  )
+    <>
+      <Seo
+        title={t("meta.title")}
+        description={t("meta.description")}
+        path="/about"
+      />
+      <PageIntro
+        eyebrow={t("intro.eyebrow")}
+        title={t("intro.title")}
+        description={t("intro.description")}
+      />
+    </>
+  );
 }

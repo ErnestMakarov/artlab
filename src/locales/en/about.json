@@ -1,7 +1,11 @@
 {
-    "about": {
-    "title": "About us",
-    "description": "we are good",
-    "button": "Learn more"
+  "meta": {
+    "title": "About the studio | ART Lab",
+    "description": "Discover ART Lab, its values, teachers and inspiring creative environment in Tallinn."
+  },
+  "intro": {
+    "eyebrow": "About the studio",
+    "title": "Creativity starts here.",
+    "description": "ART Lab is a warm and inspiring space where everyone can experiment, learn and bring their own ideas to life."
   }
 }
