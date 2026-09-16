@@ -19,5 +19,13 @@
       "materials": "Kõik materjalid on hinna sees",
       "audience": "Lastele ja täiskasvanutele"
     }
+  },
+  "about": {
+    "eyebrow": "Stuudiost",
+    "title": "Looming algab siit.",
+    "intro": "ART Labis loome õhkkonna, mis innustab ideid välja mõtlema, katsetama ja ennast väljendama.",
+    "description": "Tundides tutvuvad lapsed ja täiskasvanud erinevate kunstimaterjalide ning -tehnikatega. Nad õpivad töötama värvi, vormi ja kompositsiooniga ning arendavad kujutlusvõimet, tähelepanu ja loovat mõtlemist.",
+    "statement": "Meie jaoks ei ole tähtis õpetada ainult tehnikat, vaid aidata igaühel tunda kindlust oma ideedes ja rõõmu enda loodud tulemusest.",
+    "imageAlt": "Valgusküllane ART Labi loovstuudio Tallinnas"
   }
 }

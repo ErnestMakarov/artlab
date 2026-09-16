@@ -19,5 +19,13 @@
       "materials": "All materials included",
       "audience": "For children and adults"
     }
+  },
+  "about": {
+    "eyebrow": "About the studio",
+    "title": "Creativity starts here.",
+    "intro": "At ART Lab, we create an atmosphere that inspires people to imagine, experiment and express themselves.",
+    "description": "During classes, children and adults explore different art materials and techniques. They learn to work with colour, form and composition while developing imagination, focus and creative thinking.",
+    "statement": "For us, it is not only about teaching technique, but also helping everyone feel confident in their ideas and proud of what they create.",
+    "imageAlt": "The bright ART Lab creative studio in Tallinn"
   }
 }
