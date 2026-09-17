@@ -30,5 +30,13 @@
     "privacy": "Privaatsuspoliitika",
     "email": "E-post",
     "instagram": "Instagram"
-  }
+  },
+  "giftCards": {
+  "eyebrow": "Kinkekaardid",
+  "title": "Kingi aega loominguks.",
+  "description": "ART Labi kinkekaart ei ole lihtsalt kingitus, vaid uued elamused, loominguline aeg ja võimalus valida endale meelepärane tegevus.",
+  "cta": "Küsi kinkekaardi kohta",
+  "frontAlt": "ART Labi kinkekaardi esikülg",
+  "backAlt": "ART Labi kinkekaardi tagakülg"
+}
 }

@@ -30,5 +30,13 @@
     "privacy": "Privacy policy",
     "email": "Email",
     "instagram": "Instagram"
-  }
+  },
+  "giftCards": {
+  "eyebrow": "Gift cards",
+  "title": "Give the gift of creative time.",
+  "description": "An ART Lab gift card is more than a present — it offers new experiences, time to create and the freedom to choose an inspiring activity.",
+  "cta": "Ask about a gift card",
+  "frontAlt": "Front of an ART Lab gift card",
+  "backAlt": "Back of an ART Lab gift card"
+}
 }

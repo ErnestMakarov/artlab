@@ -6,6 +6,8 @@ import HomeCelebrations from "./HomeCelebrations.jsx";
 import HomeDirections from "./HomeDirections.jsx";
 import HomeHero from "./HomeHero.jsx";
 
+import GiftCardsCta from "../../components/sections/GiftCardsCta.jsx";
+
 export default function HomePage() {
   const { t } = useTranslation("home");
 
@@ -21,6 +23,8 @@ export default function HomePage() {
       <HomeAbout />
       <HomeDirections />
       <HomeCelebrations />
+
+      <GiftCardsCta />
     </>
   );
 }
