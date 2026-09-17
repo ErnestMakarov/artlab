@@ -57,5 +57,17 @@
       "imageAlt": "Käsitöötund ART Labi loovstuudios"
     }
   }
+},
+"celebrations": {
+  "eyebrow": "Peod ART Labis",
+  "title": "Olulised päevad muutuvad värvikamaks.",
+  "intro": "ART Labis saab olulist päeva tähistada loominguliselt — meie hubases stuudios või teie valitud asukohas.",
+  "cardLabel": "Kunstipeod ja sündmused",
+  "formats": "Laste ja täiskasvanute sünnipäevad, perepeod, tüdrukuteõhtud, kohtumised sõpradega ja firmaüritused.",
+  "description": "Koostame igale seltskonnale sobiva loomeprogrammi, arvestades osalejate vanust, külaliste arvu ja sündmuse formaati.",
+  "location": "Meie stuudios või teie valitud asukohas",
+  "cta": "Arutame teie pidu",
+  "note": "Stuudio tagab kõik loomeprogrammi jaoks vajalikud materjalid. Hind sõltub valitud meistriklassist, osalejate arvust ja sündmuse formaadist.",
+  "imageAlt": "Loominguline pidu ja meistriklass ART Labi stuudios"
 }
 }

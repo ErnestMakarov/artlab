@@ -57,5 +57,17 @@
       "imageAlt": "A handicraft class at the ART Lab creative studio"
     }
   }
+},
+"celebrations": {
+  "eyebrow": "Celebrations at ART Lab",
+  "title": "Important days become brighter.",
+  "intro": "Celebrate an important day creatively at ART Lab — in our welcoming studio or with an event at your chosen venue.",
+  "cardLabel": "Art parties and celebrations",
+  "formats": "Children's and adult birthdays, family celebrations, hen parties, gatherings with friends and corporate events.",
+  "description": "We tailor the creative programme to the participants' ages, the number of guests and the format of your event.",
+  "location": "At our studio or at your chosen venue",
+  "cta": "Plan your celebration",
+  "note": "The studio provides all materials for the creative programme. The price depends on the selected masterclass, the number of participants and the event format.",
+  "imageAlt": "A creative celebration and masterclass at the ART Lab studio"
 }
 }
