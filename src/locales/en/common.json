@@ -38,5 +38,18 @@
   "cta": "Ask about a gift card",
   "frontAlt": "Front of an ART Lab gift card",
   "backAlt": "Back of an ART Lab gift card"
+},
+"trialLesson": {
+  "eyebrow": "Your first class",
+  "title": "Start by getting to know us.",
+  "description": "A trial class is an easy way to meet the studio and teacher, experience the class format and choose the right direction for you.",
+  "pricesLink": "View prices",
+  "priceLabel": "Trial class",
+  "price": "15",
+  "currency": "€",
+  "priceCaption": "Price of the first class",
+  "condition": "If you decide to continue after the trial class and sign an agreement,",
+  "conditionAccent": "your trial class will be free.",
+  "cta": "Book a trial class"
 }
 }

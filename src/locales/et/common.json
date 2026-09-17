@@ -38,5 +38,18 @@
   "cta": "Küsi kinkekaardi kohta",
   "frontAlt": "ART Labi kinkekaardi esikülg",
   "backAlt": "ART Labi kinkekaardi tagakülg"
+},
+"trialLesson": {
+  "eyebrow": "Esimene tund",
+  "title": "Alustame tutvumisest.",
+  "description": "Proovitunnis saate tutvuda stuudio, õpetaja ja tunni formaadiga ning rahulikult valida endale sobiva suuna.",
+  "pricesLink": "Vaata hindu",
+  "priceLabel": "Proovitund",
+  "price": "15",
+  "currency": "€",
+  "priceCaption": "Esimese tunni hind",
+  "condition": "Kui otsustate pärast proovitundi jätkata ja sõlmite lepingu,",
+  "conditionAccent": "on proovitund teile tasuta.",
+  "cta": "Registreeru proovitundi"
 }
 }
