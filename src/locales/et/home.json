@@ -69,5 +69,20 @@
   "cta": "Arutame teie pidu",
   "note": "Stuudio tagab kõik loomeprogrammi jaoks vajalikud materjalid. Hind sõltub valitud meistriklassist, osalejate arvust ja sündmuse formaadist.",
   "imageAlt": "Loominguline pidu ja meistriklass ART Labi stuudios"
+},
+"whyUs": {
+  "eyebrow": "Miks valida ART Lab",
+  "title": "Siin on hea olla sina ise.",
+  "reasons": {
+    "formats": "Individuaaltunnid ja kuni 6 osalejaga rühmad",
+    "teachers": "Kogenud ja tähelepanelikud õpetajad",
+    "techniques": "Mitmekesine valik kunsti- ja loometehnikaid",
+    "materials": "Kõik vajalikud materjalid tagab stuudio",
+    "atmosphere": "Hubane ja sõbralik õhkkond",
+    "beginners": "Alustada saab ka varasema kunstikogemuseta",
+    "ages": "Programmid eri vanuses lastele ja täiskasvanutele"
+  },
+  "statementLead": "ART Lab ei ole ainult kauni tulemuse jaoks.",
+  "statementAccent": "See on koht, kus igaüks õpib looma, proovima uut ja väärtustama oma ideid."
 }
 }

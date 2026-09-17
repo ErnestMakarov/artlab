@@ -69,5 +69,20 @@
   "cta": "Plan your celebration",
   "note": "The studio provides all materials for the creative programme. The price depends on the selected masterclass, the number of participants and the event format.",
   "imageAlt": "A creative celebration and masterclass at the ART Lab studio"
+},
+"whyUs": {
+  "eyebrow": "Why choose ART Lab",
+  "title": "A place where you can be yourself.",
+  "reasons": {
+    "formats": "Individual classes and groups of up to 6 participants",
+    "teachers": "Experienced and attentive teachers",
+    "techniques": "A wide variety of artistic and creative techniques",
+    "materials": "All necessary materials are provided by the studio",
+    "atmosphere": "A warm and welcoming atmosphere",
+    "beginners": "No previous art experience is needed to begin",
+    "ages": "Programmes for children of different ages and adults"
+  },
+  "statementLead": "ART Lab is about more than a beautiful result.",
+  "statementAccent": "It is a place where everyone learns to create, try something new and value their own ideas."
 }
 }
