@@ -26,11 +26,16 @@
     "closeMenu": "Sulge menüü"
   },
   "footer": {
-    "copyright": "ARTLab Studio OÜ. Kõik õigused kaitstud.",
-    "privacy": "Privaatsuspoliitika",
-    "email": "E-post",
-    "instagram": "Instagram"
-  },
+  "description": "Loovstuudio lastele ja täiskasvanutele Tallinnas.",
+  "navigationTitle": "Navigatsioon",
+  "contactsTitle": "Kontakt",
+  "socialTitle": "Sotsiaalmeedia",
+  "address": "Peterburi tee 46, Tallinn",
+  "writeToUs": "Kirjuta meile",
+  "copyright": "ARTLab Studio OÜ. Kõik õigused kaitstud.",
+  "privacy": "Privaatsuspoliitika",
+  "tagline": "Looming algab siit."
+},
   "giftCards": {
   "eyebrow": "Kinkekaardid",
   "title": "Kingi aega loominguks.",

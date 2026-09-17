@@ -26,11 +26,16 @@
     "closeMenu": "Закрыть меню"
   },
   "footer": {
-    "copyright": "ARTLab Studio OÜ. Все права защищены.",
-    "privacy": "Политика конфиденциальности",
-    "email": "Эл. почта",
-    "instagram": "Instagram"
-  },
+  "description": "Творческая студия для детей и взрослых в Таллине.",
+  "navigationTitle": "Навигация",
+  "contactsTitle": "Контакты",
+  "socialTitle": "Соцсети",
+  "address": "Peterburi tee 46, Tallinn",
+  "writeToUs": "Написать нам",
+  "copyright": "ARTLab Studio OÜ. Все права защищены.",
+  "privacy": "Политика конфиденциальности",
+  "tagline": "Творчество начинается здесь."
+},
   "giftCards": {
   "eyebrow": "Подарочные карты",
   "title": "Подарите время для творчества.",

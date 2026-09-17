@@ -26,11 +26,16 @@
     "closeMenu": "Close menu"
   },
   "footer": {
-    "copyright": "ARTLab Studio OÜ. All rights reserved.",
-    "privacy": "Privacy policy",
-    "email": "Email",
-    "instagram": "Instagram"
-  },
+  "description": "A creative studio for children and adults in Tallinn.",
+  "navigationTitle": "Navigation",
+  "contactsTitle": "Contacts",
+  "socialTitle": "Social media",
+  "address": "Peterburi tee 46, Tallinn",
+  "writeToUs": "Contact us",
+  "copyright": "ARTLab Studio OÜ. All rights reserved.",
+  "privacy": "Privacy policy",
+  "tagline": "Creativity starts here."
+},
   "giftCards": {
   "eyebrow": "Gift cards",
   "title": "Give the gift of creative time.",
