@@ -1,11 +1,65 @@
 {
   "meta": {
-    "title": "Stuudiost | ART Lab",
-    "description": "Tutvu ART Labi loovstuudio, selle väärtuste, õpetajate ja inspireeriva keskkonnaga Tallinnas."
+    "title": "Loovstuudio Tallinnas | ARTlab",
+    "description": "ARTlab on loovstuudio lastele ja täiskasvanutele Tallinnas. Kunstiloome, loovtöötuba, käsitöö ning rühma- ja individuaaltunnid."
   },
-  "intro": {
-    "eyebrow": "Stuudiost",
-    "title": "Loovus algab siin.",
-    "description": "ART Lab on soe ja inspireeriv ruum, kus igaüks saab julgelt proovida, õppida ja oma ideid ellu viia."
+  "hero": {
+    "eyebrow": "ARTlabi stuudiost",
+    "title": "Loovstuudio lastele ja täiskasvanutele.",
+    "description": "Meie stuudio põhisuund on kunstiloome. Tutvustame lastele ja täiskasvanutele erinevaid kunstitehnikaid, õpetame märkama värvi, vormi ja kompositsiooni, töötama mitmesuguste materjalidega ning samm-sammult leidma oma isikupärast stiili.",
+    "cta": "Vaata suundi",
+    "imageAlt": "ARTlabi valgusküllane loovstuudio töölaudade ja molbertitega",
+    "imageLabel": "ARTlab · Tallinn",
+    "values": [
+      "Proovida",
+      "Välja mõelda",
+      "Katsetada",
+      "Uskuda oma ideedesse"
+    ]
+  },
+  "approach": {
+    "eyebrow": "Meie lähenemine",
+    "title": "Rohkem kui ilus lõpptulemus.",
+    "description": "Meie jaoks tähendab looming võimalust proovida, välja mõelda, katsetada, arendada kujutlusvõimet ja saada oma ideedes enesekindlamaks.",
+    "accent": "Tundides anname selge aluse ja vajalikud oskused, tutvustame tehnikaid ning aitame töö etappidest aru saada, jättes samal ajal alati ruumi fantaasiale ja isiklikule loomingulisele lahendusele. Seepärast valmib ka ühise teema puhul iga töö täiesti omamoodi."
+  },
+  "directions": {
+    "eyebrow": "Meie suunad",
+    "title": "Igaühele oma viis luua.",
+    "description": "Saab keskenduda joonistamisele, ühendada kunsti ruumiliste tehnikatega või valmistada esemeid oma kätega.",
+    "cta": "Vaata kõiki suundi",
+    "items": [
+      {
+        "title": "Kunstiloome",
+        "description": "ARTlabi põhisuund lastele ja täiskasvanutele: joonistamine ning töö värvi, vormi, kompositsiooni ja erinevate kunstimaterjalidega."
+      },
+      {
+        "title": "Loovtöötuba 4+",
+        "description": "Ruum lastele, kellele meeldib lisaks joonistamisele ka meisterdada: plastiliinimaal, aplikatsioon, dekupaaž, kunstikollaaž ning ruumilised ja segatehnikad."
+      },
+      {
+        "title": "Käsitööklubi",
+        "description": "Helmepunumine, makramee, kudumine ja teised käsitöötehnikad. Lapsed valmistavad oma kätega ehteid, aksessuaare, mänguasju ja dekoratiivesemeid."
+      }
+    ]
+  },
+  "formats": {
+    "eyebrow": "Tundide formaadid",
+    "title": "Koos või üks ühele.",
+    "description": "Leiame formaadi, milles on mugav õppida, uusi asju proovida ja omas tempos edasi liikuda.",
+    "items": [
+      {
+        "title": "Väikesed rühmad",
+        "description": "Stuudios toimuvad tunnid väikestes rühmades, kus õpetaja saab pöörata tähelepanu igale osalejale."
+      },
+      {
+        "title": "Individuaaltunnid",
+        "description": "Programmi ja tunni tempot kohandatakse õpilase vanuse, huvide ja loominguliste eesmärkide järgi."
+      }
+    ]
+  },
+  "closing": {
+    "prefix": "ARTlab —",
+    "accent": "paneme loomingut armastama esimesest minutist."
   }
 }
