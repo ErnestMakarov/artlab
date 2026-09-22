@@ -5,6 +5,7 @@
     "about": "Stuudiost",
     "directions": "Suunad",
     "prices": "Hinnad",
+    "schedule": "Tunniplaan",
     "gallery": "Galerii",
     "contacts": "Kontakt"
   },
@@ -25,36 +26,36 @@
     "openMenu": "Ava menüü",
     "closeMenu": "Sulge menüü"
   },
-  "footer": {
-  "description": "Loovstuudio lastele ja täiskasvanutele Tallinnas.",
-  "navigationTitle": "Navigatsioon",
-  "contactsTitle": "Kontakt",
-  "socialTitle": "Sotsiaalmeedia",
-  "address": "Peterburi tee 46, Tallinn",
-  "writeToUs": "Kirjuta meile",
-  "copyright": "ARTLab Studio OÜ. Kõik õigused kaitstud.",
-  "privacy": "Privaatsuspoliitika",
-  "tagline": "Looming algab siit."
-},
   "giftCards": {
-  "eyebrow": "Kinkekaardid",
-  "title": "Kingi aega loominguks.",
-  "description": "ART Labi kinkekaart ei ole lihtsalt kingitus, vaid uued elamused, loominguline aeg ja võimalus valida endale meelepärane tegevus.",
-  "cta": "Küsi kinkekaardi kohta",
-  "frontAlt": "ART Labi kinkekaardi esikülg",
-  "backAlt": "ART Labi kinkekaardi tagakülg"
-},
-"trialLesson": {
-  "eyebrow": "Esimene tund",
-  "title": "Alustame tutvumisest.",
-  "description": "Proovitunnis saate tutvuda stuudio, õpetaja ja tunni formaadiga ning rahulikult valida endale sobiva suuna.",
-  "pricesLink": "Vaata hindu",
-  "priceLabel": "Proovitund",
-  "price": "15",
-  "currency": "€",
-  "priceCaption": "Esimese tunni hind",
-  "condition": "Kui otsustate pärast proovitundi jätkata ja sõlmite lepingu,",
-  "conditionAccent": "on proovitund teile tasuta.",
-  "cta": "Registreeru proovitundi"
-}
+    "eyebrow": "Kinkekaardid",
+    "title": "Kingi aega loominguks.",
+    "description": "ART Labi kinkekaart ei ole lihtsalt kingitus, vaid uued elamused, loominguline aeg ja võimalus valida endale meelepärane tegevus.",
+    "cta": "Küsi kinkekaardi kohta",
+    "frontAlt": "ART Labi kinkekaardi esikülg",
+    "backAlt": "ART Labi kinkekaardi tagakülg"
+  },
+  "trialLesson": {
+    "eyebrow": "Esimene tund",
+    "title": "Alustame tutvumisest.",
+    "description": "Proovitunnis saate tutvuda stuudio, õpetaja ja tunni formaadiga ning rahulikult valida endale sobiva suuna.",
+    "pricesLink": "Vaata hindu",
+    "priceLabel": "Proovitund",
+    "price": "15",
+    "currency": "€",
+    "priceCaption": "Esimese tunni hind",
+    "condition": "Kui otsustate pärast proovitundi jätkata ja sõlmite lepingu,",
+    "conditionAccent": "on proovitund teile tasuta.",
+    "cta": "Registreeru proovitundi"
+  },
+  "footer": {
+    "description": "Loovstuudio lastele ja täiskasvanutele Tallinnas.",
+    "navigationTitle": "Navigatsioon",
+    "contactsTitle": "Kontakt",
+    "socialTitle": "Sotsiaalmeedia",
+    "address": "Peterburi tee 46, Tallinn",
+    "writeToUs": "Kirjuta meile",
+    "copyright": "ARTLab Studio OÜ. Kõik õigused kaitstud.",
+    "privacy": "Privaatsuspoliitika",
+    "tagline": "Looming algab siit."
+  }
 }

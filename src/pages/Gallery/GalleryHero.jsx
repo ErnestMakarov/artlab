@@ -32,7 +32,7 @@ export default function GalleryHero() {
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
       description={t("hero.description")}
-      pageNumber="04 / 05"
+      pageNumber="05 / 06"
       accent="cyan"
     >
       <div className="relative mx-auto h-[20rem] max-w-xl sm:h-[23rem]">

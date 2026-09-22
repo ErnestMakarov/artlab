@@ -1,16 +1,140 @@
 {
   "meta": {
-    "title": "Directions | ART Lab",
-    "description": "Fine art, a creative workshop and a handicraft club for children and adults at ART Lab in Tallinn."
+    "title": "Creative directions for children and adults | ART Lab",
+    "description": "Visual art, creative workshops, handicrafts, themed workshops and creative celebrations at ART Lab in Tallinn."
   },
   "hero": {
-    "eyebrow": "ART Lab directions",
-    "title": "Find your creative direction.",
-    "description": "Visual art, our creative workshop and handicraft club help you discover new techniques and develop your own style.",
+    "eyebrow": "Directions",
+    "title": "Creativity where you can be yourself.",
+    "description": "You do not need to know how to draw, sculpt or knit before coming to ART Lab. Curiosity and a desire to try are enough. We help you choose a comfortable direction, explore different materials and gradually move from first experiments to your own ideas and finished work.",
     "cards": [
       "Visual art",
       "Creative workshop 4+",
       "Handicraft club"
     ]
+  },
+  "mainDirections": {
+    "label": "{{number}} · direction",
+    "art": {
+      "title": "Visual art",
+      "audience": "For children aged 4+ and adults",
+      "imageAlt": "A children's art class at the ART Lab studio",
+      "paragraphs": [
+        "Regular classes for anyone who wants to learn to draw, understand colour and form more deeply and express their ideas more freely through art.",
+        "We work with gouache, acrylics, watercolours, pastels, texture paste and pencils. Students explore the foundations of colour, composition, form and space, learn to notice details and convey mood in different ways.",
+        "We do not aim to produce identical work from a template. The teacher introduces each technique, helps students understand the material and supports every participant's individual vision."
+      ],
+      "listTitle": "What we develop",
+      "points": [
+        "A sense of colour and composition",
+        "Observation and attention to detail",
+        "Confidence with art materials",
+        "Imagination and the ability to express personal ideas",
+        "Independence and creative thinking"
+      ],
+      "closing": "Classes are available individually or in groups. Most sessions last 45–60 minutes. Selected programmes and larger projects may take up to 1.5 hours."
+    },
+    "creative": {
+      "title": "Creative workshop",
+      "audience": "For children aged 4+",
+      "imageAlt": "Children creating dimensional projects at an ART Lab workshop",
+      "paragraphs": [
+        "A space for children who enjoy more than drawing — imagining, experimenting, combining techniques and turning ideas into complete creative projects.",
+        "Children explore decorative techniques, modelling, dimensional work, different textures and elements of handicraft. A single project can combine several materials and ways of working.",
+        "The journey from an idea to its realisation matters just as much as the finished result. Children learn to plan their work, choose materials, find their own solutions and confidently adjust the original idea."
+      ],
+      "listTitle": "What we develop",
+      "points": [
+        "Imagination and unconventional thinking",
+        "The ability to turn an idea into a finished project",
+        "A sense of form, colour and material",
+        "Precision and fine motor skills",
+        "Independence and confidence in personal choices"
+      ],
+      "closing": "The creative workshop suits children who enjoy trying new things, combining techniques and creating unusual work that goes beyond drawing."
+    },
+    "handicraft": {
+      "title": "Handicraft club",
+      "audience": "For children aged 7+",
+      "imageAlt": "A beadwork and handicraft class at ART Lab",
+      "paragraphs": [
+        "A club for children who enjoy making and want to create beautiful, useful and unusual things with their own hands.",
+        "Students explore crochet, beadwork, macramé, decoupage, quilling and other modern handicrafts. Materials and tools are introduced gradually, from simple elements to complete independent pieces.",
+        "Handicraft develops fine motor skills, patience, attention, precision and the ability to finish what you start. Everyone still has room to choose their own colours, details and decoration."
+      ],
+      "listTitle": "What we will make",
+      "points": [
+        "Toys and small figures",
+        "Jewellery and accessories",
+        "Decorative pieces",
+        "Gifts, cards and seasonal items",
+        "Personal projects in a chosen technique"
+      ],
+      "closing": "The club suits those who enjoy calm, focused creative work and find particular satisfaction in seeing separate materials gradually become a finished object."
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How classes work",
+    "title": "Calm, clear and at your own pace.",
+    "description": "No artistic experience or special preparation is required — a desire to try is enough.",
+    "items": [
+      {
+        "title": "Support at every stage",
+        "description": "Each participant works at a comfortable pace. The teacher explains the technique, demonstrates the process and helps exactly when support is needed."
+      },
+      {
+        "title": "Materials are ready at the studio",
+        "description": "ART Lab provides all essential materials and tools. You do not need to buy or bring anything special for your first class."
+      },
+      {
+        "title": "Group or individual",
+        "description": "We help choose the right direction, duration and schedule based on age, interests and creative goals."
+      }
+    ]
+  },
+  "otherFormats": {
+    "eyebrow": "Other creative formats",
+    "title": "Even more ways to create together.",
+    "description": "Try a one-off workshop, organise a creative celebration or give someone special the gift of time for new experiences.",
+    "workshops": {
+      "eyebrow": "Workshops",
+      "title": "A new technique in one creative session.",
+      "description": "One-off themed sessions for children and adults. The programme changes regularly and may include painting, plaster, wool, beadwork, dimensional materials and many other techniques.",
+      "note": "No previous experience is needed and all materials are provided by the studio.",
+      "cta": "More workshops on Instagram",
+      "swipeHint": "Swipe to explore every workshop →",
+      "openAria": "View the {{title}} workshop on Instagram",
+      "listAria": "ART Lab workshops",
+      "items": {
+        "acrylic": {
+          "title": "Acrylic on canvas",
+          "imageAlt": "An acrylic painting workshop on canvas"
+        },
+        "plaster": {
+          "title": "Plaster and painting",
+          "imageAlt": "Plaster pieces for a creative workshop"
+        },
+        "felting": {
+          "title": "Wool felting",
+          "imageAlt": "Materials and finished pieces for a felting workshop"
+        },
+        "beadwork": {
+          "title": "Beadwork",
+          "imageAlt": "Beads and jewellery for a creative workshop"
+        },
+        "threeD": {
+          "title": "Dimensional 3D art",
+          "imageAlt": "A dimensional artwork for an ART Lab workshop"
+        }
+      }
+    },
+    "celebrations": {
+      "eyebrow": "Creative birthday parties",
+      "title": "A celebration that leaves more than photographs.",
+      "description": "A celebration can be combined with a workshop selected for the guests' ages and interests. The studio provides all materials, and the creative session can be followed by a tea party.",
+      "note": "The programme and price depend on the chosen workshop, the number of participants and the celebration format.",
+      "cta": "Plan your celebration",
+      "imageAlt": "A creative birthday party at the ART Lab studio"
+    }
   }
 }

@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import Container from "../../components/ui/Container.jsx";
+import WorkshopCard from "../../components/sections/WorkshopCard.jsx";
 import acrylicImage from "../../assets/images/workshops/acrylic-canvas.webp";
 import plasterImage from "../../assets/images/workshops/plaster-art.webp";
 import feltingImage from "../../assets/images/workshops/wool-felting.webp";
@@ -15,41 +16,36 @@ const workshops = [
     key: "acrylic",
     number: "01",
     image: acrylicImage,
-    surface: "bg-[#f8f4ff]",
-    accent: "bg-brand",
-    text: "text-brand",
+    tone: "brand",
+    imageFit: "cover",
   },
   {
     key: "plaster",
     number: "02",
     image: plasterImage,
-    surface: "bg-[#fff4f8]",
-    accent: "bg-accent-pink",
-    text: "text-accent-pink",
+    tone: "pink",
+    imageFit: "cover",
   },
   {
     key: "felting",
     number: "03",
     image: feltingImage,
-    surface: "bg-[#effafa]",
-    accent: "bg-accent-cyan",
-    text: "text-accent-cyan",
+    tone: "cyan",
+    imageFit: "cover",
   },
   {
     key: "beadwork",
     number: "04",
     image: beadworkImage,
-    surface: "bg-[#f8f4ff]",
-    accent: "bg-brand",
-    text: "text-brand",
+    tone: "brand",
+    imageFit: "contain",
   },
   {
     key: "threeD",
     number: "05",
     image: threeDImage,
-    surface: "bg-[#fff8f4]",
-    accent: "bg-accent-pink",
-    text: "text-accent-pink",
+    tone: "peach",
+    imageFit: "contain",
   },
 ];
 
@@ -100,59 +96,22 @@ export default function HomeWorkshops() {
           {workshops.map((workshop) => (
             <li
               key={workshop.key}
-              className="w-[76vw] max-w-[280px] shrink-0 snap-start lg:w-auto lg:max-w-none"
+              className="w-[78vw] max-w-[310px] shrink-0 snap-start lg:w-auto lg:max-w-none"
             >
-              <article
-                className={`group relative flex h-full min-h-[360px] flex-col overflow-hidden rounded-[1.75rem] border border-line/70 ${workshop.surface} shadow-[0_16px_45px_rgba(51,39,73,0.07)] transition-all duration-300 hover:-translate-y-1 hover:shadow-card`}
-              >
-                <span
-                  className={`absolute inset-x-0 top-0 h-1 ${workshop.accent}`}
-                  aria-hidden="true"
-                />
-
-                <div className="flex items-center justify-between px-5 pt-6">
-                  <span
-                    className={`text-[10px] font-extrabold tracking-[0.16em] ${workshop.text}`}
-                  >
-                    {workshop.number}
-                  </span>
-
-                  <span
-                    className={`size-2.5 rounded-full ${workshop.accent}`}
-                    aria-hidden="true"
-                  />
-                </div>
-
-                <div className="flex min-h-0 flex-1 items-center justify-center p-4 sm:p-5">
-                  <img
-                    src={workshop.image}
-                    alt={t(`workshops.items.${workshop.key}.imageAlt`)}
-                    width="640"
-                    height="640"
-                    loading="lazy"
-                    decoding="async"
-                    className="aspect-square max-h-[230px] w-full object-contain transition-transform duration-500 group-hover:scale-[1.035] lg:max-h-[210px]"
-                  />
-                </div>
-
-                <div className="flex items-end justify-between gap-4 px-5 pb-5">
-                  <h3 className="max-w-[12rem] text-lg font-extrabold leading-[1.15] tracking-[-0.035em] text-ink xl:text-xl">
-                    {t(`workshops.items.${workshop.key}.title`)}
-                  </h3>
-
-                  <a
-                    href={instagramUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className={`flex size-10 shrink-0 items-center justify-center rounded-full text-lg text-white shadow-[0_8px_20px_rgba(51,39,73,0.12)] transition-transform duration-300 group-hover:translate-x-1 ${workshop.accent}`}
-                    aria-label={t("workshops.openAria", {
-                      title: t(`workshops.items.${workshop.key}.title`),
-                    })}
-                  >
-                    <span aria-hidden="true">→</span>
-                  </a>
-                </div>
-              </article>
+              <WorkshopCard
+                number={workshop.number}
+                image={workshop.image}
+                imageAlt={t(
+                  `workshops.items.${workshop.key}.imageAlt`,
+                )}
+                title={t(`workshops.items.${workshop.key}.title`)}
+                href={instagramUrl}
+                linkLabel={t("workshops.openAria", {
+                  title: t(`workshops.items.${workshop.key}.title`),
+                })}
+                tone={workshop.tone}
+                imageFit={workshop.imageFit}
+              />
             </li>
           ))}
         </ul>
@@ -186,7 +145,6 @@ export default function HomeWorkshops() {
             className="group inline-flex min-h-13 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-center text-sm font-bold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover"
           >
             {t("workshops.instagramCta")}
-
             <svg
               viewBox="0 0 24 24"
               fill="none"

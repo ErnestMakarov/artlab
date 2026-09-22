@@ -29,93 +29,93 @@
     "imageAlt": "Valgusküllane ART Labi loovstuudio Tallinnas"
   },
   "directions": {
-  "eyebrow": "Loomesuunad",
-  "title": "Leia oma suund.",
-  "intro": "Kolm erineva iseloomuga formaati: keskendu kunstile, katseta vabalt või loo midagi oma kätega.",
-  "swipeHint": "Kõigi suundade vaatamiseks libista →",
-  "listAria": "ART Labi loomesuunad",
-  "cardLabel": "{{number}} · suund",
-  "more": "Vaata lähemalt",
-  "openAria": "Loe lähemalt suuna „{{title}}“ kohta",
-  "items": {
-    "art": {
-      "title": "Kunstilooming",
-      "description": "Maalime erinevate materjalidega, õpime tundma värvi, vormi ja kompositsiooni ning leiame samm-sammult oma loomingulise väljendusviisi.",
-      "audience": "Alates 4. eluaastast ja täiskasvanutele",
-      "imageAlt": "Kunstitund ART Labi loovstuudios"
-    },
-    "creative": {
-      "title": "Loovtöötuba",
-      "description": "Ühendame joonistamise, voolimise ja dekoratiivtehnikad, katsetame materjalidega ning viime ideed valmis projektideni.",
-      "audience": "Lastele alates 4. eluaastast",
-      "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
-    },
-    "handicraft": {
-      "title": "Käsitööklubi",
-      "description": "Õpime heegeldamist, makrameed, helmestööd ja teisi tehnikaid ning valmistame oma kätega mänguasju, aksessuaare ja dekoratsioone.",
-      "audience": "Lastele alates 7. eluaastast",
-      "imageAlt": "Käsitöötund ART Labi loovstuudios"
+    "eyebrow": "Loomesuunad",
+    "title": "Leia oma suund.",
+    "intro": "Kolm erineva iseloomuga formaati: keskendu kunstile, katseta vabalt või loo midagi oma kätega.",
+    "swipeHint": "Kõigi suundade vaatamiseks libista →",
+    "listAria": "ART Labi loomesuunad",
+    "cardLabel": "{{number}} · suund",
+    "more": "Vaata lähemalt",
+    "openAria": "Loe lähemalt suuna „{{title}}“ kohta",
+    "items": {
+      "art": {
+        "title": "Kunstilooming",
+        "description": "Maalime erinevate materjalidega, õpime tundma värvi, vormi ja kompositsiooni ning leiame samm-sammult oma loomingulise väljendusviisi.",
+        "audience": "Alates 4. eluaastast ja täiskasvanutele",
+        "imageAlt": "Kunstitund ART Labi loovstuudios"
+      },
+      "creative": {
+        "title": "Loovtöötuba",
+        "description": "Ühendame joonistamise, voolimise ja dekoratiivtehnikad, katsetame materjalidega ning viime ideed valmis projektideni.",
+        "audience": "Lastele alates 4. eluaastast",
+        "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
+      },
+      "handicraft": {
+        "title": "Käsitööklubi",
+        "description": "Õpime heegeldamist, makrameed, helmestööd ja teisi tehnikaid ning valmistame oma kätega mänguasju, aksessuaare ja dekoratsioone.",
+        "audience": "Lastele alates 7. eluaastast",
+        "imageAlt": "Käsitöötund ART Labi loovstuudios"
+      }
     }
-  }
-},
-"celebrations": {
-  "eyebrow": "Peod ART Labis",
-  "title": "Olulised päevad muutuvad värvikamaks.",
-  "intro": "ART Labis saab olulist päeva tähistada loominguliselt — meie hubases stuudios või teie valitud asukohas.",
-  "cardLabel": "Kunstipeod ja sündmused",
-  "formats": "Laste ja täiskasvanute sünnipäevad, perepeod, tüdrukuteõhtud, kohtumised sõpradega ja firmaüritused.",
-  "description": "Koostame igale seltskonnale sobiva loomeprogrammi, arvestades osalejate vanust, külaliste arvu ja sündmuse formaati.",
-  "location": "Meie stuudios või teie valitud asukohas",
-  "cta": "Arutame teie pidu",
-  "note": "Stuudio tagab kõik loomeprogrammi jaoks vajalikud materjalid. Hind sõltub valitud meistriklassist, osalejate arvust ja sündmuse formaadist.",
-  "imageAlt": "Loominguline pidu ja meistriklass ART Labi stuudios"
-},
-"whyUs": {
-  "eyebrow": "Miks valida ART Lab",
-  "title": "Siin on hea olla sina ise.",
-  "reasons": {
-    "formats": "Individuaaltunnid ja kuni 6 osalejaga rühmad",
-    "teachers": "Kogenud ja tähelepanelikud õpetajad",
-    "techniques": "Mitmekesine valik kunsti- ja loometehnikaid",
-    "materials": "Kõik vajalikud materjalid tagab stuudio",
-    "atmosphere": "Hubane ja sõbralik õhkkond",
-    "beginners": "Alustada saab ka varasema kunstikogemuseta",
-    "ages": "Programmid eri vanuses lastele ja täiskasvanutele"
   },
-  "statementLead": "ART Lab ei ole ainult kauni tulemuse jaoks.",
-  "statementAccent": "See on koht, kus igaüks õpib looma, proovima uut ja väärtustama oma ideid."
-},
-"workshops": {
-  "eyebrow": "ART Labi töötoad",
-  "title": "Proovi seda, mida oled ammu tahtnud.",
-  "description": "ART Labis toimuvad regulaarselt töötoad lastele ja täiskasvanutele. Iga kord valime uued teemad, materjalid ja tehnikad.",
-  "swipeHint": "Kõigi töötubade vaatamiseks libista →",
-  "listAria": "ART Labi peamised töötoad",
-  "materials": "Kõik vajalikud materjalid pakub stuudio.",
-  "pricesCta": "Vaata hindu",
-  "instagramCta": "Veel töötube Instagramis",
-  "openAria": "Vaata töötuba „{{title}}“ Instagramis",
-  "items": {
-    "acrylic": {
-      "title": "Akrüülmaal lõuendil",
-      "imageAlt": "Akrüülmaali töötoa materjalid ja valmis töö"
-    },
-    "plaster": {
-      "title": "Kipsesemed ja nende maalimine",
-      "imageAlt": "Kipsesemed ART Labi loovtöötoa jaoks"
-    },
-    "felting": {
-      "title": "Villaviltimine",
-      "imageAlt": "Vill ja valmis esemed viltimise töötoa jaoks"
-    },
-    "beadwork": {
-      "title": "Helmepunumine",
-      "imageAlt": "Helmed ja käsitsi valmistatud ehted töötoa jaoks"
-    },
-    "threeD": {
-      "title": "Ruumilised 3D-pildid",
-      "imageAlt": "ART Labi töötoas valminud ruumiline pilt"
+  "celebrations": {
+    "eyebrow": "Peod ART Labis",
+    "title": "Olulised päevad muutuvad värvikamaks.",
+    "intro": "ART Labis saab olulist päeva tähistada loominguliselt — meie hubases stuudios või teie valitud asukohas.",
+    "cardLabel": "Kunstipeod ja sündmused",
+    "formats": "Laste ja täiskasvanute sünnipäevad, perepeod, tüdrukuteõhtud, kohtumised sõpradega ja firmaüritused.",
+    "description": "Koostame igale seltskonnale sobiva loomeprogrammi, arvestades osalejate vanust, külaliste arvu ja sündmuse formaati.",
+    "location": "Meie stuudios või teie valitud asukohas",
+    "cta": "Arutame teie pidu",
+    "note": "Stuudio tagab kõik loomeprogrammi jaoks vajalikud materjalid. Hind sõltub valitud meistriklassist, osalejate arvust ja sündmuse formaadist.",
+    "imageAlt": "Loominguline pidu ja meistriklass ART Labi stuudios"
+  },
+  "workshops": {
+    "eyebrow": "ART Labi töötoad",
+    "title": "Proovi seda, mida oled ammu tahtnud.",
+    "description": "ART Labis toimuvad regulaarselt töötoad lastele ja täiskasvanutele. Iga kord valime uued teemad, materjalid ja tehnikad.",
+    "swipeHint": "Kõigi töötubade vaatamiseks libista →",
+    "listAria": "ART Labi peamised töötoad",
+    "materials": "Kõik vajalikud materjalid pakub stuudio.",
+    "pricesCta": "Vaata hindu",
+    "instagramCta": "Veel töötube Instagramis",
+    "openAria": "Vaata töötuba „{{title}}“ Instagramis",
+    "items": {
+      "acrylic": {
+        "title": "Akrüülmaal lõuendil",
+        "imageAlt": "Akrüülmaali töötoa materjalid ja valmis töö"
+      },
+      "plaster": {
+        "title": "Kipsesemed ja nende maalimine",
+        "imageAlt": "Kipsesemed ART Labi loovtöötoa jaoks"
+      },
+      "felting": {
+        "title": "Villaviltimine",
+        "imageAlt": "Vill ja valmis esemed viltimise töötoa jaoks"
+      },
+      "beadwork": {
+        "title": "Helmepunumine",
+        "imageAlt": "Helmed ja käsitsi valmistatud ehted töötoa jaoks"
+      },
+      "threeD": {
+        "title": "Ruumilised 3D-pildid",
+        "imageAlt": "ART Labi töötoas valminud ruumiline pilt"
+      }
     }
+  },
+  "whyUs": {
+    "eyebrow": "Miks valida ART Lab",
+    "title": "Siin on hea olla sina ise.",
+    "reasons": {
+      "formats": "Individuaaltunnid ja kuni 6 osalejaga rühmad",
+      "teachers": "Kogenud ja tähelepanelikud õpetajad",
+      "techniques": "Mitmekesine valik kunsti- ja loometehnikaid",
+      "materials": "Kõik vajalikud materjalid tagab stuudio",
+      "atmosphere": "Hubane ja sõbralik õhkkond",
+      "beginners": "Alustada saab ka varasema kunstikogemuseta",
+      "ages": "Programmid eri vanuses lastele ja täiskasvanutele"
+    },
+    "statementLead": "ART Lab ei ole ainult kauni tulemuse jaoks.",
+    "statementAccent": "See on koht, kus igaüks õpib looma, proovima uut ja väärtustama oma ideid."
   }
-}
 }

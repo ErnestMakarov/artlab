@@ -5,6 +5,7 @@ import HomePage from "../pages/Home/Home.jsx";
 import AboutPage from "../pages/About/About.jsx";
 import DirectionsPage from "../pages/Directions/Directions.jsx";
 import PricesPage from "../pages/Prices/Prices.jsx";
+import SchedulePage from "../pages/Schedule/Schedule.jsx";
 import GalleryPage from "../pages/Gallery/Gallery.jsx";
 import ContactsPage from "../pages/Contacts/Contacts.jsx";
 import PrivacyPage from "../pages/Privacy/Privacy.jsx";
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/prices",
         element: <PricesPage />,
+      },
+      {
+        path: "/schedule",
+        element: <SchedulePage />,
       },
       {
         path: "/gallery",

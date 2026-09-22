@@ -12,7 +12,7 @@ export default function AboutHero() {
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
       description={t("hero.description")}
-      pageNumber="01 / 05"
+      pageNumber="01 / 06"
       accent="cyan"
     >
       <div className="relative mx-auto max-w-2xl">

@@ -30,7 +30,7 @@ export default function ContactsHero() {
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
       description={t("hero.description")}
-      pageNumber="05 / 05"
+      pageNumber="06 / 06"
       accent="brand"
     >
       <div className="mx-auto max-w-xl rounded-[2rem] border border-white/90 bg-white/80 p-5 shadow-[0_24px_80px_rgba(51,39,73,0.12)] backdrop-blur-xl sm:p-7">

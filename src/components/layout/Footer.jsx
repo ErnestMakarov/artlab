@@ -9,13 +9,13 @@ const navigation = [
   { to: "/about", label: "navigation.about" },
   { to: "/directions", label: "navigation.directions" },
   { to: "/prices", label: "navigation.prices" },
+  { to: "/schedule", label: "navigation.schedule" },
   { to: "/gallery", label: "navigation.gallery" },
   { to: "/contacts", label: "navigation.contacts" },
 ];
 
 const instagramUrl = "https://www.instagram.com/artlab_est/";
 const whatsappUrl = "https://wa.me/37256637800";
-
 const mapsUrl =
   "https://www.google.com/maps/search/?api=1&query=Peterburi+tee+46+Tallinn";
 
@@ -70,7 +70,6 @@ export default function Footer() {
                       className="h-px w-0 bg-brand transition-all duration-200 group-hover:w-3"
                       aria-hidden="true"
                     />
-
                     {t(item.label)}
                   </Link>
                 </li>
@@ -148,16 +147,8 @@ export default function Footer() {
                   strokeLinejoin="round"
                   aria-hidden="true"
                 >
-                  <rect
-                    x="3"
-                    y="3"
-                    width="18"
-                    height="18"
-                    rx="5"
-                  />
-
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
                   <circle cx="12" cy="12" r="4" />
-
                   <circle
                     cx="17.5"
                     cy="6.5"
@@ -176,7 +167,6 @@ export default function Footer() {
               className="group mt-7 inline-flex min-h-13 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-6 text-center text-sm font-bold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover sm:max-w-xs lg:max-w-none"
             >
               {t("footer.writeToUs")}
-
               <span
                 className="transition-transform duration-200 group-hover:translate-x-1"
                 aria-hidden="true"

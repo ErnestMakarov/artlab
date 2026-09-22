@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Class schedule | ART Lab Tallinn",
+    "description": "Weekly art and creative class schedule at ART Lab in Tallinn. Filter by direction and find a suitable time for a child or an adult."
+  },
+  "hero": {
+    "eyebrow": "Class schedule",
+    "title": "Find your time to create.",
+    "description": "Choose a direction to see suitable days, times and age groups. Both group and individual classes are available.",
+    "card": {
+      "label": "A week at ART Lab",
+      "status": "For children and adults",
+      "groupLabel": "Group format",
+      "groupCount": "13",
+      "groupCaption": "classes in the weekly schedule",
+      "weekLabel": "Throughout the week",
+      "dayCount": "6",
+      "dayCaption": "days with group classes",
+      "individualTitle": "Individual classes",
+      "individualText": "On Wednesdays and on other days when a time is available."
+    }
+  },
+  "board": {
+    "eyebrow": "A week at ART Lab",
+    "title": "Choose a direction and a time that suits you.",
+    "description": "Use the filters to keep only the classes you need. The age group is shown next to every class.",
+    "filterLabel": "Show",
+    "dayTabsLabel": "Choose a day of the week",
+    "dayAria": "{{day}}, classes: {{count}}",
+    "dayUnavailable": "{{day}}: no classes for the selected direction",
+    "daySummary": "Classes on this day: {{count}}",
+    "filters": {
+      "all": "All classes",
+      "art": "Art",
+      "creative": "Creative workshop",
+      "handicraft": "Handicraft club",
+      "estonian": "Creative Estonian",
+      "individual": "Individual"
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "classes": {
+      "art": "Art",
+      "artAdults": "Art for adults",
+      "creative": "Creative workshop",
+      "handicraft": "Handicraft club",
+      "estonian": "Creative Estonian",
+      "individual": "Individual classes"
+    },
+    "byAgreement": "By arrangement",
+    "flexible": "We choose the time together",
+    "ageAria": "Age group {{age}}",
+    "showing": "Classes shown: {{count}}"
+  },
+  "notice": {
+    "eyebrow": "Before booking",
+    "title": "Check current availability.",
+    "description": "Group sizes are limited and the schedule may occasionally change. Message us and we will check availability and help you choose the right class for your age and interests.",
+    "cta": "Find the right class",
+    "caption": "We will reply and help you choose a group."
+  }
+}

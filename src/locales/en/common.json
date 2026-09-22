@@ -5,6 +5,7 @@
     "about": "About",
     "directions": "Directions",
     "prices": "Prices",
+    "schedule": "Schedule",
     "gallery": "Gallery",
     "contacts": "Contacts"
   },
@@ -25,36 +26,36 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
-  "footer": {
-  "description": "A creative studio for children and adults in Tallinn.",
-  "navigationTitle": "Navigation",
-  "contactsTitle": "Contacts",
-  "socialTitle": "Social media",
-  "address": "Peterburi tee 46, Tallinn",
-  "writeToUs": "Contact us",
-  "copyright": "ARTLab Studio OÜ. All rights reserved.",
-  "privacy": "Privacy policy",
-  "tagline": "Creativity starts here."
-},
   "giftCards": {
-  "eyebrow": "Gift cards",
-  "title": "Give the gift of creative time.",
-  "description": "An ART Lab gift card is more than a present — it offers new experiences, time to create and the freedom to choose an inspiring activity.",
-  "cta": "Ask about a gift card",
-  "frontAlt": "Front of an ART Lab gift card",
-  "backAlt": "Back of an ART Lab gift card"
-},
-"trialLesson": {
-  "eyebrow": "Your first class",
-  "title": "Start by getting to know us.",
-  "description": "A trial class is an easy way to meet the studio and teacher, experience the class format and choose the right direction for you.",
-  "pricesLink": "View prices",
-  "priceLabel": "Trial class",
-  "price": "15",
-  "currency": "€",
-  "priceCaption": "Price of the first class",
-  "condition": "If you decide to continue after the trial class and sign an agreement,",
-  "conditionAccent": "your trial class will be free.",
-  "cta": "Book a trial class"
-}
+    "eyebrow": "Gift cards",
+    "title": "Give the gift of creative time.",
+    "description": "An ART Lab gift card is more than a present — it offers new experiences, time to create and the freedom to choose an inspiring activity.",
+    "cta": "Ask about a gift card",
+    "frontAlt": "Front of an ART Lab gift card",
+    "backAlt": "Back of an ART Lab gift card"
+  },
+  "trialLesson": {
+    "eyebrow": "Your first class",
+    "title": "Start by getting to know us.",
+    "description": "A trial class is an easy way to meet the studio and teacher, experience the class format and choose the right direction for you.",
+    "pricesLink": "View prices",
+    "priceLabel": "Trial class",
+    "price": "15",
+    "currency": "€",
+    "priceCaption": "Price of the first class",
+    "condition": "If you decide to continue after the trial class and sign an agreement,",
+    "conditionAccent": "your trial class will be free.",
+    "cta": "Book a trial class"
+  },
+  "footer": {
+    "description": "A creative studio for children and adults in Tallinn.",
+    "navigationTitle": "Navigation",
+    "contactsTitle": "Contacts",
+    "socialTitle": "Social media",
+    "address": "Peterburi tee 46, Tallinn",
+    "writeToUs": "Contact us",
+    "copyright": "ARTLab Studio OÜ. All rights reserved.",
+    "privacy": "Privacy policy",
+    "tagline": "Creativity starts here."
+  }
 }

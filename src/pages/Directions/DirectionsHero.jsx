@@ -33,7 +33,7 @@ export default function DirectionsHero() {
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
       description={t("hero.description")}
-      pageNumber="02 / 05"
+      pageNumber="02 / 06"
       accent="brand"
     >
       <div className="mx-auto max-w-xl rounded-[2rem] border border-white/90 bg-white/75 p-4 shadow-[0_24px_75px_rgba(51,39,73,0.11)] backdrop-blur-xl sm:p-6">

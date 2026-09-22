@@ -29,93 +29,93 @@
     "imageAlt": "The bright ART Lab creative studio in Tallinn"
   },
   "directions": {
-  "eyebrow": "Creative directions",
-  "title": "Find your direction.",
-  "intro": "Three formats with different personalities: focus on art, experiment freely or create something with your own hands.",
-  "swipeHint": "Swipe to explore every direction →",
-  "listAria": "ART Lab class directions",
-  "cardLabel": "{{number}} · direction",
-  "more": "Learn more",
-  "openAria": "Learn more about {{title}}",
-  "items": {
-    "art": {
-      "title": "Art classes",
-      "description": "Work with different materials, explore colour, form and composition, and gradually develop your own creative voice.",
-      "audience": "Ages 4+ and adults",
-      "imageAlt": "An art class at the ART Lab creative studio"
-    },
-    "creative": {
-      "title": "Creative workshop",
-      "description": "Combine drawing, sculpting and decorative techniques, experiment with materials and turn ideas into finished projects.",
-      "audience": "For children aged 4+",
-      "imageAlt": "Children creating projects in the ART Lab creative workshop"
-    },
-    "handicraft": {
-      "title": "Handicraft club",
-      "description": "Explore crochet, macramé, beadwork and other techniques while making toys, accessories and decorations by hand.",
-      "audience": "For children aged 7+",
-      "imageAlt": "A handicraft class at the ART Lab creative studio"
+    "eyebrow": "Creative directions",
+    "title": "Find your direction.",
+    "intro": "Three formats with different personalities: focus on art, experiment freely or create something with your own hands.",
+    "swipeHint": "Swipe to explore every direction →",
+    "listAria": "ART Lab class directions",
+    "cardLabel": "{{number}} · direction",
+    "more": "Learn more",
+    "openAria": "Learn more about {{title}}",
+    "items": {
+      "art": {
+        "title": "Art classes",
+        "description": "Work with different materials, explore colour, form and composition, and gradually develop your own creative voice.",
+        "audience": "Ages 4+ and adults",
+        "imageAlt": "An art class at the ART Lab creative studio"
+      },
+      "creative": {
+        "title": "Creative workshop",
+        "description": "Combine drawing, sculpting and decorative techniques, experiment with materials and turn ideas into finished projects.",
+        "audience": "For children aged 4+",
+        "imageAlt": "Children creating projects in the ART Lab creative workshop"
+      },
+      "handicraft": {
+        "title": "Handicraft club",
+        "description": "Explore crochet, macramé, beadwork and other techniques while making toys, accessories and decorations by hand.",
+        "audience": "For children aged 7+",
+        "imageAlt": "A handicraft class at the ART Lab creative studio"
+      }
     }
-  }
-},
-"celebrations": {
-  "eyebrow": "Celebrations at ART Lab",
-  "title": "Important days become brighter.",
-  "intro": "Celebrate an important day creatively at ART Lab — in our welcoming studio or with an event at your chosen venue.",
-  "cardLabel": "Art parties and celebrations",
-  "formats": "Children's and adult birthdays, family celebrations, hen parties, gatherings with friends and corporate events.",
-  "description": "We tailor the creative programme to the participants' ages, the number of guests and the format of your event.",
-  "location": "At our studio or at your chosen venue",
-  "cta": "Plan your celebration",
-  "note": "The studio provides all materials for the creative programme. The price depends on the selected masterclass, the number of participants and the event format.",
-  "imageAlt": "A creative celebration and masterclass at the ART Lab studio"
-},
-"whyUs": {
-  "eyebrow": "Why choose ART Lab",
-  "title": "A place where you can be yourself.",
-  "reasons": {
-    "formats": "Individual classes and groups of up to 6 participants",
-    "teachers": "Experienced and attentive teachers",
-    "techniques": "A wide variety of artistic and creative techniques",
-    "materials": "All necessary materials are provided by the studio",
-    "atmosphere": "A warm and welcoming atmosphere",
-    "beginners": "No previous art experience is needed to begin",
-    "ages": "Programmes for children of different ages and adults"
   },
-  "statementLead": "ART Lab is about more than a beautiful result.",
-  "statementAccent": "It is a place where everyone learns to create, try something new and value their own ideas."
-},
-"workshops": {
-  "eyebrow": "ART Lab workshops",
-  "title": "Try what you have always wanted to.",
-  "description": "ART Lab regularly hosts workshops for children and adults. Each time, we explore new themes, materials and techniques.",
-  "swipeHint": "Swipe to explore every workshop →",
-  "listAria": "Featured ART Lab workshops",
-  "materials": "All necessary materials are provided by the studio.",
-  "pricesCta": "View prices",
-  "instagramCta": "More workshops on Instagram",
-  "openAria": "View the {{title}} workshop on Instagram",
-  "items": {
-    "acrylic": {
-      "title": "Acrylic painting on canvas",
-      "imageAlt": "Materials and a finished piece for an acrylic painting workshop"
-    },
-    "plaster": {
-      "title": "Plaster pieces and painting",
-      "imageAlt": "Plaster pieces for an ART Lab creative workshop"
-    },
-    "felting": {
-      "title": "Wool felting",
-      "imageAlt": "Wool and finished pieces for a felting workshop"
-    },
-    "beadwork": {
-      "title": "Beadwork",
-      "imageAlt": "Beads and handmade jewellery for a creative workshop"
-    },
-    "threeD": {
-      "title": "Dimensional 3D artworks",
-      "imageAlt": "A dimensional artwork created at an ART Lab workshop"
+  "celebrations": {
+    "eyebrow": "Celebrations at ART Lab",
+    "title": "Important days become brighter.",
+    "intro": "Celebrate an important day creatively at ART Lab — in our welcoming studio or with an event at your chosen venue.",
+    "cardLabel": "Art parties and celebrations",
+    "formats": "Children's and adult birthdays, family celebrations, hen parties, gatherings with friends and corporate events.",
+    "description": "We tailor the creative programme to the participants' ages, the number of guests and the format of your event.",
+    "location": "At our studio or at your chosen venue",
+    "cta": "Plan your celebration",
+    "note": "The studio provides all materials for the creative programme. The price depends on the selected masterclass, the number of participants and the event format.",
+    "imageAlt": "A creative celebration and masterclass at the ART Lab studio"
+  },
+  "workshops": {
+    "eyebrow": "ART Lab workshops",
+    "title": "Try what you have always wanted to.",
+    "description": "ART Lab regularly hosts workshops for children and adults. Each time, we explore new themes, materials and techniques.",
+    "swipeHint": "Swipe to explore every workshop →",
+    "listAria": "Featured ART Lab workshops",
+    "materials": "All necessary materials are provided by the studio.",
+    "pricesCta": "View prices",
+    "instagramCta": "More workshops on Instagram",
+    "openAria": "View the {{title}} workshop on Instagram",
+    "items": {
+      "acrylic": {
+        "title": "Acrylic painting on canvas",
+        "imageAlt": "Materials and a finished piece for an acrylic painting workshop"
+      },
+      "plaster": {
+        "title": "Plaster pieces and painting",
+        "imageAlt": "Plaster pieces for an ART Lab creative workshop"
+      },
+      "felting": {
+        "title": "Wool felting",
+        "imageAlt": "Wool and finished pieces for a felting workshop"
+      },
+      "beadwork": {
+        "title": "Beadwork",
+        "imageAlt": "Beads and handmade jewellery for a creative workshop"
+      },
+      "threeD": {
+        "title": "Dimensional 3D artworks",
+        "imageAlt": "A dimensional artwork created at an ART Lab workshop"
+      }
     }
+  },
+  "whyUs": {
+    "eyebrow": "Why choose ART Lab",
+    "title": "A place where you can be yourself.",
+    "reasons": {
+      "formats": "Individual classes and groups of up to 6 participants",
+      "teachers": "Experienced and attentive teachers",
+      "techniques": "A wide variety of artistic and creative techniques",
+      "materials": "All necessary materials are provided by the studio",
+      "atmosphere": "A warm and welcoming atmosphere",
+      "beginners": "No previous art experience is needed to begin",
+      "ages": "Programmes for children of different ages and adults"
+    },
+    "statementLead": "ART Lab is about more than a beautiful result.",
+    "statementAccent": "It is a place where everyone learns to create, try something new and value their own ideas."
   }
-}
 }

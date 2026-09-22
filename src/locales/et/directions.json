@@ -1,16 +1,140 @@
 {
   "meta": {
-    "title": "Suunad | ART Lab",
-    "description": "ART Labi kunstiloome, loovtöö ja käsitööringi tegevused lastele ning täiskasvanutele Tallinnas."
+    "title": "Loomesuunad lastele ja täiskasvanutele | ART Lab",
+    "description": "Kunstiloome, loovtöötuba, käsitöö, töötoad ja loomingulised peod ART Labi stuudios Tallinnas."
   },
   "hero": {
-    "eyebrow": "ART Labi suunad",
-    "title": "Leia endale sobiv loovsuund.",
-    "description": "Kunstiloome, loovtöötuba ja käsitööklubi aitavad avastada uusi tehnikaid ning arendada oma isikupärast väljendusviisi.",
+    "eyebrow": "Suunad",
+    "title": "Looming, kus saad olla sina ise.",
+    "description": "ART Labis ei pea oskama juba ette joonistada, voolida ega kududa. Piisab huvist ja soovist proovida. Aitame valida sobiva suuna, tutvuda erinevate materjalidega ning liikuda samm-sammult esimestest katsetustest oma ideede ja töödeni.",
     "cards": [
       "Kunstiloome",
       "Loovtöötuba 4+",
       "Käsitööklubi"
     ]
+  },
+  "mainDirections": {
+    "label": "{{number}} · suund",
+    "art": {
+      "title": "Kunstiloome",
+      "audience": "Lastele alates 4. eluaastast ja täiskasvanutele",
+      "imageAlt": "Laste kunstitund ART Labi stuudios",
+      "paragraphs": [
+        "Regulaarsed tunnid neile, kes soovivad õppida joonistama, paremini mõista värvi ja vormi ning väljendada oma ideid kunsti kaudu vabamalt.",
+        "Tundides töötame guaši, akrüüli, akvarelli, pastelli, tekstuurpasta ja pliiatsitega. Tutvume värvi, kompositsiooni, vormi ja ruumi alustega, õpime märkama detaile ning meeleolu eri viisidel edasi andma.",
+        "Meie eesmärk ei ole luua ühesuguseid töid malli järgi. Õpetaja tutvustab tehnikat, aitab materjalist aru saada ja toetab iga osaleja isiklikku nägemust."
+      ],
+      "listTitle": "Mida arendame",
+      "points": [
+        "Värvi- ja kompositsioonitunnetust",
+        "Tähelepanelikkust ja detailide märkamist",
+        "Kindlust kunstimaterjalidega töötamisel",
+        "Kujutlusvõimet ja oma ideede väljendamist",
+        "Iseseisvust ja loovat mõtlemist"
+      ],
+      "closing": "Osaleda saab individuaalselt või rühmas. Enamik tunde kestab 45–60 minutit. Mõne programmi ja mahukama töö puhul kestab tund kuni 1,5 tundi."
+    },
+    "creative": {
+      "title": "Loovtöötuba",
+      "audience": "Lastele alates 4. eluaastast",
+      "imageAlt": "Lapsed loovad ART Labi töötoas ruumilisi projekte",
+      "paragraphs": [
+        "Ruum neile, kellele meeldib lisaks joonistamisele ka ideid välja mõelda, katsetada, erinevaid tehnikaid ühendada ja muuta mõtted päris loovprojektideks.",
+        "Tundides proovivad lapsed dekoratiivtehnikaid, voolimist, ruumilisi töid, erinevaid tekstuure ja käsitööelemente. Ühes projektis võib olla korraga mitu materjali ja töövõtet.",
+        "Oluline ei ole ainult valmis tulemus, vaid kogu teekond ideest teostuseni. Laps õpib tööd kavandama, materjale valima, oma lahendusi otsima ja esialgset plaani julgelt muutma."
+      ],
+      "listTitle": "Mida arendame",
+      "points": [
+        "Fantaasiat ja ebaharilikku mõtlemist",
+        "Oskust muuta idee lõpetatud projektiks",
+        "Vormi-, värvi- ja materjalitunnetust",
+        "Täpsust ja peenmotoorikat",
+        "Iseseisvust ja kindlust oma otsustes"
+      ],
+      "closing": "Loovtöötuba sobib lastele, kellele meeldib proovida uusi asju, ühendada tehnikaid ja luua ebatavalisi töid, piirdumata ainult joonistamisega."
+    },
+    "handicraft": {
+      "title": "Käsitööklubi",
+      "audience": "Lastele alates 7. eluaastast",
+      "imageAlt": "Helmepunumise ja käsitöö tund ART Labi stuudios",
+      "paragraphs": [
+        "Klubi neile, kellele meeldib meisterdada ning oma kätega ilusaid, kasulikke ja erilisi esemeid luua.",
+        "Tundides tutvume heegeldamise, helmepunumise, makramee, dekupaaži, kvillingu ja teiste tänapäevaste käsitööliikidega. Õpime materjale ja töövahendeid kasutama samm-sammult: lihtsatest elementidest iseseisvate esemeteni.",
+        "Käsitöö arendab peenmotoorikat, kannatlikkust, tähelepanu, täpsust ja oskust alustatu lõpule viia. Igaühele jääb ruumi värvide, detailide ja kujunduse isiklikuks valikuks."
+      ],
+      "listTitle": "Mida valmistame",
+      "points": [
+        "Mänguasju ja väikeseid figuure",
+        "Ehteid ja aksessuaare",
+        "Dekoratiivelemente",
+        "Kingitusi, kaarte ja hooajalisi esemeid",
+        "Oma projekte valitud tehnikas"
+      ],
+      "closing": "Klubi sobib neile, kellele meeldib rahulik loovtöö ja kellele pakub erilist rõõmu näha, kuidas üksikutest materjalidest sünnib valmis ese."
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Kuidas tunnid toimuvad",
+    "title": "Rahulikult, arusaadavalt ja omas tempos.",
+    "description": "Alustamiseks ei ole vaja kunstikogemust ega eriettevalmistust — piisab soovist proovida.",
+    "items": [
+      {
+        "title": "Tugi igal etapil",
+        "description": "Iga osaleja töötab talle sobivas tempos. Õpetaja selgitab tehnikat, näitab töö järjekorda ja aitab just siis, kui seda vaja on."
+      },
+      {
+        "title": "Materjalid on stuudios olemas",
+        "description": "Kõik põhimaterjalid ja töövahendid pakub ART Lab. Esimeseks tunniks ei ole vaja midagi eraldi osta ega kaasa võtta."
+      },
+      {
+        "title": "Rühmas või individuaalselt",
+        "description": "Sobiva suuna, kestuse ja ajakava aitame valida vastavalt vanusele, huvidele ja loomingulistele eesmärkidele."
+      }
+    ]
+  },
+  "otherFormats": {
+    "eyebrow": "Teised loomingulised formaadid",
+    "title": "Veel rohkem võimalusi koos luua.",
+    "description": "Proovi üksikut töötuba, korralda loominguline pidu või kingi lähedasele aega uute elamuste jaoks.",
+    "workshops": {
+      "eyebrow": "Töötoad",
+      "title": "Uus tehnika ühe loomingulise kohtumisega.",
+      "description": "Eraldi temaatilised tunnid lastele ja täiskasvanutele. Programm muutub regulaarselt: proovida saab maalimist, tööd kipsi, villa, helmeste, ruumiliste materjalide ja teiste tehnikatega.",
+      "note": "Varasem kogemus ei ole vajalik ja kõik materjalid pakub stuudio.",
+      "cta": "Veel töötube Instagramis",
+      "swipeHint": "Kõigi töötubade vaatamiseks libista →",
+      "openAria": "Vaata töötuba „{{title}}“ Instagramis",
+      "listAria": "ART Labi töötoad",
+      "items": {
+        "acrylic": {
+          "title": "Akrüülmaal lõuendil",
+          "imageAlt": "Akrüülmaali töötuba lõuendil"
+        },
+        "plaster": {
+          "title": "Kips ja maalimine",
+          "imageAlt": "Kipsesemed loomingulise töötoa jaoks"
+        },
+        "felting": {
+          "title": "Villaviltimine",
+          "imageAlt": "Materjalid ja esemed viltimise töötoa jaoks"
+        },
+        "beadwork": {
+          "title": "Helmepunumine",
+          "imageAlt": "Helmed ja ehted loomingulise töötoa jaoks"
+        },
+        "threeD": {
+          "title": "Ruumilised 3D-pildid",
+          "imageAlt": "Ruumiline pilt ART Labi töötoa jaoks"
+        }
+      }
+    },
+    "celebrations": {
+      "eyebrow": "Loomingulised sünnipäevad",
+      "title": "Pidu, mis jääb alles rohkem kui ainult fotodele.",
+      "description": "Peo saab ühendada külaliste vanuse ja huvide järgi valitud töötoaga. Stuudio pakub kõik vajalikud materjalid ning pärast loomingulist osa saab korraldada teejoomise.",
+      "note": "Programmi sisu ja hind sõltuvad valitud töötoast, osalejate arvust ja peo formaadist.",
+      "cta": "Arutame teie pidu",
+      "imageAlt": "Loominguline sünnipäev ART Labi stuudios"
+    }
   }
 }

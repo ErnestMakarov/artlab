@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Tunniplaan | ART Lab Tallinn",
+    "description": "ART Labi kunsti- ja loovtundide nädalaplaan Tallinnas. Filtreeri suuna järgi ning leia sobiv aeg lapsele või täiskasvanule."
+  },
+  "hero": {
+    "eyebrow": "Tunniplaan",
+    "title": "Leia oma aeg loominguks.",
+    "description": "Vali huvipakkuv suund ning vaata sobivaid päevi, kellaaegu ja vanuserühmi. Registreeruda saab rühma- või individuaaltundi.",
+    "card": {
+      "label": "Nädal ART Labis",
+      "status": "Lastele ja täiskasvanutele",
+      "groupLabel": "Rühmatunnid",
+      "groupCount": "13",
+      "groupCaption": "tundi nädalaplaanis",
+      "weekLabel": "Nädala jooksul",
+      "dayCount": "6",
+      "dayCaption": "päeva rühmatundidega",
+      "individualTitle": "Individuaaltunnid",
+      "individualText": "Kolmapäeviti ja vabade aegade olemasolul ka teistel päevadel."
+    }
+  },
+  "board": {
+    "eyebrow": "Nädal ART Labis",
+    "title": "Vali suund ja endale sobiv aeg.",
+    "description": "Filtrite abil saad jätta tunniplaani ainult soovitud tunnid. Vanuserühm on märgitud iga tunni juures.",
+    "filterLabel": "Näita",
+    "dayTabsLabel": "Nädalapäeva valik",
+    "dayAria": "{{day}}, tunde: {{count}}",
+    "dayUnavailable": "{{day}}: valitud suuna tunde ei ole",
+    "daySummary": "Tunde sellel päeval: {{count}}",
+    "filters": {
+      "all": "Kõik tunnid",
+      "art": "Kunstilooming",
+      "creative": "Loovtöötuba",
+      "handicraft": "Käsitööklubi",
+      "estonian": "Loov eesti keel",
+      "individual": "Individuaalselt"
+    },
+    "days": {
+      "monday": "Esmaspäev",
+      "tuesday": "Teisipäev",
+      "wednesday": "Kolmapäev",
+      "thursday": "Neljapäev",
+      "friday": "Reede",
+      "saturday": "Laupäev",
+      "sunday": "Pühapäev"
+    },
+    "classes": {
+      "art": "Kunstilooming",
+      "artAdults": "Kunstilooming täiskasvanutele",
+      "creative": "Loovtöötuba",
+      "handicraft": "Käsitööklubi",
+      "estonian": "Loov eesti keel",
+      "individual": "Individuaaltunnid"
+    },
+    "byAgreement": "Kokkuleppel",
+    "flexible": "Aja valime koos",
+    "ageAria": "Vanuserühm {{age}}",
+    "showing": "Kuvatud tunde: {{count}}"
+  },
+  "notice": {
+    "eyebrow": "Enne registreerimist",
+    "title": "Küsi vaba kohta.",
+    "description": "Kohtade arv rühmades on piiratud ja tunniplaan võib aeg-ajalt muutuda. Kirjuta meile — kontrollime vabade kohtade olemasolu ning aitame valida vanuse ja huvide järgi sobiva tunni.",
+    "cta": "Leia sobiv tund",
+    "caption": "Vastame ja aitame valida sobiva rühma."
+  }
+}

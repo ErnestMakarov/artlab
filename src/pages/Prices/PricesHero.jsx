@@ -11,7 +11,7 @@ export default function PricesHero() {
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
       description={t("hero.description")}
-      pageNumber="03 / 05"
+      pageNumber="03 / 06"
       accent="pink"
     >
       <div className="mx-auto max-w-xl overflow-hidden rounded-[2rem] border border-white/90 bg-white/85 p-5 shadow-[0_24px_80px_rgba(51,39,73,0.12)] backdrop-blur-xl sm:p-7">

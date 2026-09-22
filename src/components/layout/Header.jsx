@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
-import logo from "../../assets/images/brand/artlab-logo.png";
-
 import Container from "../ui/Container.jsx";
 
 const navigation = [
@@ -11,6 +9,7 @@ const navigation = [
   { to: "/about", label: "navigation.about" },
   { to: "/directions", label: "navigation.directions" },
   { to: "/prices", label: "navigation.prices" },
+  { to: "/schedule", label: "navigation.schedule" },
   { to: "/gallery", label: "navigation.gallery" },
   { to: "/contacts", label: "navigation.contacts" },
 ];
@@ -36,7 +35,6 @@ function mobileLinkClass({ isActive }) {
 
 function LanguageSwitcher({ className = "" }) {
   const { t, i18n } = useTranslation("common");
-
   const currentLanguage = (i18n.resolvedLanguage || "et").split("-")[0];
 
   function changeLanguage(language) {
@@ -79,7 +77,6 @@ function LanguageSwitcher({ className = "" }) {
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
   const { pathname } = useLocation();
   const { t, i18n } = useTranslation("common");
 
@@ -93,19 +90,13 @@ export default function Header() {
     }
 
     handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
-    window.addEventListener("scroll", handleScroll, {
-      passive: true,
-    });
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
     const language = (i18n.resolvedLanguage || "et").split("-")[0];
-
     document.documentElement.lang = language;
 
     function syncDocumentLanguage(nextLanguage) {
@@ -123,13 +114,10 @@ export default function Header() {
     if (!isMenuOpen) return undefined;
 
     const previousOverflow = document.body.style.overflow;
-
     document.body.style.overflow = "hidden";
 
     function handleKeyDown(event) {
-      if (event.key === "Escape") {
-        setIsMenuOpen(false);
-      }
+      if (event.key === "Escape") setIsMenuOpen(false);
     }
 
     window.addEventListener("keydown", handleKeyDown);
@@ -144,9 +132,7 @@ export default function Header() {
     const desktopQuery = window.matchMedia("(min-width: 1280px)");
 
     function closeMenuOnDesktop(event) {
-      if (event.matches) {
-        setIsMenuOpen(false);
-      }
+      if (event.matches) setIsMenuOpen(false);
     }
 
     desktopQuery.addEventListener("change", closeMenuOnDesktop);
@@ -177,27 +163,24 @@ export default function Header() {
           aria-hidden="true"
         />
 
-        <Container className="relative grid h-16 grid-cols-[auto_1fr_auto] items-center sm:h-[72px] xl:h-20 xl:grid-cols-[1fr_auto_1fr]">
+        <Container className="relative grid h-16 grid-cols-[1fr_auto_1fr] items-center sm:h-[72px] xl:h-20">
           <Link
             to="/"
-            className="relative z-[60] col-start-1 row-start-1 inline-flex w-fit items-center justify-self-start rounded-md focus-visible:outline-offset-4"
+            className="relative z-[60] inline-flex w-fit items-center justify-self-start rounded-md focus-visible:outline-offset-4"
             aria-label={t("navigation.home")}
             onClick={() => setIsMenuOpen(false)}
           >
             <img
-              src={logo}
+              src="/images/brand/artlab-logo.png"
               alt="ART Lab"
-              width="280"
-              height="240"
-              loading="eager"
-              fetchPriority="high"
-              decoding="async"
-              className="h-11 w-[52px] object-contain sm:h-[52px] sm:w-[62px]"
+              width="70"
+              height="60"
+              className="h-11 w-auto object-contain sm:h-[52px]"
             />
           </Link>
 
           <nav
-            className="col-start-2 row-start-1 hidden items-center justify-self-center gap-7 xl:flex 2xl:gap-10"
+            className="hidden items-center justify-self-center gap-5 xl:flex 2xl:gap-7"
             aria-label={t("navigation.ariaLabel")}
           >
             {navigation.map((item) => (
@@ -212,7 +195,7 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="relative z-[60] col-start-3 row-start-1 flex items-center justify-self-end gap-2 sm:gap-3">
+          <div className="relative z-[60] flex items-center justify-self-end gap-2 sm:gap-3">
             <LanguageSwitcher className="hidden sm:flex" />
 
             <Link
@@ -220,11 +203,7 @@ export default function Header() {
               className="group hidden min-h-11 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-6 text-sm font-bold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover xl:inline-flex"
             >
               {t("actions.book")}
-
-              <span
-                className="transition-transform group-hover:translate-x-0.5"
-                aria-hidden="true"
-              >
+              <span className="transition-transform group-hover:translate-x-0.5" aria-hidden="true">
                 →
               </span>
             </Link>
@@ -247,18 +226,14 @@ export default function Header() {
                     isMenuOpen ? "translate-y-[6px] rotate-45" : ""
                   }`}
                 />
-
                 <span
                   className={`absolute left-0 top-[7px] h-0.5 w-5 rounded-full bg-current transition-opacity duration-200 ${
                     isMenuOpen ? "opacity-0" : "opacity-100"
                   }`}
                 />
-
                 <span
                   className={`absolute bottom-0.5 left-0 h-0.5 w-5 rounded-full bg-current transition-transform duration-300 ${
-                    isMenuOpen
-                      ? "-translate-y-[6px] -rotate-45"
-                      : ""
+                    isMenuOpen ? "-translate-y-[6px] -rotate-45" : ""
                   }`}
                 />
               </span>
@@ -280,7 +255,6 @@ export default function Header() {
           className="pointer-events-none absolute -right-24 top-20 size-72 rounded-full bg-brand/10 blur-3xl"
           aria-hidden="true"
         />
-
         <div
           className="pointer-events-none absolute -left-24 bottom-10 size-64 rounded-full bg-accent-cyan/10 blur-3xl"
           aria-hidden="true"
@@ -300,7 +274,6 @@ export default function Header() {
                 tabIndex={isMenuOpen ? 0 : -1}
               >
                 {t(item.label)}
-
                 <span className="text-base text-brand" aria-hidden="true">
                   ↗
                 </span>
