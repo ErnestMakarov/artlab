@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
-import PageIntro from "../../components/ui/PageIntro.jsx";
 import Seo from "../../components/seo/Seo.jsx";
+import GalleryHero from "./GalleryHero.jsx";
 
 export default function GalleryPage() {
   const { t } = useTranslation("gallery");
@@ -13,11 +13,7 @@ export default function GalleryPage() {
         description={t("meta.description")}
         path="/gallery"
       />
-      <PageIntro
-        eyebrow={t("intro.eyebrow")}
-        title={t("intro.title")}
-        description={t("intro.description")}
-      />
+      <GalleryHero />
     </>
   );
 }

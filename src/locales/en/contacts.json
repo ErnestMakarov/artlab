@@ -3,9 +3,14 @@
     "title": "Contacts | ART Lab",
     "description": "Contact ART Lab or book a trial class at Peterburi tee 46, Tallinn."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "Contact us",
     "title": "Let’s start by getting acquainted.",
-    "description": "Write to us, choose a direction and book a trial class. We will answer your questions and help you find the right format."
+    "description": "Write to us, choose a direction and book a trial class. We will answer your questions and help you find the right format.",
+    "contacts": {
+      "address": "Studio address",
+      "phone": "Phone",
+      "email": "Email"
+    }
   }
 }

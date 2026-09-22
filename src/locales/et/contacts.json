@@ -3,9 +3,14 @@
     "title": "Kontakt | ART Lab",
     "description": "Võta ühendust ART Labi loovstuudioga või registreeru proovitundi aadressil Peterburi tee 46, Tallinn."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "Võta ühendust",
     "title": "Alustame tutvumisest.",
-    "description": "Kirjuta meile, vali sobiv suund ja registreeru proovitundi. Vastame sinu küsimustele ning aitame leida sobiva formaadi."
+    "description": "Kirjuta meile, vali sobiv suund ja registreeru proovitundi. Vastame sinu küsimustele ning aitame leida sobiva formaadi.",
+    "contacts": {
+      "address": "Stuudio aadress",
+      "phone": "Telefon",
+      "email": "E-post"
+    }
   }
 }

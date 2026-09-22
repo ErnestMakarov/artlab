@@ -3,9 +3,17 @@
     "title": "Hinnad | ART Lab",
     "description": "ART Labi tundide, individuaalõppe, meistriklasside ja proovitunni hinnad Tallinnas."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "Hinnad ja tingimused",
     "title": "Lihtne alustada, mõnus jätkata.",
-    "description": "Tutvu tundide ja formaatidega. Proovitund maksab 15 € ning muutub lepingu sõlmimisel tasuta tunniks."
+    "description": "Tutvu tundide ja formaatidega. Proovitund maksab 15 € ning muutub lepingu sõlmimisel tasuta tunniks.",
+    "card": {
+      "label": "Proovitund",
+      "price": "15",
+      "currency": "€",
+      "caption": "Esimese tunni hind",
+      "condition": "Kui jätkate pärast proovitundi ja sõlmite lepingu,",
+      "accent": "on proovitund teile tasuta."
+    }
   }
 }

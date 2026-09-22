@@ -3,9 +3,17 @@
     "title": "Prices | ART Lab",
     "description": "Prices for classes, individual formats, masterclasses and the trial lesson at ART Lab in Tallinn."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "Prices and terms",
     "title": "Easy to begin. A joy to continue.",
-    "description": "Explore our class formats. The trial lesson costs €15 and becomes free when you continue and sign an agreement."
+    "description": "Explore our class formats. The trial lesson costs €15 and becomes free when you continue and sign an agreement.",
+    "card": {
+      "label": "Trial class",
+      "price": "15",
+      "currency": "€",
+      "caption": "Price of the first class",
+      "condition": "If you continue after your trial class and sign an agreement,",
+      "accent": "your trial class will be free."
+    }
   }
 }

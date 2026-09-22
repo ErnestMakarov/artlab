@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 
-import studioImage from "../../assets/images/home/artlab-studio-interior.jpg";
 import TrialLessonCta from "../../components/sections/TrialLessonCta.jsx";
 import Seo from "../../components/seo/Seo.jsx";
 import Container from "../../components/ui/Container.jsx";
+import AboutHero from "./AboutHero.jsx";
 
 const directionStyles = [
   {
@@ -76,7 +76,6 @@ const formatStyles = [
 
 export default function AboutPage() {
   const { t } = useTranslation("about");
-  const values = t("hero.values", { returnObjects: true });
   const directions = t("directions.items", { returnObjects: true });
   const formats = t("formats.items", { returnObjects: true });
 
@@ -89,101 +88,7 @@ export default function AboutPage() {
       />
 
       <div className="overflow-hidden">
-        <section className="relative isolate bg-white pb-20 pt-10 sm:pb-24 sm:pt-14 lg:pb-28 lg:pt-20">
-          <div
-            className="pointer-events-none absolute -right-40 top-10 size-[34rem] rounded-full bg-surface-aqua blur-3xl"
-            aria-hidden="true"
-          />
-          <div
-            className="pointer-events-none absolute -left-40 bottom-0 size-[28rem] rounded-full bg-surface-lilac blur-3xl"
-            aria-hidden="true"
-          />
-
-          <Container className="relative">
-            <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(520px,1.1fr)] lg:gap-14 xl:gap-20">
-              <div>
-                <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
-                  <span
-                    className="h-0.5 w-8 rounded-full bg-current"
-                    aria-hidden="true"
-                  />
-                  {t("hero.eyebrow")}
-                </p>
-
-                <h1 className="mt-7 max-w-3xl text-[clamp(3rem,6.2vw,6.6rem)] font-extrabold leading-[0.93] tracking-[-0.065em] text-ink">
-                  {t("hero.title")}
-                </h1>
-
-                <p className="mt-7 max-w-2xl text-base leading-8 text-muted sm:text-lg sm:leading-9">
-                  {t("hero.description")}
-                </p>
-
-                <Link
-                  to="/directions"
-                  className="group mt-8 inline-flex min-h-13 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-sm font-bold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover"
-                >
-                  {t("hero.cta")}
-                  <span
-                    className="transition-transform duration-200 group-hover:translate-x-1"
-                    aria-hidden="true"
-                  >
-                    →
-                  </span>
-                </Link>
-              </div>
-
-              <div className="relative">
-                <div
-                  className="absolute -left-5 -top-5 size-24 rounded-full bg-accent-pink sm:-left-7 sm:-top-7 sm:size-32"
-                  aria-hidden="true"
-                />
-                <div
-                  className="absolute -bottom-5 -right-5 size-28 rounded-full bg-accent-cyan/80 sm:-bottom-7 sm:-right-7 sm:size-36"
-                  aria-hidden="true"
-                />
-
-                <div className="relative overflow-hidden rounded-[2rem] border-[10px] border-white bg-surface-lilac shadow-[0_28px_90px_rgba(51,39,73,0.16)] sm:rounded-[3rem] sm:border-[14px]">
-                  <img
-                    src={studioImage}
-                    alt={t("hero.imageAlt")}
-                    width="1600"
-                    height="900"
-                    decoding="async"
-                    fetchPriority="high"
-                    className="aspect-[4/3] h-full w-full object-cover sm:aspect-[16/11]"
-                  />
-
-                  <div className="absolute inset-x-4 bottom-4 rounded-2xl border border-white/70 bg-white/88 px-5 py-4 shadow-[0_12px_30px_rgba(51,39,73,0.12)] backdrop-blur-xl sm:inset-x-auto sm:bottom-6 sm:left-6 sm:px-6">
-                    <p className="text-xs font-extrabold uppercase tracking-[0.14em] text-brand">
-                      {t("hero.imageLabel")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <ul className="mt-12 grid overflow-hidden rounded-[1.75rem] border border-line/80 bg-white/85 shadow-[0_16px_55px_rgba(51,39,73,0.07)] backdrop-blur-xl sm:grid-cols-2 lg:mt-16 lg:grid-cols-4">
-              {Array.isArray(values) &&
-                values.map((value, index) => (
-                  <li
-                    key={value}
-                    className="flex min-h-20 items-center gap-4 border-b border-line/80 px-5 py-5 last:border-b-0 sm:[&:nth-child(odd)]:border-r sm:[&:nth-child(3)]:border-b-0 lg:border-b-0 lg:border-r lg:last:border-r-0"
-                  >
-                    <span
-                      className={`text-xs font-extrabold ${
-                        index % 2 === 0 ? "text-brand" : "text-accent-cyan"
-                      }`}
-                    >
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span className="text-sm font-bold leading-6 text-ink">
-                      {value}
-                    </span>
-                  </li>
-                ))}
-            </ul>
-          </Container>
-        </section>
+        <AboutHero />
 
         <section className="relative bg-surface-aqua py-20 sm:py-24 lg:py-28">
           <Container>

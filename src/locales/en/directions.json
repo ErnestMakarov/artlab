@@ -3,9 +3,14 @@
     "title": "Directions | ART Lab",
     "description": "Fine art, a creative workshop and a handicraft club for children and adults at ART Lab in Tallinn."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "ART Lab directions",
     "title": "Find your creative direction.",
-    "description": "Fine art, our creative workshop and handicraft club help you discover new techniques and develop your own style."
+    "description": "Visual art, our creative workshop and handicraft club help you discover new techniques and develop your own style.",
+    "cards": [
+      "Visual art",
+      "Creative workshop 4+",
+      "Handicraft club"
+    ]
   }
 }

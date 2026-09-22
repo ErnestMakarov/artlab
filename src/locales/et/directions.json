@@ -3,9 +3,14 @@
     "title": "Suunad | ART Lab",
     "description": "ART Labi kunstiloome, loovtöö ja käsitööringi tegevused lastele ning täiskasvanutele Tallinnas."
   },
-  "intro": {
+  "hero": {
     "eyebrow": "ART Labi suunad",
     "title": "Leia endale sobiv loovsuund.",
-    "description": "Kunstiloome, loovtöö ja käsitööring aitavad avastada uusi tehnikaid ning arendada oma isikupärast väljendusviisi."
+    "description": "Kunstiloome, loovtöötuba ja käsitööklubi aitavad avastada uusi tehnikaid ning arendada oma isikupärast väljendusviisi.",
+    "cards": [
+      "Kunstiloome",
+      "Loovtöötuba 4+",
+      "Käsitööklubi"
+    ]
   }
 }
