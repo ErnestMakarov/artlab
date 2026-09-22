@@ -84,5 +84,38 @@
   },
   "statementLead": "ART Lab is about more than a beautiful result.",
   "statementAccent": "It is a place where everyone learns to create, try something new and value their own ideas."
+},
+"workshops": {
+  "eyebrow": "ART Lab workshops",
+  "title": "Try what you have always wanted to.",
+  "description": "ART Lab regularly hosts workshops for children and adults. Each time, we explore new themes, materials and techniques.",
+  "swipeHint": "Swipe to explore every workshop →",
+  "listAria": "Featured ART Lab workshops",
+  "materials": "All necessary materials are provided by the studio.",
+  "pricesCta": "View prices",
+  "instagramCta": "More workshops on Instagram",
+  "openAria": "View the {{title}} workshop on Instagram",
+  "items": {
+    "acrylic": {
+      "title": "Acrylic painting on canvas",
+      "imageAlt": "Materials and a finished piece for an acrylic painting workshop"
+    },
+    "plaster": {
+      "title": "Plaster pieces and painting",
+      "imageAlt": "Plaster pieces for an ART Lab creative workshop"
+    },
+    "felting": {
+      "title": "Wool felting",
+      "imageAlt": "Wool and finished pieces for a felting workshop"
+    },
+    "beadwork": {
+      "title": "Beadwork",
+      "imageAlt": "Beads and handmade jewellery for a creative workshop"
+    },
+    "threeD": {
+      "title": "Dimensional 3D artworks",
+      "imageAlt": "A dimensional artwork created at an ART Lab workshop"
+    }
+  }
 }
 }

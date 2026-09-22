@@ -84,5 +84,38 @@
   },
   "statementLead": "ART Lab ei ole ainult kauni tulemuse jaoks.",
   "statementAccent": "See on koht, kus igaüks õpib looma, proovima uut ja väärtustama oma ideid."
+},
+"workshops": {
+  "eyebrow": "ART Labi töötoad",
+  "title": "Proovi seda, mida oled ammu tahtnud.",
+  "description": "ART Labis toimuvad regulaarselt töötoad lastele ja täiskasvanutele. Iga kord valime uued teemad, materjalid ja tehnikad.",
+  "swipeHint": "Kõigi töötubade vaatamiseks libista →",
+  "listAria": "ART Labi peamised töötoad",
+  "materials": "Kõik vajalikud materjalid pakub stuudio.",
+  "pricesCta": "Vaata hindu",
+  "instagramCta": "Veel töötube Instagramis",
+  "openAria": "Vaata töötuba „{{title}}“ Instagramis",
+  "items": {
+    "acrylic": {
+      "title": "Akrüülmaal lõuendil",
+      "imageAlt": "Akrüülmaali töötoa materjalid ja valmis töö"
+    },
+    "plaster": {
+      "title": "Kipsesemed ja nende maalimine",
+      "imageAlt": "Kipsesemed ART Labi loovtöötoa jaoks"
+    },
+    "felting": {
+      "title": "Villaviltimine",
+      "imageAlt": "Vill ja valmis esemed viltimise töötoa jaoks"
+    },
+    "beadwork": {
+      "title": "Helmepunumine",
+      "imageAlt": "Helmed ja käsitsi valmistatud ehted töötoa jaoks"
+    },
+    "threeD": {
+      "title": "Ruumilised 3D-pildid",
+      "imageAlt": "ART Labi töötoas valminud ruumiline pilt"
+    }
+  }
 }
 }

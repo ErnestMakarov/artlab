@@ -4,6 +4,7 @@ import Seo from "../../components/seo/Seo.jsx";
 import HomeAbout from "./HomeAbout.jsx";
 import HomeCelebrations from "./HomeCelebrations.jsx";
 import HomeDirections from "./HomeDirections.jsx";
+import HomeWorkshops from "./HomeWorkshops.jsx";
 import HomeHero from "./HomeHero.jsx";
 
 import GiftCardsCta from "../../components/sections/GiftCardsCta.jsx";
@@ -25,7 +26,7 @@ export default function HomePage() {
       <HomeAbout />
       <HomeDirections />
       <HomeCelebrations />
-
+      <HomeWorkshops />
       <GiftCardsCta />
       <HomeWhyUs />
       <TrialLessonCta />
