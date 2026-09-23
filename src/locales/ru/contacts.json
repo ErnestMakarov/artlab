@@ -77,6 +77,7 @@
     "facebookValue": "ART Lab в Facebook",
     "methods": {
       "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
       "facebook": "Facebook",
       "email": "Электронная почта",
       "phone": "Телефон"
@@ -85,6 +86,6 @@
       "label": "Адрес студии",
       "detail": "office 417, Tallinn"
     },
-    "note": "По номеру телефона также доступны WhatsApp и Viber."
+    "note": "По этому же номеру также доступен Viber."
   }
 }

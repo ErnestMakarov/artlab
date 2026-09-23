@@ -14,6 +14,10 @@ const contactStyles = {
     surface: "bg-gradient-to-br from-[#fff6fb] to-[#f7efff]",
     icon: "bg-accent-pink text-white",
   },
+  whatsapp: {
+    surface: "bg-gradient-to-br from-[#f3fff7] to-[#e6f8ed]",
+    icon: "bg-[#25D366] text-white",
+  },
   facebook: {
     surface: "bg-gradient-to-br from-[#f7f9ff] to-[#edf2ff]",
     icon: "bg-[#4267B2] text-white",
@@ -52,6 +56,24 @@ function ContactIcon({ type }) {
     return (
       <svg viewBox="0 0 24 24" fill="currentColor" className="size-5" aria-hidden="true">
         <path d="M13.7 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5H17V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.5V13h2.8v8h3.4Z" />
+      </svg>
+    );
+  }
+
+  if (type === "whatsapp") {
+    return (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        className="size-5"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M20 11.6a8 8 0 0 1-11.9 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z" />
+        <path d="M8.3 8.1c.2-.4.5-.4.8-.4h.3c.2 0 .4.1.5.5l.7 1.7c.1.3.1.5-.1.7l-.6.7c-.2.2-.1.4 0 .6.6 1 1.4 1.8 2.4 2.4.2.1.4.2.6 0l.8-1c.2-.2.4-.3.7-.2l1.7.8c.3.2.5.3.5.5 0 .3-.1 1.4-.7 1.9-.5.5-1.2.8-2 .8-.8 0-1.8-.3-3.2-1.1-2-1.2-3.4-3-4-4.1-.6-1.1-.7-2.1-.6-2.8.1-.6.3-1 .6-1.4Z" />
       </svg>
     );
   }
@@ -105,6 +127,12 @@ export default function ContactsContent() {
       key: "instagram",
       value: "@artlab_est",
       href: "https://www.instagram.com/artlab_est/",
+      external: true,
+    },
+    {
+      key: "whatsapp",
+      value: "+372 566 378 00",
+      href: "https://api.whatsapp.com/send/?phone=37256637800&text&type=phone_number&app_absent=0",
       external: true,
     },
     {
