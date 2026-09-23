@@ -2,30 +2,11 @@ import { useTranslation } from "react-i18next";
 
 import InnerPageHero from "../../components/sections/InnerPageHero.jsx";
 
-const contacts = [
-  {
-    key: "address",
-    value: "Peterburi tee 46, Tallinn",
-    href: "https://www.google.com/maps/search/?api=1&query=Peterburi+tee+46+Tallinn",
-  },
-  {
-    key: "phone",
-    value: "+372 566 378 00",
-    href: "tel:+37256637800",
-  },
-  {
-    key: "email",
-    value: "artlabtallinn@gmail.com",
-    href: "mailto:artlabtallinn@gmail.com",
-  },
-];
-
 export default function ContactsHero() {
   const { t } = useTranslation("contacts");
 
   return (
     <InnerPageHero
-      id="booking"
       titleId="contacts-hero-title"
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
@@ -33,45 +14,43 @@ export default function ContactsHero() {
       pageNumber="06 / 06"
       accent="brand"
     >
-      <div className="mx-auto max-w-xl rounded-[2rem] border border-white/90 bg-white/80 p-5 shadow-[0_24px_80px_rgba(51,39,73,0.12)] backdrop-blur-xl sm:p-7">
-        <div className="grid gap-3">
-          {contacts.map((contact, index) => (
-            <a
-              key={contact.key}
-              href={contact.href}
-              target={contact.key === "address" ? "_blank" : undefined}
-              rel={contact.key === "address" ? "noreferrer" : undefined}
-              className="group flex items-center gap-4 rounded-[1.35rem] border border-line/75 bg-white px-5 py-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-brand/25 hover:shadow-[0_12px_32px_rgba(51,39,73,0.08)]"
-            >
-              <span
-                className={`flex size-10 shrink-0 items-center justify-center rounded-full text-xs font-extrabold ${
-                  index === 0
-                    ? "bg-surface-aqua text-accent-cyan"
-                    : index === 1
-                      ? "bg-surface-lilac text-brand"
-                      : "bg-surface-pink text-accent-pink"
-                }`}
-              >
-                {String(index + 1).padStart(2, "0")}
-              </span>
+      <div className="relative mx-auto max-w-xl overflow-hidden rounded-[2rem] border border-white/90 bg-white/80 p-5 shadow-[0_24px_80px_rgba(51,39,73,0.12)] backdrop-blur-xl sm:rounded-[2.5rem] sm:p-7">
+        <div
+          className="pointer-events-none absolute -right-20 -top-20 size-60 rounded-full bg-brand/10 blur-3xl"
+          aria-hidden="true"
+        />
 
-              <span className="min-w-0">
-                <span className="block text-[10px] font-extrabold uppercase tracking-[0.15em] text-muted">
-                  {t(`hero.contacts.${contact.key}`)}
-                </span>
-                <span className="mt-1 block break-words text-sm font-extrabold leading-6 text-ink transition-colors group-hover:text-brand sm:text-base">
-                  {contact.value}
-                </span>
-              </span>
+        <div className="relative flex items-center justify-between gap-4">
+          <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-brand sm:text-xs">
+            {t("hero.preview.label")}
+          </p>
+          <span className="flex items-center gap-2 text-[10px] font-bold text-muted sm:text-xs">
+            <span
+              className="size-2 rounded-full bg-accent-cyan shadow-[0_0_0_5px_rgba(42,175,180,0.10)]"
+              aria-hidden="true"
+            />
+            {t("hero.preview.status")}
+          </span>
+        </div>
 
-              <span
-                className="ml-auto shrink-0 text-lg text-brand transition-transform duration-200 group-hover:translate-x-1"
-                aria-hidden="true"
-              >
-                →
-              </span>
-            </a>
-          ))}
+        <div className="relative mt-6 space-y-3">
+          <div className="mr-8 rounded-[1.35rem] rounded-bl-md bg-surface-lilac px-5 py-4 text-sm font-bold leading-6 text-ink sm:mr-16 sm:text-base sm:leading-7">
+            {t("hero.preview.question")}
+          </div>
+
+          <div className="ml-8 rounded-[1.35rem] rounded-br-md bg-gradient-to-r from-brand to-[#7d45dc] px-5 py-4 text-sm font-bold leading-6 text-white shadow-button sm:ml-16 sm:text-base sm:leading-7">
+            {t("hero.preview.answer")}
+          </div>
+        </div>
+
+        <div className="relative mt-5 flex items-center gap-3 rounded-[1.2rem] bg-surface-aqua px-4 py-3.5 text-xs font-bold leading-5 text-accent-cyan sm:px-5 sm:text-sm">
+          <span
+            className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white"
+            aria-hidden="true"
+          >
+            ✓
+          </span>
+          {t("hero.preview.note")}
         </div>
       </div>
     </InnerPageHero>

@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import Seo from "../../components/seo/Seo.jsx";
+import ContactsContent from "./ContactsContent.jsx";
 import ContactsHero from "./ContactsHero.jsx";
 
 export default function ContactsPage() {
@@ -14,6 +15,7 @@ export default function ContactsPage() {
         path="/contacts"
       />
       <ContactsHero />
+      <ContactsContent />
     </>
   );
 }

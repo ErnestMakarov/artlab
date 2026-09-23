@@ -1,16 +1,90 @@
 {
   "meta": {
     "title": "Kontakt | ART Lab",
-    "description": "Võta ühendust ART Labi loovstuudioga või registreeru proovitundi aadressil Peterburi tee 46, Tallinn."
+    "description": "Võta ühendust ART Labi loovstuudioga Tallinnas, küsi lisainfot või saada päring tunni, töötoa või loomingulise peo kohta."
   },
   "hero": {
     "eyebrow": "Võta ühendust",
-    "title": "Alustame tutvumisest.",
-    "description": "Kirjuta meile, vali sobiv suund ja registreeru proovitundi. Vastame sinu küsimustele ning aitame leida sobiva formaadi.",
-    "contacts": {
-      "address": "Stuudio aadress",
-      "phone": "Telefon",
-      "email": "E-post"
+    "title": "Räägime teie ideest.",
+    "description": "Räägi meile, mida otsid — regulaarseid tunde, töötuba või loomingulist pidu. Vastame küsimustele ja aitame valida sobiva formaadi.",
+    "preview": {
+      "label": "ART Lab on ühenduses",
+      "status": "Vastame isiklikult",
+      "question": "Milline tund sobiks minu lapsele?",
+      "answer": "Räägi vanusest ja huvidest — aitame valida sobiva suuna ja aja.",
+      "note": "Võid saata päringu või kirjutada endale sobival viisil."
     }
+  },
+  "form": {
+    "eyebrow": "Päring ART Labi",
+    "title": "Räägi, mida otsid.",
+    "description": "Täida lühike vorm — võtame sinuga ühendust, täpsustame üksikasjad ja pakume sobiva variandi.",
+    "requiredNote": "* kohustuslikud väljad",
+    "honeypot": "Ära täida seda välja",
+    "fields": {
+      "name": {
+        "label": "Osaleja eesnimi",
+        "placeholder": "Eesnimi"
+      },
+      "lastName": {
+        "label": "Osaleja perekonnanimi",
+        "placeholder": "Perekonnanimi"
+      },
+      "age": {
+        "label": "Osaleja vanus",
+        "placeholder": "Näiteks 8"
+      },
+      "email": {
+        "label": "E-post",
+        "placeholder": "nimi@example.com"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "+372 ..."
+      },
+      "interest": {
+        "label": "Mis teid huvitab?",
+        "options": {
+          "regular": "Regulaarsed tunnid",
+          "workshop": "Töötuba",
+          "celebration": "Loominguline pidu",
+          "other": "Muu"
+        }
+      },
+      "message": {
+        "label": "Kommentaar",
+        "placeholder": "Kirjeldage oma soove, sobivaid päevi või esitage küsimus"
+      }
+    },
+    "privacy": {
+      "prefix": "Olen tutvunud ja nõustun",
+      "link": "privaatsuspoliitikaga",
+      "value": "Nõusolek antud"
+    },
+    "submit": "Saada päring",
+    "sending": "Saadame",
+    "caption": "Pärast vormi saatmist võtab ART Lab teiega antud kontaktidel ühendust.",
+    "status": {
+      "success": "Aitäh! Päring on saadetud. Võtame teiega peagi ühendust.",
+      "error": "Päringu saatmine ebaõnnestus. Proovige uuesti või kirjutage meile otse.",
+      "configuration": "Vormi seadistamine on veel pooleli. Palun kasutage paremal olevat e-posti või telefoninumbrit."
+    }
+  },
+  "sidebar": {
+    "eyebrow": "Muud kontaktivõimalused",
+    "title": "Kirjuta sinna, kus on mugav.",
+    "description": "Võid meiega ka otse ühendust võtta — vali endale sobiv viis.",
+    "facebookValue": "ART Lab Facebookis",
+    "methods": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "email": "E-post",
+      "phone": "Telefon"
+    },
+    "address": {
+      "label": "Stuudio aadress",
+      "detail": "büroo 417, Tallinn"
+    },
+    "note": "Telefoninumbril on saadaval ka WhatsApp ja Viber."
   }
 }

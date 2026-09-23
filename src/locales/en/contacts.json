@@ -1,16 +1,90 @@
 {
   "meta": {
     "title": "Contacts | ART Lab",
-    "description": "Contact ART Lab or book a trial class at Peterburi tee 46, Tallinn."
+    "description": "Contact the ART Lab creative studio in Tallinn, ask a question or enquire about a class, workshop or creative celebration."
   },
   "hero": {
     "eyebrow": "Contact us",
-    "title": "Let’s start by getting acquainted.",
-    "description": "Write to us, choose a direction and book a trial class. We will answer your questions and help you find the right format.",
-    "contacts": {
-      "address": "Studio address",
-      "phone": "Phone",
-      "email": "Email"
+    "title": "Let’s talk about your idea.",
+    "description": "Tell us what you are looking for — regular classes, a workshop or a creative celebration. We will answer your questions and help you choose the right format.",
+    "preview": {
+      "label": "ART Lab is here",
+      "status": "Personal replies",
+      "question": "Which class would suit my child?",
+      "answer": "Tell us their age and interests, and we will help you choose a direction and time.",
+      "note": "Send an enquiry or contact us in whichever way suits you."
     }
+  },
+  "form": {
+    "eyebrow": "Enquire at ART Lab",
+    "title": "Tell us what you are looking for.",
+    "description": "Complete the short form and we will contact you, clarify the details and suggest a suitable option.",
+    "requiredNote": "* required fields",
+    "honeypot": "Do not fill in this field",
+    "fields": {
+      "name": {
+        "label": "Participant’s first name",
+        "placeholder": "First name"
+      },
+      "lastName": {
+        "label": "Participant’s last name",
+        "placeholder": "Last name"
+      },
+      "age": {
+        "label": "Participant’s age",
+        "placeholder": "For example, 8"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+372 ..."
+      },
+      "interest": {
+        "label": "What are you interested in?",
+        "options": {
+          "regular": "Regular classes",
+          "workshop": "Workshop",
+          "celebration": "Creative celebration",
+          "other": "Something else"
+        }
+      },
+      "message": {
+        "label": "Comment",
+        "placeholder": "Tell us about your wishes, suitable days or ask a question"
+      }
+    },
+    "privacy": {
+      "prefix": "I have read and agree to the",
+      "link": "privacy policy",
+      "value": "Consent given"
+    },
+    "submit": "Send enquiry",
+    "sending": "Sending",
+    "caption": "After you submit the form, ART Lab will contact you using the details provided.",
+    "status": {
+      "success": "Thank you! Your enquiry has been sent. We will contact you shortly.",
+      "error": "We could not send your enquiry. Please try again or contact us directly.",
+      "configuration": "The form is still being configured. Please use the email address or phone number shown on the right."
+    }
+  },
+  "sidebar": {
+    "eyebrow": "Other ways to contact us",
+    "title": "Write wherever feels easiest.",
+    "description": "You can also contact us directly — choose the method you prefer.",
+    "facebookValue": "ART Lab on Facebook",
+    "methods": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "address": {
+      "label": "Studio address",
+      "detail": "office 417, Tallinn"
+    },
+    "note": "WhatsApp and Viber are also available on our phone number."
   }
 }
