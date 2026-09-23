@@ -45,6 +45,7 @@
     "priceCaption": "Price of the first class",
     "condition": "If you decide to continue after the trial class and sign an agreement,",
     "conditionAccent": "your trial class will be free.",
+    "freeLabel": "Free",
     "cta": "Book a trial class"
   },
   "footer": {

@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import Seo from "../../components/seo/Seo.jsx";
+import GalleryGrid from "./GalleryGrid.jsx";
 import GalleryHero from "./GalleryHero.jsx";
 
 export default function GalleryPage() {
@@ -14,6 +15,7 @@ export default function GalleryPage() {
         path="/gallery"
       />
       <GalleryHero />
+      <GalleryGrid />
     </>
   );
 }

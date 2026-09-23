@@ -10,5 +10,21 @@
     "artAlt": "Kunstitund ART Labi loovstuudios",
     "creativeAlt": "Loomeprotsess ART Labi loovtöötoas",
     "celebrationAlt": "Loominguline pidu ART Labi stuudios"
+  },
+  "content": {
+    "eyebrow": "Stuudio elu",
+    "title": "Looming, mida tahad lähemalt vaadata.",
+    "description": "Siia oleme kogunud ehtsad hetked tundidest, loomeprotsessi detailid ja ART Labis valminud tööd.",
+    "listLabel": "Fotod ART Labi stuudiost",
+    "imageAlt": "Loominguline hetk ART Labis — foto {{number}}",
+    "openImage": "Ava foto {{number}}",
+    "lightboxLabel": "Foto vaatamine",
+    "counter": "{{current}} / {{total}}",
+    "close": "Sulge foto",
+    "previous": "Eelmine foto",
+    "next": "Järgmine foto",
+    "keyboardHint": "Liigu nooleklahvidega · sulgemiseks vajuta Esc",
+    "emptyTitle": "Galerii on fotode jaoks valmis",
+    "emptyDescription": "Lisa pildid kausta src/assets/images/gallery — käsitsi importida ei ole vaja."
   }
 }

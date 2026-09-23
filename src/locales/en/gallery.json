@@ -10,5 +10,21 @@
     "artAlt": "An art class at the ART Lab creative studio",
     "creativeAlt": "The creative process in an ART Lab workshop",
     "celebrationAlt": "A creative celebration at the ART Lab studio"
+  },
+  "content": {
+    "eyebrow": "Life at the studio",
+    "title": "Creativity worth a closer look.",
+    "description": "A collection of real moments from classes, details of the creative process and work made at ART Lab.",
+    "listLabel": "Photos from the ART Lab studio",
+    "imageAlt": "A creative moment at ART Lab — photo {{number}}",
+    "openImage": "Open photo {{number}}",
+    "lightboxLabel": "Photo viewer",
+    "counter": "{{current}} / {{total}}",
+    "close": "Close photo",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "keyboardHint": "Use arrow keys to navigate · press Esc to close",
+    "emptyTitle": "The gallery is ready for photos",
+    "emptyDescription": "Add images to src/assets/images/gallery — no manual imports are required."
   }
 }

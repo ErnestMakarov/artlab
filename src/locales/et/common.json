@@ -45,6 +45,7 @@
     "priceCaption": "Esimese tunni hind",
     "condition": "Kui otsustate pärast proovitundi jätkata ja sõlmite lepingu,",
     "conditionAccent": "on proovitund teile tasuta.",
+    "freeLabel": "Tasuta",
     "cta": "Registreeru proovitundi"
   },
   "footer": {
