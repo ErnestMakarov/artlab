@@ -166,7 +166,7 @@ export default function Header() {
         <Container className="relative grid h-16 grid-cols-[1fr_auto_1fr] items-center sm:h-[72px] xl:h-20">
           <Link
             to="/"
-            className="relative z-[60] inline-flex w-fit items-center justify-self-start rounded-md focus-visible:outline-offset-4"
+            className="relative z-[60] col-start-1 row-start-1 inline-flex w-fit items-center justify-self-start rounded-md focus-visible:outline-offset-4"
             aria-label={t("navigation.home")}
             onClick={() => setIsMenuOpen(false)}
           >
@@ -180,7 +180,7 @@ export default function Header() {
           </Link>
 
           <nav
-            className="hidden items-center justify-self-center gap-5 xl:flex 2xl:gap-7"
+            className="col-start-2 row-start-1 hidden items-center justify-self-center gap-5 xl:flex 2xl:gap-7"
             aria-label={t("navigation.ariaLabel")}
           >
             {navigation.map((item) => (
@@ -195,7 +195,7 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="relative z-[60] flex items-center justify-self-end gap-2 sm:gap-3">
+          <div className="relative z-[60] col-start-3 row-start-1 flex items-center justify-self-end gap-2 sm:gap-3">
             <LanguageSwitcher className="hidden sm:flex" />
 
             <Link
