@@ -38,14 +38,14 @@ const workshops = [
     number: "04",
     image: beadworkImage,
     tone: "brand",
-    imageFit: "contain",
+    imageFit: "cover",
   },
   {
     key: "threeD",
     number: "05",
     image: threeDImage,
     tone: "peach",
-    imageFit: "contain",
+    imageFit: "cover",
   },
 ];
 
