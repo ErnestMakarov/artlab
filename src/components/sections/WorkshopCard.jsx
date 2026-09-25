@@ -27,7 +27,6 @@ const imageStyles = {
 };
 
 export default function WorkshopCard({
-  number,
   image,
   imageAlt,
   title,
@@ -54,17 +53,10 @@ export default function WorkshopCard({
           className={`aspect-[4/3] w-full transition-transform duration-500 group-hover:scale-[1.035] ${imageClassName}`}
         />
 
-        <div className="absolute inset-x-3 top-3 flex items-center justify-between">
-          <span
-            className={`flex h-8 min-w-8 items-center justify-center rounded-full bg-white/92 px-2 text-[9px] font-extrabold tracking-[0.12em] shadow-[0_6px_18px_rgba(51,39,73,0.10)] backdrop-blur-md ${styles.text}`}
-          >
-            {number}
-          </span>
-          <span
-            className={`size-2.5 rounded-full ring-4 ring-white/75 ${styles.accent}`}
-            aria-hidden="true"
-          />
-        </div>
+        <span
+          className={`absolute right-3 top-3 size-2.5 rounded-full ring-4 ring-white/75 ${styles.accent}`}
+          aria-hidden="true"
+        />
       </div>
 
       <div className="flex min-h-[6.5rem] flex-1 items-end justify-between gap-3 px-2 pb-2 pt-5">

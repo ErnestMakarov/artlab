@@ -14,35 +14,30 @@ const instagramUrl = "https://www.instagram.com/artlab_est/";
 const workshops = [
   {
     key: "acrylic",
-    number: "01",
     image: acrylicImage,
     tone: "brand",
     imageFit: "cover",
   },
   {
     key: "plaster",
-    number: "02",
     image: plasterImage,
     tone: "pink",
     imageFit: "cover",
   },
   {
     key: "felting",
-    number: "03",
     image: feltingImage,
     tone: "cyan",
     imageFit: "cover",
   },
   {
     key: "beadwork",
-    number: "04",
     image: beadworkImage,
     tone: "brand",
     imageFit: "cover",
   },
   {
     key: "threeD",
-    number: "05",
     image: threeDImage,
     tone: "peach",
     imageFit: "cover",
@@ -99,7 +94,6 @@ export default function HomeWorkshops() {
               className="w-[78vw] max-w-[310px] shrink-0 snap-start lg:w-auto lg:max-w-none"
             >
               <WorkshopCard
-                number={workshop.number}
                 image={workshop.image}
                 imageAlt={t(
                   `workshops.items.${workshop.key}.imageAlt`,

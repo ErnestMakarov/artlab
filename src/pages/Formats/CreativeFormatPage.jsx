@@ -49,11 +49,11 @@ const pageConfig = {
 };
 
 const workshopCards = [
-  { key: "acrylic", number: "01", image: acrylicImage, tone: "brand" },
-  { key: "plaster", number: "02", image: plasterImage, tone: "pink" },
-  { key: "felting", number: "03", image: woolImage, tone: "cyan" },
-  { key: "beadwork", number: "04", image: beadworkImage, tone: "brand" },
-  { key: "threeD", number: "05", image: threeDImage, tone: "peach" },
+  { key: "acrylic", image: acrylicImage, tone: "brand" },
+  { key: "plaster", image: plasterImage, tone: "pink" },
+  { key: "felting", image: woolImage, tone: "cyan" },
+  { key: "beadwork", image: beadworkImage, tone: "brand" },
+  { key: "threeD", image: threeDImage, tone: "peach" },
 ];
 
 function HeroVisual({ formatKey, config, t }) {
@@ -128,7 +128,6 @@ function WorkshopsShowcase({ t }) {
               className="w-[76vw] max-w-[300px] shrink-0 snap-start lg:w-auto lg:max-w-none"
             >
               <WorkshopCard
-                number={workshop.number}
                 image={workshop.image}
                 imageAlt={t(
                   `otherFormats.workshops.items.${workshop.key}.imageAlt`,
