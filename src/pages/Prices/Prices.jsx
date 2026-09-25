@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import Seo from "../../components/seo/Seo.jsx";
+import PricesContent from "./PricesContent.jsx";
 import PricesHero from "./PricesHero.jsx";
 
 export default function PricesPage() {
@@ -14,6 +15,7 @@ export default function PricesPage() {
         path="/prices"
       />
       <PricesHero />
+      <PricesContent />
     </>
   );
 }

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Prices | ART Lab",
-    "description": "Prices for classes, individual formats, masterclasses and the trial lesson at ART Lab in Tallinn."
+    "title": "Class and art camp prices | ART Lab",
+    "description": "Prices for group and private classes, workshops, the trial class and ART Lab art camp in Tallinn."
   },
   "hero": {
     "eyebrow": "Prices and terms",
     "title": "Easy to begin. A joy to continue.",
-    "description": "Explore our class formats. The trial lesson costs €15 and becomes free when you continue and sign an agreement.",
+    "description": "Explore our class formats. The trial class costs €15 and becomes free when you continue and sign an agreement.",
     "card": {
       "label": "Trial class",
       "price": "15",
@@ -15,5 +15,81 @@
       "condition": "If you continue after your trial class and sign an agreement,",
       "accent": "your trial class will be free."
     }
+  },
+  "lessons": {
+    "eyebrow": "Regular classes",
+    "title": "Clear prices for every format.",
+    "description": "Join a group, choose a private programme or come to a one-off creative workshop.",
+    "cards": [
+      {
+        "eyebrow": "Group classes",
+        "title": "Monthly membership",
+        "price": "80",
+        "unit": "€ / month",
+        "description": "Regular group classes according to the studio schedule.",
+        "highlight": "Group classes throughout the month.",
+        "note": "Payment is made one month at a time.",
+        "cta": "View the schedule"
+      },
+      {
+        "eyebrow": "One-to-one",
+        "title": "Private classes",
+        "price": "30",
+        "unit": "€ / class",
+        "description": "The programme and pace are tailored to the student's age, interests and creative goals.",
+        "highlight": "A package of 5 classes — €150.",
+        "note": "The package is valid for 2 months.",
+        "cta": "Book a class"
+      },
+      {
+        "eyebrow": "One-off session",
+        "title": "Workshop",
+        "price": "20–40",
+        "unit": "€",
+        "description": "A standalone creative class for children or adults, with a finished piece to take home.",
+        "highlight": "The price depends on the chosen activity.",
+        "note": "We confirm the programme and final price before booking.",
+        "cta": "Explore workshops"
+      }
+    ],
+    "note": "Before booking, we will confirm availability, the right format and the final price."
+  },
+  "camp": {
+    "eyebrow": "Art camp",
+    "title": "One day, a full camp session or just a workshop.",
+    "description": "Choose the most convenient option: the complete camp session, a single full day or only the creative part of the programme.",
+    "cards": [
+      {
+        "eyebrow": "Complete programme",
+        "title": "Full camp session",
+        "pricePrefix": "from",
+        "price": "230",
+        "unit": "€ / session",
+        "description": "The child takes part in the complete programme of the chosen camp session.",
+        "badge": "Best for a full session"
+      },
+      {
+        "eyebrow": "Single visit",
+        "title": "Full day",
+        "price": "50",
+        "unit": "€ / day",
+        "description": "You can bring your child for one full day of the camp programme."
+      },
+      {
+        "eyebrow": "Creative activity",
+        "title": "Workshop only",
+        "pricePrefix": "from",
+        "price": "30",
+        "unit": "€",
+        "description": "The child joins only the workshop without taking part in the full-day programme."
+      }
+    ],
+    "cta": {
+      "title": "Not sure which option is right?",
+      "description": "Message us to check the dates, learn about the programme and choose the most suitable format.",
+      "primary": "Choose a format",
+      "secondary": "View the schedule"
+    },
+    "note": "The camp programme, dates, availability and final price are confirmed before booking."
   }
 }

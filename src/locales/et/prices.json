@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Hinnad | ART Lab",
-    "description": "ART Labi tundide, individuaalõppe, meistriklasside ja proovitunni hinnad Tallinnas."
+    "title": "Tundide ja kunstilaagri hinnad | ART Lab",
+    "description": "ART Labi rühma- ja individuaaltundide, meistriklasside, proovitunni ning kunstilaagri hinnad Tallinnas."
   },
   "hero": {
     "eyebrow": "Hinnad ja tingimused",
@@ -15,5 +15,81 @@
       "condition": "Kui jätkate pärast proovitundi ja sõlmite lepingu,",
       "accent": "on proovitund teile tasuta."
     }
+  },
+  "lessons": {
+    "eyebrow": "Regulaarsed tunnid",
+    "title": "Selged hinnad igale formaadile.",
+    "description": "Saate osaleda rühmatundides, valida individuaalprogrammi või tulla eraldi meistriklassi.",
+    "cards": [
+      {
+        "eyebrow": "Rühmatunnid",
+        "title": "Kuukaart",
+        "price": "80",
+        "unit": "€ / kuu",
+        "description": "Regulaarsed rühmatunnid vastavalt stuudio tunniplaanile.",
+        "highlight": "Rühmatunnid terve kuu jooksul.",
+        "note": "Tasumine toimub ühe kuu kaupa.",
+        "cta": "Vaata tunniplaani"
+      },
+      {
+        "eyebrow": "Üks ühele",
+        "title": "Individuaaltunnid",
+        "price": "30",
+        "unit": "€ / tund",
+        "description": "Programm ja tempo valitakse õppija vanuse, huvide ning loominguliste eesmärkide järgi.",
+        "highlight": "Viie tunni pakett — 150 €.",
+        "note": "Pakett kehtib 2 kuud.",
+        "cta": "Broneeri tund"
+      },
+      {
+        "eyebrow": "Ühekordne kohtumine",
+        "title": "Meistriklass",
+        "price": "20–40",
+        "unit": "€",
+        "description": "Eraldi loovtund lastele või täiskasvanutele, mille lõpuks valmib oma töö.",
+        "highlight": "Hind sõltub valitud suunast.",
+        "note": "Programmi ja lõpliku hinna kinnitame enne broneerimist.",
+        "cta": "Vaata meistriklasse"
+      }
+    ],
+    "note": "Enne broneerimist kinnitame vaba aja, sobiva formaadi ja lõpliku hinna."
+  },
+  "camp": {
+    "eyebrow": "Kunstilaager",
+    "title": "Üks päev, terve vahetus või ainult meistriklass.",
+    "description": "Valige sobiv osalemisviis: terve laagrivahetus, üks täispikk päev või ainult programmi loominguline osa.",
+    "cards": [
+      {
+        "eyebrow": "Täisprogramm",
+        "title": "Terve vahetus",
+        "pricePrefix": "alates",
+        "price": "230",
+        "unit": "€ / vahetus",
+        "description": "Laps osaleb valitud laagrivahetuse kogu programmis.",
+        "badge": "Soodsam terveks vahetuseks"
+      },
+      {
+        "eyebrow": "Ühekordne külastus",
+        "title": "Terve päev",
+        "price": "50",
+        "unit": "€ / päev",
+        "description": "Lapse võib tuua üheks terveks laagripäevaks."
+      },
+      {
+        "eyebrow": "Loominguline osa",
+        "title": "Ainult meistriklass",
+        "pricePrefix": "alates",
+        "price": "30",
+        "unit": "€",
+        "description": "Laps tuleb ainult meistriklassi ega osale terve päeva programmis."
+      }
+    ],
+    "cta": {
+      "title": "Te ei tea veel, millist varianti valida?",
+      "description": "Kirjutage meile — täpsustame kuupäevad, tutvustame programmi ja aitame valida sobiva formaadi.",
+      "primary": "Vali sobiv formaat",
+      "secondary": "Vaata tunniplaani"
+    },
+    "note": "Laagri programm, kuupäevad, vabade kohtade olemasolu ja lõplik hind kinnitatakse enne broneerimist."
   }
 }
