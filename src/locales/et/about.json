@@ -16,6 +16,31 @@
     "description": "Meie jaoks tähendab looming võimalust proovida, välja mõelda, katsetada, arendada kujutlusvõimet ja saada oma ideedes enesekindlamaks.",
     "accent": "Tundides anname selge aluse ja vajalikud oskused, tutvustame tehnikaid ning aitame töö etappidest aru saada, jättes samal ajal alati ruumi fantaasiale ja isiklikule loomingulisele lahendusele. Seepärast valmib ka ühise teema puhul iga töö täiesti omamoodi."
   },
+  "team": {
+    "eyebrow": "ART Labi meeskond",
+    "title": "Õpetajad, kes on toeks igal etapil.",
+    "description": "Nad selgitavad rahulikult, aitavad materjalidest aru saada ja toetavad iga osaleja enda ideid.",
+    "swipeHint": "Kogu meeskonnaga tutvumiseks libista →",
+    "listAria": "ART Labi loovstuudio õpetajad",
+    "cardLabel": "Õpetaja",
+    "members": {
+      "marina": {
+        "name": "Marina",
+        "role": "ART Labi õpetaja",
+        "imageAlt": "Õpetaja Marina ART Labi loovstuudios"
+      },
+      "ekaterina": {
+        "name": "Jekaterina",
+        "role": "ART Labi õpetaja",
+        "imageAlt": "Õpetaja Jekaterina maalib ART Labi loovstuudios"
+      },
+      "elena": {
+        "name": "Marina",
+        "role": "ART Labi õpetaja",
+        "imageAlt": "Õpetaja Marina ART Labi loovstuudios"
+      }
+    }
+  },
   "directions": {
     "eyebrow": "Meie suunad",
     "title": "Igaühele oma viis luua.",
@@ -38,7 +63,7 @@
   },
   "formats": {
     "eyebrow": "Tundide formaadid",
-    "title": "Koos või üks ühele.",
+    "title": "Rühma- ja individuaaltunnid.",
     "description": "Leiame formaadi, milles on mugav õppida, uusi asju proovida ja omas tempos edasi liikuda.",
     "items": [
       {

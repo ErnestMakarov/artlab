@@ -16,6 +16,31 @@
     "description": "For us, creativity is an opportunity to explore, imagine and experiment, to develop your imagination and become more confident in your own ideas.",
     "accent": "In every class, we provide a clear foundation and the skills you need, demonstrate techniques and guide you through each stage of the process, while always leaving room for imagination and individual creative choices. This is why even with a shared theme, every piece turns out uniquely personal."
   },
+  "team": {
+    "eyebrow": "The ART Lab team",
+    "title": "Teachers who support every step of the process.",
+    "description": "They explain things calmly, help students understand the materials and encourage every participant's own ideas.",
+    "swipeHint": "Swipe to meet the whole team →",
+    "listAria": "Teachers at the ART Lab creative studio",
+    "cardLabel": "Teacher",
+    "members": {
+      "marina": {
+        "name": "Marina",
+        "role": "ART Lab teacher",
+        "imageAlt": "Marina, a teacher at the ART Lab creative studio"
+      },
+      "ekaterina": {
+        "name": "Ekaterina",
+        "role": "ART Lab teacher",
+        "imageAlt": "Ekaterina painting at the ART Lab creative studio"
+      },
+      "elena": {
+        "name": "Marina",
+        "role": "ART Lab teacher",
+        "imageAlt": "Marina, a teacher at the ART Lab creative studio"
+      }
+    }
+  },
   "directions": {
     "eyebrow": "Our directions",
     "title": "A creative path for everyone.",
@@ -38,7 +63,7 @@
   },
   "formats": {
     "eyebrow": "Class formats",
-    "title": "Together or one-to-one.",
+    "title": "Group and private lessons.",
     "description": "We will help you choose a format where you can learn comfortably, try new things and progress at your own pace.",
     "items": [
       {
