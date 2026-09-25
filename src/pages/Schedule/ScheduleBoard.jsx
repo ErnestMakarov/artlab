@@ -22,6 +22,15 @@ const days = [
   "sunday",
 ];
 
+const individualLessons = days.map((day) => ({
+  id: `${day}-individual`,
+  day,
+  time: null,
+  category: "individual",
+  title: "individual",
+  age: null,
+}));
+
 const lessons = [
   {
     id: "monday-art-1700",
@@ -54,14 +63,6 @@ const lessons = [
     category: "handicraft",
     title: "handicraft",
     age: "8+",
-  },
-  {
-    id: "wednesday-individual",
-    day: "wednesday",
-    time: null,
-    category: "individual",
-    title: "individual",
-    age: null,
   },
   {
     id: "thursday-art-1600",
@@ -135,6 +136,7 @@ const lessons = [
     title: "art",
     age: "6+",
   },
+  ...individualLessons,
 ];
 
 const categoryStyles = {
@@ -292,6 +294,7 @@ export default function ScheduleBoard() {
 
   return (
     <section
+      id="schedule-calendar"
       className="relative isolate bg-[#fcfbff] py-20 sm:py-24 lg:py-28"
       aria-labelledby="schedule-board-title"
     >

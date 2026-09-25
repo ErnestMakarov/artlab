@@ -10,14 +10,12 @@
     "card": {
       "label": "Nädal ART Labis",
       "status": "Lastele ja täiskasvanutele",
-      "groupLabel": "Rühmatunnid",
-      "groupCount": "13",
-      "groupCaption": "tundi nädalaplaanis",
-      "weekLabel": "Nädala jooksul",
-      "dayCount": "6",
-      "dayCaption": "päeva rühmatundidega",
-      "individualTitle": "Individuaaltunnid",
-      "individualText": "Kolmapäeviti ja vabade aegade olemasolul ka teistel päevadel."
+      "scheduleTitle": "Loominguline aeg kogu nädala jooksul.",
+      "scheduleText": "Rühmatunnid toimuvad tunniplaani järgi, individuaaltunni aja lepime kokku eraldi.",
+      "weekDays": ["E", "T", "K", "N", "R", "L", "P"],
+      "individualTitle": "Individuaaltunnid iga päev",
+      "individualText": "Kindlat kellaaega ei ole — leiame koos sobiva aja.",
+      "openSchedule": "Liigu tunniplaani juurde"
     }
   },
   "board": {

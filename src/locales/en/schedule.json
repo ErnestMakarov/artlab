@@ -10,14 +10,12 @@
     "card": {
       "label": "A week at ART Lab",
       "status": "For children and adults",
-      "groupLabel": "Group format",
-      "groupCount": "13",
-      "groupCaption": "classes in the weekly schedule",
-      "weekLabel": "Throughout the week",
-      "dayCount": "6",
-      "dayCaption": "days with group classes",
-      "individualTitle": "Individual classes",
-      "individualText": "On Wednesdays and on other days when a time is available."
+      "scheduleTitle": "Creative time throughout the week.",
+      "scheduleText": "Group classes follow the schedule, while individual class times are arranged separately.",
+      "weekDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "individualTitle": "Individual classes every day",
+      "individualText": "There is no fixed time — we will find a convenient option together.",
+      "openSchedule": "Go to the class schedule"
     }
   },
   "board": {
