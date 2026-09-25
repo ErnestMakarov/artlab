@@ -6,7 +6,7 @@
   "hero": {
     "eyebrow": "Võta ühendust",
     "title": "Räägime teie ideest.",
-    "description": "Räägi meile, mida otsid — regulaarseid tunde, töötuba või loomingulist pidu. Vastame küsimustele ja aitame valida sobiva formaadi.",
+    "description": "Räägi meile, mida otsid — rühma- või individuaaltunde, töötuba või loomingulist pidu. Vastame küsimustele ja aitame valida sobiva formaadi.",
     "preview": {
       "label": "ART Lab on ühenduses",
       "status": "Vastame isiklikult",
@@ -45,7 +45,8 @@
       "interest": {
         "label": "Mis teid huvitab?",
         "options": {
-          "regular": "Regulaarsed tunnid",
+          "group": "Rühmatunnid",
+          "individual": "Individuaaltunnid",
           "workshop": "Töötuba",
           "celebration": "Loominguline pidu",
           "other": "Muu"

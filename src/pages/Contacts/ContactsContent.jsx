@@ -4,7 +4,13 @@ import { useTranslation } from "react-i18next";
 
 import Container from "../../components/ui/Container.jsx";
 
-const interestOptions = ["regular", "workshop", "celebration", "other"];
+const interestOptions = [
+  "group",
+  "individual",
+  "workshop",
+  "celebration",
+  "other",
+];
 
 const inputClassName =
   "mt-2.5 min-h-14 w-full rounded-[1.1rem] border border-line bg-white px-4 text-sm font-semibold text-ink outline-none transition placeholder:font-medium placeholder:text-muted/60 hover:border-brand/20 focus:border-brand focus:ring-4 focus:ring-brand/10 sm:px-5 sm:text-base";
@@ -343,7 +349,14 @@ export default function ContactsContent() {
 
                 <div className="mt-3 grid gap-3 sm:grid-cols-2">
                   {interestOptions.map((option, index) => (
-                    <label key={option} className="cursor-pointer">
+                    <label
+                      key={option}
+                      className={`cursor-pointer ${
+                        index === interestOptions.length - 1
+                          ? "sm:col-span-2"
+                          : ""
+                      }`}
+                    >
                       <input
                         type="radio"
                         name="interest"

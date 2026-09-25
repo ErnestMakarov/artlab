@@ -6,7 +6,7 @@
   "hero": {
     "eyebrow": "Contact us",
     "title": "Let’s talk about your idea.",
-    "description": "Tell us what you are looking for — regular classes, a workshop or a creative celebration. We will answer your questions and help you choose the right format.",
+    "description": "Tell us what you are looking for — group or individual classes, a workshop or a creative celebration. We will answer your questions and help you choose the right format.",
     "preview": {
       "label": "ART Lab is here",
       "status": "Personal replies",
@@ -45,7 +45,8 @@
       "interest": {
         "label": "What are you interested in?",
         "options": {
-          "regular": "Regular classes",
+          "group": "Group classes",
+          "individual": "Individual classes",
           "workshop": "Workshop",
           "celebration": "Creative celebration",
           "other": "Something else"
