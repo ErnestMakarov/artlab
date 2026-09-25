@@ -38,23 +38,26 @@
     "more": "Learn more",
     "openAria": "Learn more about {{title}}",
     "items": {
-      "art": {
-        "title": "Art classes",
-        "description": "Work with different materials, explore colour, form and composition, and gradually develop your own creative voice.",
-        "audience": "Ages 4+ and adults",
-        "imageAlt": "An art class at the ART Lab creative studio"
-      },
-      "creative": {
-        "title": "Creative workshop",
-        "description": "Combine drawing, sculpting and decorative techniques, experiment with materials and turn ideas into finished projects.",
-        "audience": "For children aged 4+",
-        "imageAlt": "Children creating projects in the ART Lab creative workshop"
-      },
-      "handicraft": {
-        "title": "Handicraft club",
-        "description": "Explore crochet, macramé, beadwork and other techniques while making toys, accessories and decorations by hand.",
-        "audience": "For children aged 7+",
-        "imageAlt": "A handicraft class at the ART Lab creative studio"
+    "art": {
+      "title": "Art classes",
+      "description": "ART Lab's main direction. Each age group follows its own programme, from line, form and colour to composition, perspective, light and shade.",
+      "audience": "Ages 4+ and adults",
+      "ageBadge": "4+ · adults",
+      "imageAlt": "An art class at the ART Lab creative studio"
+    },
+    "creative": {
+      "title": "Creative workshop",
+      "description": "Draw, sculpt and make while exploring plasticine art, decoupage, appliqué, collage and mixed-media techniques.",
+      "audience": "For children aged 4+",
+      "ageBadge": "4+",
+      "imageAlt": "Children creating projects in the ART Lab creative workshop"
+    },
+    "handicraft": {
+      "title": "Handicraft club",
+      "description": "Explore macramé, beadwork, crochet and wool felting, moving from the first simple steps to a finished piece made by hand.",
+      "audience": "For children aged 7+",
+      "ageBadge": "7+",
+      "imageAlt": "A handicraft class at the ART Lab creative studio"
       }
     }
   },

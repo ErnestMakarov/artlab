@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "Creative directions for children and adults | ART Lab",
-    "description": "Visual art, creative workshops, handicrafts, themed workshops and creative celebrations at ART Lab in Tallinn."
+    "description": "Visual art, a creative workshop and a handicraft club for children and adults at ART Lab in Tallinn."
   },
   "hero": {
     "eyebrow": "Directions",
     "title": "Creativity where you can be yourself.",
     "description": "You do not need to know how to draw, sculpt or knit before coming to ART Lab. Curiosity and a desire to try are enough. We help you choose a comfortable direction, explore different materials and gradually move from first experiments to your own ideas and finished work.",
     "cards": [
-      "Visual art",
+      "Visual art · ages 4+ and adults",
       "Creative workshop 4+",
-      "Handicraft club"
+      "Handicraft club 7+"
     ]
   },
   "mainDirections": {
@@ -20,9 +20,10 @@
       "audience": "For children aged 4+ and adults",
       "imageAlt": "A children's art class at the ART Lab studio",
       "paragraphs": [
-        "Regular classes for anyone who wants to learn to draw, understand colour and form more deeply and express their ideas more freely through art.",
-        "We work with gouache, acrylics, watercolours, pastels, texture paste and pencils. Students explore the foundations of colour, composition, form and space, learn to notice details and convey mood in different ways.",
-        "We do not aim to produce identical work from a template. The teacher introduces each technique, helps students understand the material and supports every participant's individual vision."
+        "Visual art is ART Lab's main direction for children aged 4+ and adults. Classes are held in small groups and individually.",
+        "Each age group follows its own programme. Younger children discover line, form and colour through clear, engaging activities.",
+        "Older children progress through the foundations of visual art: composition, perspective, proportions, light and shade, and colour theory. They work with still life, landscape, portrait and illustration, learning to convey volume, space, movement and character. As their foundation grows, they gain more freedom to make independent artistic choices in their work.",
+        "Below you can explore the programmes available for different age groups."
       ],
       "listTitle": "What we develop",
       "points": [
@@ -39,9 +40,8 @@
       "audience": "For children aged 4+",
       "imageAlt": "Children creating dimensional projects at an ART Lab workshop",
       "paragraphs": [
-        "A space for children who enjoy more than drawing — imagining, experimenting, combining techniques and turning ideas into complete creative projects.",
-        "Children explore decorative techniques, modelling, dimensional work, different textures and elements of handicraft. A single project can combine several materials and ways of working.",
-        "The journey from an idea to its realisation matters just as much as the finished result. Children learn to plan their work, choose materials, find their own solutions and confidently adjust the original idea."
+        "The creative workshop is a space for children aged 4+ who enjoy not only drawing, but also sculpting, making and discovering new ways to create.",
+        "Children explore visual art, plasticine art, decoupage, appliqué and artistic collage. They create dimensional pieces, combine materials and learn mixed-media techniques. There is room to experiment and realise personal ideas, making every piece genuinely individual."
       ],
       "listTitle": "What we develop",
       "points": [
@@ -58,9 +58,8 @@
       "audience": "For children aged 7+",
       "imageAlt": "A beadwork and handicraft class at ART Lab",
       "paragraphs": [
-        "A club for children who enjoy making and want to create beautiful, useful and unusual things with their own hands.",
-        "Students explore crochet, beadwork, macramé, decoupage, quilling and other modern handicrafts. Materials and tools are introduced gradually, from simple elements to complete independent pieces.",
-        "Handicraft develops fine motor skills, patience, attention, precision and the ability to finish what you start. Everyone still has room to choose their own colours, details and decoration."
+        "The handicraft club is for children aged 7+ who enjoy creating beautiful and useful things by hand. They explore macramé, beadwork, crochet and wool felting, gradually mastering each technique from the first simple steps to a finished piece.",
+        "Working with thread, beads and wool develops fine motor skills, focus and perseverance. Children learn to plan their work, choose combinations of colours and materials, notice details and carry an idea through to completion. Everyone leaves with something they made themselves."
       ],
       "listTitle": "What we will make",
       "points": [
@@ -95,7 +94,32 @@
   "otherFormats": {
     "eyebrow": "Other creative formats",
     "title": "Even more ways to create together.",
-    "description": "Try a one-off workshop, organise a creative celebration or give someone special the gift of time for new experiences.",
+    "description": "Regular classes remain on this page, while workshops, celebrations and art camp now have dedicated sections, making the right information easier to find.",
+    "swipeHint": "Swipe to explore every format →",
+    "more": "Open page",
+    "cards": {
+      "workshops": {
+        "eyebrow": "One-off sessions",
+        "title": "Workshops",
+        "description": "A standalone creative session where you can discover a new technique and make a finished piece.",
+        "imageAlt": "An acrylic painting workshop at ART Lab",
+        "openAria": "Go to the workshops page"
+      },
+      "celebrations": {
+        "eyebrow": "Special occasions",
+        "title": "Celebrations",
+        "description": "Creative birthdays and other occasions with a programme tailored to the guests' ages and interests.",
+        "imageAlt": "A creative children's celebration at ART Lab",
+        "openAria": "Go to the celebrations page"
+      },
+      "camp": {
+        "eyebrow": "School holidays",
+        "title": "Art camp",
+        "description": "A rich holiday programme with new materials, shared projects and plenty of room for personal ideas.",
+        "imageAlt": "Children creating at ART Lab",
+        "openAria": "Go to the art camp page"
+      }
+    },
     "workshops": {
       "eyebrow": "Workshops",
       "title": "A new technique in one creative session.",
@@ -135,6 +159,196 @@
       "note": "The programme and price depend on the chosen workshop, the number of participants and the celebration format.",
       "cta": "Plan your celebration",
       "imageAlt": "A creative birthday party at the ART Lab studio"
+    }
+  },
+  "formatPages": {
+    "workshops": {
+      "meta": {
+        "title": "Creative workshops in Tallinn | ART Lab",
+        "description": "ART Lab workshops for children and adults: painting, plaster, felting, beadwork, dimensional art and other techniques."
+      },
+      "hero": {
+        "eyebrow": "ART Lab workshops",
+        "title": "A new technique in one creative session.",
+        "description": "A workshop is an easy way to try an unfamiliar material, spend time together and leave with your own finished piece.",
+        "imageAlt": "An acrylic painting workshop on canvas",
+        "tags": [
+          "Children and adults",
+          "All materials included",
+          "No experience needed"
+        ]
+      },
+      "content": {
+        "eyebrow": "How it works",
+        "title": "Try something new — without lengthy preparation.",
+        "paragraphs": [
+          "Workshop themes change regularly. We explore painting, plaster, wool, beads, dimensional materials and a range of decorative techniques.",
+          "The teacher explains the process step by step and supports the more challenging stages, while every participant remains free to choose colours, details and finishing touches."
+        ],
+        "listTitle": "From idea to finished piece",
+        "steps": [
+          {
+            "title": "Choose a theme",
+            "description": "Current programmes and dates are announced separately."
+          },
+          {
+            "title": "Create together",
+            "description": "All materials are prepared, and the teacher is there at every stage."
+          },
+          {
+            "title": "Take your work home",
+            "description": "At the end of the session, everyone has a finished piece of their own."
+          }
+        ],
+        "note": "The content, duration and price depend on the chosen theme."
+      },
+      "features": [
+        {
+          "title": "One straightforward format",
+          "description": "Join a single session without committing to a course of regular classes."
+        },
+        {
+          "title": "Materials are included",
+          "description": "The studio prepares the tools and consumables required for the programme."
+        },
+        {
+          "title": "Great for a group",
+          "description": "Choose a workshop for yourself, your family, friends or a small group."
+        }
+      ],
+      "showcase": {
+        "eyebrow": "Programme examples",
+        "title": "A new technique every time.",
+        "description": "These are sample directions. Ask the studio about current themes and available dates, or follow us on Instagram."
+      },
+      "cta": {
+        "eyebrow": "Upcoming workshops",
+        "title": "We will find a theme that inspires you.",
+        "description": "Message us for current programmes, dates and available places.",
+        "button": "Explore upcoming themes"
+      }
+    },
+    "celebrations": {
+      "meta": {
+        "title": "Creative celebrations and birthdays | ART Lab",
+        "description": "A creative birthday or special occasion at ART Lab, with a workshop, materials and a programme tailored to the guests' ages."
+      },
+      "hero": {
+        "eyebrow": "Celebrations at ART Lab",
+        "title": "A celebration made by hand.",
+        "description": "We combine a special day with a creative workshop, so guests leave with more than photographs — they take home work of their own.",
+        "imageAlt": "A creative birthday party at ART Lab",
+        "tags": [
+          "Children and adults",
+          "Tailored to your group",
+          "At the studio or your venue"
+        ]
+      },
+      "content": {
+        "eyebrow": "Your format",
+        "title": "An occasion with your group's personality.",
+        "paragraphs": [
+          "We choose a workshop based on the participants' ages, interests and group size. The studio prepares all materials and leads the creative part of the event.",
+          "After the workshop, guests can continue spending time together over tea. An off-site event at your venue can also be discussed."
+        ],
+        "listTitle": "How to plan your celebration",
+        "steps": [
+          {
+            "title": "Tell us about your group",
+            "description": "We will confirm ages, guest numbers, a preferred date and event format."
+          },
+          {
+            "title": "Choose a workshop",
+            "description": "We will suggest themes suited to the participants and event duration."
+          },
+          {
+            "title": "We prepare everything",
+            "description": "ART Lab takes care of the materials and the creative programme."
+          }
+        ],
+        "note": "The price depends on the programme, number of participants and chosen format."
+      },
+      "features": [
+        {
+          "title": "Birthdays",
+          "description": "A creative programme for a child, an adult or a mixed-age group."
+        },
+        {
+          "title": "Time with friends",
+          "description": "A calm, beautiful way to spend time together and try something new."
+        },
+        {
+          "title": "Team events",
+          "description": "A shared creative experience for colleagues at the studio or your venue."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Plan an occasion",
+        "title": "We will shape the celebration around your group.",
+        "description": "Send an approximate date and guest count, and we will suggest a suitable format.",
+        "button": "Plan your celebration"
+      }
+    },
+    "camp": {
+      "meta": {
+        "title": "School holiday art camp | ART Lab",
+        "description": "ART Lab creative programmes for the school holidays, with new materials, techniques and personal projects."
+      },
+      "hero": {
+        "eyebrow": "ART Lab art camp",
+        "title": "School holidays filled with creativity.",
+        "description": "Art camp brings different materials, techniques and projects together in one school holiday programme. Children try new things, connect and bring their own ideas to life.",
+        "imageAlt": "Children creating projects at ART Lab",
+        "tags": [
+          "Creative projects",
+          "New techniques",
+          "Teacher support"
+        ]
+      },
+      "content": {
+        "eyebrow": "Creative holidays",
+        "title": "More than filling time — make it meaningful.",
+        "paragraphs": [
+          "The art camp programme is built around creativity. Participants explore different materials, complete themed activities and work on more substantial projects.",
+          "We keep the activities clear and structured while leaving plenty of room for imagination, independent choices and connection with others."
+        ],
+        "listTitle": "What participants can expect",
+        "steps": [
+          {
+            "title": "Different techniques",
+            "description": "One programme can introduce several approaches to making art."
+          },
+          {
+            "title": "Personal and shared projects",
+            "description": "Children create individual work and learn to collaborate with others."
+          },
+          {
+            "title": "Fresh experiences",
+            "description": "Every programme has its own theme and set of creative challenges."
+          }
+        ],
+        "note": "Participant ages, dates, duration and price are announced separately for each programme."
+      },
+      "features": [
+        {
+          "title": "Creativity every day",
+          "description": "A mix of techniques, materials and ways of working rather than repetitive tasks."
+        },
+        {
+          "title": "Room for personal ideas",
+          "description": "The teacher provides a foundation and support without turning children's work into identical templates."
+        },
+        {
+          "title": "A comfortable atmosphere",
+          "description": "Participants can experiment, ask questions, connect and work at a comfortable pace."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Upcoming programme",
+        "title": "Be among the first to hear about the next camp.",
+        "description": "Leave your details and we will share dates, participant ages, the programme and conditions when registration opens.",
+        "button": "Ask about the next camp"
+      }
     }
   }
 }

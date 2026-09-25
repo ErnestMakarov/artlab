@@ -7,7 +7,30 @@
     "prices": "Prices",
     "schedule": "Schedule",
     "gallery": "Gallery",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "directionsMenu": {
+      "eyebrow": "Creative formats",
+      "open": "Open the directions menu",
+      "close": "Close the directions menu",
+      "items": {
+        "directions": {
+          "title": "Directions",
+          "description": "Regular classes for children and adults"
+        },
+        "workshops": {
+          "title": "Workshops",
+          "description": "Explore a new technique in one creative session"
+        },
+        "celebrations": {
+          "title": "Celebrations",
+          "description": "Birthdays and events with a creative workshop"
+        },
+        "camp": {
+          "title": "Art camp",
+          "description": "Creative programmes for the school holidays"
+        }
+      }
+    }
   },
   "actions": {
     "book": "Book a class"

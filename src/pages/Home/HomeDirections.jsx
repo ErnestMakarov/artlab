@@ -14,6 +14,7 @@ const directions = [
     image: artImage,
     accent: "bg-brand",
     text: "text-brand",
+    surface: "bg-surface-lilac",
   },
   {
     key: "creative",
@@ -22,6 +23,7 @@ const directions = [
     image: creativeImage,
     accent: "bg-accent-cyan",
     text: "text-accent-cyan",
+    surface: "bg-surface-aqua",
   },
   {
     key: "handicraft",
@@ -30,6 +32,7 @@ const directions = [
     image: handicraftImage,
     accent: "bg-accent-pink",
     text: "text-accent-pink",
+    surface: "bg-surface-pink",
   },
 ];
 
@@ -46,7 +49,6 @@ export default function HomeDirections() {
         className="pointer-events-none absolute -left-32 top-1/3 size-80 rounded-full bg-brand/5 blur-3xl"
         aria-hidden="true"
       />
-
       <div
         className="pointer-events-none absolute -right-28 top-8 size-72 rounded-full bg-accent-cyan/8 blur-3xl"
         aria-hidden="true"
@@ -54,11 +56,7 @@ export default function HomeDirections() {
 
       <Container className="relative">
         <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
-          <span
-            className="h-0.5 w-8 rounded-full bg-current"
-            aria-hidden="true"
-          />
-
+          <span className="h-0.5 w-8 rounded-full bg-current" aria-hidden="true" />
           {t("directions.eyebrow")}
         </p>
 
@@ -95,9 +93,7 @@ export default function HomeDirections() {
                   <div className="overflow-hidden rounded-[1.25rem] bg-surface-lilac sm:rounded-[1.5rem]">
                     <img
                       src={direction.image}
-                      alt={t(
-                        `directions.items.${direction.key}.imageAlt`,
-                      )}
+                      alt={t(`directions.items.${direction.key}.imageAlt`)}
                       width="720"
                       height="480"
                       loading="lazy"
@@ -108,48 +104,41 @@ export default function HomeDirections() {
                 </div>
 
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
-                  <p
-                    className={`text-[10px] font-extrabold uppercase tracking-[0.17em] ${direction.text}`}
-                  >
-                    {t("directions.cardLabel", {
-                      number: direction.number,
-                    })}
-                  </p>
+                  <div className="flex items-center justify-between gap-4">
+                    <p
+                      className={`text-[10px] font-extrabold uppercase tracking-[0.17em] ${direction.text}`}
+                    >
+                      {t("directions.cardLabel", {
+                        number: direction.number,
+                      })}
+                    </p>
+
+                    <span
+                      className={`rounded-full px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.08em] ${direction.text} ${direction.surface}`}
+                    >
+                      {t(`directions.items.${direction.key}.ageBadge`)}
+                    </span>
+                  </div>
 
                   <h3 className="mt-4 text-[1.65rem] font-extrabold leading-[1.05] tracking-[-0.04em] text-ink sm:text-[1.8rem]">
                     {t(`directions.items.${direction.key}.title`)}
                   </h3>
 
                   <p className="mt-4 text-sm leading-6 text-muted sm:text-[15px] sm:leading-7">
-                    {t(
-                      `directions.items.${direction.key}.description`,
-                    )}
+                    {t(`directions.items.${direction.key}.description`)}
                   </p>
 
-                  <div className="mt-7 flex items-end justify-between gap-4 border-t border-line pt-5 sm:mt-8">
-                    <div>
-                      <p
-                        className={`text-xs font-extrabold ${direction.text}`}
-                      >
-                        {t(
-                          `directions.items.${direction.key}.audience`,
-                        )}
-                      </p>
-
-                      <Link
-                        to={`/directions#${direction.anchor}`}
-                        className="mt-4 inline-flex items-center gap-2 text-sm font-extrabold text-ink transition-colors hover:text-brand"
-                        aria-label={t("directions.openAria", {
-                          title: t(
-                            `directions.items.${direction.key}.title`,
-                          ),
-                        })}
-                      >
-                        {t("directions.more")}
-
-                        <span aria-hidden="true">→</span>
-                      </Link>
-                    </div>
+                  <div className="mt-7 flex items-center justify-between gap-4 border-t border-line pt-5 sm:mt-8">
+                    <Link
+                      to={`/directions#${direction.anchor}`}
+                      className="inline-flex items-center gap-2 text-sm font-extrabold text-ink transition-colors hover:text-brand"
+                      aria-label={t("directions.openAria", {
+                        title: t(`directions.items.${direction.key}.title`),
+                      })}
+                    >
+                      {t("directions.more")}
+                      <span aria-hidden="true">→</span>
+                    </Link>
 
                     <span
                       className={`flex size-10 shrink-0 items-center justify-center rounded-full text-lg text-white transition-transform duration-300 group-hover:translate-x-1 ${direction.accent}`}

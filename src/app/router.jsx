@@ -4,6 +4,9 @@ import Layout from "../components/layout/Layout.jsx";
 import HomePage from "../pages/Home/Home.jsx";
 import AboutPage from "../pages/About/About.jsx";
 import DirectionsPage from "../pages/Directions/Directions.jsx";
+import WorkshopsPage from "../pages/Workshops/Workshops.jsx";
+import CelebrationsPage from "../pages/Celebrations/Celebrations.jsx";
+import CampPage from "../pages/Camp/Camp.jsx";
 import PricesPage from "../pages/Prices/Prices.jsx";
 import SchedulePage from "../pages/Schedule/Schedule.jsx";
 import GalleryPage from "../pages/Gallery/Gallery.jsx";
@@ -26,6 +29,18 @@ export const router = createBrowserRouter([
       {
         path: "/directions",
         element: <DirectionsPage />,
+      },
+      {
+        path: "/workshops",
+        element: <WorkshopsPage />,
+      },
+      {
+        path: "/celebrations",
+        element: <CelebrationsPage />,
+      },
+      {
+        path: "/camp",
+        element: <CampPage />,
       },
       {
         path: "/prices",

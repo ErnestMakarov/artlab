@@ -63,9 +63,11 @@ export default function InnerPageHero({
             {eyebrow}
           </p>
 
-          <span className="text-[10px] font-extrabold tracking-[0.18em] text-muted/65 sm:text-xs">
-            {pageNumber}
-          </span>
+          {pageNumber && (
+            <span className="text-[10px] font-extrabold tracking-[0.18em] text-muted/65 sm:text-xs">
+              {pageNumber}
+            </span>
+          )}
         </div>
 
         <div className="mt-9 grid items-center gap-11 lg:mt-12 lg:grid-cols-[minmax(0,0.95fr)_minmax(430px,0.75fr)] lg:gap-16 xl:gap-24">

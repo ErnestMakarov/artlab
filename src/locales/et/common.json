@@ -7,7 +7,30 @@
     "prices": "Hinnad",
     "schedule": "Tunniplaan",
     "gallery": "Galerii",
-    "contacts": "Kontakt"
+    "contacts": "Kontakt",
+    "directionsMenu": {
+      "eyebrow": "Loovad formaadid",
+      "open": "Ava loomesuundade menüü",
+      "close": "Sulge loomesuundade menüü",
+      "items": {
+        "directions": {
+          "title": "Loomesuunad",
+          "description": "Regulaarsed tunnid lastele ja täiskasvanutele"
+        },
+        "workshops": {
+          "title": "Meistriklassid",
+          "description": "Uus tehnika ühe loomingulise kohtumisega"
+        },
+        "celebrations": {
+          "title": "Peod",
+          "description": "Sünnipäevad ja sündmused koos meistriklassiga"
+        },
+        "camp": {
+          "title": "Kunstilaager",
+          "description": "Loomingulised programmid koolivaheajaks"
+        }
+      }
+    }
   },
   "actions": {
     "book": "Registreeru"

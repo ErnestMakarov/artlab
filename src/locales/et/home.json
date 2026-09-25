@@ -38,23 +38,26 @@
     "more": "Vaata lähemalt",
     "openAria": "Loe lähemalt suuna „{{title}}“ kohta",
     "items": {
-      "art": {
-        "title": "Kunstilooming",
-        "description": "Maalime erinevate materjalidega, õpime tundma värvi, vormi ja kompositsiooni ning leiame samm-sammult oma loomingulise väljendusviisi.",
-        "audience": "Alates 4. eluaastast ja täiskasvanutele",
-        "imageAlt": "Kunstitund ART Labi loovstuudios"
-      },
-      "creative": {
-        "title": "Loovtöötuba",
-        "description": "Ühendame joonistamise, voolimise ja dekoratiivtehnikad, katsetame materjalidega ning viime ideed valmis projektideni.",
-        "audience": "Lastele alates 4. eluaastast",
-        "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
-      },
-      "handicraft": {
-        "title": "Käsitööklubi",
-        "description": "Õpime heegeldamist, makrameed, helmestööd ja teisi tehnikaid ning valmistame oma kätega mänguasju, aksessuaare ja dekoratsioone.",
-        "audience": "Lastele alates 7. eluaastast",
-        "imageAlt": "Käsitöötund ART Labi loovstuudios"
+    "art": {
+      "title": "Kunstilooming",
+      "description": "ART Labi põhisuund. Igal vanuserühmal on oma programm: joonest, vormist ja värvist kuni kompositsiooni, perspektiivi ning valguse ja varjuni.",
+      "audience": "Alates 4. eluaastast ja täiskasvanutele",
+      "ageBadge": "4+ · täiskasvanud",
+      "imageAlt": "Kunstitund ART Labi loovstuudios"
+    },
+    "creative": {
+      "title": "Loovtöötuba",
+      "description": "Joonistame, voolime ja meisterdame: tutvume plastiliinigraafia, dekupaaži, aplikatsiooni, kollaaži ja segatehnikatega.",
+      "audience": "Lastele alates 4. eluaastast",
+      "ageBadge": "4+",
+      "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
+    },
+    "handicraft": {
+      "title": "Käsitööklubi",
+      "description": "Õpime makrameed, helmepunumist, heegeldamist ja villaviltimist esimestest lihtsatest võtetest enda valmistatud valmis esemeni.",
+      "audience": "Lastele alates 7. eluaastast",
+      "ageBadge": "7+",
+      "imageAlt": "Käsitöötund ART Labi loovstuudios"
       }
     }
   },

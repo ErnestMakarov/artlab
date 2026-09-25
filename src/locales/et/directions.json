@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "Loomesuunad lastele ja täiskasvanutele | ART Lab",
-    "description": "Kunstiloome, loovtöötuba, käsitöö, töötoad ja loomingulised peod ART Labi stuudios Tallinnas."
+    "description": "Kunstiloome, loovtöötuba ja käsitööklubi lastele ning täiskasvanutele ART Labi stuudios Tallinnas."
   },
   "hero": {
     "eyebrow": "Suunad",
     "title": "Looming, kus saad olla sina ise.",
     "description": "ART Labis ei pea oskama juba ette joonistada, voolida ega kududa. Piisab huvist ja soovist proovida. Aitame valida sobiva suuna, tutvuda erinevate materjalidega ning liikuda samm-sammult esimestest katsetustest oma ideede ja töödeni.",
     "cards": [
-      "Kunstiloome",
+      "Kunstiloome · 4+ ja täiskasvanud",
       "Loovtöötuba 4+",
-      "Käsitööklubi"
+      "Käsitööklubi 7+"
     ]
   },
   "mainDirections": {
@@ -20,9 +20,10 @@
       "audience": "Lastele alates 4. eluaastast ja täiskasvanutele",
       "imageAlt": "Laste kunstitund ART Labi stuudios",
       "paragraphs": [
-        "Regulaarsed tunnid neile, kes soovivad õppida joonistama, paremini mõista värvi ja vormi ning väljendada oma ideid kunsti kaudu vabamalt.",
-        "Tundides töötame guaši, akrüüli, akvarelli, pastelli, tekstuurpasta ja pliiatsitega. Tutvume värvi, kompositsiooni, vormi ja ruumi alustega, õpime märkama detaile ning meeleolu eri viisidel edasi andma.",
-        "Meie eesmärk ei ole luua ühesuguseid töid malli järgi. Õpetaja tutvustab tehnikat, aitab materjalist aru saada ja toetab iga osaleja isiklikku nägemust."
+        "Kunstiloome on ART Labi põhisuund lastele alates 4. eluaastast ja täiskasvanutele. Tunnid toimuvad väikestes rühmades ja individuaalselt.",
+        "Igal vanuserühmal on oma programm. Nooremad lapsed tutvuvad joone, vormi ja värviga selgete ning kaasahaaravate ülesannete kaudu.",
+        "Vanemad lapsed omandavad järk-järgult kujutava kunsti alused: kompositsiooni, perspektiivi, proportsioonid, valguse ja varju ning värvusõpetuse. Nad töötavad natüürmordi, maastiku, portree ja illustratsiooniga ning õpivad edasi andma mahtu, ruumi, liikumist ja kujutatava iseloomu. Aluste omandamisel tekib üha rohkem võimalusi teha oma töödes iseseisvaid kunstilisi valikuid.",
+        "Allpool saate tutvuda eri vanuserühmade tunniprogrammidega."
       ],
       "listTitle": "Mida arendame",
       "points": [
@@ -39,9 +40,8 @@
       "audience": "Lastele alates 4. eluaastast",
       "imageAlt": "Lapsed loovad ART Labi töötoas ruumilisi projekte",
       "paragraphs": [
-        "Ruum neile, kellele meeldib lisaks joonistamisele ka ideid välja mõelda, katsetada, erinevaid tehnikaid ühendada ja muuta mõtted päris loovprojektideks.",
-        "Tundides proovivad lapsed dekoratiivtehnikaid, voolimist, ruumilisi töid, erinevaid tekstuure ja käsitööelemente. Ühes projektis võib olla korraga mitu materjali ja töövõtet.",
-        "Oluline ei ole ainult valmis tulemus, vaid kogu teekond ideest teostuseni. Laps õpib tööd kavandama, materjale valima, oma lahendusi otsima ja esialgset plaani julgelt muutma."
+        "Loovtöötuba on ruum lastele alates 4. eluaastast, kellele meeldib lisaks joonistamisele voolida, meisterdada ja proovida uusi loomisviise.",
+        "Tundides tutvuvad lapsed kunstiloome, plastiliinigraafia, dekupaaži, aplikatsiooni ja kunstilise kollaažiga. Nad loovad ruumilisi töid, ühendavad materjale ja õpivad segatehnikaid. Siin saab katsetada ja oma ideid ellu viia, mistõttu sünnib iga töö isemoodi."
       ],
       "listTitle": "Mida arendame",
       "points": [
@@ -58,9 +58,8 @@
       "audience": "Lastele alates 7. eluaastast",
       "imageAlt": "Helmepunumise ja käsitöö tund ART Labi stuudios",
       "paragraphs": [
-        "Klubi neile, kellele meeldib meisterdada ning oma kätega ilusaid, kasulikke ja erilisi esemeid luua.",
-        "Tundides tutvume heegeldamise, helmepunumise, makramee, dekupaaži, kvillingu ja teiste tänapäevaste käsitööliikidega. Õpime materjale ja töövahendeid kasutama samm-sammult: lihtsatest elementidest iseseisvate esemeteni.",
-        "Käsitöö arendab peenmotoorikat, kannatlikkust, tähelepanu, täpsust ja oskust alustatu lõpule viia. Igaühele jääb ruumi värvide, detailide ja kujunduse isiklikuks valikuks."
+        "Käsitööklubi on mõeldud lastele alates 7. eluaastast, kellele meeldib oma kätega ilusaid ja kasulikke esemeid luua. Tundides proovitakse makrameed, helmepunumist, heegeldamist ja villaviltimist ning iga tehnikat õpitakse samm-sammult esimestest lihtsatest võtetest valmis esemeni.",
+        "Töö niidi, helmeste ja villaga arendab peenmotoorikat, tähelepanu ja püsivust. Lapsed õpivad oma tööd kavandama, värve ja materjale sobitama, detaile märkama ning idee lõpuni viima. Igaüks lahkub enda loodud esemega."
       ],
       "listTitle": "Mida valmistame",
       "points": [
@@ -95,7 +94,32 @@
   "otherFormats": {
     "eyebrow": "Teised loomingulised formaadid",
     "title": "Veel rohkem võimalusi koos luua.",
-    "description": "Proovi üksikut töötuba, korralda loominguline pidu või kingi lähedasele aega uute elamuste jaoks.",
+    "description": "Regulaarsed tunnid jäävad sellele lehele, meistriklassidel, pidudel ja kunstilaagril on aga nüüd omaette jaotised, et vajalikku infot oleks lihtsam leida.",
+    "swipeHint": "Kõigi formaatide vaatamiseks libista →",
+    "more": "Ava leht",
+    "cards": {
+      "workshops": {
+        "eyebrow": "Ühekordsed tunnid",
+        "title": "Meistriklassid",
+        "description": "Eraldi loominguline kohtumine, kus saab avastada uue tehnika ja valmistada lõpetatud töö.",
+        "imageAlt": "Akrüülmaali meistriklass ART Labis",
+        "openAria": "Mine meistriklasside lehele"
+      },
+      "celebrations": {
+        "eyebrow": "Erilised sündmused",
+        "title": "Peod",
+        "description": "Loomingulised sünnipäevad ja muud sündmused külaliste vanuse ning huvide järgi valitud programmiga.",
+        "imageAlt": "Laste loominguline pidu ART Labis",
+        "openAria": "Mine pidude lehele"
+      },
+      "camp": {
+        "eyebrow": "Koolivaheaeg",
+        "title": "Kunstilaager",
+        "description": "Sisukas vaheajaprogramm uute materjalide, ühiste projektide ja isiklike ideede jaoks.",
+        "imageAlt": "Lapsed loovad ART Labis",
+        "openAria": "Mine kunstilaagri lehele"
+      }
+    },
     "workshops": {
       "eyebrow": "Töötoad",
       "title": "Uus tehnika ühe loomingulise kohtumisega.",
@@ -135,6 +159,196 @@
       "note": "Programmi sisu ja hind sõltuvad valitud töötoast, osalejate arvust ja peo formaadist.",
       "cta": "Arutame teie pidu",
       "imageAlt": "Loominguline sünnipäev ART Labi stuudios"
+    }
+  },
+  "formatPages": {
+    "workshops": {
+      "meta": {
+        "title": "Loomingulised meistriklassid Tallinnas | ART Lab",
+        "description": "ART Labi meistriklassid lastele ja täiskasvanutele: maalimine, kips, viltimine, helmepunumine, ruumilised tööd ja teised tehnikad."
+      },
+      "hero": {
+        "eyebrow": "ART Labi meistriklassid",
+        "title": "Uus tehnika ühe loomingulise kohtumisega.",
+        "description": "Meistriklass on lihtne viis proovida uut materjali, veeta aega koos ja lahkuda enda valmistatud valmis tööga.",
+        "imageAlt": "Akrüülmaali meistriklass lõuendil",
+        "tags": [
+          "Lastele ja täiskasvanutele",
+          "Kõik materjalid hinnas",
+          "Kogemus pole vajalik"
+        ]
+      },
+      "content": {
+        "eyebrow": "Kuidas see toimub",
+        "title": "Proovi midagi uut ilma pika ettevalmistuseta.",
+        "paragraphs": [
+          "Meistriklasside teemad vahelduvad. Töötame maali, kipsi, villa, helmeste, ruumiliste materjalide ja erinevate dekoratiivtehnikatega.",
+          "Õpetaja selgitab protsessi samm-sammult ja aitab keerukamates etappides, kuid värvide, detailide ja viimistluse valik jääb igale osalejale."
+        ],
+        "listTitle": "Ideest valmis tööni",
+        "steps": [
+          {
+            "title": "Valime teema",
+            "description": "Aktuaalsed programmid ja kuupäevad avaldame eraldi."
+          },
+          {
+            "title": "Loome koos",
+            "description": "Kõik materjalid on valmis ning õpetaja toetab igal etapil."
+          },
+          {
+            "title": "Võtame töö kaasa",
+            "description": "Kohtumise lõpuks on igaühel valmis enda loodud töö."
+          }
+        ],
+        "note": "Sisu, kestus ja hind sõltuvad valitud teemast."
+      },
+      "features": [
+        {
+          "title": "Üks selge formaat",
+          "description": "Tule ühele kohtumisele ilma regulaarsete tundide paketti ostmata."
+        },
+        {
+          "title": "Materjalid on hinnas",
+          "description": "Stuudio valmistab ette programmi jaoks vajalikud vahendid ja materjalid."
+        },
+        {
+          "title": "Sobib seltskonnale",
+          "description": "Vali meistriklass endale, perele, sõpradele või väikesele rühmale."
+        }
+      ],
+      "showcase": {
+        "eyebrow": "Programmide näited",
+        "title": "Iga kohtumine toob uue tehnika.",
+        "description": "Need on võimalikud suunad. Aktuaalseid teemasid ja vabu kuupäevi küsi stuudiolt või vaata Instagramist."
+      },
+      "cta": {
+        "eyebrow": "Lähimad meistriklassid",
+        "title": "Leiame sinu huvile sobiva teema.",
+        "description": "Kirjuta meile ja räägime praegustest programmidest, kuupäevadest ning vabadest kohtadest.",
+        "button": "Küsi lähimate teemade kohta"
+      }
+    },
+    "celebrations": {
+      "meta": {
+        "title": "Loomingulised peod ja sünnipäevad | ART Lab",
+        "description": "Loominguline sünnipäev või muu sündmus ART Labis koos meistriklassi, materjalide ja külaliste vanusele sobiva programmiga."
+      },
+      "hero": {
+        "eyebrow": "Peod ART Labis",
+        "title": "Pidu, mille loote oma kätega.",
+        "description": "Ühendame tähtsa päeva loomingulise meistriklassiga, et külalistele jääksid lisaks fotodele ka nende endi valmistatud tööd.",
+        "imageAlt": "Loominguline sünnipäev ART Labi stuudios",
+        "tags": [
+          "Lastele ja täiskasvanutele",
+          "Programm teie seltskonnale",
+          "Stuudios või teie asukohas"
+        ]
+      },
+      "content": {
+        "eyebrow": "Teie formaat",
+        "title": "Teie seltskonna näoga sündmus.",
+        "paragraphs": [
+          "Valime peoks meistriklassi osalejate vanuse, huvide ja arvu järgi. Stuudio valmistab ette kõik materjalid ning juhib loomingulist osa.",
+          "Pärast meistriklassi saab koosolemist jätkata teejoomisega. Arutada saab ka väljasõiduformaati teie asukohas."
+        ],
+        "listTitle": "Kuidas pidu ette valmistada",
+        "steps": [
+          {
+            "title": "Rääkige meile seltskonnast",
+            "description": "Täpsustame vanuse, külaliste arvu, soovitud kuupäeva ja sündmuse formaadi."
+          },
+          {
+            "title": "Valime meistriklassi",
+            "description": "Pakume osalejatele ja peo kestusele sobivaid teemasid."
+          },
+          {
+            "title": "Valmistame kõik ette",
+            "description": "Materjalide ja loomingulise osa eest hoolitseb ART Lab."
+          }
+        ],
+        "note": "Hind sõltub programmist, osalejate arvust ja valitud formaadist."
+      },
+      "features": [
+        {
+          "title": "Sünnipäevad",
+          "description": "Loominguline programm lapsele, täiskasvanule või eri vanuses seltskonnale."
+        },
+        {
+          "title": "Kohtumised sõpradega",
+          "description": "Rahulik ja ilus viis koos aega veeta ning midagi uut proovida."
+        },
+        {
+          "title": "Meeskonnaüritused",
+          "description": "Ühine loominguline kogemus stuudios või teie valitud asukohas."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Arutame sündmust",
+        "title": "Loome teie seltskonnale sobiva peo.",
+        "description": "Saatke ligikaudne kuupäev ja külaliste arv ning pakume sobiva formaadi.",
+        "button": "Arutame teie pidu"
+      }
+    },
+    "camp": {
+      "meta": {
+        "title": "Kunstilaager koolivaheajaks | ART Lab",
+        "description": "ART Labi loomingulised koolivaheajaprogrammid uute materjalide, tehnikate ja isiklike projektidega."
+      },
+      "hero": {
+        "eyebrow": "ART Labi kunstilaager",
+        "title": "Loovust täis koolivaheaeg.",
+        "description": "Kunstilaager ühendab ühes koolivaheajaprogrammis erinevad materjalid, tehnikad ja projektid. Laps proovib uut, suhtleb ning viib oma ideid ellu.",
+        "imageAlt": "Lapsed loovad ART Labis projekte",
+        "tags": [
+          "Loomingulised projektid",
+          "Uued tehnikad",
+          "Õpetaja tugi"
+        ]
+      },
+      "content": {
+        "eyebrow": "Loominguline koolivaheaeg",
+        "title": "Mitte lihtsalt ajaviide, vaid sisukas kogemus.",
+        "paragraphs": [
+          "Kunstilaagri programm põhineb loomingul. Osalejad tutvuvad erinevate materjalidega, täidavad temaatilisi ülesandeid ja töötavad mahukamate projektidega.",
+          "Tunnid on selge ülesehitusega, kuid jätavad piisavalt ruumi fantaasiale, iseseisvatele otsustele ja suhtlemisele."
+        ],
+        "listTitle": "Mis osalejaid ees ootab",
+        "steps": [
+          {
+            "title": "Erinevad tehnikad",
+            "description": "Üks programm võib tutvustada korraga mitut loomisviisi."
+          },
+          {
+            "title": "Isiklikud ja ühised projektid",
+            "description": "Lapsed loovad oma töid ja õpivad teistega koostööd tegema."
+          },
+          {
+            "title": "Uued elamused",
+            "description": "Igal programmil on oma teema ja loomingulised ülesanded."
+          }
+        ],
+        "note": "Osalejate vanus, kuupäevad, kestus ja hind avaldatakse iga programmi kohta eraldi."
+      },
+      "features": [
+        {
+          "title": "Looming iga päev",
+          "description": "Ühesuguste ülesannete asemel ühendame tehnikaid, materjale ja tööformaate."
+        },
+        {
+          "title": "Ruum oma ideedele",
+          "description": "Õpetaja annab aluse ja toetab, muutmata laste töid ühesugusteks näidisteks."
+        },
+        {
+          "title": "Mõnus õhkkond",
+          "description": "Saab katsetada, küsimusi esitada, suhelda ja töötada endale sobivas tempos."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Järgmine programm",
+        "title": "Saa järgmise laagri infost teada esimeste seas.",
+        "description": "Jäta oma kontaktid ja anname registreerimise avanedes teada kuupäevad, osalejate vanuse, programmi ning tingimused.",
+        "button": "Küsi järgmise laagri kohta"
+      }
     }
   }
 }
