@@ -12,8 +12,10 @@
       "price": "15",
       "currency": "€",
       "caption": "Esimese tunni hind",
-      "condition": "Kui jätkate pärast proovitundi ja sõlmite lepingu,",
-      "accent": "on proovitund teile tasuta."
+      "condition": "Kui jätkate pärast proovitundi ja sõlmite lepingu:",
+      "freeLabel": "Tasuta",
+      "zeroPrice": "0 €",
+      "accent": "Proovitunni lõplik hind."
     }
   },
   "lessons": {

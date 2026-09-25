@@ -12,8 +12,10 @@
       "price": "15",
       "currency": "€",
       "caption": "Price of the first class",
-      "condition": "If you continue after your trial class and sign an agreement,",
-      "accent": "your trial class will be free."
+      "condition": "If you continue after your trial class and sign an agreement:",
+      "freeLabel": "Free",
+      "zeroPrice": "€0",
+      "accent": "The final price of your trial class."
     }
   },
   "lessons": {

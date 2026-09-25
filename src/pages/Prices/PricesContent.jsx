@@ -33,21 +33,21 @@ const lessonLinks = ["/schedule", "/contacts#booking", "/workshops"];
 
 const campStyles = [
   {
-    card: "border-brand/80 bg-gradient-to-br from-brand to-[#7d45dc] text-white shadow-[0_22px_55px_rgba(107,57,211,0.28)]",
-    eyebrow: "text-[#ded2ff]",
-    muted: "text-white/72",
-    pill: "bg-white/14 text-white",
-    dot: "bg-white",
+    card: "border-brand/15 bg-gradient-to-br from-surface-lilac to-white text-ink shadow-[0_18px_50px_rgba(51,39,73,0.09)]",
+    eyebrow: "text-brand",
+    muted: "text-muted",
+    pill: "bg-brand text-white",
+    dot: "bg-brand",
   },
   {
-    card: "border-white/90 bg-white text-ink shadow-[0_18px_50px_rgba(0,0,0,0.12)]",
+    card: "border-accent-cyan/15 bg-gradient-to-br from-surface-aqua to-white text-ink shadow-[0_18px_50px_rgba(51,39,73,0.08)]",
     eyebrow: "text-accent-cyan",
     muted: "text-muted",
     pill: "bg-surface-aqua text-accent-cyan",
     dot: "bg-accent-cyan",
   },
   {
-    card: "border-white/90 bg-white text-ink shadow-[0_18px_50px_rgba(0,0,0,0.12)]",
+    card: "border-accent-pink/15 bg-gradient-to-br from-surface-pink to-white text-ink shadow-[0_18px_50px_rgba(51,39,73,0.08)]",
     eyebrow: "text-accent-pink",
     muted: "text-muted",
     pill: "bg-surface-pink text-accent-pink",
@@ -201,19 +201,19 @@ export default function PricesContent() {
         aria-labelledby="camp-prices-title"
       >
         <Container>
-          <div className="relative isolate overflow-hidden rounded-[2.25rem] bg-ink px-5 py-8 text-white shadow-[0_28px_90px_rgba(51,39,73,0.2)] sm:rounded-[3rem] sm:px-8 sm:py-10 lg:px-12 lg:py-14 xl:px-14">
+          <div className="relative isolate overflow-hidden rounded-[2.25rem] border border-white/90 bg-white/88 px-5 py-8 text-ink shadow-[0_24px_75px_rgba(51,39,73,0.1)] backdrop-blur-xl sm:rounded-[3rem] sm:px-8 sm:py-10 lg:px-12 lg:py-14 xl:px-14">
             <div
-              className="pointer-events-none absolute -right-24 -top-28 size-80 rounded-full bg-brand/30 blur-3xl"
+              className="pointer-events-none absolute -right-24 -top-28 size-80 rounded-full bg-brand/8 blur-3xl"
               aria-hidden="true"
             />
             <div
-              className="pointer-events-none absolute -bottom-36 -left-20 size-72 rounded-full bg-accent-cyan/15 blur-3xl"
+              className="pointer-events-none absolute -bottom-36 -left-20 size-72 rounded-full bg-accent-cyan/10 blur-3xl"
               aria-hidden="true"
             />
 
             <div className="relative grid gap-7 lg:grid-cols-[minmax(0,1fr)_minmax(300px,0.58fr)] lg:items-end lg:gap-16">
               <div>
-                <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#cbb8ff] sm:text-xs">
+                <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand sm:text-xs">
                   <span
                     className="h-0.5 w-8 rounded-full bg-current"
                     aria-hidden="true"
@@ -228,7 +228,7 @@ export default function PricesContent() {
                 </h2>
               </div>
 
-              <p className="max-w-xl text-base leading-8 text-white/65 sm:text-lg sm:leading-9">
+              <p className="max-w-xl text-base leading-8 text-muted sm:text-lg sm:leading-9">
                 {t("camp.description")}
               </p>
             </div>
@@ -291,12 +291,12 @@ export default function PricesContent() {
                 })}
             </ul>
 
-            <div className="relative mt-10 border-t border-white/12 pt-8 lg:flex lg:items-end lg:justify-between lg:gap-12">
+            <div className="relative mt-10 border-t border-line pt-8 lg:flex lg:items-end lg:justify-between lg:gap-12">
               <div className="max-w-2xl">
                 <h3 className="text-[clamp(1.7rem,3vw,2.6rem)] font-extrabold leading-tight tracking-[-0.04em]">
                   {t("camp.cta.title")}
                 </h3>
-                <p className="mt-3 text-sm leading-7 text-white/65 sm:text-base">
+                <p className="mt-3 text-sm leading-7 text-muted sm:text-base">
                   {t("camp.cta.description")}
                 </p>
               </div>
@@ -304,14 +304,14 @@ export default function PricesContent() {
               <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:mt-0 lg:shrink-0">
                 <Link
                   to="/contacts#booking"
-                  className="group inline-flex min-h-13 items-center justify-center gap-3 rounded-full bg-white px-7 text-center text-sm font-extrabold text-ink transition-transform duration-200 hover:-translate-y-0.5"
+                  className="group inline-flex min-h-13 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-center text-sm font-extrabold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover"
                 >
                   {t("camp.cta.primary")}
                   <ArrowIcon />
                 </Link>
                 <Link
                   to="/schedule"
-                  className="group inline-flex min-h-13 items-center justify-center gap-3 rounded-full border border-white/25 bg-white/8 px-7 text-center text-sm font-extrabold text-white transition-colors duration-200 hover:bg-white/14"
+                  className="group inline-flex min-h-13 items-center justify-center gap-3 rounded-full border border-brand/25 bg-white px-7 text-center text-sm font-extrabold text-brand transition-colors duration-200 hover:border-brand hover:bg-surface-lilac"
                 >
                   {t("camp.cta.secondary")}
                   <ArrowIcon />
@@ -319,7 +319,7 @@ export default function PricesContent() {
               </div>
             </div>
 
-            <p className="relative mt-6 text-xs leading-6 text-white/45">
+            <p className="relative mt-6 text-xs leading-6 text-muted/75">
               {t("camp.note")}
             </p>
           </div>
