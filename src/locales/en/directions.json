@@ -180,27 +180,28 @@
       },
       "content": {
         "eyebrow": "How it works",
-        "title": "Try something new — without lengthy preparation.",
+        "title": "New creative sessions every week",
         "paragraphs": [
-          "Workshop themes change regularly. We explore painting, plaster, wool, beads, dimensional materials and a range of decorative techniques.",
-          "The teacher explains the process step by step and supports the more challenging stages, while every participant remains free to choose colours, details and finishing touches."
+          "At ART Lab, we run workshops for children and adults. You can paint a picture, create a piece of jewellery, decorate a plaster object or try another technique. Themes change regularly, so there is always a reason to come back — on your own, with your child or with friends.",
+          "No previous experience is needed. We prepare the materials, demonstrate the essential techniques and help bring your idea to life. You will take your finished piece home with you."
         ],
         "listTitle": "From idea to finished piece",
         "steps": [
           {
             "title": "Choose a theme",
-            "description": "Current programmes and dates are announced separately."
+            "description": "Browse the directions on our website and find a workshop that feels right for you."
           },
           {
-            "title": "Create together",
-            "description": "All materials are prepared, and the teacher is there at every stage."
+            "title": "Check the date and book",
+            "description": "We publish the programme for the coming days every week on Instagram @artlab_est. You will also find the participant age, price and available places there."
           },
           {
-            "title": "Take your work home",
-            "description": "At the end of the session, everyone has a finished piece of their own."
+            "title": "Come and create",
+            "description": "Everything you need will be waiting for you in the studio. Your finished piece is yours to take home after the session."
           }
         ],
-        "note": "The content, duration and price depend on the chosen theme."
+        "note": "",
+        "instagramCta": "See upcoming workshops"
       },
       "features": [
         {

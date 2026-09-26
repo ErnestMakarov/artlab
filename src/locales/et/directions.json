@@ -180,27 +180,28 @@
       },
       "content": {
         "eyebrow": "Kuidas see toimub",
-        "title": "Proovi midagi uut ilma pika ettevalmistuseta.",
+        "title": "Igal nädalal uued loomingulised kohtumised",
         "paragraphs": [
-          "Meistriklasside teemad vahelduvad. Töötame maali, kipsi, villa, helmeste, ruumiliste materjalide ja erinevate dekoratiivtehnikatega.",
-          "Õpetaja selgitab protsessi samm-sammult ja aitab keerukamates etappides, kuid värvide, detailide ja viimistluse valik jääb igale osalejale."
+          "ART Labis korraldame meistriklasse lastele ja täiskasvanutele. Saab maalida pildi, valmistada ehte, värvida kipsist eseme või proovida mõnda muud tehnikat. Teemad vahelduvad, nii et alati on põhjust tagasi tulla — üksi, koos lapse või sõpradega.",
+          "Osalemiseks pole varasemat kogemust vaja. Valmistame materjalid ette, näitame põhivõtteid ja aitame sinu idee teoks teha. Valmis töö saad endaga kaasa võtta."
         ],
         "listTitle": "Ideest valmis tööni",
         "steps": [
           {
-            "title": "Valime teema",
-            "description": "Aktuaalsed programmid ja kuupäevad avaldame eraldi."
+            "title": "Valid teema",
+            "description": "Vaata veebilehel suundi ja leia endale meelepärane meistriklass."
           },
           {
-            "title": "Loome koos",
-            "description": "Kõik materjalid on valmis ning õpetaja toetab igal etapil."
+            "title": "Uurid kuupäeva ja paned end kirja",
+            "description": "Lähimate päevade kava avaldame igal nädalal Instagramis @artlab_est. Sealt leiad ka osalejate vanuse, hinna ja vabade kohtade info."
           },
           {
-            "title": "Võtame töö kaasa",
-            "description": "Kohtumise lõpuks on igaühel valmis enda loodud töö."
+            "title": "Tuled looma",
+            "description": "Kõik vajalik ootab sind stuudios. Kohtumise lõpus saad valmis töö endaga kaasa võtta."
           }
         ],
-        "note": "Sisu, kestus ja hind sõltuvad valitud teemast."
+        "note": "",
+        "instagramCta": "Vaata lähimaid meistriklasse"
       },
       "features": [
         {

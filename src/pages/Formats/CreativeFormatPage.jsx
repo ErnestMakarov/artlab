@@ -338,6 +338,7 @@ function CampAnnouncement({ t }) {
 export default function CreativeFormatPage({ formatKey }) {
   const { t } = useTranslation("directions");
   const config = pageConfig[formatKey];
+  const isWorkshopsPage = formatKey === "workshops";
   const paragraphs = t(`formatPages.${formatKey}.content.paragraphs`, {
     returnObjects: true,
   });
@@ -347,6 +348,7 @@ export default function CreativeFormatPage({ formatKey }) {
   const features = t(`formatPages.${formatKey}.features`, {
     returnObjects: true,
   });
+  const contentNote = t(`formatPages.${formatKey}.content.note`);
 
   return (
     <>
@@ -368,9 +370,34 @@ export default function CreativeFormatPage({ formatKey }) {
 
       {formatKey === "camp" && <CampAnnouncement t={t} />}
 
-      <section className="bg-white py-20 sm:py-24 lg:py-28">
-        <Container>
-          <div className="grid gap-12 lg:grid-cols-[minmax(0,0.86fr)_minmax(420px,1.14fr)] lg:gap-16 xl:gap-24">
+      <section
+        className={`relative isolate overflow-hidden py-20 sm:py-24 lg:py-28 ${
+          isWorkshopsPage
+            ? "bg-gradient-to-b from-white via-surface-aqua/35 to-white"
+            : "bg-white"
+        }`}
+      >
+        {isWorkshopsPage && (
+          <>
+            <div
+              className="pointer-events-none absolute -left-32 top-24 size-80 rounded-full bg-accent-cyan/10 blur-3xl"
+              aria-hidden="true"
+            />
+            <div
+              className="pointer-events-none absolute -right-32 bottom-16 size-96 rounded-full bg-brand/8 blur-3xl"
+              aria-hidden="true"
+            />
+          </>
+        )}
+
+        <Container className="relative">
+          <div
+            className={`grid gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(420px,1.1fr)] lg:gap-14 xl:gap-20 ${
+              isWorkshopsPage
+                ? "overflow-hidden rounded-[2rem] border border-white/90 bg-white/88 p-5 shadow-[0_26px_85px_rgba(51,39,73,0.1)] backdrop-blur-xl sm:rounded-[2.75rem] sm:p-8 lg:p-10 xl:p-12"
+                : ""
+            }`}
+          >
             <div>
               <p
                 className={`flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] sm:text-xs ${config.accentText}`}
@@ -382,7 +409,13 @@ export default function CreativeFormatPage({ formatKey }) {
                 {t(`formatPages.${formatKey}.content.eyebrow`)}
               </p>
 
-              <h2 className="mt-6 max-w-3xl text-[clamp(2.6rem,4.8vw,5rem)] font-extrabold leading-[0.97] tracking-[-0.055em] text-ink">
+              <h2
+                className={`mt-6 max-w-3xl font-extrabold leading-[0.97] tracking-[-0.055em] text-ink ${
+                  isWorkshopsPage
+                    ? "text-[clamp(2.5rem,4.25vw,4.65rem)]"
+                    : "text-[clamp(2.6rem,4.8vw,5rem)]"
+                }`}
+              >
                 {t(`formatPages.${formatKey}.content.title`)}
               </h2>
 
@@ -399,38 +432,90 @@ export default function CreativeFormatPage({ formatKey }) {
               </div>
             </div>
 
-            <div className={`rounded-[2rem] p-5 sm:rounded-[2.75rem] sm:p-8 ${config.softBackground}`}>
-              <p className={`text-xs font-extrabold uppercase tracking-[0.17em] ${config.accentText}`}>
-                {t(`formatPages.${formatKey}.content.listTitle`)}
-              </p>
+            <div
+              className={`relative overflow-hidden rounded-[2rem] p-5 sm:rounded-[2.5rem] sm:p-7 ${
+                isWorkshopsPage
+                  ? "border border-accent-cyan/15 bg-gradient-to-br from-surface-aqua via-[#f9ffff] to-surface-lilac shadow-[0_20px_60px_rgba(31,173,180,0.12)]"
+                  : config.softBackground
+              }`}
+            >
+              {isWorkshopsPage && (
+                <div
+                  className="pointer-events-none absolute -right-14 -top-14 size-40 rounded-full border-[28px] border-white/55"
+                  aria-hidden="true"
+                />
+              )}
 
-              <ol className="mt-5 grid gap-3">
-                {Array.isArray(steps) &&
-                  steps.map((step, index) => (
-                    <li
-                      key={step.title}
-                      className="grid grid-cols-[44px_minmax(0,1fr)] gap-4 rounded-[1.35rem] border border-white/90 bg-white/80 p-4 shadow-[0_10px_32px_rgba(51,39,73,0.06)] sm:p-5"
-                    >
-                      <span
-                        className={`flex size-11 items-center justify-center rounded-full text-[10px] font-extrabold tracking-[0.12em] text-white ${config.accentBackground}`}
+              <div className="relative">
+                <p
+                  className={`text-xs font-extrabold uppercase tracking-[0.17em] ${config.accentText}`}
+                >
+                  {t(`formatPages.${formatKey}.content.listTitle`)}
+                </p>
+
+                <ol className="mt-5 grid gap-3">
+                  {Array.isArray(steps) &&
+                    steps.map((step, index) => (
+                      <li
+                        key={step.title}
+                        className={`grid grid-cols-[44px_minmax(0,1fr)] gap-4 rounded-[1.35rem] border border-white/90 bg-white/85 p-4 shadow-[0_10px_32px_rgba(51,39,73,0.06)] sm:grid-cols-[48px_minmax(0,1fr)] sm:p-5 ${
+                          isWorkshopsPage
+                            ? "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(51,39,73,0.1)]"
+                            : ""
+                        }`}
                       >
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-                      <span>
-                        <span className="block text-sm font-extrabold leading-6 text-ink sm:text-base">
-                          {step.title}
+                        <span
+                          className={`flex size-11 items-center justify-center rounded-full text-[10px] font-extrabold tracking-[0.12em] text-white shadow-[0_8px_20px_rgba(31,173,180,0.2)] sm:size-12 ${config.accentBackground}`}
+                        >
+                          {String(index + 1).padStart(2, "0")}
                         </span>
-                        <span className="mt-1 block text-xs leading-5 text-muted sm:text-sm sm:leading-6">
-                          {step.description}
+                        <span>
+                          <span className="block text-sm font-extrabold leading-6 text-ink sm:text-base">
+                            {step.title}
+                          </span>
+                          <span className="mt-1 block text-xs leading-5 text-muted sm:text-sm sm:leading-6">
+                            {step.description}
+                          </span>
                         </span>
-                      </span>
-                    </li>
-                  ))}
-              </ol>
+                      </li>
+                    ))}
+                </ol>
 
-              <p className="mt-5 border-l-2 border-current/15 pl-4 text-sm font-bold leading-7 text-ink">
-                {t(`formatPages.${formatKey}.content.note`)}
-              </p>
+                {isWorkshopsPage ? (
+                  <a
+                    href={instagramUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group mt-5 flex min-h-14 w-full items-center justify-between gap-4 rounded-[1.25rem] bg-gradient-to-r from-brand via-[#7a43e4] to-accent-pink px-5 py-3 text-sm font-extrabold leading-5 text-white shadow-[0_14px_32px_rgba(108,56,216,0.24)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_40px_rgba(108,56,216,0.32)] sm:px-6"
+                  >
+                    <span>
+                      {t("formatPages.workshops.content.instagramCta")}
+                    </span>
+                    <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-white/16 ring-1 ring-white/25">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        className="size-4"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <rect x="3" y="3" width="18" height="18" rx="5" />
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M17.5 6.5h.01" />
+                      </svg>
+                    </span>
+                  </a>
+                ) : (
+                  contentNote && (
+                    <p className="mt-5 border-l-2 border-current/15 pl-4 text-sm font-bold leading-7 text-ink">
+                      {contentNote}
+                    </p>
+                  )
+                )}
+              </div>
             </div>
           </div>
 
