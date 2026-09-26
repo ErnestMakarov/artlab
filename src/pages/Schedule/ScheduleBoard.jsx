@@ -187,48 +187,57 @@ const lessonGridStyles = {
 function LessonCard({ lesson, t }) {
   const style = categoryStyles[lesson.category];
   const title = t(`board.classes.${lesson.title}`);
+  const day = t(`board.days.${lesson.day}`);
+  const time = lesson.time ?? t("board.byAgreement");
+  const interest = lesson.category === "individual" ? "individual" : "group";
 
   return (
-    <li
-      className={`relative min-h-36 overflow-hidden rounded-[1.4rem] border border-white/90 bg-gradient-to-br p-5 shadow-[0_12px_35px_rgba(51,39,73,0.055)] ${style.surface}`}
-    >
-      <span
-        className={`absolute right-5 top-5 size-2.5 rounded-full ring-4 ring-white/65 ${style.accent}`}
-        aria-hidden="true"
-      />
+    <li className="min-w-0">
+      <Link
+        to={`/contacts?interest=${interest}#booking`}
+        aria-label={t("board.bookAria", { title, day, time })}
+        className={`group relative flex min-h-36 h-full overflow-hidden rounded-[1.4rem] border border-white/90 bg-gradient-to-br p-5 shadow-[0_12px_35px_rgba(51,39,73,0.055)] transition-all duration-200 hover:-translate-y-1 hover:border-brand/15 hover:shadow-[0_18px_45px_rgba(51,39,73,0.11)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand/20 ${style.surface}`}
+      >
+        <span
+          className={`absolute right-4 top-4 flex size-9 items-center justify-center rounded-full bg-white/90 text-base font-bold shadow-[0_7px_20px_rgba(51,39,73,0.07)] transition-transform duration-200 group-hover:translate-x-0.5 ${style.text}`}
+          aria-hidden="true"
+        >
+          →
+        </span>
 
-      <div className="flex h-full flex-col justify-between gap-7">
-        <div>
-          <p
-            className={`pr-7 text-[9px] font-extrabold uppercase tracking-[0.15em] sm:text-[10px] ${style.text}`}
-          >
-            {t(`board.filters.${lesson.category}`)}
-          </p>
-
-          <h3 className="mt-3 max-w-[17rem] text-lg font-extrabold leading-[1.18] tracking-[-0.03em] text-ink">
-            {title}
-          </h3>
-        </div>
-
-        <div className="flex items-end justify-between gap-4">
-          <p className={`text-xl font-extrabold tracking-[-0.035em] ${style.text}`}>
-            {lesson.time ?? t("board.byAgreement")}
-          </p>
-
-          {lesson.age ? (
-            <span
-              className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-extrabold text-ink shadow-[0_6px_18px_rgba(51,39,73,0.06)]"
-              aria-label={t("board.ageAria", { age: lesson.age })}
+        <div className="flex w-full flex-col justify-between gap-7">
+          <div>
+            <p
+              className={`pr-11 text-[9px] font-extrabold uppercase tracking-[0.15em] sm:text-[10px] ${style.text}`}
             >
-              {lesson.age}
-            </span>
-          ) : (
-            <span className="text-right text-[10px] font-bold leading-4 text-muted">
-              {t("board.flexible")}
-            </span>
-          )}
+              {t(`board.filters.${lesson.category}`)}
+            </p>
+
+            <h3 className="mt-3 max-w-[17rem] text-lg font-extrabold leading-[1.18] tracking-[-0.03em] text-ink">
+              {title}
+            </h3>
+          </div>
+
+          <div className="flex items-end justify-between gap-4">
+            <p className={`text-xl font-extrabold tracking-[-0.035em] ${style.text}`}>
+              {time}
+            </p>
+
+            {lesson.age ? (
+              <span
+                className="rounded-full bg-white/90 px-3 py-1.5 text-xs font-extrabold text-ink shadow-[0_6px_18px_rgba(51,39,73,0.06)]"
+                aria-label={t("board.ageAria", { age: lesson.age })}
+              >
+                {lesson.age}
+              </span>
+            ) : (
+              <span className="text-right text-[10px] font-bold leading-4 text-muted">
+                {t("board.flexible")}
+              </span>
+            )}
+          </div>
         </div>
-      </div>
+      </Link>
     </li>
   );
 }

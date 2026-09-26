@@ -23,21 +23,41 @@
     "swipeHint": "Kogu meeskonnaga tutvumiseks libista →",
     "listAria": "ART Labi loovstuudio õpetajad",
     "cardLabel": "Õpetaja",
+    "showBiography": "Loe õpetaja kohta lähemalt",
+    "hideBiography": "Peida tutvustus",
+    "biographyLabel": "Õpetajast",
     "members": {
       "marina": {
-        "name": "Marina",
-        "role": "Stuudio juht • Õpetaja",
-        "imageAlt": "Õpetaja Marina ART Labi loovstuudios"
+        "name": "Marina Volodina",
+        "role": "ART Labi loovstuudio asutaja ja juht",
+        "imageAlt": "Marina Volodina, ART Labi loovstuudio asutaja ja juht",
+        "biography": [
+          "Minu teekond kunstis algas kunstikoolis. Hiljem valisin suuna, kus kohtuvad teadus ja hing: kaks kõrgharidust, magistrikraad psühholoogias ning nüüd ka lastele maalimise õpetamise metoodika. Minu jaoks ei ole see juhuslik diplomite kogum, vaid võimalus olla õpetaja, kes oskab kuulata.",
+          "Iga laps tuleb oma iseloomu, oma tempo ja väikeste hirmudega tühja lehe ees. Mõnele piisab ühest toetavast sõnast, teine vajab aega, et värvidega harjuda. Olen kõrval: selgitan, näitan, lasen ise proovida ja rõõmustan kindlasti selle hetke üle, kui laps leiab oma lahenduse.",
+          "ART Lab kasvas välja unistusest luua ruum, kus saab lihtsalt olla iseendana. Stuudio sündis keerulisel ajal ja võib-olla just seetõttu on mulle nii oluline, et siin oleks soe ja rahulik. Et saaks unustada sõnad „peab” ja „õige”, süveneda protsessi ning avastada endas midagi uut.",
+          "Jätkan õppimist, et anda õpilastele edasi mitte ainult võtteid, vaid ka aluseid: kuidas näha vormi, värvi, valgust ja kompositsiooni. Veelgi tähtsam on mulle, et iga laps lahkuks tundega: „Mind kuulati. Minu ideed on olulised. Ma saan hakkama.”"
+        ]
       },
       "ekaterina": {
         "name": "Jekaterina",
-        "role": "ART Labi õpetaja",
-        "imageAlt": "Õpetaja Jekaterina maalib ART Labi loovstuudios"
+        "role": "Kujutava kunsti õpetaja",
+        "imageAlt": "Kujutava kunsti õpetaja Jekaterina ART Labi loovstuudios",
+        "biography": [
+          "Olen hariduselt kunstnik-pedagoog. Olen aastaid õpetanud koolis kujutavat kunsti ja tegelen jätkuvalt ka enda loominguga. Mulle on kõige lähedasem maalikunst, kuid töötan ka liikumise, heli ja teiste kunstivormidega.",
+          "Tundides on mulle oluline aidata inimesel õppida nägema: märkama värvi, vormi, valgust ja meeleolu, mida ta soovib oma töös edasi anda. Selgitan kunstilisi võtteid ning toetan õpilasi, kui nad proovivad uut ja otsivad oma lahendust.",
+          "Oma loomingulises praktikas uurin, kuidas liikumine ja heli mõjutavad meie taju. See tuletab mulle meelde, et kunstis on alati ruumi avastustele. Soovin, et ka õpilased tunneksid seda vabadust, naudiksid protsessi ja leiaksid samm-sammult oma kunstilise keele."
+        ]
       },
       "elena": {
-        "name": "Marina",
-        "role": "ART Labi õpetaja",
-        "imageAlt": "Õpetaja Marina ART Labi loovstuudios"
+        "name": "Marina Zaboronok",
+        "role": "Kujutava kunsti ja käsitöö õpetaja",
+        "imageAlt": "Kujutava kunsti ja käsitöö õpetaja Marina Zaboronok ART Labi loovstuudios",
+        "biography": [
+          "Olen hariduselt kunstnik-kujundaja ja käsitöömeister. Olen aastaid töötanud erinevate materjalide ja tehnikatega, loonud asju oma kätega ning viinud läbi laste loovtunde. Mulle meeldib seda kogemust jagada ja näidata, kui palju huvitavat saab luua kõige lihtsamatest materjalidest.",
+          "Tundides tutvustan lastele joonistamist ja käsitööd, selgitan iga etappi ning aitan neil oma ideid ellu viia. Minu jaoks on oluline, et laps ei kardaks proovida, õpiks töötama hoolikalt, märkama detaile ja muutuks samm-sammult iseseisvamaks. Seetõttu valmib ka ühise teema puhul igaühel oma eriline töö.",
+          "Mulle meeldib rahulik ja sõbralik õhkkond, kus lastel on mugav küsimusi esitada ja katsetada. Mul on hea meel, kui laps süveneb protsessi, leiab ootamatu lahenduse ning näitab uhkusega seda, mida ta oma kätega valmistas.",
+          "Inspiratsiooni leian loodusest, lilledest, aiatööst ja rattasõitudest. Soovin anda lastele oskuse märgata enda ümber ilu ning muuta oma tähelepanekud ja fantaasiad joonistusteks ja esemeteks. Samuti tahan neile anda selle erilise tunde pärast tundi: „Mõtlesin selle ise välja. Sain hakkama!”"
+        ]
       }
     }
   },

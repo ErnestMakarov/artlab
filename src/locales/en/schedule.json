@@ -54,6 +54,7 @@
     "byAgreement": "By arrangement",
     "flexible": "We choose the time together",
     "ageAria": "Age group {{age}}",
+    "bookAria": "Book: {{title}}, {{day}}, {{time}}",
     "showing": "Classes shown: {{count}}"
   },
   "notice": {

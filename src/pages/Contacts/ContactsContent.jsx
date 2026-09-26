@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import Container from "../../components/ui/Container.jsx";
@@ -121,7 +121,12 @@ function ContactIcon({ type }) {
 export default function ContactsContent() {
   const formRef = useRef(null);
   const [status, setStatus] = useState("idle");
+  const [searchParams] = useSearchParams();
   const { t, i18n } = useTranslation("contacts");
+  const requestedInterest = searchParams.get("interest");
+  const initialInterest = interestOptions.includes(requestedInterest)
+    ? requestedInterest
+    : null;
 
   const facebookUrl = import.meta.env.VITE_FACEBOOK_URL?.trim() || "";
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID?.trim() || "";
@@ -361,6 +366,7 @@ export default function ContactsContent() {
                         type="radio"
                         name="interest"
                         value={t(`form.fields.interest.options.${option}`)}
+                        defaultChecked={option === initialInterest}
                         required={index === 0}
                         className="peer sr-only"
                       />

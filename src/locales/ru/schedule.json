@@ -54,6 +54,7 @@
     "byAgreement": "По договорённости",
     "flexible": "Время подбираем вместе",
     "ageAria": "Возрастная группа {{age}}",
+    "bookAria": "Записаться: {{title}}, {{day}}, {{time}}",
     "showing": "Показано занятий: {{count}}"
   },
   "notice": {

@@ -23,21 +23,41 @@
     "swipeHint": "Swipe to meet the whole team →",
     "listAria": "Teachers at the ART Lab creative studio",
     "cardLabel": "Teacher",
+    "showBiography": "More about the teacher",
+    "hideBiography": "Hide details",
+    "biographyLabel": "About the teacher",
     "members": {
       "marina": {
-        "name": "Marina",
-        "role": "Studio Director • Teacher",
-        "imageAlt": "Marina, a teacher at the ART Lab creative studio"
+        "name": "Marina Volodina",
+        "role": "Founder and Director of the ART Lab creative studio",
+        "imageAlt": "Marina Volodina, founder and director of the ART Lab creative studio",
+        "biography": [
+          "My journey in art began at art school. Later, I chose a path where science and the heart meet: two university degrees, a master's degree in psychology, and now methods for teaching painting to children. To me, these are not simply a collection of qualifications, but a way to become a teacher who truly knows how to listen.",
+          "Every child arrives with their own personality, their own pace and their own small fears of the blank page. For some, one encouraging word is enough; others need time simply to become comfortable with paint. I am there to explain, demonstrate and let them try for themselves — and to celebrate the moment when a child finds their own solution.",
+          "ART Lab grew from a dream of creating a space where everyone can simply be themselves. The studio was founded during a difficult time, which may be why it matters so much to me that it feels warm and calm. A place to forget about what one ‘must’ do and what is ‘correct’, become absorbed in the process and discover something new within oneself.",
+          "I continue to study so that I can give students more than individual techniques — I want to give them a foundation for seeing form, colour, light and composition. Even more importantly, I want every child to leave feeling: ‘I was heard. My ideas matter. I can do this.’"
+        ]
       },
       "ekaterina": {
         "name": "Ekaterina",
-        "role": "ART Lab teacher",
-        "imageAlt": "Ekaterina painting at the ART Lab creative studio"
+        "role": "Visual Arts Teacher",
+        "imageAlt": "Visual arts teacher Ekaterina at the ART Lab creative studio",
+        "biography": [
+          "I trained as an artist and art educator. I taught visual arts at school for many years and continue to pursue my own creative practice. Painting is closest to me, but I also work with movement, sound and other forms of art.",
+          "In class, it is important to me to help each person learn to see: to notice colour, form, light and the mood they want to convey in their work. I explain artistic techniques and support students as they try something new and search for their own solution.",
+          "In my own practice, I explore how movement and sound influence our perception. It reminds me that art always leaves room for discovery. I want students to feel that same freedom, enjoy the process and gradually find their own artistic language."
+        ]
       },
       "elena": {
-        "name": "Marina",
-        "role": "ART Lab teacher",
-        "imageAlt": "Marina, a teacher at the ART Lab creative studio"
+        "name": "Marina Zaboronok",
+        "role": "Visual Arts and Handicrafts Teacher",
+        "imageAlt": "Visual arts and handicrafts teacher Marina Zaboronok at the ART Lab creative studio",
+        "biography": [
+          "I trained as a decorative artist and am also a skilled craft maker. For many years, I have worked with different materials and techniques, created things by hand and led creative classes for children. I enjoy sharing this experience and showing just how many interesting things can be made from the simplest materials.",
+          "In class, I introduce children to drawing and handicrafts, explain every stage and help them bring their own ideas to life. It is important to me that children are not afraid to try, learn to work carefully, notice details and gradually become more independent. That is why, even when everyone shares the same theme, each child creates a unique piece of their own.",
+          "I value a calm and friendly atmosphere where children feel comfortable asking questions and experimenting. I love seeing a child become absorbed in the process, discover an unexpected solution and proudly show what they have made with their own hands.",
+          "I find inspiration in nature, flowers, gardening and bicycle rides. I want to help children notice the beauty around them and turn their observations and imagination into drawings and handmade pieces. I also want them to leave class with that special feeling: ‘I came up with this myself. I did it!’"
+        ]
       }
     }
   },

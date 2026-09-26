@@ -54,6 +54,7 @@
     "byAgreement": "Kokkuleppel",
     "flexible": "Aja valime koos",
     "ageAria": "Vanuserühm {{age}}",
+    "bookAria": "Registreeru: {{title}}, {{day}}, {{time}}",
     "showing": "Kuvatud tunde: {{count}}"
   },
   "notice": {
