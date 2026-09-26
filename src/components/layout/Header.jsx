@@ -130,23 +130,44 @@ function LanguageSwitcher({ className = "" }) {
 }
 
 function DesktopDirectionsMenu({ pathname, t }) {
+  const [isOpen, setIsOpen] = useState(false);
   const isActive = isDirectionsPath(pathname);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
+  function handleBlur(event) {
+    if (!event.currentTarget.contains(event.relatedTarget)) {
+      setIsOpen(false);
+    }
+  }
+
   return (
-    <div className="group/directions relative flex items-center">
+    <div
+      className="relative flex items-center"
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+      onFocus={() => setIsOpen(true)}
+      onBlur={handleBlur}
+    >
       <NavLink
         to="/directions"
         className={({ isActive: isMainPage }) =>
           desktopLinkClass({ isActive: isMainPage || isActive })
         }
         aria-haspopup="true"
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen(false)}
       >
         <span className="inline-flex items-center gap-1.5">
           {t("navigation.directions")}
           <svg
             viewBox="0 0 12 12"
             fill="none"
-            className="size-3 transition-transform duration-200 group-hover/directions:rotate-180 group-focus-within/directions:rotate-180"
+            className={`size-3 transition-transform duration-200 ${
+              isOpen ? "rotate-180" : ""
+            }`}
             stroke="currentColor"
             strokeWidth="1.8"
             strokeLinecap="round"
@@ -158,7 +179,13 @@ function DesktopDirectionsMenu({ pathname, t }) {
         </span>
       </NavLink>
 
-      <div className="invisible absolute left-1/2 top-full w-[430px] -translate-x-1/2 translate-y-2 pt-5 opacity-0 transition-[opacity,transform,visibility] duration-200 group-hover/directions:visible group-hover/directions:translate-y-0 group-hover/directions:opacity-100 group-focus-within/directions:visible group-focus-within/directions:translate-y-0 group-focus-within/directions:opacity-100">
+      <div
+        className={`absolute left-1/2 top-full w-[430px] -translate-x-1/2 pt-5 transition-[opacity,transform,visibility] duration-200 ${
+          isOpen
+            ? "visible translate-y-0 opacity-100"
+            : "invisible translate-y-2 opacity-0"
+        }`}
+      >
         <div className="overflow-hidden rounded-[1.75rem] border border-white/90 bg-white/95 p-3 shadow-[0_24px_70px_rgba(51,39,73,0.16)] backdrop-blur-2xl">
           <div className="flex items-center justify-between px-3 pb-3 pt-2">
             <p className="text-[10px] font-extrabold uppercase tracking-[0.19em] text-muted">
@@ -176,6 +203,7 @@ function DesktopDirectionsMenu({ pathname, t }) {
                 <NavLink
                   key={item.to}
                   to={item.to}
+                  onClick={() => setIsOpen(false)}
                   className={`group/item grid grid-cols-[42px_minmax(0,1fr)_24px] items-center gap-3 rounded-[1.15rem] border px-3 py-3 transition-all duration-200 ${
                     itemIsActive
                       ? "border-brand/20 bg-surface-lilac"
@@ -218,8 +246,8 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
   const isActive = isDirectionsPath(pathname);
 
   useEffect(() => {
-    setIsOpen(isActive);
-  }, [isActive, pathname]);
+    setIsOpen(false);
+  }, [pathname]);
 
   return (
     <div className="border-b border-line/80">
@@ -284,6 +312,7 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
                 <NavLink
                   key={item.to}
                   to={item.to}
+                  onClick={() => setIsOpen(false)}
                   tabIndex={isMenuOpen && isOpen ? 0 : -1}
                   className={`grid grid-cols-[38px_minmax(0,1fr)_20px] items-center gap-3 rounded-[1rem] px-3 py-3 transition-colors ${
                     itemIsActive ? "bg-surface-lilac" : "hover:bg-white"

@@ -238,19 +238,19 @@
         "title": "A celebration made by hand.",
         "description": "We combine a special day with a creative workshop, so guests leave with more than photographs — they take home work of their own.",
         "imageAlt": "A creative birthday party at ART Lab",
-        "tags": [
-          "Children and adults",
-          "Tailored to your group",
-          "At the studio or your venue"
-        ]
+      "tags": [
+        "Children and adults",
+        "Up to 13 guests in the studio",
+        "At the studio or your venue"
+      ]
       },
       "content": {
         "eyebrow": "Your format",
         "title": "An occasion with your group's personality.",
-        "paragraphs": [
-          "We choose a workshop based on the participants' ages, interests and group size. The studio prepares all materials and leads the creative part of the event.",
-          "After the workshop, guests can continue spending time together over tea. An off-site event at your venue can also be discussed."
-        ],
+      "paragraphs": [
+        "We choose a workshop based on the participants' ages, interests and group size. The studio comfortably accommodates up to 13 people. ART Lab prepares all necessary materials.",
+        "After the workshop, guests can continue spending time together over tea. An off-site event at your venue can also be discussed."
+      ],
         "listTitle": "How to plan your celebration",
         "steps": [
           {
@@ -305,6 +305,61 @@
           "Teacher support"
         ]
       },
+      "announcement": {
+        "eyebrow": "Upcoming camp",
+        "status": "Registration is open",
+        "title": "Autumn ART CAMP",
+        "description": "Five full days of creativity, new experiences and time together during the school holidays.",
+        "facts": [
+          {
+            "label": "Dates",
+            "value": "26–30 October"
+          },
+          {
+            "label": "Age",
+            "value": "7+"
+          },
+          {
+            "label": "Time",
+            "value": "9:00–16:00"
+          }
+        ],
+        "location": "Peterburi tee 46, office 417, Tallinn",
+        "programme": {
+          "eyebrow": "Camp programme",
+          "title": "What is included",
+          "items": [
+            "Creative workshops every day",
+            "Tote bag painting and a creative photo frame",
+            "Chocolate doughnuts with berries",
+            "Make your own candle and badge",
+            "Chess with a coach",
+            "A visit to the PROTO Discovery Factory",
+            "Playful Estonian language activities every day",
+            "Lunch and a fruit snack"
+          ]
+        },
+        "formats": {
+          "eyebrow": "Flexible participation",
+          "title": "Choose the right format",
+          "description": "There is no need to book the entire programme — choose an option that suits your child's schedule.",
+          "items": [
+            {
+              "title": "Full camp week",
+              "description": "All five days from 9:00 to 16:00 with the complete camp programme."
+            },
+            {
+              "title": "Individual days",
+              "description": "One or several selected days with the complete daily programme."
+            },
+            {
+              "title": "Workshops only",
+              "description": "Join only the creative session without attending the full camp day."
+            }
+          ]
+        },
+        "cta": "Book the art camp"
+      },
       "content": {
         "eyebrow": "Creative holidays",
         "title": "More than filling time — make it meaningful.",
@@ -327,7 +382,7 @@
             "description": "Every programme has its own theme and set of creative challenges."
           }
         ],
-        "note": "Participant ages, dates, duration and price are announced separately for each programme."
+        "note": "Availability, selected participation days and the final price are confirmed when booking."
       },
       "features": [
         {
@@ -344,10 +399,10 @@
         }
       ],
       "cta": {
-        "eyebrow": "Upcoming programme",
-        "title": "Be among the first to hear about the next camp.",
-        "description": "Leave your details and we will share dates, participant ages, the programme and conditions when registration opens.",
-        "button": "Ask about the next camp"
+        "eyebrow": "Registration is open",
+        "title": "Choose your format and join the camp.",
+        "description": "Send an enquiry and we will confirm availability, participation days and the most suitable format.",
+        "button": "Book the art camp"
       }
     }
   }

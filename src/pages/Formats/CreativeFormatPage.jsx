@@ -152,6 +152,189 @@ function WorkshopsShowcase({ t }) {
   );
 }
 
+function CampAnnouncement({ t }) {
+  const facts = t("formatPages.camp.announcement.facts", {
+    returnObjects: true,
+  });
+  const programme = t("formatPages.camp.announcement.programme.items", {
+    returnObjects: true,
+  });
+  const participationFormats = t(
+    "formatPages.camp.announcement.formats.items",
+    { returnObjects: true },
+  );
+  const formatStyles = [
+    "border-[#f6c979] bg-[#fff8e9]",
+    "border-brand/15 bg-surface-lilac",
+    "border-accent-pink/15 bg-surface-pink",
+  ];
+
+  return (
+    <section
+      className="relative isolate overflow-hidden bg-gradient-to-b from-[#fffaf4] via-white to-surface-lilac/35 py-20 sm:py-24 lg:py-28"
+      aria-labelledby="camp-announcement-title"
+    >
+      <div
+        className="pointer-events-none absolute -left-24 top-20 size-72 rounded-full bg-[#ffb451]/12 blur-3xl"
+        aria-hidden="true"
+      />
+      <div
+        className="pointer-events-none absolute -right-28 bottom-0 size-80 rounded-full bg-brand/8 blur-3xl"
+        aria-hidden="true"
+      />
+
+      <Container className="relative">
+        <div className="relative isolate overflow-hidden rounded-[2rem] border border-white/90 bg-white/88 p-5 shadow-[0_26px_85px_rgba(51,39,73,0.11)] backdrop-blur-xl sm:rounded-[2.75rem] sm:p-8 lg:p-11 xl:p-12">
+          <div
+            className="pointer-events-none absolute -right-16 -top-20 size-64 rounded-full border-[42px] border-[#ffb451]/10"
+            aria-hidden="true"
+          />
+
+          <div className="relative grid gap-9 lg:grid-cols-[minmax(0,0.82fr)_minmax(440px,1.18fr)] lg:items-start lg:gap-12 xl:gap-16">
+            <div>
+              <div className="flex flex-wrap items-center gap-3">
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#d96f24] sm:text-xs">
+                  {t("formatPages.camp.announcement.eyebrow")}
+                </p>
+                <span className="rounded-full bg-[#e9f8ef] px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.13em] text-[#257453] sm:text-[11px]">
+                  {t("formatPages.camp.announcement.status")}
+                </span>
+              </div>
+
+              <h2
+                id="camp-announcement-title"
+                className="mt-5 max-w-3xl text-[clamp(2.65rem,5vw,5.2rem)] font-extrabold leading-[0.94] tracking-[-0.06em] text-ink"
+              >
+                {t("formatPages.camp.announcement.title")}
+              </h2>
+
+              <p className="mt-6 max-w-xl text-base leading-8 text-muted sm:text-lg sm:leading-9">
+                {t("formatPages.camp.announcement.description")}
+              </p>
+
+              <ul className="mt-7 grid gap-2 sm:grid-cols-3 sm:gap-3">
+                {Array.isArray(facts) &&
+                  facts.map((fact) => (
+                    <li
+                      key={fact.label}
+                      className="rounded-[1.25rem] border border-[#f1e7dc] bg-[#fffaf5] px-3 py-4 sm:px-4 sm:py-5"
+                    >
+                      <span className="block text-[9px] font-extrabold uppercase tracking-[0.13em] text-muted sm:text-[10px]">
+                        {fact.label}
+                      </span>
+                      <span className="mt-1.5 block text-sm font-extrabold leading-5 text-ink sm:text-base sm:leading-6">
+                        {fact.value}
+                      </span>
+                    </li>
+                  ))}
+              </ul>
+
+              <p className="mt-6 flex items-start gap-3 text-sm font-bold leading-6 text-ink">
+                <span
+                  className="flex size-9 shrink-0 items-center justify-center rounded-full bg-surface-lilac text-brand"
+                  aria-hidden="true"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    className="size-4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" />
+                    <circle cx="12" cy="10" r="2.5" />
+                  </svg>
+                </span>
+                <span className="pt-1.5">
+                  {t("formatPages.camp.announcement.location")}
+                </span>
+              </p>
+
+              <Link
+                to="/contacts#booking"
+                className="group mt-7 inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-center text-sm font-extrabold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover sm:w-auto"
+              >
+                {t("formatPages.camp.announcement.cta")}
+                <span
+                  className="transition-transform duration-200 group-hover:translate-x-1"
+                  aria-hidden="true"
+                >
+                  →
+                </span>
+              </Link>
+            </div>
+
+            <div className="rounded-[1.75rem] border border-white bg-gradient-to-br from-surface-lilac via-white to-surface-aqua p-5 shadow-[0_18px_55px_rgba(51,39,73,0.08)] sm:rounded-[2.25rem] sm:p-7 lg:p-8">
+              <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-brand sm:text-xs">
+                {t("formatPages.camp.announcement.programme.eyebrow")}
+              </p>
+              <h3 className="mt-3 text-2xl font-extrabold tracking-[-0.04em] text-ink sm:text-3xl">
+                {t("formatPages.camp.announcement.programme.title")}
+              </h3>
+
+              <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                {Array.isArray(programme) &&
+                  programme.map((item) => (
+                    <li
+                      key={item}
+                      className="flex min-h-16 items-start gap-3 rounded-[1.15rem] border border-white/90 bg-white/80 p-4 text-sm font-bold leading-6 text-ink shadow-[0_8px_24px_rgba(51,39,73,0.05)]"
+                    >
+                      <span
+                        className="mt-1 flex size-5 shrink-0 items-center justify-center rounded-full bg-accent-cyan text-[11px] text-white"
+                        aria-hidden="true"
+                      >
+                        ✓
+                      </span>
+                      {item}
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="relative mt-10 border-t border-line/80 pt-8 sm:mt-12 sm:pt-10">
+            <div className="grid gap-3 lg:grid-cols-[minmax(0,0.72fr)_minmax(520px,1.28fr)] lg:items-end lg:gap-12">
+              <div>
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-accent-pink sm:text-xs">
+                  {t("formatPages.camp.announcement.formats.eyebrow")}
+                </p>
+                <h3 className="mt-3 text-2xl font-extrabold tracking-[-0.04em] text-ink sm:text-3xl">
+                  {t("formatPages.camp.announcement.formats.title")}
+                </h3>
+              </div>
+              <p className="max-w-2xl text-sm leading-7 text-muted sm:text-base">
+                {t("formatPages.camp.announcement.formats.description")}
+              </p>
+            </div>
+
+            <ul className="mt-6 grid gap-3 md:grid-cols-3">
+              {Array.isArray(participationFormats) &&
+                participationFormats.map((item, index) => (
+                  <li
+                    key={item.title}
+                    className={`rounded-[1.5rem] border p-5 sm:p-6 ${formatStyles[index]}`}
+                  >
+                    <span className="text-[10px] font-extrabold tracking-[0.15em] text-brand">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <h4 className="mt-5 text-xl font-extrabold tracking-[-0.035em] text-ink sm:text-2xl">
+                      {item.title}
+                    </h4>
+                    <p className="mt-2 text-sm leading-7 text-muted">
+                      {item.description}
+                    </p>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
 export default function CreativeFormatPage({ formatKey }) {
   const { t } = useTranslation("directions");
   const config = pageConfig[formatKey];
@@ -182,6 +365,8 @@ export default function CreativeFormatPage({ formatKey }) {
       >
         <HeroVisual formatKey={formatKey} config={config} t={t} />
       </InnerPageHero>
+
+      {formatKey === "camp" && <CampAnnouncement t={t} />}
 
       <section className="bg-white py-20 sm:py-24 lg:py-28">
         <Container>

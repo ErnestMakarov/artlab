@@ -238,19 +238,19 @@
         "title": "Pidu, mille loote oma kätega.",
         "description": "Ühendame tähtsa päeva loomingulise meistriklassiga, et külalistele jääksid lisaks fotodele ka nende endi valmistatud tööd.",
         "imageAlt": "Loominguline sünnipäev ART Labi stuudios",
-        "tags": [
-          "Lastele ja täiskasvanutele",
-          "Programm teie seltskonnale",
-          "Stuudios või teie asukohas"
-        ]
+      "tags": [
+        "Lastele ja täiskasvanutele",
+        "Stuudios kuni 13 osalejat",
+        "Stuudios või teie asukohas"
+      ]
       },
       "content": {
         "eyebrow": "Teie formaat",
         "title": "Teie seltskonna näoga sündmus.",
-        "paragraphs": [
-          "Valime peoks meistriklassi osalejate vanuse, huvide ja arvu järgi. Stuudio valmistab ette kõik materjalid ning juhib loomingulist osa.",
-          "Pärast meistriklassi saab koosolemist jätkata teejoomisega. Arutada saab ka väljasõiduformaati teie asukohas."
-        ],
+      "paragraphs": [
+        "Valime peoks meistriklassi osalejate vanuse, huvide ja arvu järgi. Stuudios saab mugavalt osaleda kuni 13 inimest. Kõik vajalikud materjalid valmistab ette ART Lab.",
+        "Pärast meistriklassi saab koosolemist jätkata teejoomisega. Arutada saab ka väljasõiduformaati teie asukohas."
+      ],
         "listTitle": "Kuidas pidu ette valmistada",
         "steps": [
           {
@@ -305,6 +305,61 @@
           "Õpetaja tugi"
         ]
       },
+      "announcement": {
+        "eyebrow": "Lähim laager",
+        "status": "Registreerimine on avatud",
+        "title": "Sügisene ART CAMP",
+        "description": "Viis sisukat päeva täis loomingut, uusi elamusi ja suhtlemist koolivaheajal.",
+        "facts": [
+          {
+            "label": "Kuupäevad",
+            "value": "26.–30. oktoobril"
+          },
+          {
+            "label": "Vanus",
+            "value": "7+"
+          },
+          {
+            "label": "Kellaaeg",
+            "value": "9.00–16.00"
+          }
+        ],
+        "location": "Peterburi tee 46, büroo 417, Tallinn",
+        "programme": {
+          "eyebrow": "Laagri programm",
+          "title": "Mis laagris toimub",
+          "items": [
+            "Loomingulised töötoad iga päev",
+            "Kandekoti maalimine ja loominguline pildiraam",
+            "Šokolaadisõõrikud marjadega",
+            "Oma küünal ja rinnamärk",
+            "Male koos treeneriga",
+            "Külastus PROTO avastustehasesse",
+            "Eesti keel iga päev mängulises vormis",
+            "Lõunasöök ja puuviljasnäkk"
+          ]
+        },
+        "formats": {
+          "eyebrow": "Paindlik osalemine",
+          "title": "Valige sobiv formaat",
+          "description": "Kogu programmiks ei pea kohe registreeruma — valida saab lapse ajakavaga sobiva variandi.",
+          "items": [
+            {
+              "title": "Terve vahetus",
+              "description": "Kõik viis päeva kell 9.00–16.00 ja kogu laagri programm."
+            },
+            {
+              "title": "Üksikud päevad",
+              "description": "Üks või mitu valitud päeva koos täieliku päevaprogrammiga."
+            },
+            {
+              "title": "Ainult töötoad",
+              "description": "Osalemine ainult loomingulises osas ilma terve laagripäevata."
+            }
+          ]
+        },
+        "cta": "Registreeru laagrisse"
+      },
       "content": {
         "eyebrow": "Loominguline koolivaheaeg",
         "title": "Mitte lihtsalt ajaviide, vaid sisukas kogemus.",
@@ -327,7 +382,7 @@
             "description": "Igal programmil on oma teema ja loomingulised ülesanded."
           }
         ],
-        "note": "Osalejate vanus, kuupäevad, kestus ja hind avaldatakse iga programmi kohta eraldi."
+        "note": "Vabade kohtade olemasolu, valitud osalemispäevad ja lõpliku hinna kinnitame registreerimisel."
       },
       "features": [
         {
@@ -344,10 +399,10 @@
         }
       ],
       "cta": {
-        "eyebrow": "Järgmine programm",
-        "title": "Saa järgmise laagri infost teada esimeste seas.",
-        "description": "Jäta oma kontaktid ja anname registreerimise avanedes teada kuupäevad, osalejate vanuse, programmi ning tingimused.",
-        "button": "Küsi järgmise laagri kohta"
+        "eyebrow": "Registreerimine on avatud",
+        "title": "Valige sobiv formaat ja liituge laagriga.",
+        "description": "Saatke päring — kinnitame vabade kohtade olemasolu, osalemispäevad ja sobiva formaadi.",
+        "button": "Registreeru laagrisse"
       }
     }
   }
