@@ -439,6 +439,7 @@ export default function CreativeFormatPage({ formatKey }) {
   const config = pageConfig[formatKey];
   const isWorkshopsPage = formatKey === "workshops";
   const isCelebrationsPage = formatKey === "celebrations";
+  const isCampPage = formatKey === "camp";
   const hasEnhancedContentCard = isWorkshopsPage || isCelebrationsPage;
   const paragraphs = t(`formatPages.${formatKey}.content.paragraphs`, {
     returnObjects: true,
@@ -693,7 +694,26 @@ export default function CreativeFormatPage({ formatKey }) {
             )}
           </div>
 
-          <ul className="mt-14 grid gap-4 md:grid-cols-3 lg:mt-20">
+          {isCampPage && (
+            <div className="mt-14 max-w-4xl lg:mt-20">
+              <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand sm:text-xs">
+                <span
+                  className="h-0.5 w-8 rounded-full bg-current"
+                  aria-hidden="true"
+                />
+                ART CAMP
+              </p>
+              <h2 className="mt-5 text-balance text-[clamp(2.35rem,4.1vw,4.25rem)] font-extrabold leading-[0.98] tracking-[-0.055em] text-ink">
+                {t("formatPages.camp.featuresTitle")}
+              </h2>
+            </div>
+          )}
+
+          <ul
+            className={`grid gap-4 md:grid-cols-3 ${
+              isCampPage ? "mt-8 lg:mt-10" : "mt-14 lg:mt-20"
+            }`}
+          >
             {Array.isArray(features) &&
               features.map((feature, index) => (
                 <li

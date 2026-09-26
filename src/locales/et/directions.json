@@ -389,40 +389,41 @@
       },
       "content": {
         "eyebrow": "Loominguline koolivaheaeg",
-        "title": "Mitte lihtsalt ajaviide, vaid sisukas kogemus.",
+        "title": "Loominguline koolivaheaeg ART Labis",
         "paragraphs": [
-          "Kunstilaagri programm põhineb loomingul. Osalejad tutvuvad erinevate materjalidega, täidavad temaatilisi ülesandeid ja töötavad mahukamate projektidega.",
-          "Tunnid on selge ülesehitusega, kuid jätavad piisavalt ruumi fantaasiale, iseseisvatele otsustele ja suhtlemisele."
+          "Art Campis on iga päev täis uusi tegevusi ja elamusi. Lapsed tutvuvad erinevate materjalide ja tehnikatega, osalevad töötubades, mängivad ning veedavad koos aega.",
+          "Vaheldame loomingulisi tegevusi puhkuse ja suhtlemisega. Õpetajad aitavad tehnikat omandada, kuid jätavad lastele võimaluse valida värve, mõelda välja detaile ja viia ellu oma ideid."
         ],
         "listTitle": "Mis osalejaid ees ootab",
         "steps": [
           {
             "title": "Erinevad tehnikad",
-            "description": "Üks programm võib tutvustada korraga mitut loomisviisi."
+            "description": "Vahetuse jooksul proovivad lapsed mitut liiki loomingulisi tegevusi ja loovad oma kätega töid."
           },
           {
-            "title": "Isiklikud ja ühised projektid",
-            "description": "Lapsed loovad oma töid ja õpivad teistega koostööd tegema."
+            "title": "Oma ja ühised projektid",
+            "description": "Lapsed töötavad oma ideede kallal ning osalevad ühistes tegevustes."
           },
           {
             "title": "Uued elamused",
-            "description": "Igal programmil on oma teema ja loomingulised ülesanded."
+            "description": "Iga päev toob uusi teemasid, tutvusi ja inspiratsiooni."
           }
         ],
         "note": "Vabade kohtade olemasolu, valitud osalemispäevad ja lõpliku hinna kinnitame registreerimisel."
       },
+      "featuresTitle": "Miks lastele Art Camp meeldib",
       "features": [
         {
           "title": "Looming iga päev",
-          "description": "Ühesuguste ülesannete asemel ühendame tehnikaid, materjale ja tööformaate."
+          "description": "Erinevad materjalid, töötoad ja ülesanded, mida on huvitav proovida."
         },
         {
-          "title": "Ruum oma ideedele",
-          "description": "Õpetaja annab aluse ja toetab, muutmata laste töid ühesugusteks näidisteks."
+          "title": "Vabadus oma ideedele",
+          "description": "Õpetaja selgitab tehnikat ja aitab, kuid laps valib ise, milline tema töö tuleb."
         },
         {
-          "title": "Mõnus õhkkond",
-          "description": "Saab katsetada, küsimusi esitada, suhelda ja töötada endale sobivas tempos."
+          "title": "Soe õhkkond",
+          "description": "Siin saab küsida, suhelda, uut proovida ja oma tulemuste üle rõõmu tunda."
         }
       ],
       "cta": {

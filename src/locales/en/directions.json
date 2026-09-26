@@ -389,40 +389,41 @@
       },
       "content": {
         "eyebrow": "Creative holidays",
-        "title": "More than filling time — make it meaningful.",
+        "title": "Creative school holidays at ART Lab",
         "paragraphs": [
-          "The art camp programme is built around creativity. Participants explore different materials, complete themed activities and work on more substantial projects.",
-          "We keep the activities clear and structured while leaving plenty of room for imagination, independent choices and connection with others."
+          "Every day at Art Camp brings new activities and experiences. Children explore different materials and techniques, take part in workshops, play and spend time together.",
+          "We balance creative activities with breaks and time to connect. Teachers help children learn each technique while leaving them free to choose colours, invent details and bring their own ideas to life."
         ],
         "listTitle": "What participants can expect",
         "steps": [
           {
             "title": "Different techniques",
-            "description": "One programme can introduce several approaches to making art."
+            "description": "During the camp, children try several kinds of creative activities and make their own work by hand."
           },
           {
-            "title": "Personal and shared projects",
-            "description": "Children create individual work and learn to collaborate with others."
+            "title": "Individual and shared projects",
+            "description": "Children develop personal ideas and take part in activities together."
           },
           {
-            "title": "Fresh experiences",
-            "description": "Every programme has its own theme and set of creative challenges."
+            "title": "New experiences",
+            "description": "Every day brings new themes, new connections and fresh inspiration."
           }
         ],
         "note": "Availability, selected participation days and the final price are confirmed when booking."
       },
+      "featuresTitle": "Why children love Art Camp",
       "features": [
         {
           "title": "Creativity every day",
-          "description": "A mix of techniques, materials and ways of working rather than repetitive tasks."
+          "description": "Different materials, workshops and activities that are exciting to try."
         },
         {
-          "title": "Room for personal ideas",
-          "description": "The teacher provides a foundation and support without turning children's work into identical templates."
+          "title": "Freedom for their own ideas",
+          "description": "The teacher explains the technique and helps, while each child decides what their work will become."
         },
         {
-          "title": "A comfortable atmosphere",
-          "description": "Participants can experiment, ask questions, connect and work at a comfortable pace."
+          "title": "A warm atmosphere",
+          "description": "Children can ask questions, connect, try something new and feel proud of what they create."
         }
       ],
       "cta": {
