@@ -17,12 +17,8 @@ export default function HomeAbout() {
       />
 
       <Container className="relative">
-        <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
-          <span
-            className="h-0.5 w-8 rounded-full bg-current"
-            aria-hidden="true"
-          />
-
+        <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
+          <span className="h-0.5 w-8 rounded-full bg-current" aria-hidden="true" />
           {t("about.eyebrow")}
         </p>
 
@@ -71,7 +67,6 @@ export default function HomeAbout() {
               >
                 “
               </span>
-
               <p className="max-w-xl text-lg font-extrabold leading-8 tracking-[-0.02em] text-ink sm:text-xl sm:leading-9">
                 {t("about.statement")}
               </p>

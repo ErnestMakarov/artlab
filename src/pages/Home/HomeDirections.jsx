@@ -55,7 +55,7 @@ export default function HomeDirections() {
       />
 
       <Container className="relative">
-        <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
+        <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
           <span className="h-0.5 w-8 rounded-full bg-current" aria-hidden="true" />
           {t("directions.eyebrow")}
         </p>
@@ -114,7 +114,7 @@ export default function HomeDirections() {
                     </p>
 
                     <span
-                      className={`rounded-full px-3 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.08em] ${direction.text} ${direction.surface}`}
+                      className={`rounded-full px-3.5 py-1.5 text-[11px] font-extrabold uppercase leading-none tracking-[0.07em] sm:text-xs ${direction.text} ${direction.surface}`}
                     >
                       {t(`directions.items.${direction.key}.ageBadge`)}
                     </span>

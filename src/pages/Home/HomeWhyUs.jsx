@@ -3,12 +3,7 @@ import { useTranslation } from "react-i18next";
 import Container from "../../components/ui/Container.jsx";
 
 const reasons = [
-  {
-    key: "formats",
-    number: "01",
-    color: "text-brand",
-    dot: "bg-brand",
-  },
+  { key: "formats", number: "01", color: "text-brand", dot: "bg-brand" },
   {
     key: "teachers",
     number: "02",
@@ -21,12 +16,7 @@ const reasons = [
     color: "text-accent-pink",
     dot: "bg-accent-pink",
   },
-  {
-    key: "materials",
-    number: "04",
-    color: "text-brand",
-    dot: "bg-brand",
-  },
+  { key: "materials", number: "04", color: "text-brand", dot: "bg-brand" },
   {
     key: "atmosphere",
     number: "05",
@@ -39,12 +29,7 @@ const reasons = [
     color: "text-accent-pink",
     dot: "bg-accent-pink",
   },
-  {
-    key: "ages",
-    number: "07",
-    color: "text-brand",
-    dot: "bg-brand",
-  },
+  { key: "ages", number: "07", color: "text-brand", dot: "bg-brand" },
 ];
 
 export default function HomeWhyUs() {
@@ -59,7 +44,6 @@ export default function HomeWhyUs() {
         className="pointer-events-none absolute -left-40 top-10 size-[28rem] rounded-full bg-white/60 blur-3xl"
         aria-hidden="true"
       />
-
       <div
         className="pointer-events-none absolute -right-32 bottom-0 size-80 rounded-full bg-accent-cyan/6 blur-3xl"
         aria-hidden="true"
@@ -68,12 +52,11 @@ export default function HomeWhyUs() {
       <Container className="relative">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(520px,1.1fr)] lg:gap-16 xl:gap-24">
           <div>
-            <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
+            <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
               <span
                 className="h-0.5 w-8 rounded-full bg-current"
                 aria-hidden="true"
               />
-
               {t("whyUs.eyebrow")}
             </p>
 
@@ -130,10 +113,7 @@ export default function HomeWhyUs() {
             </span>
 
             <p className="pt-1 text-lg font-extrabold leading-8 tracking-[-0.025em] text-ink sm:text-2xl sm:leading-10">
-              <span className="block">
-                {t("whyUs.statementLead")}
-              </span>
-
+              <span className="block">{t("whyUs.statementLead")}</span>
               <span className="mt-1 block text-brand sm:mt-2">
                 {t("whyUs.statementAccent")}
               </span>

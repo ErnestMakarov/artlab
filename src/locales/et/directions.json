@@ -247,27 +247,39 @@
       },
       "content": {
         "eyebrow": "Teie formaat",
-        "title": "Teie seltskonna näoga sündmus.",
+        "title": "Pidu, mida tahaks uuesti kogeda",
       "paragraphs": [
-        "Valime peoks meistriklassi osalejate vanuse, huvide ja arvu järgi. Stuudios saab mugavalt osaleda kuni 13 inimest. Kõik vajalikud materjalid valmistab ette ART Lab.",
-        "Pärast meistriklassi saab koosolemist jätkata teejoomisega. Arutada saab ka väljasõiduformaati teie asukohas."
+        "Sünnipäev, perekohtumine või pidu sõpradega — ART Labis saab kokku tulla ja midagi oma kätega luua. Iga sündmuse jaoks valime meistriklassi osalejate vanuse, huvide ja arvu järgi. Saab maalida pildi, valmistada ehte, värvida kipsist eseme või valida mõne muu loomingulise teema.",
+        "Valmistame materjalid ette ja viime meistriklassi läbi. Pärast loomingulist osa saate koos aega veeta ja külalisi kostitada. Tordi ja suupisted võib ise kaasa võtta. Stuudios ootavad tervitustee, küpsised ja ühekordsed nõud."
       ],
         "listTitle": "Kuidas pidu ette valmistada",
         "steps": [
           {
-            "title": "Rääkige meile seltskonnast",
-            "description": "Täpsustame vanuse, külaliste arvu, soovitud kuupäeva ja sündmuse formaadi."
+            "title": "Rääkige meile oma seltskonnast",
+            "description": "Andke teada soovitud kuupäev, osalejate vanus ja külaliste arv."
           },
           {
-            "title": "Valime meistriklassi",
-            "description": "Pakume osalejatele ja peo kestusele sobivaid teemasid."
+            "title": "Valige meistriklass",
+            "description": "Pakume sobivaid teemasid ja aitame valida teie peole sobiva programmi."
           },
           {
-            "title": "Valmistame kõik ette",
-            "description": "Materjalide ja loomingulise osa eest hoolitseb ART Lab."
+            "title": "Tulge looma ja tähistama",
+            "description": "Valmistame stuudio ja kõik meistriklassiks vajaliku ette. Külalised saavad valminud tööd endaga kaasa võtta."
           }
         ],
-        "note": "Hind sõltub programmist, osalejate arvust ja valitud formaadist."
+        "note": "",
+        "price": {
+          "eyebrow": "Meistriklassi hind",
+          "value": "20–45 €",
+          "caption": "osaleja kohta",
+          "description": "Lõplik hind sõltub valitud programmist, materjalidest ja osalejate arvust. Arvutame täpse hinna pärast peo formaadi valimist."
+        },
+        "capacity": {
+          "eyebrow": "Stuudio mahutavus",
+          "title": "Kuni 13 inimest",
+          "description": "Nii mahub kogu seltskond mugavalt ära."
+        },
+        "bookingCta": "Arutame pidu"
       },
       "features": [
         {

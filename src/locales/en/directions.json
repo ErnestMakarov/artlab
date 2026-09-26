@@ -247,27 +247,39 @@
       },
       "content": {
         "eyebrow": "Your format",
-        "title": "An occasion with your group's personality.",
+        "title": "A celebration you will want to repeat",
       "paragraphs": [
-        "We choose a workshop based on the participants' ages, interests and group size. The studio comfortably accommodates up to 13 people. ART Lab prepares all necessary materials.",
-        "After the workshop, guests can continue spending time together over tea. An off-site event at your venue can also be discussed."
+        "A birthday, a family gathering or a celebration with friends — at ART Lab, you can come together and create something by hand. For every occasion, we choose a workshop based on the participants' ages, interests and group size. You can paint a picture, create jewellery, decorate a plaster object or choose another creative theme.",
+        "We prepare the materials and lead the workshop. After the creative session, you can spend time together and serve refreshments. You are welcome to bring your own cake and treats. Welcome tea, biscuits and disposable tableware are provided in the studio."
       ],
         "listTitle": "How to plan your celebration",
         "steps": [
           {
             "title": "Tell us about your group",
-            "description": "We will confirm ages, guest numbers, a preferred date and event format."
+            "description": "Share your preferred date, the participants' ages and the number of guests."
           },
           {
             "title": "Choose a workshop",
-            "description": "We will suggest themes suited to the participants and event duration."
+            "description": "We will suggest suitable themes and help you choose the right programme for your celebration."
           },
           {
-            "title": "We prepare everything",
-            "description": "ART Lab takes care of the materials and the creative programme."
+            "title": "Come to create and celebrate",
+            "description": "We prepare the studio and everything needed for the workshop. Guests take their finished pieces home."
           }
         ],
-        "note": "The price depends on the programme, number of participants and chosen format."
+        "note": "",
+        "price": {
+          "eyebrow": "Workshop price",
+          "value": "€20–45",
+          "caption": "per person",
+          "description": "The final price depends on the chosen programme, materials and number of participants. We will calculate it once you have selected your celebration format."
+        },
+        "capacity": {
+          "eyebrow": "Studio capacity",
+          "title": "Up to 13 people",
+          "description": "So every guest can be seated comfortably."
+        },
+        "bookingCta": "Plan your celebration"
       },
       "features": [
         {

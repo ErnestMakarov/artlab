@@ -42,14 +42,14 @@
       "title": "Kunstilooming",
       "description": "ART Labi põhisuund. Igal vanuserühmal on oma programm: joonest, vormist ja värvist kuni kompositsiooni, perspektiivi ning valguse ja varjuni.",
       "audience": "Alates 4. eluaastast ja täiskasvanutele",
-      "ageBadge": "4+ · täiskasvanud",
+      "ageBadge": "4+ ja täiskasvanud",
       "imageAlt": "Kunstitund ART Labi loovstuudios"
     },
     "creative": {
       "title": "Loovtöötuba",
       "description": "Joonistame, voolime ja meisterdame: tutvume plastiliinigraafia, dekupaaži, aplikatsiooni, kollaaži ja segatehnikatega.",
-      "audience": "Lastele alates 4. eluaastast",
-      "ageBadge": "4+",
+      "audience": "Vanuserühmadele 4+ ja 6+",
+      "ageBadge": "4+ ja 6+",
       "imageAlt": "Lapsed loovad ART Labi loovtöötoas projekte"
     },
     "handicraft": {

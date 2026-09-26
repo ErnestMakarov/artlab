@@ -42,14 +42,14 @@
       "title": "Art classes",
       "description": "ART Lab's main direction. Each age group follows its own programme, from line, form and colour to composition, perspective, light and shade.",
       "audience": "Ages 4+ and adults",
-      "ageBadge": "4+ · adults",
+      "ageBadge": "4+ and adults",
       "imageAlt": "An art class at the ART Lab creative studio"
     },
     "creative": {
       "title": "Creative workshop",
       "description": "Draw, sculpt and make while exploring plasticine art, decoupage, appliqué, collage and mixed-media techniques.",
-      "audience": "For children aged 4+",
-      "ageBadge": "4+",
+      "audience": "For age groups 4+ and 6+",
+      "ageBadge": "4+ and 6+",
       "imageAlt": "Children creating projects in the ART Lab creative workshop"
     },
     "handicraft": {

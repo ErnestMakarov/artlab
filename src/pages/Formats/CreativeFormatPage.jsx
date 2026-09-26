@@ -339,6 +339,8 @@ export default function CreativeFormatPage({ formatKey }) {
   const { t } = useTranslation("directions");
   const config = pageConfig[formatKey];
   const isWorkshopsPage = formatKey === "workshops";
+  const isCelebrationsPage = formatKey === "celebrations";
+  const hasEnhancedContentCard = isWorkshopsPage || isCelebrationsPage;
   const paragraphs = t(`formatPages.${formatKey}.content.paragraphs`, {
     returnObjects: true,
   });
@@ -374,17 +376,25 @@ export default function CreativeFormatPage({ formatKey }) {
         className={`relative isolate overflow-hidden py-20 sm:py-24 lg:py-28 ${
           isWorkshopsPage
             ? "bg-gradient-to-b from-white via-surface-aqua/35 to-white"
-            : "bg-white"
+            : isCelebrationsPage
+              ? "bg-gradient-to-b from-white via-surface-pink/45 to-white"
+              : "bg-white"
         }`}
       >
-        {isWorkshopsPage && (
+        {hasEnhancedContentCard && (
           <>
             <div
-              className="pointer-events-none absolute -left-32 top-24 size-80 rounded-full bg-accent-cyan/10 blur-3xl"
+              className={`pointer-events-none absolute -left-32 top-24 size-80 rounded-full blur-3xl ${
+                isCelebrationsPage
+                  ? "bg-accent-pink/10"
+                  : "bg-accent-cyan/10"
+              }`}
               aria-hidden="true"
             />
             <div
-              className="pointer-events-none absolute -right-32 bottom-16 size-96 rounded-full bg-brand/8 blur-3xl"
+              className={`pointer-events-none absolute -right-32 bottom-16 size-96 rounded-full blur-3xl ${
+                isCelebrationsPage ? "bg-brand/10" : "bg-brand/8"
+              }`}
               aria-hidden="true"
             />
           </>
@@ -393,7 +403,7 @@ export default function CreativeFormatPage({ formatKey }) {
         <Container className="relative">
           <div
             className={`grid gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(420px,1.1fr)] lg:gap-14 xl:gap-20 ${
-              isWorkshopsPage
+              hasEnhancedContentCard
                 ? "overflow-hidden rounded-[2rem] border border-white/90 bg-white/88 p-5 shadow-[0_26px_85px_rgba(51,39,73,0.1)] backdrop-blur-xl sm:rounded-[2.75rem] sm:p-8 lg:p-10 xl:p-12"
                 : ""
             }`}
@@ -411,7 +421,7 @@ export default function CreativeFormatPage({ formatKey }) {
 
               <h2
                 className={`mt-6 max-w-3xl font-extrabold leading-[0.97] tracking-[-0.055em] text-ink ${
-                  isWorkshopsPage
+                  hasEnhancedContentCard
                     ? "text-[clamp(2.5rem,4.25vw,4.65rem)]"
                     : "text-[clamp(2.6rem,4.8vw,5rem)]"
                 }`}
@@ -436,10 +446,12 @@ export default function CreativeFormatPage({ formatKey }) {
               className={`relative overflow-hidden rounded-[2rem] p-5 sm:rounded-[2.5rem] sm:p-7 ${
                 isWorkshopsPage
                   ? "border border-accent-cyan/15 bg-gradient-to-br from-surface-aqua via-[#f9ffff] to-surface-lilac shadow-[0_20px_60px_rgba(31,173,180,0.12)]"
-                  : config.softBackground
+                  : isCelebrationsPage
+                    ? "border border-accent-pink/15 bg-gradient-to-br from-surface-pink via-[#fffafd] to-surface-lilac shadow-[0_20px_60px_rgba(239,79,136,0.11)]"
+                    : config.softBackground
               }`}
             >
-              {isWorkshopsPage && (
+              {hasEnhancedContentCard && (
                 <div
                   className="pointer-events-none absolute -right-14 -top-14 size-40 rounded-full border-[28px] border-white/55"
                   aria-hidden="true"
@@ -461,6 +473,8 @@ export default function CreativeFormatPage({ formatKey }) {
                         className={`grid grid-cols-[44px_minmax(0,1fr)] gap-4 rounded-[1.35rem] border border-white/90 bg-white/85 p-4 shadow-[0_10px_32px_rgba(51,39,73,0.06)] sm:grid-cols-[48px_minmax(0,1fr)] sm:p-5 ${
                           isWorkshopsPage
                             ? "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(51,39,73,0.1)]"
+                            : isCelebrationsPage
+                              ? "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(239,79,136,0.1)]"
                             : ""
                         }`}
                       >
@@ -517,6 +531,67 @@ export default function CreativeFormatPage({ formatKey }) {
                 )}
               </div>
             </div>
+
+            {isCelebrationsPage && (
+              <div className="grid gap-4 lg:col-span-2 md:grid-cols-2 xl:grid-cols-[minmax(0,1.35fr)_minmax(260px,0.75fr)_minmax(230px,0.55fr)]">
+                <article className="relative overflow-hidden rounded-[1.75rem] border border-accent-pink/15 bg-surface-pink p-5 sm:p-6">
+                  <div
+                    className="pointer-events-none absolute -right-10 -top-10 size-32 rounded-full bg-accent-pink/10"
+                    aria-hidden="true"
+                  />
+
+                  <div className="relative">
+                    <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-accent-pink sm:text-xs">
+                      {t("formatPages.celebrations.content.price.eyebrow")}
+                    </p>
+                    <div className="mt-3 flex flex-wrap items-end gap-x-3 gap-y-1">
+                      <strong className="text-[clamp(2rem,3.5vw,3.35rem)] font-extrabold leading-none tracking-[-0.055em] text-ink">
+                        {t("formatPages.celebrations.content.price.value")}
+                      </strong>
+                      <span className="pb-1 text-sm font-extrabold text-ink sm:text-base">
+                        {t("formatPages.celebrations.content.price.caption")}
+                      </span>
+                    </div>
+                    <p className="mt-4 max-w-2xl text-sm leading-7 text-muted">
+                      {t("formatPages.celebrations.content.price.description")}
+                    </p>
+                  </div>
+                </article>
+
+                <article className="relative overflow-hidden rounded-[1.75rem] border border-brand/12 bg-surface-lilac p-5 sm:p-6">
+                  <span
+                    className="absolute right-5 top-5 flex size-10 items-center justify-center rounded-full bg-white text-xs font-extrabold text-brand shadow-[0_8px_24px_rgba(51,39,73,0.08)]"
+                    aria-hidden="true"
+                  >
+                    13
+                  </span>
+                  <p className="pr-12 text-[10px] font-extrabold uppercase tracking-[0.18em] text-brand sm:text-xs">
+                    {t("formatPages.celebrations.content.capacity.eyebrow")}
+                  </p>
+                  <h3 className="mt-4 max-w-xs text-2xl font-extrabold leading-8 tracking-[-0.04em] text-ink sm:text-3xl sm:leading-9">
+                    {t("formatPages.celebrations.content.capacity.title")}
+                  </h3>
+                  <p className="mt-2 text-sm leading-6 text-muted">
+                    {t("formatPages.celebrations.content.capacity.description")}
+                  </p>
+                </article>
+
+                <Link
+                  to="/contacts#booking"
+                  className="group flex min-h-28 items-center justify-between gap-5 rounded-[1.75rem] bg-gradient-to-br from-accent-pink to-brand px-6 py-6 text-base font-extrabold text-white shadow-[0_16px_38px_rgba(159,62,201,0.24)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_20px_46px_rgba(159,62,201,0.32)] md:col-span-2 xl:col-span-1"
+                >
+                  <span>
+                    {t("formatPages.celebrations.content.bookingCta")}
+                  </span>
+                  <span
+                    className="flex size-10 shrink-0 items-center justify-center rounded-full bg-white/16 text-xl ring-1 ring-white/25 transition-transform duration-200 group-hover:translate-x-1"
+                    aria-hidden="true"
+                  >
+                    →
+                  </span>
+                </Link>
+              </div>
+            )}
           </div>
 
           <ul className="mt-14 grid gap-4 md:grid-cols-3 lg:mt-20">

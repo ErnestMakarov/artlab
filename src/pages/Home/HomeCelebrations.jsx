@@ -16,19 +16,14 @@ export default function HomeCelebrations() {
         className="pointer-events-none absolute -right-40 top-20 size-[30rem] rounded-full bg-surface-pink blur-3xl"
         aria-hidden="true"
       />
-
       <div
         className="pointer-events-none absolute -left-40 bottom-0 size-80 rounded-full bg-surface-lilac blur-3xl"
         aria-hidden="true"
       />
 
       <Container className="relative">
-        <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-pink sm:text-xs">
-          <span
-            className="h-0.5 w-8 rounded-full bg-current"
-            aria-hidden="true"
-          />
-
+        <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-pink sm:text-sm">
+          <span className="h-0.5 w-8 rounded-full bg-current" aria-hidden="true" />
           {t("celebrations.eyebrow")}
         </p>
 
@@ -111,7 +106,6 @@ export default function HomeCelebrations() {
                 className="group mt-7 inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-center text-sm font-bold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover"
               >
                 {t("celebrations.cta")}
-
                 <span
                   className="transition-transform duration-200 group-hover:translate-x-1"
                   aria-hidden="true"

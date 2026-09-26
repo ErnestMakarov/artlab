@@ -34,7 +34,7 @@ export default function TrialLessonCta({ className = "" }) {
 
           <div className="relative grid gap-9 p-6 sm:p-9 lg:grid-cols-[minmax(0,0.88fr)_minmax(470px,1.12fr)] lg:items-stretch lg:gap-10 lg:p-10 xl:gap-16 xl:p-14">
             <div className="flex flex-col justify-center py-2 lg:py-6">
-              <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-accent-pink sm:text-xs">
+              <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-pink sm:text-sm">
                 <span
                   className="h-0.5 w-8 rounded-full bg-current"
                   aria-hidden="true"

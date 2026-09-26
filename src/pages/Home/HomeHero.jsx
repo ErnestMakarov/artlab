@@ -27,7 +27,7 @@ export default function HomeHero() {
       <Container className="relative py-10 sm:py-14 lg:py-16 xl:py-20">
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,0.92fr)_minmax(440px,1.08fr)] lg:gap-10 xl:gap-20">
           <div className="relative z-10">
-            <p className="mb-7 flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
+            <p className="mb-7 flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
               <span className="h-0.5 w-8 rounded-full bg-current" aria-hidden="true" />
               {t("hero.eyebrow")}
             </p>

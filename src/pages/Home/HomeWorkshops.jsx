@@ -59,7 +59,7 @@ export default function HomeWorkshops() {
       />
 
       <Container className="relative">
-        <p className="flex items-center gap-4 text-[11px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
+        <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
           <span
             className="h-0.5 w-8 rounded-full bg-current"
             aria-hidden="true"
