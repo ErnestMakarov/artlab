@@ -46,7 +46,7 @@
       {
         "eyebrow": "One-off session",
         "title": "Workshop",
-        "price": "20–40",
+        "price": "15–50",
         "unit": "€",
         "description": "A standalone creative class for children or adults, with a finished piece to take home.",
         "highlight": "The price depends on the chosen activity.",
@@ -55,6 +55,51 @@
       }
     ],
     "note": "Before booking, we will confirm availability, the right format and the final price."
+  },
+  "workshopPrices": {
+    "eyebrow": "Detailed price list",
+    "title": "Workshop prices",
+    "description": "Workshops are available for groups of at least 3 people. Prices are per participant.",
+    "columns": {
+      "workshop": "Workshop",
+      "price": "Price"
+    },
+    "items": [
+      {
+        "title": "Acrylic painting, 30 × 40 cm canvas",
+        "price": "€35"
+      },
+      {
+        "title": "Acrylic painting, 40 × 50 cm canvas",
+        "price": "€45"
+      },
+      {
+        "title": "Casting a plaster piece",
+        "price": "€15–40 depending on size"
+      },
+      {
+        "title": "Painting a plaster piece",
+        "price": "€20–40 depending on the chosen piece"
+      },
+      {
+        "title": "Wool felting",
+        "price": "€30–50 depending on the size of the piece"
+      },
+      {
+        "title": "Beadwork",
+        "price": "€25–40 depending on the chosen piece"
+      },
+      {
+        "title": "Dimensional artwork, 30 × 40 cm canvas",
+        "price": "€35"
+      },
+      {
+        "title": "Dimensional artwork, 40 × 50 cm canvas",
+        "price": "€45"
+      }
+    ],
+    "note": "We confirm the final price and availability before booking.",
+    "cta": "Ask a question"
   },
   "camp": {
     "eyebrow": "Art camp",

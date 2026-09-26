@@ -31,6 +31,17 @@ const lessonStyles = [
 
 const lessonLinks = ["/schedule", "/contacts#booking", "/workshops"];
 
+const workshopPriceAccents = [
+  "bg-brand",
+  "bg-accent-pink",
+  "bg-accent-cyan",
+  "bg-brand",
+  "bg-accent-pink",
+  "bg-accent-cyan",
+  "bg-brand",
+  "bg-accent-pink",
+];
+
 const campStyles = [
   {
     card: "border-brand/15 bg-gradient-to-br from-surface-lilac to-white text-ink shadow-[0_18px_50px_rgba(51,39,73,0.09)]",
@@ -69,6 +80,9 @@ function ArrowIcon() {
 export default function PricesContent() {
   const { t } = useTranslation("prices");
   const lessonCards = t("lessons.cards", { returnObjects: true });
+  const workshopPrices = t("workshopPrices.items", {
+    returnObjects: true,
+  });
   const campCards = t("camp.cards", { returnObjects: true });
 
   return (
@@ -192,6 +206,110 @@ export default function PricesContent() {
             <p className="text-sm font-bold leading-6 text-ink">
               {t("lessons.note")}
             </p>
+          </div>
+        </Container>
+      </section>
+
+      <section
+        id="workshop-prices"
+        className="relative isolate scroll-mt-24 overflow-hidden bg-gradient-to-b from-white via-[#fbfaff] to-white py-20 sm:scroll-mt-28 sm:py-24 lg:py-28"
+        aria-labelledby="workshop-prices-title"
+      >
+        <div
+          className="pointer-events-none absolute -left-40 top-1/3 size-80 rounded-full bg-brand/6 blur-3xl"
+          aria-hidden="true"
+        />
+        <div
+          className="pointer-events-none absolute -right-36 top-0 size-80 rounded-full bg-accent-pink/7 blur-3xl"
+          aria-hidden="true"
+        />
+
+        <Container className="relative">
+          <div className="grid gap-7 lg:grid-cols-[minmax(0,1fr)_minmax(300px,0.62fr)] lg:items-end lg:gap-16 xl:gap-24">
+            <div>
+              <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-accent-cyan sm:text-xs">
+                <span
+                  className="h-0.5 w-8 rounded-full bg-current"
+                  aria-hidden="true"
+                />
+                {t("workshopPrices.eyebrow")}
+              </p>
+
+              <h2
+                id="workshop-prices-title"
+                className="mt-6 max-w-4xl text-balance text-[clamp(2.65rem,4.8vw,5rem)] font-extrabold leading-[0.96] tracking-[-0.06em] text-ink"
+              >
+                {t("workshopPrices.title")}
+              </h2>
+            </div>
+
+            <p className="max-w-xl text-base leading-8 text-muted sm:text-lg sm:leading-9">
+              {t("workshopPrices.description")}
+            </p>
+          </div>
+
+          <div className="mt-10 overflow-hidden rounded-[2rem] border border-line/80 bg-white shadow-[0_24px_70px_rgba(51,39,73,0.09)] sm:mt-12 sm:rounded-[2.5rem] lg:mt-16">
+            <div className="hidden grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] bg-ink px-8 py-5 text-xs font-extrabold uppercase tracking-[0.17em] text-white md:grid lg:px-10">
+              <p>{t("workshopPrices.columns.workshop")}</p>
+              <p className="border-l border-white/15 pl-8 lg:pl-10">
+                {t("workshopPrices.columns.price")}
+              </p>
+            </div>
+
+            <ul className="divide-y divide-line/80">
+              {Array.isArray(workshopPrices) &&
+                workshopPrices.map((item, index) => (
+                  <li
+                    key={item.title}
+                    className="group relative grid gap-4 px-5 py-5 transition-colors duration-200 hover:bg-surface-lilac/45 sm:px-7 sm:py-6 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] md:items-center md:gap-0 md:px-8 lg:px-10"
+                  >
+                    <span
+                      className={`absolute inset-y-0 left-0 w-1 ${
+                        workshopPriceAccents[index] ?? "bg-brand"
+                      }`}
+                      aria-hidden="true"
+                    />
+
+                    <div className="min-w-0 pr-2 md:pr-8 lg:pr-10">
+                      <p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-muted md:hidden">
+                        {t("workshopPrices.columns.workshop")}
+                      </p>
+                      <h3 className="mt-1.5 text-lg font-extrabold leading-7 tracking-[-0.025em] text-ink sm:text-xl sm:leading-8 md:mt-0">
+                        {item.title}
+                      </h3>
+                    </div>
+
+                    <div className="min-w-0 md:border-l md:border-line/80 md:pl-8 lg:pl-10">
+                      <p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-muted md:hidden">
+                        {t("workshopPrices.columns.price")}
+                      </p>
+                      <p className="mt-1.5 text-base font-extrabold leading-7 text-brand sm:text-lg sm:leading-8 md:mt-0 md:text-ink">
+                        {item.price}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          <div className="mt-5 flex flex-col gap-4 rounded-[1.5rem] border border-accent-cyan/10 bg-surface-aqua px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+            <div className="flex items-start gap-3 sm:items-center">
+              <span
+                className="mt-1 size-2.5 shrink-0 rounded-full bg-accent-cyan sm:mt-0"
+                aria-hidden="true"
+              />
+              <p className="text-sm font-bold leading-6 text-ink">
+                {t("workshopPrices.note")}
+              </p>
+            </div>
+
+            <Link
+              to="/contacts#booking"
+              className="group inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-full border border-brand/20 bg-white px-5 text-sm font-extrabold text-brand transition-colors hover:border-brand hover:bg-surface-lilac"
+            >
+              {t("workshopPrices.cta")}
+              <ArrowIcon />
+            </Link>
           </div>
         </Container>
       </section>

@@ -46,7 +46,7 @@
       {
         "eyebrow": "Ühekordne kohtumine",
         "title": "Meistriklass",
-        "price": "20–40",
+        "price": "15–50",
         "unit": "€",
         "description": "Eraldi loovtund lastele või täiskasvanutele, mille lõpuks valmib oma töö.",
         "highlight": "Hind sõltub valitud suunast.",
@@ -55,6 +55,51 @@
       }
     ],
     "note": "Enne broneerimist kinnitame vaba aja, sobiva formaadi ja lõpliku hinna."
+  },
+  "workshopPrices": {
+    "eyebrow": "Üksikasjalik hinnakiri",
+    "title": "Meistriklasside hinnad",
+    "description": "Meistriklasse korraldame vähemalt 3-liikmelistele rühmadele. Hinnad on toodud ühe osaleja kohta.",
+    "columns": {
+      "workshop": "Meistriklass",
+      "price": "Hind"
+    },
+    "items": [
+      {
+        "title": "Akrüülmaal, lõuend 30 × 40 cm",
+        "price": "35 €"
+      },
+      {
+        "title": "Akrüülmaal, lõuend 40 × 50 cm",
+        "price": "45 €"
+      },
+      {
+        "title": "Kipseseme valamine",
+        "price": "15–40 € sõltuvalt suurusest"
+      },
+      {
+        "title": "Kipseseme maalimine",
+        "price": "20–40 € sõltuvalt valitud esemest"
+      },
+      {
+        "title": "Villaviltimine",
+        "price": "30–50 € sõltuvalt eseme suurusest"
+      },
+      {
+        "title": "Helmepunumine",
+        "price": "25–40 € sõltuvalt valitud esemest"
+      },
+      {
+        "title": "Ruumiline pilt, lõuend 30 × 40 cm",
+        "price": "35 €"
+      },
+      {
+        "title": "Ruumiline pilt, lõuend 40 × 50 cm",
+        "price": "45 €"
+      }
+    ],
+    "note": "Lõpliku hinna ja vabade kohtade olemasolu kinnitame enne broneerimist.",
+    "cta": "Küsi lisainfot"
   },
   "camp": {
     "eyebrow": "Kunstilaager",

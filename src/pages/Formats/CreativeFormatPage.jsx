@@ -232,7 +232,7 @@ function WorkshopsPricingNotice({ t }) {
               </p>
 
               <Link
-                to="/contacts#booking"
+                to="/prices#workshop-prices"
                 className="group mt-6 inline-flex min-h-13 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-6 text-center text-sm font-extrabold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover sm:w-auto"
               >
                 {t("formatPages.workshops.pricing.cta")}
