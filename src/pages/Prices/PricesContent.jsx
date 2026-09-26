@@ -42,6 +42,28 @@ const workshopPriceAccents = [
   "bg-accent-pink",
 ];
 
+const workshopPriceSurfaces = [
+  "from-[#f6f0ff] via-[#fbf9ff] to-white hover:from-[#f1e8ff]",
+  "from-[#fff0f6] via-[#fff8fb] to-white hover:from-[#ffe8f1]",
+  "from-[#eafafa] via-[#f7ffff] to-white hover:from-[#dff7f7]",
+  "from-[#f6f0ff] via-[#fbf9ff] to-white hover:from-[#f1e8ff]",
+  "from-[#fff0f6] via-[#fff8fb] to-white hover:from-[#ffe8f1]",
+  "from-[#eafafa] via-[#f7ffff] to-white hover:from-[#dff7f7]",
+  "from-[#f6f0ff] via-[#fbf9ff] to-white hover:from-[#f1e8ff]",
+  "from-[#fff0f6] via-[#fff8fb] to-white hover:from-[#ffe8f1]",
+];
+
+const workshopPricePills = [
+  "border-brand/15 bg-brand/9 text-brand",
+  "border-accent-pink/15 bg-accent-pink/9 text-accent-pink",
+  "border-accent-cyan/15 bg-accent-cyan/10 text-[#218f94]",
+  "border-brand/15 bg-brand/9 text-brand",
+  "border-accent-pink/15 bg-accent-pink/9 text-accent-pink",
+  "border-accent-cyan/15 bg-accent-cyan/10 text-[#218f94]",
+  "border-brand/15 bg-brand/9 text-brand",
+  "border-accent-pink/15 bg-accent-pink/9 text-accent-pink",
+];
+
 const campStyles = [
   {
     card: "border-brand/15 bg-gradient-to-br from-surface-lilac to-white text-ink shadow-[0_18px_50px_rgba(51,39,73,0.09)]",
@@ -248,23 +270,39 @@ export default function PricesContent() {
             </p>
           </div>
 
-          <div className="mt-10 overflow-hidden rounded-[2rem] border border-line/80 bg-white shadow-[0_24px_70px_rgba(51,39,73,0.09)] sm:mt-12 sm:rounded-[2.5rem] lg:mt-16">
-            <div className="hidden grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] bg-ink px-8 py-5 text-xs font-extrabold uppercase tracking-[0.17em] text-white md:grid lg:px-10">
+          <div className="relative mt-10 overflow-hidden rounded-[2rem] border border-brand/10 bg-white shadow-[0_28px_80px_rgba(70,44,118,0.12)] sm:mt-12 sm:rounded-[2.5rem] lg:mt-16">
+            <div
+              className="h-1.5 bg-gradient-to-r from-brand via-accent-cyan to-accent-pink"
+              aria-hidden="true"
+            />
+
+            <div className="relative hidden grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] overflow-hidden bg-[linear-gradient(105deg,#6230c8_0%,#7844de_48%,#269fa5_100%)] px-8 py-5 text-xs font-extrabold uppercase tracking-[0.17em] text-white md:grid lg:px-10">
+              <span
+                className="pointer-events-none absolute -left-8 -top-16 size-40 rounded-full bg-white/10 blur-2xl"
+                aria-hidden="true"
+              />
+              <span
+                className="pointer-events-none absolute -right-6 -top-20 size-44 rounded-full bg-accent-pink/40 blur-3xl"
+                aria-hidden="true"
+              />
               <p>{t("workshopPrices.columns.workshop")}</p>
               <p className="border-l border-white/15 pl-8 lg:pl-10">
                 {t("workshopPrices.columns.price")}
               </p>
             </div>
 
-            <ul className="divide-y divide-line/80">
+            <ul className="divide-y divide-brand/8">
               {Array.isArray(workshopPrices) &&
                 workshopPrices.map((item, index) => (
                   <li
                     key={item.title}
-                    className="group relative grid gap-4 px-5 py-5 transition-colors duration-200 hover:bg-surface-lilac/45 sm:px-7 sm:py-6 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] md:items-center md:gap-0 md:px-8 lg:px-10"
+                    className={`group relative grid gap-4 bg-gradient-to-r px-5 py-5 transition-colors duration-200 sm:px-7 sm:py-6 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.72fr)] md:items-center md:gap-0 md:px-8 lg:px-10 ${
+                      workshopPriceSurfaces[index] ??
+                      "from-surface-lilac via-white to-white"
+                    }`}
                   >
                     <span
-                      className={`absolute inset-y-0 left-0 w-1 ${
+                      className={`absolute inset-y-0 left-0 w-1.5 ${
                         workshopPriceAccents[index] ?? "bg-brand"
                       }`}
                       aria-hidden="true"
@@ -279,11 +317,16 @@ export default function PricesContent() {
                       </h3>
                     </div>
 
-                    <div className="min-w-0 md:border-l md:border-line/80 md:pl-8 lg:pl-10">
+                    <div className="min-w-0 md:border-l md:border-brand/10 md:pl-8 lg:pl-10">
                       <p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-muted md:hidden">
                         {t("workshopPrices.columns.price")}
                       </p>
-                      <p className="mt-1.5 text-base font-extrabold leading-7 text-brand sm:text-lg sm:leading-8 md:mt-0 md:text-ink">
+                      <p
+                        className={`mt-2 inline-flex min-h-10 items-center rounded-full border px-4 py-1.5 text-base font-extrabold leading-7 shadow-[0_8px_22px_rgba(51,39,73,0.05)] sm:text-lg sm:leading-8 md:mt-0 ${
+                          workshopPricePills[index] ??
+                          "border-brand/15 bg-brand/9 text-brand"
+                        }`}
+                      >
                         {item.price}
                       </p>
                     </div>
