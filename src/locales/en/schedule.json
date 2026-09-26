@@ -12,7 +12,6 @@
       "status": "For children and adults",
       "scheduleTitle": "Creative time throughout the week.",
       "scheduleText": "Group classes follow the schedule, while individual class times are arranged separately.",
-      "weekDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
       "individualTitle": "Individual classes every day",
       "individualText": "There is no fixed time — we will find a convenient option together.",
       "openSchedule": "Go to the class schedule"

@@ -4,7 +4,6 @@ import InnerPageHero from "../../components/sections/InnerPageHero.jsx";
 
 export default function ScheduleHero() {
   const { t } = useTranslation("schedule");
-  const weekDays = t("hero.card.weekDays", { returnObjects: true });
 
   return (
     <InnerPageHero
@@ -70,23 +69,6 @@ export default function ScheduleHero() {
             </div>
           </div>
 
-          <ul className="relative mt-7 grid grid-cols-7 gap-1.5 sm:gap-2">
-            {Array.isArray(weekDays) &&
-              weekDays.map((day, index) => (
-                <li
-                  key={`${day}-${index}`}
-                  className={`flex aspect-square min-w-0 items-center justify-center rounded-[0.85rem] border border-white/90 text-[9px] font-extrabold uppercase shadow-[0_7px_20px_rgba(51,39,73,0.05)] sm:rounded-[1rem] sm:text-xs ${
-                    index % 3 === 0
-                      ? "bg-surface-lilac text-brand"
-                      : index % 3 === 1
-                        ? "bg-white text-accent-cyan"
-                        : "bg-surface-pink text-accent-pink"
-                  }`}
-                >
-                  {day}
-                </li>
-              ))}
-          </ul>
         </div>
 
         <a

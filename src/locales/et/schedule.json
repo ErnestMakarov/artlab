@@ -12,7 +12,6 @@
       "status": "Lastele ja täiskasvanutele",
       "scheduleTitle": "Loominguline aeg kogu nädala jooksul.",
       "scheduleText": "Rühmatunnid toimuvad tunniplaani järgi, individuaaltunni aja lepime kokku eraldi.",
-      "weekDays": ["E", "T", "K", "N", "R", "L", "P"],
       "individualTitle": "Individuaaltunnid iga päev",
       "individualText": "Kindlat kellaaega ei ole — leiame koos sobiva aja.",
       "openSchedule": "Liigu tunniplaani juurde"
