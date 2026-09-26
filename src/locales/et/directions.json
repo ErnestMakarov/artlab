@@ -6,10 +6,10 @@
   "hero": {
     "eyebrow": "Suunad",
     "title": "Looming, kus saad olla sina ise.",
-    "description": "ART Labis ei pea oskama juba ette joonistada, voolida ega kududa. Piisab huvist ja soovist proovida. Aitame valida sobiva suuna, tutvuda erinevate materjalidega ning liikuda samm-sammult esimestest katsetustest oma ideede ja töödeni.",
+    "description": "ART Labis leiab igaüks endale meelepärase suuna: saab õppida kujutava kunsti aluseid, luua ruumilisi töid või omandada käsitöövõtteid. Aitame oma ideid avada ja toetame igaühe soovi proovida midagi uut.",
     "cards": [
       "Kunstiloome · 4+ ja täiskasvanud",
-      "Loovtöötuba 4+",
+      "Loovtöötuba · 4+ ja 6+",
       "Käsitööklubi 7+"
     ]
   },
@@ -37,10 +37,10 @@
     },
     "creative": {
       "title": "Loovtöötuba",
-      "audience": "Lastele alates 4. eluaastast",
+      "audience": "Vanuserühmadele 4+ ja 6+",
       "imageAlt": "Lapsed loovad ART Labi töötoas ruumilisi projekte",
       "paragraphs": [
-        "Loovtöötuba on ruum lastele alates 4. eluaastast, kellele meeldib lisaks joonistamisele voolida, meisterdada ja proovida uusi loomisviise.",
+        "Loovtöötuba on ruum 4+ ja 6+ vanuserühmade lastele, kellele meeldib lisaks joonistamisele voolida, meisterdada ja proovida uusi loomisviise.",
         "Tundides tutvuvad lapsed kunstiloome, plastiliinigraafia, dekupaaži, aplikatsiooni ja kunstilise kollaažiga. Nad loovad ruumilisi töid, ühendavad materjale ja õpivad segatehnikaid. Siin saab katsetada ja oma ideid ellu viia, mistõttu sünnib iga töö isemoodi."
       ],
       "listTitle": "Mida arendame",
@@ -221,6 +221,20 @@
         "eyebrow": "Programmide näited",
         "title": "Iga kohtumine toob uue tehnika.",
         "description": "Need on võimalikud suunad. Aktuaalseid teemasid ja vabu kuupäevi küsi stuudiolt või vaata Instagramist."
+      },
+      "pricing": {
+        "eyebrow": "Osalemistingimused",
+        "title": "Meistriklasside hinnad",
+        "minimum": {
+          "label": "Meistriklasse korraldame rühmadele",
+          "value": "alates 3 inimesest"
+        },
+        "perPerson": {
+          "label": "Hinnad on märgitud",
+          "value": "ühe osaleja kohta"
+        },
+        "description": "ART Labi stuudios toimuvad ka teised meistriklassid. Kirjuta meile, kui soovid nende kohta rohkem teada või valitud töö hinda täpsustada. Vastame hea meelega sinu küsimustele ja aitame leida sobiva variandi.",
+        "cta": "Küsi programmi ja hinda"
       },
       "cta": {
         "eyebrow": "Lähimad meistriklassid",

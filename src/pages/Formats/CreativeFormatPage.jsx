@@ -152,6 +152,105 @@ function WorkshopsShowcase({ t }) {
   );
 }
 
+function WorkshopsPricingNotice({ t }) {
+  return (
+    <section
+      className="relative isolate overflow-hidden bg-white py-16 sm:py-20 lg:py-24"
+      aria-labelledby="workshops-pricing-title"
+    >
+      <div
+        className="pointer-events-none absolute -left-28 bottom-0 size-72 rounded-full bg-accent-cyan/8 blur-3xl"
+        aria-hidden="true"
+      />
+
+      <Container className="relative">
+        <div className="relative overflow-hidden rounded-[2rem] border border-white/90 bg-gradient-to-br from-surface-aqua via-[#fbffff] to-surface-lilac p-5 shadow-[0_24px_75px_rgba(51,39,73,0.1)] sm:rounded-[2.75rem] sm:p-8 lg:p-10 xl:p-12">
+          <div
+            className="pointer-events-none absolute -right-16 -top-16 size-48 rounded-full border-[32px] border-white/55"
+            aria-hidden="true"
+          />
+
+          <div className="relative grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(420px,1.1fr)] lg:items-center lg:gap-14 xl:gap-20">
+            <div>
+              <p className="flex items-center gap-4 text-xs font-extrabold uppercase tracking-[0.18em] text-accent-cyan sm:text-sm">
+                <span
+                  className="h-0.5 w-8 rounded-full bg-current"
+                  aria-hidden="true"
+                />
+                {t("formatPages.workshops.pricing.eyebrow")}
+              </p>
+
+              <h2
+                id="workshops-pricing-title"
+                className="mt-6 max-w-2xl text-[clamp(2.4rem,4.25vw,4.5rem)] font-extrabold leading-[0.98] tracking-[-0.055em] text-ink"
+              >
+                {t("formatPages.workshops.pricing.title")}
+              </h2>
+
+              <div className="mt-7 grid gap-3 sm:grid-cols-2">
+                <div className="rounded-[1.5rem] border border-white/90 bg-white/85 p-5 shadow-[0_12px_34px_rgba(51,39,73,0.065)]">
+                  <p className="text-xs font-bold leading-5 text-muted">
+                    {t("formatPages.workshops.pricing.minimum.label")}
+                  </p>
+                  <p className="mt-2 text-xl font-extrabold leading-7 tracking-[-0.035em] text-ink sm:text-2xl">
+                    {t("formatPages.workshops.pricing.minimum.value")}
+                  </p>
+                </div>
+
+                <div className="rounded-[1.5rem] border border-white/90 bg-white/85 p-5 shadow-[0_12px_34px_rgba(51,39,73,0.065)]">
+                  <p className="text-xs font-bold leading-5 text-muted">
+                    {t("formatPages.workshops.pricing.perPerson.label")}
+                  </p>
+                  <p className="mt-2 text-xl font-extrabold leading-7 tracking-[-0.035em] text-ink sm:text-2xl">
+                    {t("formatPages.workshops.pricing.perPerson.value")}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-[1.75rem] border border-white/90 bg-white/90 p-6 shadow-[0_18px_50px_rgba(51,39,73,0.08)] sm:p-8">
+              <span
+                className="flex size-11 items-center justify-center rounded-full bg-surface-aqua text-accent-cyan shadow-[0_8px_24px_rgba(31,173,180,0.12)]"
+                aria-hidden="true"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="size-5"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z" />
+                  <path d="M8 9h8M8 13h5" />
+                </svg>
+              </span>
+
+              <p className="mt-5 text-base leading-8 text-muted sm:text-lg sm:leading-9">
+                {t("formatPages.workshops.pricing.description")}
+              </p>
+
+              <Link
+                to="/contacts#booking"
+                className="group mt-6 inline-flex min-h-13 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-6 text-center text-sm font-extrabold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover sm:w-auto"
+              >
+                {t("formatPages.workshops.pricing.cta")}
+                <span
+                  className="transition-transform duration-200 group-hover:translate-x-1"
+                  aria-hidden="true"
+                >
+                  →
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
 function CampAnnouncement({ t }) {
   const facts = t("formatPages.camp.announcement.facts", {
     returnObjects: true,
@@ -625,6 +724,8 @@ export default function CreativeFormatPage({ formatKey }) {
       </section>
 
       {formatKey === "workshops" && <WorkshopsShowcase t={t} />}
+
+      {formatKey === "workshops" && <WorkshopsPricingNotice t={t} />}
 
       <section className="bg-white pb-20 sm:pb-24 lg:pb-28">
         <Container>

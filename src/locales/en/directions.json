@@ -6,10 +6,10 @@
   "hero": {
     "eyebrow": "Directions",
     "title": "Creativity where you can be yourself.",
-    "description": "You do not need to know how to draw, sculpt or knit before coming to ART Lab. Curiosity and a desire to try are enough. We help you choose a comfortable direction, explore different materials and gradually move from first experiments to your own ideas and finished work.",
+    "description": "At ART Lab, everyone can find a direction that feels right: learn the foundations of visual art, create dimensional pieces or explore handicraft techniques. We help bring personal ideas to life and encourage everyone to try something new.",
     "cards": [
       "Visual art · ages 4+ and adults",
-      "Creative workshop 4+",
+      "Creative workshop · ages 4+ and 6+",
       "Handicraft club 7+"
     ]
   },
@@ -37,10 +37,10 @@
     },
     "creative": {
       "title": "Creative workshop",
-      "audience": "For children aged 4+",
+      "audience": "For age groups 4+ and 6+",
       "imageAlt": "Children creating dimensional projects at an ART Lab workshop",
       "paragraphs": [
-        "The creative workshop is a space for children aged 4+ who enjoy not only drawing, but also sculpting, making and discovering new ways to create.",
+        "The creative workshop is a space for children in the 4+ and 6+ age groups who enjoy not only drawing, but also sculpting, making and discovering new ways to create.",
         "Children explore visual art, plasticine art, decoupage, appliqué and artistic collage. They create dimensional pieces, combine materials and learn mixed-media techniques. There is room to experiment and realise personal ideas, making every piece genuinely individual."
       ],
       "listTitle": "What we develop",
@@ -221,6 +221,20 @@
         "eyebrow": "Programme examples",
         "title": "A new technique every time.",
         "description": "These are sample directions. Ask the studio about current themes and available dates, or follow us on Instagram."
+      },
+      "pricing": {
+        "eyebrow": "Participation details",
+        "title": "Workshop pricing",
+        "minimum": {
+          "label": "Workshops are available for groups",
+          "value": "of 3 or more"
+        },
+        "perPerson": {
+          "label": "Prices are calculated",
+          "value": "per participant"
+        },
+        "description": "ART Lab also offers other workshops. Message us if you would like to learn more or check the price of a particular project. We will be happy to answer your questions and help you choose the right option.",
+        "cta": "Ask about programmes and pricing"
       },
       "cta": {
         "eyebrow": "Upcoming workshops",
