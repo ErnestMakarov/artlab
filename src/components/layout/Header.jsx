@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
+import headerLogo from "../../assets/images/brand/artlab-logo-header.webp";
 import Container from "../ui/Container.jsx";
 
 const navigation = [
@@ -406,11 +407,13 @@ export default function Header() {
             onClick={() => setIsMenuOpen(false)}
           >
             <img
-              src="/images/brand/artlab-logo.png"
+              src={headerLogo}
               alt="ART Lab"
-              width="70"
-              height="60"
-              className="h-11 w-auto object-contain sm:h-[52px]"
+              width="384"
+              height="307"
+              decoding="async"
+              fetchPriority="high"
+              className="h-[50px] w-auto object-contain drop-shadow-[0_5px_10px_rgba(51,39,73,0.13)] transition-transform duration-200 hover:scale-[1.025] sm:h-[58px] xl:h-[64px]"
             />
           </Link>
 
