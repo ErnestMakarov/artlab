@@ -1,143 +1,34 @@
-To Email:
-artlabtallinn@gmail.com
+# ART Lab website
 
-From Name:
-ART Lab Website
+Responsive website for ART Lab creative studio in Tallinn.
 
-Reply-To:
-{{email}}
+## Development
 
-Subject:
-Новая заявка ART Lab — {{interest}} — {{participant_name}} {{participant_last_name}}
+```bash
+npm install
+npm run dev
+```
 
+## Quality check
 
+```bash
+npm run check
+```
 
+## Production
 
+```bash
+npm run build
+npm run preview
+```
 
+Copy `.env.example` to `.env.local` and add the EmailJS and Facebook values when needed.
 
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Новая заявка ART Lab</title>
-  </head>
-  <body style="margin: 0; padding: 0; background-color: #f6f2fb; font-family: Arial, Helvetica, sans-serif; color: #332749;">
-    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; background-color: #f6f2fb;">
-      <tr>
-        <td align="center" style="padding: 32px 14px;">
-          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; max-width: 640px; overflow: hidden; border-radius: 28px; background-color: #ffffff; box-shadow: 0 18px 55px rgba(51, 39, 73, 0.12);">
-            <tr>
-              <td style="padding: 32px; background-color: #6b39d3;">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td>
-                      <div style="margin-bottom: 12px; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #dcd0ff;">
-                        Новая заявка с сайта
-                      </div>
-                      <div style="font-size: 30px; line-height: 1.15; font-weight: 800; color: #ffffff;">
-                        ART Lab
-                      </div>
-                    </td>
-                    <td align="right" valign="top">
-                      <span style="display: inline-block; padding: 8px 12px; border-radius: 999px; background-color: rgba(255, 255, 255, 0.15); font-size: 11px; font-weight: 700; color: #ffffff;">
-                        {{language}}
-                      </span>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+## SEO
 
-            <tr>
-              <td style="padding: 32px;">
-                <div style="margin-bottom: 8px; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #ef4f88;">
-                  Интересует
-                </div>
-                <div style="margin-bottom: 28px; font-size: 25px; line-height: 1.3; font-weight: 800; color: #332749;">
-                  {{interest}}
-                </div>
+The production domain is `https://www.artlabstudio.ee`.
 
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; border-collapse: separate; border-spacing: 0 10px;">
-                  <tr>
-                    <td width="38%" valign="top" style="padding: 13px 16px; border-radius: 14px 0 0 14px; background-color: #faf7ff; font-size: 12px; font-weight: 700; color: #6f687d;">
-                      Имя
-                    </td>
-                    <td valign="top" style="padding: 13px 16px; border-radius: 0 14px 14px 0; background-color: #faf7ff; font-size: 14px; font-weight: 700; color: #332749;">
-                      {{participant_name}} {{participant_last_name}}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="38%" valign="top" style="padding: 13px 16px; border-radius: 14px 0 0 14px; background-color: #effafa; font-size: 12px; font-weight: 700; color: #6f687d;">
-                      Возраст участника
-                    </td>
-                    <td valign="top" style="padding: 13px 16px; border-radius: 0 14px 14px 0; background-color: #effafa; font-size: 14px; font-weight: 700; color: #332749;">
-                      {{participant_age}}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="38%" valign="top" style="padding: 13px 16px; border-radius: 14px 0 0 14px; background-color: #fff4f8; font-size: 12px; font-weight: 700; color: #6f687d;">
-                      Телефон
-                    </td>
-                    <td valign="top" style="padding: 13px 16px; border-radius: 0 14px 14px 0; background-color: #fff4f8; font-size: 14px; font-weight: 700; color: #332749;">
-                      <a href="tel:{{phone}}" style="color: #6b39d3; text-decoration: none;">{{phone}}</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="38%" valign="top" style="padding: 13px 16px; border-radius: 14px 0 0 14px; background-color: #faf7ff; font-size: 12px; font-weight: 700; color: #6f687d;">
-                      E-mail
-                    </td>
-                    <td valign="top" style="padding: 13px 16px; border-radius: 0 14px 14px 0; background-color: #faf7ff; font-size: 14px; font-weight: 700; color: #332749; word-break: break-word;">
-                      <a href="mailto:{{email}}" style="color: #6b39d3; text-decoration: none;">{{email}}</a>
-                    </td>
-                  </tr>
-                </table>
-
-                {{#message}}
-                <div style="margin-top: 24px; padding: 20px; border: 1px solid #e9e3f0; border-radius: 18px; background-color: #ffffff;">
-                  <div style="margin-bottom: 10px; font-size: 11px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #2aafb4;">
-                    Комментарий
-                  </div>
-                  <div style="font-size: 14px; line-height: 1.7; white-space: pre-line; color: #51495f;">
-                    {{message}}
-                  </div>
-                </div>
-                {{/message}}
-
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; margin-top: 26px;">
-                  <tr>
-                    <td align="center">
-                      <a href="mailto:{{email}}" style="display: inline-block; padding: 14px 26px; border-radius: 999px; background-color: #6b39d3; font-size: 14px; font-weight: 700; color: #ffffff; text-decoration: none;">
-                        Ответить клиенту →
-                      </a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding: 22px 32px; border-top: 1px solid #eee8f3; background-color: #fcfbff;">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-                  <tr>
-                    <td valign="top" style="font-size: 11px; line-height: 1.7; color: #81798c;">
-                      Отправлено: {{submitted_at}}<br />
-                      Согласие: {{privacy_consent}}
-                    </td>
-                    <td align="right" valign="top" style="font-size: 11px; line-height: 1.7; color: #81798c;">
-                      <a href="{{page_url}}" style="color: #6b39d3; text-decoration: none;">Страница заявки</a>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-
-          <div style="max-width: 600px; padding: 18px 20px 0; font-size: 11px; line-height: 1.6; text-align: center; color: #8a8295;">
-            Это автоматическое уведомление с формы сайта ART Lab.
-          </div>
-        </td>
-      </tr>
-    </table>
-  </body>
-</html>
+- `public/sitemap.xml` contains all public routes and language alternates.
+- `public/robots.txt` points search engines to the sitemap.
+- `src/components/seo/Seo.jsx` manages canonical URLs, hreflang, social metadata and JSON-LD.
+- Estonian is the default language. English and Russian pages use `?lang=en` and `?lang=ru` canonical URLs.

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router";
+import { Link, NavLink, useLocation, useNavigate } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import headerLogo from "../../assets/images/brand/artlab-logo-header.webp";
@@ -90,11 +90,29 @@ function mobileLinkClass({ isActive }) {
 
 function LanguageSwitcher({ className = "" }) {
   const { t, i18n } = useTranslation("common");
+  const location = useLocation();
+  const navigate = useNavigate();
   const currentLanguage = (i18n.resolvedLanguage || "et").split("-")[0];
 
   function changeLanguage(language) {
+    const searchParams = new URLSearchParams(location.search);
+
+    if (language === "et") {
+      searchParams.delete("lang");
+    } else {
+      searchParams.set("lang", language);
+    }
+
     localStorage.setItem("artlab-language", language);
     i18n.changeLanguage(language);
+    navigate(
+      {
+        pathname: location.pathname,
+        search: searchParams.toString() ? `?${searchParams.toString()}` : "",
+        hash: location.hash,
+      },
+      { replace: true },
+    );
   }
 
   return (
@@ -362,10 +380,12 @@ export default function Header() {
 
   useEffect(() => {
     const language = (i18n.resolvedLanguage || "et").split("-")[0];
-    document.documentElement.lang = language;
+    document.documentElement.lang = language === "et" ? "et-EE" : language;
 
     function syncDocumentLanguage(nextLanguage) {
-      document.documentElement.lang = nextLanguage.split("-")[0];
+      const languageCode = nextLanguage.split("-")[0];
+      document.documentElement.lang =
+        languageCode === "et" ? "et-EE" : languageCode;
     }
 
     i18n.on("languageChanged", syncDocumentLanguage);

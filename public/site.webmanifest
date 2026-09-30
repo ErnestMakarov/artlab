@@ -1,9 +1,35 @@
 {
-  "name": "ART Lab",
+  "name": "ART Lab — loovstuudio Tallinnas",
   "short_name": "ART Lab",
+  "description": "Loovstuudio lastele ja täiskasvanutele Tallinnas.",
   "lang": "et",
+  "dir": "ltr",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
-  "theme_color": "#ffffff"
+  "theme_color": "#6d38dd",
+  "categories": ["education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }

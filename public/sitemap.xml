@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.artlabstudio.ee/</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/about</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/about?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/about?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/about?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/about?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/about?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/about?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/about?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/about?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/directions</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/directions" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/directions?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/directions?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/directions" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/directions?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/directions" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/directions?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/directions?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/directions" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/directions?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/directions" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/directions?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/directions?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/directions" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/workshops</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/workshops" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/workshops?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/workshops?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/workshops" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/workshops?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/workshops" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/workshops?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/workshops?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/workshops" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/workshops?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/workshops" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/workshops?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/workshops?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/workshops" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/celebrations</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/celebrations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/celebrations?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/celebrations?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/celebrations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/celebrations?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/celebrations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/celebrations?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/celebrations?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/celebrations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/celebrations?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/celebrations" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/celebrations?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/celebrations?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/celebrations" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/camp</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/camp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/camp?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/camp?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/camp" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/camp?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/camp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/camp?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/camp?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/camp" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/camp?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/camp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/camp?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/camp?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/camp" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/prices</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/prices" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/prices?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/prices?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/prices" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/prices?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/prices" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/prices?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/prices?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/prices" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/prices?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/prices" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/prices?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/prices?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/prices" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/schedule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/schedule?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/schedule?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/schedule" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/schedule?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/schedule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/schedule?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/schedule?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/schedule" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/schedule?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/schedule" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/schedule?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/schedule?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/schedule" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/gallery" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/gallery?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/gallery?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/gallery" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/gallery?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/gallery" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/gallery?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/gallery?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/gallery" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/gallery?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/gallery" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/gallery?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/gallery?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/gallery" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/contacts</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/contacts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/contacts?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/contacts?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/contacts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/contacts?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/contacts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/contacts?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/contacts?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/contacts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/contacts?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/contacts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/contacts?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/contacts?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/contacts" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/privacy?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/privacy?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/privacy" />
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/privacy?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/privacy?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/privacy?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/privacy" />
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.artlabstudio.ee/privacy?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="et-EE" href="https://www.artlabstudio.ee/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.artlabstudio.ee/privacy?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.artlabstudio.ee/privacy?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.artlabstudio.ee/privacy" />
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+</urlset>

@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "check": "npm run lint && npm run build",
+    "seo:sitemap": "node scripts/generate-sitemap.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
