@@ -10,7 +10,14 @@ export default function ContactsHero() {
       titleId="contacts-hero-title"
       eyebrow={t("hero.eyebrow")}
       title={t("hero.title")}
-      description={t("hero.description")}
+      description={
+        <>
+          <span className="block">{t("hero.description")}</span>
+          <span className="mt-4 block border-l-2 border-accent-pink/45 pl-4 font-semibold text-ink/80 sm:mt-5 sm:pl-5">
+            {t("hero.invitation")}
+          </span>
+        </>
+      }
       pageNumber="06 / 06"
       accent="brand"
     >
