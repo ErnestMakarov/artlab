@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Prices and terms",
-    "title": "Getting started is easy.",
+    "title": "Getting started is easy",
     "description": "Choose the creative format that suits you.",
     "card": {
       "label": "Trial class",
@@ -20,7 +20,7 @@
   },
   "lessons": {
     "eyebrow": "Regular classes",
-    "title": "Clear prices for every format.",
+    "title": "Clear prices for every format",
     "description": "Join a group, choose a private programme or come to a one-off creative workshop.",
     "cards": [
       {
@@ -103,7 +103,7 @@
   },
   "camp": {
     "eyebrow": "Art camp",
-    "title": "One day, a full camp session or just a workshop.",
+    "title": "One day, a full camp session or just a workshop",
     "description": "Choose the most convenient option: the complete camp session, a single full day or only the creative part of the programme.",
     "cards": [
       {

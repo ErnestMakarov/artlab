@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Hinnad ja tingimused",
-    "title": "Alustada on lihtne.",
+    "title": "Alustada on lihtne",
     "description": "Vali endale sobiv loominguline formaat.",
     "card": {
       "label": "Proovitund",
@@ -20,7 +20,7 @@
   },
   "lessons": {
     "eyebrow": "Regulaarsed tunnid",
-    "title": "Selged hinnad igale formaadile.",
+    "title": "Selged hinnad igale formaadile",
     "description": "Saate osaleda rühmatundides, valida individuaalprogrammi või tulla eraldi meistriklassi.",
     "cards": [
       {
@@ -103,7 +103,7 @@
   },
   "camp": {
     "eyebrow": "Kunstilaager",
-    "title": "Üks päev, terve vahetus või ainult meistriklass.",
+    "title": "Üks päev, terve vahetus või ainult meistriklass",
     "description": "Valige sobiv osalemisviis: terve laagrivahetus, üks täispikk päev või ainult programmi loominguline osa.",
     "cards": [
       {
