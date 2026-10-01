@@ -5,20 +5,20 @@
   },
   "hero": {
     "eyebrow": "About ARTlab",
-    "title": "A creative studio for children and adults.",
+    "title": "A creative studio for children and adults",
     "description": "Our studio's main focus is visual art. We introduce children and adults to a variety of artistic techniques, teach them to see colour, form and composition, work with different materials and gradually discover their own style.",
     "imageAlt": "ARTlab's bright creative studio with worktables and easels",
     "imageLabel": "ARTlab · Tallinn"
   },
   "approach": {
     "eyebrow": "Our approach",
-    "title": "More than a beautiful result.",
+    "title": "More than a beautiful result",
     "description": "For us, creativity is an opportunity to explore, imagine and experiment, to develop your imagination and become more confident in your own ideas.",
     "accent": "In every class, we provide a clear foundation and the skills you need, demonstrate techniques and guide you through each stage of the process, while always leaving room for imagination and individual creative choices. This is why even with a shared theme, every piece turns out uniquely personal."
   },
   "team": {
     "eyebrow": "The ART Lab team",
-    "title": "Teachers who support every step of the process.",
+    "title": "Teachers who support every step of the process",
     "description": "They explain things calmly, help students understand the materials and encourage every participant's own ideas.",
     "swipeHint": "Swipe to meet the whole team →",
     "listAria": "Teachers at the ART Lab creative studio",
@@ -83,7 +83,7 @@
   },
   "formats": {
     "eyebrow": "Class formats",
-    "title": "Group and private lessons.",
+    "title": "Group and private lessons",
     "description": "We will help you choose a format where you can learn comfortably, try new things and progress at your own pace.",
     "items": [
       {

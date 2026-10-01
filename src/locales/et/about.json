@@ -5,20 +5,20 @@
   },
   "hero": {
     "eyebrow": "ARTlabi stuudiost",
-    "title": "Loovstuudio lastele ja täiskasvanutele.",
+    "title": "Loovstuudio lastele ja täiskasvanutele",
     "description": "Meie stuudio põhisuund on kunstiloome. Tutvustame lastele ja täiskasvanutele erinevaid kunstitehnikaid, õpetame märkama värvi, vormi ja kompositsiooni, töötama mitmesuguste materjalidega ning samm-sammult leidma oma isikupärast stiili.",
     "imageAlt": "ARTlabi valgusküllane loovstuudio töölaudade ja molbertitega",
     "imageLabel": "ARTlab · Tallinn"
   },
   "approach": {
     "eyebrow": "Meie lähenemine",
-    "title": "Rohkem kui ilus lõpptulemus.",
+    "title": "Rohkem kui ilus lõpptulemus",
     "description": "Meie jaoks tähendab looming võimalust proovida, välja mõelda, katsetada, arendada kujutlusvõimet ja saada oma ideedes enesekindlamaks.",
     "accent": "Tundides anname selge aluse ja vajalikud oskused, tutvustame tehnikaid ning aitame töö etappidest aru saada, jättes samal ajal alati ruumi fantaasiale ja isiklikule loomingulisele lahendusele. Seepärast valmib ka ühise teema puhul iga töö täiesti omamoodi."
   },
   "team": {
     "eyebrow": "ART Labi meeskond",
-    "title": "Õpetajad, kes on toeks igal etapil.",
+    "title": "Õpetajad, kes on toeks igal etapil",
     "description": "Nad selgitavad rahulikult, aitavad materjalidest aru saada ja toetavad iga osaleja enda ideid.",
     "swipeHint": "Kogu meeskonnaga tutvumiseks libista →",
     "listAria": "ART Labi loovstuudio õpetajad",
@@ -83,7 +83,7 @@
   },
   "formats": {
     "eyebrow": "Tundide formaadid",
-    "title": "Rühma- ja individuaaltunnid.",
+    "title": "Rühma- ja individuaaltunnid",
     "description": "Leiame formaadi, milles on mugav õppida, uusi asju proovida ja omas tempos edasi liikuda.",
     "items": [
       {
