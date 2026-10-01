@@ -388,44 +388,35 @@
         "cta": "Book the art camp"
       },
       "content": {
-        "eyebrow": "Creative holidays",
-        "title": "Creative school holidays at ART Lab",
+        "eyebrow": "ART CAMP",
+        "title": "Art Camp — school holidays worth repeating",
         "paragraphs": [
-          "Every day at Art Camp brings new activities and experiences. Children explore different materials and techniques, take part in workshops, play and spend time together.",
-          "We balance creative activities with breaks and time to connect. Teachers help children learn each technique while leaving them free to choose colours, invent details and bring their own ideas to life."
+          "At Art Camp we draw, make things, experiment with materials and give children's imaginations room to grow. Between workshops there are games, breaks, conversations and little adventures that become warm memories of the school holidays.",
+          "Our teachers are always nearby to guide, encourage and help bring each idea to life. Children can try something for the first time, make their own choices and feel that their ideas matter."
         ],
-        "listTitle": "What participants can expect",
+        "listTitle": "What awaits the children",
         "steps": [
           {
-            "title": "Different techniques",
-            "description": "During the camp, children try several kinds of creative activities and make their own work by hand."
+            "title": "“Let's give it a try!”",
+            "description": "Paint, modelling clay, unusual materials and different techniques. Every day is a chance to discover something new and create a small creative story of their own."
           },
           {
-            "title": "Individual and shared projects",
-            "description": "Children develop personal ideas and take part in activities together."
+            "title": "My ideas, our discoveries",
+            "description": "Children invent their own projects and create something together. They learn to make decisions as a group, share discoveries and celebrate a friend's success."
           },
           {
-            "title": "New experiences",
-            "description": "Every day brings new themes, new connections and fresh inspiration."
+            "title": "“Can I stay a little longer?”",
+            "description": "Engaging workshops, games and new friendships. We want every child to leave smiling, carrying their creation and stories they cannot wait to share."
           }
         ],
-        "note": "Availability, selected participation days and the final price are confirmed when booking."
+        "note": "Children can join for the full camp, choose individual days or come only for the workshops. Write to us and we will help you choose a convenient option and confirm availability and pricing."
       },
-      "featuresTitle": "Why children love Art Camp",
-      "features": [
-        {
-          "title": "Creativity every day",
-          "description": "Different materials, workshops and activities that are exciting to try."
-        },
-        {
-          "title": "Freedom for their own ideas",
-          "description": "The teacher explains the technique and helps, while each child decides what their work will become."
-        },
-        {
-          "title": "A warm atmosphere",
-          "description": "Children can ask questions, connect, try something new and feel proud of what they create."
-        }
-      ],
+      "programme": {
+        "eyebrow": "Art Camp programme",
+        "title": "Every camp is a new creative story",
+        "description": "We create a unique programme for every Art Camp, with new workshops, themes and adventures for the children. We publish the latest programme before each camp. Use the button below to see what awaits children during the upcoming school holidays.",
+        "button": "View the upcoming camp programme"
+      },
       "cta": {
         "eyebrow": "Registration is open",
         "title": "Choose your format and join the camp.",

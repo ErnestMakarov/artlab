@@ -388,44 +388,35 @@
         "cta": "Registreeru laagrisse"
       },
       "content": {
-        "eyebrow": "Loominguline koolivaheaeg",
-        "title": "Loominguline koolivaheaeg ART Labis",
+        "eyebrow": "ART CAMP",
+        "title": "Art Camp — koolivaheaeg, mida tahaks korrata",
         "paragraphs": [
-          "Art Campis on iga päev täis uusi tegevusi ja elamusi. Lapsed tutvuvad erinevate materjalide ja tehnikatega, osalevad töötubades, mängivad ning veedavad koos aega.",
-          "Vaheldame loomingulisi tegevusi puhkuse ja suhtlemisega. Õpetajad aitavad tehnikat omandada, kuid jätavad lastele võimaluse valida värve, mõelda välja detaile ja viia ellu oma ideid."
+          "Art Campis joonistame, meisterdame, katsetame materjalidega ja anname laste fantaasiale vabaduse. Töötubade vahel on mängud, puhkus, vestlused ja väikesed seiklused, millest sünnivad soojad koolivaheajamälestused.",
+          "Meie õpetajad on alati lähedal: nad annavad nõu, toetavad ja aitavad idee ellu viia. Siin võib midagi esimest korda proovida, teha valikuid omal moel ja tunda, et sinu ideed on olulised."
         ],
-        "listTitle": "Mis osalejaid ees ootab",
+        "listTitle": "Mis lapsi ees ootab",
         "steps": [
           {
-            "title": "Erinevad tehnikad",
-            "description": "Vahetuse jooksul proovivad lapsed mitut liiki loomingulisi tegevusi ja loovad oma kätega töid."
+            "title": "„Aga proovime!”",
+            "description": "Värvid, plastiliin, ebatavalised materjalid ja erinevad tehnikad. Iga päev annab võimaluse millestki uuest innustuda ja luua oma väike loominguline lugu."
           },
           {
-            "title": "Oma ja ühised projektid",
-            "description": "Lapsed töötavad oma ideede kallal ning osalevad ühistes tegevustes."
+            "title": "Minu ideed, meie avastused",
+            "description": "Mõtleme välja oma töid ja loome midagi ka üheskoos. Õpime kokkuleppeid tegema, avastusi jagama ja rõõmustama sõbra õnnestumiste üle."
           },
           {
-            "title": "Uued elamused",
-            "description": "Iga päev toob uusi teemasid, tutvusi ja inspiratsiooni."
+            "title": "„Kas ma võin veel jääda?”",
+            "description": "Põnevad töötoad, mängud ja uued tutvused. Soovime, et laps lahkuks õhtul naeratuse, enda tehtud töö ja lugudega, mida ta ei jõua ära rääkida."
           }
         ],
-        "note": "Vabade kohtade olemasolu, valitud osalemispäevad ja lõpliku hinna kinnitame registreerimisel."
+        "note": "Liituda saab terveks vahetuseks, valida üksikuid päevi või tulla ainult töötubadesse. Kirjutage meile — aitame valida sobiva variandi ning kinnitame vabade kohtade olemasolu ja hinna."
       },
-      "featuresTitle": "Miks lastele Art Camp meeldib",
-      "features": [
-        {
-          "title": "Looming iga päev",
-          "description": "Erinevad materjalid, töötoad ja ülesanded, mida on huvitav proovida."
-        },
-        {
-          "title": "Vabadus oma ideedele",
-          "description": "Õpetaja selgitab tehnikat ja aitab, kuid laps valib ise, milline tema töö tuleb."
-        },
-        {
-          "title": "Soe õhkkond",
-          "description": "Siin saab küsida, suhelda, uut proovida ja oma tulemuste üle rõõmu tunda."
-        }
-      ],
+      "programme": {
+        "eyebrow": "Art Campi programm",
+        "title": "Iga vahetus on uus loominguline lugu",
+        "description": "Loome igaks Art Campi vahetuseks ainulaadse programmi, mis ei kordu: lapsi ootavad uued töötoad, teemad ja seiklused. Enne iga vahetust avaldame värske programmi. Vajutage allolevat nuppu, et näha, mis ootab lapsi lähimal koolivaheajal.",
+        "button": "Vaata järgmise vahetuse programmi"
+      },
       "cta": {
         "eyebrow": "Registreerimine on avatud",
         "title": "Valige sobiv formaat ja liituge laagriga.",

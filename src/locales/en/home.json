@@ -22,7 +22,7 @@
   },
   "about": {
     "eyebrow": "About the studio",
-    "title": "Creativity starts here.",
+    "title": "Creativity starts here",
     "intro": "At ART Lab, we create an atmosphere that inspires people to imagine, experiment and express themselves.",
     "description": "During classes, children and adults explore different art materials and techniques. They learn to work with colour, form and composition while developing imagination, focus and creative thinking.",
     "statement": "For us, it is not only about teaching technique, but also helping everyone feel confident in their ideas and proud of what they create.",
@@ -30,7 +30,7 @@
   },
   "directions": {
     "eyebrow": "Creative directions",
-    "title": "Find your direction.",
+    "title": "Find your direction",
     "intro": "Three formats with different personalities: focus on art, experiment freely or create something with your own hands.",
     "swipeHint": "Swipe to explore every direction →",
     "listAria": "ART Lab class directions",
@@ -63,7 +63,7 @@
   },
   "celebrations": {
     "eyebrow": "Celebrations at ART Lab",
-    "title": "Important days become brighter.",
+    "title": "Important days become brighter",
     "intro": "Celebrate an important day creatively at ART Lab — in our welcoming studio or with an event at your chosen venue.",
     "cardLabel": "Art parties and celebrations",
     "formats": "Children's and adult birthdays, family celebrations, hen parties, gatherings with friends and corporate events.",
@@ -75,7 +75,7 @@
   },
   "workshops": {
     "eyebrow": "ART Lab workshops",
-    "title": "Try what you have always wanted to.",
+    "title": "Try what you have always wanted to",
     "description": "ART Lab regularly hosts workshops for children and adults. Each time, we explore new themes, materials and techniques.",
     "swipeHint": "Swipe to explore every workshop →",
     "listAria": "Featured ART Lab workshops",
@@ -108,7 +108,7 @@
   },
   "whyUs": {
     "eyebrow": "Why choose ART Lab",
-    "title": "A place where you can be yourself.",
+    "title": "A place where you can be yourself",
     "reasons": {
       "formats": "Individual classes and groups of up to 6 participants",
       "teachers": "Experienced and attentive teachers",

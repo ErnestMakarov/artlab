@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 
-import creativeImage from "../../assets/images/directions/creative-workshop.jpg";
+import campImage from "../../assets/images/camp/art-camp.jpg";
 import celebrationImage from "../../assets/images/events/celebration.jpg";
 import acrylicImage from "../../assets/images/workshops/acrylic-canvas.webp";
 import beadworkImage from "../../assets/images/workshops/beadwork.webp";
@@ -23,7 +23,6 @@ const pageConfig = {
     imagePosition: "object-center",
     accentText: "text-accent-cyan",
     accentBackground: "bg-accent-cyan",
-    softBackground: "bg-surface-aqua",
     ctaAccentText: "text-[#71e2e5]",
   },
   celebrations: {
@@ -33,17 +32,16 @@ const pageConfig = {
     imagePosition: "object-center",
     accentText: "text-accent-pink",
     accentBackground: "bg-accent-pink",
-    softBackground: "bg-surface-pink",
     ctaAccentText: "text-[#ff8db5]",
   },
   camp: {
     path: "/camp",
     accent: "brand",
-    image: creativeImage,
+    image: campImage,
     imagePosition: "object-center",
+    imageAspect: "aspect-[16/9]",
     accentText: "text-brand",
     accentBackground: "bg-brand",
-    softBackground: "bg-surface-lilac",
     ctaAccentText: "text-[#c8b5ff]",
   },
 };
@@ -70,7 +68,7 @@ function HeroVisual({ formatKey, config, t }) {
           width="1100"
           height="825"
           decoding="async"
-          className={`aspect-[4/3] w-full object-cover ${config.imagePosition}`}
+          className={`${config.imageAspect || "aspect-[4/3]"} w-full object-cover ${config.imagePosition}`}
         />
 
         <div
@@ -434,22 +432,87 @@ function CampAnnouncement({ t }) {
   );
 }
 
+function CampProgrammeCta({ t }) {
+  return (
+    <section
+      className="relative isolate overflow-hidden bg-white pb-20 sm:pb-24 lg:pb-28"
+      aria-labelledby="camp-programme-title"
+    >
+      <Container>
+        <div className="relative isolate overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#332749] via-[#4b3274] to-[#6b39d3] px-6 py-10 text-white shadow-[0_26px_85px_rgba(51,39,73,0.2)] sm:rounded-[2.75rem] sm:px-10 sm:py-12 lg:px-14 lg:py-14 xl:px-16">
+          <div
+            className="pointer-events-none absolute -right-20 -top-24 size-72 rounded-full bg-accent-cyan/30 blur-3xl"
+            aria-hidden="true"
+          />
+          <div
+            className="pointer-events-none absolute -bottom-24 -left-16 size-64 rounded-full bg-accent-pink/25 blur-3xl"
+            aria-hidden="true"
+          />
+          <div
+            className="pointer-events-none absolute right-[28%] top-10 size-24 rounded-full border-[18px] border-white/5"
+            aria-hidden="true"
+          />
+
+          <div className="relative grid gap-9 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end lg:gap-14">
+            <div className="max-w-4xl">
+              <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#9deff0] sm:text-xs">
+                <span
+                  className="h-0.5 w-8 rounded-full bg-current"
+                  aria-hidden="true"
+                />
+                {t("formatPages.camp.programme.eyebrow")}
+              </p>
+
+              <h2
+                id="camp-programme-title"
+                className="mt-5 text-[clamp(2.35rem,4.5vw,4.75rem)] font-extrabold leading-[0.96] tracking-[-0.055em]"
+              >
+                {t("formatPages.camp.programme.title")}
+              </h2>
+
+              <p className="mt-5 max-w-3xl text-sm leading-7 text-white/75 sm:text-base sm:leading-8 lg:text-lg lg:leading-9">
+                {t("formatPages.camp.programme.description")}
+              </p>
+            </div>
+
+            <a
+              href={instagramUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex min-h-14 w-full shrink-0 items-center justify-center gap-3 rounded-full bg-white px-7 text-center text-sm font-extrabold text-ink shadow-[0_14px_38px_rgba(0,0,0,0.2)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_46px_rgba(0,0,0,0.28)] sm:w-auto"
+            >
+              {t("formatPages.camp.programme.button")}
+              <span
+                className="flex size-8 shrink-0 items-center justify-center rounded-full bg-surface-lilac text-brand transition-transform duration-200 group-hover:translate-x-1"
+                aria-hidden="true"
+              >
+                →
+              </span>
+            </a>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}
+
 export default function CreativeFormatPage({ formatKey }) {
   const { t } = useTranslation("directions");
   const config = pageConfig[formatKey];
   const isWorkshopsPage = formatKey === "workshops";
   const isCelebrationsPage = formatKey === "celebrations";
   const isCampPage = formatKey === "camp";
-  const hasEnhancedContentCard = isWorkshopsPage || isCelebrationsPage;
+  const hasEnhancedContentCard =
+    isWorkshopsPage || isCelebrationsPage || isCampPage;
   const paragraphs = t(`formatPages.${formatKey}.content.paragraphs`, {
     returnObjects: true,
   });
   const steps = t(`formatPages.${formatKey}.content.steps`, {
     returnObjects: true,
   });
-  const features = t(`formatPages.${formatKey}.features`, {
-    returnObjects: true,
-  });
+  const features = isCampPage
+    ? []
+    : t(`formatPages.${formatKey}.features`, { returnObjects: true });
   const contentNote = t(`formatPages.${formatKey}.content.note`);
 
   return (
@@ -470,7 +533,7 @@ export default function CreativeFormatPage({ formatKey }) {
         <HeroVisual formatKey={formatKey} config={config} t={t} />
       </InnerPageHero>
 
-      {formatKey === "camp" && <CampAnnouncement t={t} />}
+      {isCampPage && <CampAnnouncement t={t} />}
 
       <section
         className={`relative isolate overflow-hidden py-20 sm:py-24 lg:py-28 ${
@@ -478,7 +541,7 @@ export default function CreativeFormatPage({ formatKey }) {
             ? "bg-gradient-to-b from-white via-surface-aqua/35 to-white"
             : isCelebrationsPage
               ? "bg-gradient-to-b from-white via-surface-pink/45 to-white"
-              : "bg-white"
+              : "bg-gradient-to-b from-white via-surface-lilac/45 to-white"
         }`}
       >
         {hasEnhancedContentCard && (
@@ -487,13 +550,19 @@ export default function CreativeFormatPage({ formatKey }) {
               className={`pointer-events-none absolute -left-32 top-24 size-80 rounded-full blur-3xl ${
                 isCelebrationsPage
                   ? "bg-accent-pink/10"
-                  : "bg-accent-cyan/10"
+                  : isCampPage
+                    ? "bg-[#ffb451]/12"
+                    : "bg-accent-cyan/10"
               }`}
               aria-hidden="true"
             />
             <div
               className={`pointer-events-none absolute -right-32 bottom-16 size-96 rounded-full blur-3xl ${
-                isCelebrationsPage ? "bg-brand/10" : "bg-brand/8"
+                isCelebrationsPage
+                  ? "bg-brand/10"
+                  : isCampPage
+                    ? "bg-accent-cyan/10"
+                    : "bg-brand/8"
               }`}
               aria-hidden="true"
             />
@@ -548,7 +617,7 @@ export default function CreativeFormatPage({ formatKey }) {
                   ? "border border-accent-cyan/15 bg-gradient-to-br from-surface-aqua via-[#f9ffff] to-surface-lilac shadow-[0_20px_60px_rgba(31,173,180,0.12)]"
                   : isCelebrationsPage
                     ? "border border-accent-pink/15 bg-gradient-to-br from-surface-pink via-[#fffafd] to-surface-lilac shadow-[0_20px_60px_rgba(239,79,136,0.11)]"
-                    : config.softBackground
+                    : "border border-brand/15 bg-gradient-to-br from-surface-lilac via-white to-surface-aqua shadow-[0_20px_60px_rgba(107,57,211,0.11)]"
               }`}
             >
               {hasEnhancedContentCard && (
@@ -575,7 +644,7 @@ export default function CreativeFormatPage({ formatKey }) {
                             ? "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(51,39,73,0.1)]"
                             : isCelebrationsPage
                               ? "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(239,79,136,0.1)]"
-                            : ""
+                            : "transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_15px_38px_rgba(107,57,211,0.1)]"
                         }`}
                       >
                         <span
@@ -694,54 +763,39 @@ export default function CreativeFormatPage({ formatKey }) {
             )}
           </div>
 
-          {isCampPage && (
-            <div className="mt-14 max-w-4xl lg:mt-20">
-              <p className="flex items-center gap-4 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand sm:text-xs">
-                <span
-                  className="h-0.5 w-8 rounded-full bg-current"
-                  aria-hidden="true"
-                />
-                ART CAMP
-              </p>
-              <h2 className="mt-5 text-balance text-[clamp(2.35rem,4.1vw,4.25rem)] font-extrabold leading-[0.98] tracking-[-0.055em] text-ink">
-                {t("formatPages.camp.featuresTitle")}
-              </h2>
-            </div>
+          {!isCampPage && (
+            <ul className="mt-14 grid gap-4 md:grid-cols-3 lg:mt-20">
+              {Array.isArray(features) &&
+                features.map((feature, index) => (
+                  <li
+                    key={feature.title}
+                    className="rounded-[1.75rem] border border-line/80 bg-white p-6 shadow-[0_16px_50px_rgba(51,39,73,0.07)] sm:p-7"
+                  >
+                    <div className="flex items-center justify-between gap-4">
+                      <span
+                        className={`text-xs font-extrabold tracking-[0.15em] ${config.accentText}`}
+                      >
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <span
+                        className={`size-2.5 rounded-full ${config.accentBackground}`}
+                        aria-hidden="true"
+                      />
+                    </div>
+                    <h3 className="mt-8 text-xl font-extrabold leading-7 tracking-[-0.03em] text-ink sm:text-2xl">
+                      {feature.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-7 text-muted">
+                      {feature.description}
+                    </p>
+                  </li>
+                ))}
+            </ul>
           )}
-
-          <ul
-            className={`grid gap-4 md:grid-cols-3 ${
-              isCampPage ? "mt-8 lg:mt-10" : "mt-14 lg:mt-20"
-            }`}
-          >
-            {Array.isArray(features) &&
-              features.map((feature, index) => (
-                <li
-                  key={feature.title}
-                  className="rounded-[1.75rem] border border-line/80 bg-white p-6 shadow-[0_16px_50px_rgba(51,39,73,0.07)] sm:p-7"
-                >
-                  <div className="flex items-center justify-between gap-4">
-                    <span
-                      className={`text-xs font-extrabold tracking-[0.15em] ${config.accentText}`}
-                    >
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span
-                      className={`size-2.5 rounded-full ${config.accentBackground}`}
-                      aria-hidden="true"
-                    />
-                  </div>
-                  <h3 className="mt-8 text-xl font-extrabold leading-7 tracking-[-0.03em] text-ink sm:text-2xl">
-                    {feature.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-7 text-muted">
-                    {feature.description}
-                  </p>
-                </li>
-              ))}
-          </ul>
         </Container>
       </section>
+
+      {isCampPage && <CampProgrammeCta t={t} />}
 
       {formatKey === "workshops" && <WorkshopsShowcase t={t} />}
 

@@ -51,7 +51,7 @@
   },
   "giftCards": {
     "eyebrow": "Kinkekaardid",
-    "title": "Kingi aega loominguks.",
+    "title": "Kingi aega loominguks",
     "description": "ART Labi kinkekaart ei ole lihtsalt kingitus, vaid uued elamused, loominguline aeg ja võimalus valida endale meelepärane tegevus.",
     "cta": "Küsi kinkekaardi kohta",
     "frontAlt": "ART Labi kinkekaardi esikülg",
@@ -59,7 +59,7 @@
   },
   "trialLesson": {
     "eyebrow": "Esimene tund",
-    "title": "Alustame tutvumisest.",
+    "title": "Alustame tutvumisest",
     "description": "Proovitunnis saate tutvuda stuudio, õpetaja ja tunni formaadiga ning rahulikult valida endale sobiva suuna.",
     "pricesLink": "Vaata hindu",
     "priceLabel": "Proovitund",
