@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Suunad",
-    "title": "Looming, kus saad olla sina ise.",
+    "title": "Looming, kus saad olla sina ise",
     "description": "ART Labis leiab igaüks endale meelepärase suuna: saab õppida kujutava kunsti aluseid, luua ruumilisi töid või omandada käsitöövõtteid. Aitame oma ideid avada ja toetame igaühe soovi proovida midagi uut.",
     "cards": [
       "Kunstiloome · 4+ ja täiskasvanud",
@@ -74,7 +74,7 @@
   },
   "howItWorks": {
     "eyebrow": "Kuidas tunnid toimuvad",
-    "title": "Rahulikult, arusaadavalt ja omas tempos.",
+    "title": "Rahulikult, arusaadavalt ja omas tempos",
     "description": "Alustamiseks ei ole vaja kunstikogemust ega eriettevalmistust — piisab soovist proovida.",
     "items": [
       {
@@ -93,7 +93,7 @@
   },
   "otherFormats": {
     "eyebrow": "Teised loomingulised formaadid",
-    "title": "Veel rohkem võimalusi koos luua.",
+    "title": "Veel rohkem võimalusi koos luua",
     "description": "Regulaarsed tunnid jäävad sellele lehele, meistriklassidel, pidudel ja kunstilaagril on aga nüüd omaette jaotised, et vajalikku infot oleks lihtsam leida.",
     "swipeHint": "Kõigi formaatide vaatamiseks libista →",
     "more": "Ava leht",
@@ -122,7 +122,7 @@
     },
     "workshops": {
       "eyebrow": "Töötoad",
-      "title": "Uus tehnika ühe loomingulise kohtumisega.",
+      "title": "Uus tehnika ühe loomingulise kohtumisega",
       "description": "Eraldi temaatilised tunnid lastele ja täiskasvanutele. Programm muutub regulaarselt: proovida saab maalimist, tööd kipsi, villa, helmeste, ruumiliste materjalide ja teiste tehnikatega.",
       "note": "Varasem kogemus ei ole vajalik ja kõik materjalid pakub stuudio.",
       "cta": "Veel töötube Instagramis",
@@ -154,7 +154,7 @@
     },
     "celebrations": {
       "eyebrow": "Loomingulised sünnipäevad",
-      "title": "Pidu, mis jääb alles rohkem kui ainult fotodele.",
+      "title": "Pidu, mis jääb alles rohkem kui ainult fotodele",
       "description": "Peo saab ühendada külaliste vanuse ja huvide järgi valitud töötoaga. Stuudio pakub kõik vajalikud materjalid ning pärast loomingulist osa saab korraldada teejoomise.",
       "note": "Programmi sisu ja hind sõltuvad valitud töötoast, osalejate arvust ja peo formaadist.",
       "cta": "Arutame teie pidu",
@@ -169,7 +169,7 @@
       },
       "hero": {
         "eyebrow": "ART Labi meistriklassid",
-        "title": "Uus tehnika ühe loomingulise kohtumisega.",
+        "title": "Uus tehnika ühe loomingulise kohtumisega",
         "description": "Meistriklass on lihtne viis proovida uut materjali, veeta aega koos ja lahkuda enda valmistatud valmis tööga.",
         "imageAlt": "Akrüülmaali meistriklass lõuendil",
         "tags": [
@@ -219,7 +219,7 @@
       ],
       "showcase": {
         "eyebrow": "Programmide näited",
-        "title": "Iga kohtumine toob uue tehnika.",
+        "title": "Iga kohtumine toob uue tehnika",
         "description": "Need on võimalikud suunad. Aktuaalseid teemasid ja vabu kuupäevi küsi stuudiolt või vaata Instagramist."
       },
       "pricing": {
@@ -238,7 +238,7 @@
       },
       "cta": {
         "eyebrow": "Lähimad meistriklassid",
-        "title": "Leiame sinu huvile sobiva teema.",
+        "title": "Leiame sinu huvile sobiva teema",
         "description": "Kirjuta meile ja räägime praegustest programmidest, kuupäevadest ning vabadest kohtadest.",
         "button": "Küsi lähimate teemade kohta"
       }
@@ -250,7 +250,7 @@
       },
       "hero": {
         "eyebrow": "Peod ART Labis",
-        "title": "Pidu, mille loote oma kätega.",
+        "title": "Pidu, mille loote oma kätega",
         "description": "Ühendame tähtsa päeva loomingulise meistriklassiga, et külalistele jääksid lisaks fotodele ka nende endi valmistatud tööd.",
         "imageAlt": "Loominguline sünnipäev ART Labi stuudios",
       "tags": [
@@ -311,7 +311,7 @@
       ],
       "cta": {
         "eyebrow": "Arutame sündmust",
-        "title": "Loome teie seltskonnale sobiva peo.",
+        "title": "Loome teie seltskonnale sobiva peo",
         "description": "Saatke ligikaudne kuupäev ja külaliste arv ning pakume sobiva formaadi.",
         "button": "Arutame teie pidu"
       }
@@ -323,7 +323,7 @@
       },
       "hero": {
         "eyebrow": "ART Labi kunstilaager",
-        "title": "Loovust täis koolivaheaeg.",
+        "title": "Loovust täis koolivaheaeg",
         "description": "Kunstilaager ühendab ühes koolivaheajaprogrammis erinevad materjalid, tehnikad ja projektid. Laps proovib uut, suhtleb ning viib oma ideid ellu.",
         "imageAlt": "Lapsed loovad ART Labis projekte",
         "tags": [
@@ -419,7 +419,7 @@
       },
       "cta": {
         "eyebrow": "Registreerimine on avatud",
-        "title": "Valige sobiv formaat ja liituge laagriga.",
+        "title": "Valige sobiv formaat ja liituge laagriga",
         "description": "Saatke päring — kinnitame vabade kohtade olemasolu, osalemispäevad ja sobiva formaadi.",
         "button": "Registreeru laagrisse"
       }

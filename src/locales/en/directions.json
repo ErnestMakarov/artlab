@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Directions",
-    "title": "Creativity where you can be yourself.",
+    "title": "Creativity where you can be yourself",
     "description": "At ART Lab, everyone can find a direction that feels right: learn the foundations of visual art, create dimensional pieces or explore handicraft techniques. We help bring personal ideas to life and encourage everyone to try something new.",
     "cards": [
       "Visual art · ages 4+ and adults",
@@ -74,7 +74,7 @@
   },
   "howItWorks": {
     "eyebrow": "How classes work",
-    "title": "Calm, clear and at your own pace.",
+    "title": "Calm, clear and at your own pace",
     "description": "No artistic experience or special preparation is required — a desire to try is enough.",
     "items": [
       {
@@ -93,7 +93,7 @@
   },
   "otherFormats": {
     "eyebrow": "Other creative formats",
-    "title": "Even more ways to create together.",
+    "title": "Even more ways to create together",
     "description": "Regular classes remain on this page, while workshops, celebrations and art camp now have dedicated sections, making the right information easier to find.",
     "swipeHint": "Swipe to explore every format →",
     "more": "Open page",
@@ -122,7 +122,7 @@
     },
     "workshops": {
       "eyebrow": "Workshops",
-      "title": "A new technique in one creative session.",
+      "title": "A new technique in one creative session",
       "description": "One-off themed sessions for children and adults. The programme changes regularly and may include painting, plaster, wool, beadwork, dimensional materials and many other techniques.",
       "note": "No previous experience is needed and all materials are provided by the studio.",
       "cta": "More workshops on Instagram",
@@ -154,7 +154,7 @@
     },
     "celebrations": {
       "eyebrow": "Creative birthday parties",
-      "title": "A celebration that leaves more than photographs.",
+      "title": "A celebration that leaves more than photographs",
       "description": "A celebration can be combined with a workshop selected for the guests' ages and interests. The studio provides all materials, and the creative session can be followed by a tea party.",
       "note": "The programme and price depend on the chosen workshop, the number of participants and the celebration format.",
       "cta": "Plan your celebration",
@@ -169,7 +169,7 @@
       },
       "hero": {
         "eyebrow": "ART Lab workshops",
-        "title": "A new technique in one creative session.",
+        "title": "A new technique in one creative session",
         "description": "A workshop is an easy way to try an unfamiliar material, spend time together and leave with your own finished piece.",
         "imageAlt": "An acrylic painting workshop on canvas",
         "tags": [
@@ -238,7 +238,7 @@
       },
       "cta": {
         "eyebrow": "Upcoming workshops",
-        "title": "We will find a theme that inspires you.",
+        "title": "We will find a theme that inspires you",
         "description": "Message us for current programmes, dates and available places.",
         "button": "Explore upcoming themes"
       }
@@ -250,7 +250,7 @@
       },
       "hero": {
         "eyebrow": "Celebrations at ART Lab",
-        "title": "A celebration made by hand.",
+        "title": "A celebration made by hand",
         "description": "We combine a special day with a creative workshop, so guests leave with more than photographs — they take home work of their own.",
         "imageAlt": "A creative birthday party at ART Lab",
       "tags": [
@@ -311,7 +311,7 @@
       ],
       "cta": {
         "eyebrow": "Plan an occasion",
-        "title": "We will shape the celebration around your group.",
+        "title": "We will shape the celebration around your group",
         "description": "Send an approximate date and guest count, and we will suggest a suitable format.",
         "button": "Plan your celebration"
       }
@@ -323,7 +323,7 @@
       },
       "hero": {
         "eyebrow": "ART Lab art camp",
-        "title": "School holidays filled with creativity.",
+        "title": "School holidays filled with creativity",
         "description": "Art camp brings different materials, techniques and projects together in one school holiday programme. Children try new things, connect and bring their own ideas to life.",
         "imageAlt": "Children creating projects at ART Lab",
         "tags": [
@@ -419,7 +419,7 @@
       },
       "cta": {
         "eyebrow": "Registration is open",
-        "title": "Choose your format and join the camp.",
+        "title": "Choose your format and join the camp",
         "description": "Send an enquiry and we will confirm availability, participation days and the most suitable format.",
         "button": "Book the art camp"
       }
