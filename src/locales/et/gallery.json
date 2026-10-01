@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "ART Labi galerii",
-    "title": "Loovus igas hetkes.",
+    "title": "Loovus igas hetkes",
     "description": "Hetked tundidest, töötubadest ja pidudest ning tööd, mille üle meie õpilased uhkust tunnevad.",
     "artAlt": "Kunstitund ART Labi loovstuudios",
     "creativeAlt": "Loomeprotsess ART Labi loovtöötoas",
@@ -13,7 +13,7 @@
   },
   "content": {
     "eyebrow": "Stuudio elu",
-    "title": "Looming, mida tahad lähemalt vaadata.",
+    "title": "Looming, mida tahad lähemalt vaadata",
     "description": "Siia oleme kogunud ehtsad hetked tundidest, loomeprotsessi detailid ja ART Labis valminud tööd.",
     "listLabel": "Fotod ART Labi stuudiost",
     "imageAlt": "Loominguline hetk ART Labis — foto {{number}}",

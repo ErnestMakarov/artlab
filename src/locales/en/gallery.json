@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "ART Lab gallery",
-    "title": "Creativity in every moment.",
+    "title": "Creativity in every moment",
     "description": "Moments from classes, workshops and celebrations, along with work our students are proud of.",
     "artAlt": "An art class at the ART Lab creative studio",
     "creativeAlt": "The creative process in an ART Lab workshop",
@@ -13,7 +13,7 @@
   },
   "content": {
     "eyebrow": "Life at the studio",
-    "title": "Creativity worth a closer look.",
+    "title": "Creativity worth a closer look",
     "description": "A collection of real moments from classes, details of the creative process and work made at ART Lab.",
     "listLabel": "Photos from the ART Lab studio",
     "imageAlt": "A creative moment at ART Lab — photo {{number}}",

@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Contact us",
-    "title": "Creativity begins with getting to know each other.",
+    "title": "Creativity begins with getting to know each other",
     "description": "Tell us what you are looking for — group or individual classes, a workshop or a creative celebration. We will answer your questions and help you choose the right format.",
     "invitation": "Would you like to join a class, arrange a creative celebration or try something new? Write to us — we’ll help you choose the right format and a convenient time.",
     "preview": {
@@ -18,7 +18,7 @@
   },
   "form": {
     "eyebrow": "Enquire at ART Lab",
-    "title": "Tell us what you are looking for.",
+    "title": "Tell us what you are looking for",
     "description": "Complete the short form and we will contact you, clarify the details and suggest a suitable option.",
     "requiredNote": "* required fields",
     "honeypot": "Do not fill in this field",
