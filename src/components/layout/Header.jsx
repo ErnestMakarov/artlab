@@ -50,16 +50,19 @@ const directionToneClasses = {
   brand: {
     number: "text-brand",
     hover: "group-hover/item:border-brand/20 group-hover/item:bg-surface-lilac",
+    surface: "border-brand/15 bg-surface-lilac",
   },
   cyan: {
     number: "text-accent-cyan",
     hover:
       "group-hover/item:border-accent-cyan/20 group-hover/item:bg-surface-aqua",
+    surface: "border-accent-cyan/15 bg-surface-aqua",
   },
   pink: {
     number: "text-accent-pink",
     hover:
       "group-hover/item:border-accent-pink/20 group-hover/item:bg-surface-pink",
+    surface: "border-accent-pink/15 bg-surface-pink",
   },
 };
 
@@ -83,8 +86,10 @@ function desktopLinkClass({ isActive }) {
 
 function mobileLinkClass({ isActive }) {
   return [
-    "flex items-center justify-between border-b border-line/80 py-4 text-2xl font-semibold tracking-[-0.03em] transition-colors",
-    isActive ? "text-brand" : "text-ink hover:text-brand",
+    "group flex min-w-0 items-center justify-between gap-4 rounded-[1.2rem] border px-4 py-3.5 text-[clamp(1.1rem,4vw,1.35rem)] font-extrabold tracking-[-0.035em] transition-all duration-200 sm:px-5 sm:py-4",
+    isActive
+      ? "border-brand/15 bg-surface-lilac text-brand shadow-[0_10px_28px_rgba(107,57,211,0.08)]"
+      : "border-transparent text-ink hover:border-white hover:bg-white/85 hover:text-brand",
   ].join(" ");
 }
 
@@ -259,7 +264,7 @@ function DesktopDirectionsMenu({ pathname, t }) {
   );
 }
 
-function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
+function MobileDirectionsMenu({ isMenuOpen, onNavigate, pathname, t }) {
   const [isOpen, setIsOpen] = useState(false);
   const isActive = isDirectionsPath(pathname);
 
@@ -267,14 +272,25 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
     setIsOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    if (!isMenuOpen) setIsOpen(false);
+  }, [isMenuOpen]);
+
   return (
-    <div className="border-b border-line/80">
-      <div className="grid grid-cols-[minmax(0,1fr)_48px] items-center gap-2">
+    <div
+      className={`overflow-hidden rounded-[1.2rem] border transition-all duration-200 ${
+        isActive || isOpen
+          ? "border-brand/15 bg-surface-lilac shadow-[0_10px_28px_rgba(107,57,211,0.08)]"
+          : "border-transparent hover:border-white hover:bg-white/85"
+      }`}
+    >
+      <div className="grid min-w-0 grid-cols-[minmax(0,1fr)_48px] items-center gap-2 px-4 sm:px-5">
         <NavLink
           to="/directions"
-          className={`py-4 text-2xl font-semibold tracking-[-0.03em] transition-colors ${
+          className={`min-w-0 py-3.5 text-[clamp(1.1rem,4vw,1.35rem)] font-extrabold tracking-[-0.035em] transition-colors sm:py-4 ${
             isActive ? "text-brand" : "text-ink hover:text-brand"
           }`}
+          onClick={onNavigate}
           tabIndex={isMenuOpen ? 0 : -1}
         >
           {t("navigation.directions")}
@@ -283,10 +299,10 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
         <button
           type="button"
           onClick={() => setIsOpen((current) => !current)}
-          className={`flex size-11 items-center justify-center justify-self-end rounded-full border transition-colors ${
+          className={`flex size-10 items-center justify-center justify-self-end rounded-full border shadow-[0_7px_20px_rgba(51,39,73,0.06)] transition-all duration-200 ${
             isOpen
-              ? "border-brand/15 bg-surface-lilac text-brand"
-              : "border-line bg-white/70 text-ink"
+              ? "border-brand/15 bg-brand text-white"
+              : "border-white/90 bg-white/85 text-ink hover:text-brand"
           }`}
           aria-expanded={isOpen}
           aria-controls="mobile-directions-submenu"
@@ -321,7 +337,7 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
         }`}
       >
         <div className="overflow-hidden">
-          <div className="mb-4 grid gap-2 rounded-[1.5rem] border border-white/90 bg-white/65 p-2 shadow-[0_12px_35px_rgba(51,39,73,0.07)] backdrop-blur-xl">
+          <div className="mx-2 mb-2 grid gap-1.5 rounded-[1.25rem] border border-white/90 bg-white/70 p-1.5 shadow-[0_12px_35px_rgba(51,39,73,0.07)] backdrop-blur-xl sm:mx-3 sm:mb-3 sm:p-2">
             {directionLinks.map((item) => {
               const tone = directionToneClasses[item.tone];
               const itemIsActive = pathname === item.to;
@@ -330,10 +346,12 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
                 <NavLink
                   key={item.to}
                   to={item.to}
-                  onClick={() => setIsOpen(false)}
+                  onClick={onNavigate}
                   tabIndex={isMenuOpen && isOpen ? 0 : -1}
-                  className={`grid grid-cols-[38px_minmax(0,1fr)_20px] items-center gap-3 rounded-[1rem] px-3 py-3 transition-colors ${
-                    itemIsActive ? "bg-surface-lilac" : "hover:bg-white"
+                  className={`group/item grid min-w-0 grid-cols-[38px_minmax(0,1fr)_20px] items-center gap-3 rounded-[1rem] border px-3 py-3 transition-all duration-200 ${
+                    itemIsActive
+                      ? tone.surface
+                      : "border-transparent hover:bg-white"
                   }`}
                 >
                   <span
@@ -341,10 +359,18 @@ function MobileDirectionsMenu({ isMenuOpen, pathname, t }) {
                   >
                     {item.number}
                   </span>
-                  <span className="min-w-0 text-sm font-extrabold leading-5 text-ink">
-                    {t(item.label)}
+                  <span className="min-w-0">
+                    <span className="block text-sm font-extrabold leading-5 text-ink">
+                      {t(item.label)}
+                    </span>
+                    <span className="mt-0.5 block text-[10px] leading-4 text-muted sm:text-[11px]">
+                      {t(item.description)}
+                    </span>
                   </span>
-                  <span className="text-brand" aria-hidden="true">
+                  <span
+                    className="text-brand transition-transform duration-200 group-hover/item:translate-x-0.5"
+                    aria-hidden="true"
+                  >
                     →
                   </span>
                 </NavLink>
@@ -398,8 +424,16 @@ export default function Header() {
   useEffect(() => {
     if (!isMenuOpen) return undefined;
 
+    const previousHtmlOverflow = document.documentElement.style.overflow;
+    const previousHtmlOverscroll =
+      document.documentElement.style.overscrollBehavior;
     const previousOverflow = document.body.style.overflow;
+    const previousOverscroll = document.body.style.overscrollBehavior;
+
+    document.documentElement.style.overflow = "hidden";
+    document.documentElement.style.overscrollBehavior = "none";
     document.body.style.overflow = "hidden";
+    document.body.style.overscrollBehavior = "none";
 
     function handleKeyDown(event) {
       if (event.key === "Escape") setIsMenuOpen(false);
@@ -408,7 +442,11 @@ export default function Header() {
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
+      document.documentElement.style.overflow = previousHtmlOverflow;
+      document.documentElement.style.overscrollBehavior =
+        previousHtmlOverscroll;
       document.body.style.overflow = previousOverflow;
+      document.body.style.overscrollBehavior = previousOverscroll;
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isMenuOpen]);
@@ -542,7 +580,7 @@ export default function Header() {
 
       <div
         id="mobile-navigation"
-        className={`fixed inset-0 z-40 overflow-y-auto bg-white/[0.88] backdrop-blur-3xl transition-[opacity,visibility] duration-300 xl:hidden ${
+        className={`fixed inset-x-0 bottom-0 top-16 z-40 w-full max-w-full overflow-x-hidden overflow-y-auto overscroll-y-contain bg-gradient-to-b from-white/95 via-[#fbf9ff]/95 to-white/95 backdrop-blur-3xl [touch-action:pan-y] transition-[opacity,visibility] duration-300 sm:top-[72px] xl:hidden ${
           isMenuOpen
             ? "visible opacity-100"
             : "invisible pointer-events-none opacity-0"
@@ -550,17 +588,24 @@ export default function Header() {
         aria-hidden={!isMenuOpen}
       >
         <div
-          className="pointer-events-none absolute -right-24 top-20 size-72 rounded-full bg-brand/10 blur-3xl"
+          className="pointer-events-none absolute inset-0 overflow-hidden"
           aria-hidden="true"
-        />
-        <div
-          className="pointer-events-none absolute -left-24 bottom-10 size-64 rounded-full bg-accent-cyan/10 blur-3xl"
-          aria-hidden="true"
-        />
+        >
+          <div className="absolute -right-24 top-8 size-72 rounded-full bg-brand/10 blur-3xl" />
+          <div className="absolute -left-24 bottom-10 size-64 rounded-full bg-accent-cyan/10 blur-3xl" />
+          <div className="absolute left-[38%] top-[42%] size-36 rounded-full bg-accent-pink/5 blur-3xl" />
+        </div>
 
-        <Container className="relative flex min-h-full flex-col pb-6 pt-24 sm:pt-28">
+        <Container className="relative flex min-h-full min-w-0 max-w-3xl flex-col pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-5 sm:pt-7">
+          <div className="mb-3 flex min-w-0 items-center justify-between gap-4 px-1 sm:mb-4">
+            <p className="truncate text-[10px] font-extrabold uppercase tracking-[0.2em] text-muted sm:text-xs">
+              ART LAB · TALLINN
+            </p>
+            <LanguageSwitcher className="shrink-0 sm:hidden" />
+          </div>
+
           <nav
-            className="flex flex-1 flex-col"
+            className="grid min-w-0 flex-1 content-start gap-1.5 rounded-[1.65rem] border border-white/90 bg-white/65 p-2 shadow-[0_22px_70px_rgba(51,39,73,0.10)] backdrop-blur-2xl sm:gap-2 sm:rounded-[2rem] sm:p-3"
             aria-label={t("navigation.ariaLabel")}
           >
             {navigation.map((item) =>
@@ -568,6 +613,7 @@ export default function Header() {
                 <MobileDirectionsMenu
                   key="directions"
                   isMenuOpen={isMenuOpen}
+                  onNavigate={() => setIsMenuOpen(false)}
                   pathname={pathname}
                   t={t}
                 />
@@ -577,27 +623,35 @@ export default function Header() {
                   to={item.to}
                   end={item.end}
                   className={mobileLinkClass}
+                  onClick={() => setIsMenuOpen(false)}
                   tabIndex={isMenuOpen ? 0 : -1}
                 >
-                  {t(item.label)}
-                  <span className="text-base text-brand" aria-hidden="true">
-                    ↗
+                  <span className="min-w-0 truncate">{t(item.label)}</span>
+                  <span
+                    className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white text-sm text-brand shadow-[0_6px_18px_rgba(51,39,73,0.06)] transition-transform duration-200 group-hover:translate-x-0.5"
+                    aria-hidden="true"
+                  >
+                    →
                   </span>
                 </NavLink>
               ),
             )}
           </nav>
 
-          <div className="mt-8 flex flex-col gap-4">
-            <LanguageSwitcher className="w-fit sm:hidden" />
-
+          <div className="mt-4 rounded-[1.6rem] border border-white/90 bg-white/70 p-2 shadow-[0_16px_45px_rgba(51,39,73,0.08)] backdrop-blur-xl sm:mt-5 sm:p-3">
             <Link
               to="/contacts#booking"
+              onClick={() => setIsMenuOpen(false)}
               tabIndex={isMenuOpen ? 0 : -1}
-              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-base font-bold text-white shadow-button"
+              className="group inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-[1.2rem] bg-gradient-to-r from-brand to-[#7d45dc] px-7 text-base font-extrabold text-white shadow-button transition-all duration-200 hover:-translate-y-0.5 hover:shadow-button-hover"
             >
               {t("actions.book")}
-              <span aria-hidden="true">→</span>
+              <span
+                className="transition-transform duration-200 group-hover:translate-x-0.5"
+                aria-hidden="true"
+              >
+                →
+              </span>
             </Link>
           </div>
         </Container>
