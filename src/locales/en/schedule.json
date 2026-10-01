@@ -5,7 +5,7 @@
   },
   "hero": {
     "eyebrow": "Class schedule",
-    "title": "Find your time to create.",
+    "title": "Find your time to create",
     "description": "Choose a direction to see suitable days, times and age groups. Both group and individual classes are available.",
     "card": {
       "label": "A week at ART Lab",
@@ -19,7 +19,7 @@
   },
   "board": {
     "eyebrow": "A week at ART Lab",
-    "title": "Choose a direction and a time that suits you.",
+    "title": "Choose a direction and a time that suits you",
     "description": "Use the filters to keep only the classes you need. The age group is shown next to every class.",
     "filterLabel": "Show",
     "dayTabsLabel": "Choose a day of the week",
@@ -59,7 +59,7 @@
   },
   "notice": {
     "eyebrow": "Before booking",
-    "title": "Check current availability.",
+    "title": "Check current availability",
     "description": "Group sizes are limited and the schedule may occasionally change. Message us and we will check availability and help you choose the right class for your age and interests.",
     "cta": "Find the right class",
     "caption": "We will reply and help you choose a group."
