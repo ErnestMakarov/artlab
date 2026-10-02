@@ -5,7 +5,418 @@
   },
   "intro": {
     "eyebrow": "Privacy and data",
-    "title": "Privacy policy",
-    "description": "Here you can find information about how ARTLab Studio OÜ collects, uses and protects personal data."
-  }
+    "title": "Art Lab Studio Privacy Policy"
+  },
+  "content": [
+    {
+      "type": "date",
+      "text": "Last updated: 2 October 2026"
+    },
+    {
+      "type": "paragraph",
+      "text": "This Privacy Policy explains how personal data is processed when you visit the Art Lab Studio website and submit applications for classes, workshops, Art Camp and other Studio events."
+    },
+    {
+      "type": "paragraph",
+      "text": "Personal data is processed in accordance with the European Union General Data Protection Regulation — Regulation (EU) 2016/679 (GDPR) — and applicable Estonian legislation."
+    },
+    {
+      "type": "heading",
+      "text": "1. Data Controller"
+    },
+    {
+      "type": "paragraph",
+      "text": "The controller responsible for processing personal data is ARTLab Studio OÜ, hereinafter referred to as the “Studio”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Studio address: Peterburi tee 46, Office 417, Tallinn, Estonia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Email: artlabtallinn\\@gmail.com."
+    },
+    {
+      "type": "paragraph",
+      "text": "For questions concerning the processing of personal data or the exercise of your rights, please contact the Studio at the email address above."
+    },
+    {
+      "type": "heading",
+      "text": "2. Personal Data We Process"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1. Information provided in an application"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you complete the website application form, the Studio receives:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "the participant’s first and last name;",
+        "the participant’s age;",
+        "an email address;",
+        "a telephone number;",
+        "the selected class or participation format;",
+        "any comment you choose to provide."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When registering a child, the application must include the child’s first and last name and age, together with the email address and telephone number of their parent or legal representative."
+    },
+    {
+      "type": "paragraph",
+      "text": "The application also includes the website language, the date and time of submission, the URL of the page from which the application was submitted, and confirmation that you have read this Privacy Policy."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2. Technical data"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you visit the website, the hosting provider, Vercel, may process:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "your IP address;",
+        "information about your browser and device;",
+        "the date and time of the request;",
+        "the URL of the requested page;",
+        "technical operational and security logs."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.3. Information in comments and correspondence"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Studio also receives information you voluntarily provide in an application comment or subsequent correspondence."
+    },
+    {
+      "type": "paragraph",
+      "text": "The application form is not intended to collect health information, copies of identity documents or other sensitive data. If additional information is needed to organise participation, the arrangements for providing and processing it will be discussed separately."
+    },
+    {
+      "type": "heading",
+      "text": "3. Purposes and Legal Bases for Processing"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1. Reviewing applications and arranging participation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Data is used to respond to enquiries, select a suitable class and age group, agree on participation terms, complete registration and prepare a contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "Processing an adult applicant’s data where necessary to take steps at their request before entering into a contract, and subsequently to perform that contract, is based on Article 6(1)(b) GDPR."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2. Organising a child’s participation"
+    },
+    {
+      "type": "paragraph",
+      "text": "A child’s first and last name and age are used to identify the participant, select a suitable group and organise the participation requested by their parent."
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal basis is Article 6(1)(f) GDPR — the Studio’s legitimate interest in organising classes and events at the request of a parent or legal representative. The child’s rights and interests are taken into account, and processing is limited to the information necessary for these purposes."
+    },
+    {
+      "type": "subheading",
+      "text": "3.3. Organisational communications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contact details are used for communications relating to an application or contract, including registration confirmations, scheduling, venue information and notifications of changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal basis is Article 6(1)(b) GDPR. For enquiries unrelated to entering into a contract, processing is based on the Studio’s legitimate interest in responding to an enquiry under Article 6(1)(f) GDPR."
+    },
+    {
+      "type": "subheading",
+      "text": "3.4. Website operation and security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Technical data is processed to deliver website pages, maintain website functionality, identify errors and prevent misuse."
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal basis is Article 6(1)(f) GDPR — the legitimate interest in ensuring the availability and security of the website."
+    },
+    {
+      "type": "paragraph",
+      "text": "Application submission details and confirmation that you have read this Policy are used on the same basis to document receipt of your enquiry and the provision of information about data processing."
+    },
+    {
+      "type": "subheading",
+      "text": "3.5. Compliance with legal obligations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where processing or retention of data is required by law, the legal basis is Article 6(1)(c) GDPR."
+    },
+    {
+      "type": "heading",
+      "text": "4. Required Information"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mandatory fields are marked in the application form. This information is necessary to identify the participant, select a suitable class and contact the applicant."
+    },
+    {
+      "type": "paragraph",
+      "text": "Failure to provide the necessary information may make it impossible to review the application or confirm registration. The comment field is optional."
+    },
+    {
+      "type": "paragraph",
+      "text": "Confirmation that you have read this Policy means that you have received information about the processing of your data. It does not constitute consent to marketing communications or any other purposes unrelated to your application."
+    },
+    {
+      "type": "heading",
+      "text": "5. Processing Children’s Data"
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications for a child’s participation must be submitted by their parent or legal representative."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Studio uses the child’s data to review the application and organise participation. Submitting an application does not authorise the publication of the child’s name, photographs or video recordings."
+    },
+    {
+      "type": "paragraph",
+      "text": "The terms governing photography, video recording and the use of such materials are established separately."
+    },
+    {
+      "type": "heading",
+      "text": "6. How Applications Are Transmitted and Who Receives the Data"
+    },
+    {
+      "type": "subheading",
+      "text": "6.1. EmailJS"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the form is submitted, its data is transmitted directly from your browser through EmailJS Pte. Ltd. to the Studio’s email address: artlabtallinn\\@gmail.com."
+    },
+    {
+      "type": "paragraph",
+      "text": "EmailJS may process the application content, technical request metadata and temporary logs to deliver the message and operate its service."
+    },
+    {
+      "type": "subheading",
+      "text": "6.2. Google Gmail"
+    },
+    {
+      "type": "paragraph",
+      "text": "After delivery, the application email is stored in Google Gmail. The Studio uses it to review the enquiry and conduct subsequent correspondence."
+    },
+    {
+      "type": "subheading",
+      "text": "6.3. Vercel"
+    },
+    {
+      "type": "paragraph",
+      "text": "The website is hosted by Vercel. This service may process the technical visit data listed in Section 2.2."
+    },
+    {
+      "type": "subheading",
+      "text": "6.4. Access within the Studio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications are accessible to authorised persons who need the information for their work. Instructors receive only the information necessary to organise and conduct classes."
+    },
+    {
+      "type": "subheading",
+      "text": "6.5. Other recipients"
+    },
+    {
+      "type": "paragraph",
+      "text": "Data may be disclosed to competent authorities where required by law, and to professional advisers where necessary for the establishment, exercise or defence of legal claims and where an appropriate legal basis exists."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Studio does not sell personal data."
+    },
+    {
+      "type": "paragraph",
+      "text": "The website does not have its own application database. No separate copy of an application is created on the website. However, the message is stored in the email service, and technical service providers may retain logs of their processing activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "GitHub is used to store the website’s source code and images. Data from submitted applications is not transmitted to GitHub."
+    },
+    {
+      "type": "heading",
+      "text": "7. International Data Transfers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The operation of the website and delivery of applications involve international services. Personal data may be processed outside the European Economic Area, including in the United States."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vercel is a US service provider. EmailJS infrastructure is located in the United States. Google may process data in countries where its infrastructure is located."
+    },
+    {
+      "type": "paragraph",
+      "text": "The providers’ documentation sets out international data transfer mechanisms, including the European Commission’s Standard Contractual Clauses and, for Vercel and Google, participation in the EU–US Data Privacy Framework within the scope of their respective certifications. The applicable mechanism depends on the service, recipient and processing terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Information about the safeguards applicable to a particular transfer and how to obtain a copy of them may be requested from the Studio at artlabtallinn\\@gmail.com."
+    },
+    {
+      "type": "heading",
+      "text": "8. Retention of Personal Data"
+    },
+    {
+      "type": "paragraph",
+      "text": "Retention periods depend on the purpose of processing:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Applications and correspondence that do not result in a contract:** retained until the enquiry has been fully addressed and participation arrangements have been concluded. The data is then deleted unless another lawful basis for retention exists.",
+        "**Information necessary to perform a contract:** retained throughout the participation period and performance of the contract.",
+        "**Documents subject to mandatory retention:** retained for the period required by applicable legislation.",
+        "**Information necessary for legal claims:** retained for the applicable limitation period and, if a dispute arises, until its final resolution and fulfilment of the related obligations."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Only information necessary for the relevant purpose is retained. The mere presence of an email in the mailbox does not justify indefinite retention."
+    },
+    {
+      "type": "paragraph",
+      "text": "Retention periods for Vercel technical logs, EmailJS temporary data and service-related copies held by the email provider are governed by the relevant providers’ terms and applicable settings."
+    },
+    {
+      "type": "heading",
+      "text": "9. Cookies and Browser Local Storage"
+    },
+    {
+      "type": "paragraph",
+      "text": "The website does not set cookies and does not use Google Analytics, Meta Pixel, advertising systems or other analytics trackers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Only your selected language is saved in your browser’s localStorage under the technical key artlab-language."
+    },
+    {
+      "type": "paragraph",
+      "text": "This entry is necessary to preserve your language preference. It is not used for advertising, analytics, profiling or visitor tracking."
+    },
+    {
+      "type": "paragraph",
+      "text": "The language preference remains stored until you change it or delete the website’s data in your browser. You can remove it through your browser settings."
+    },
+    {
+      "type": "heading",
+      "text": "10. External Links"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instagram, WhatsApp, Facebook and Google Maps are provided on the website as ordinary external links."
+    },
+    {
+      "type": "paragraph",
+      "text": "These services are accessed only when you choose to follow a link. When you visit a service or send a message, that service processes data in accordance with its own privacy policy."
+    },
+    {
+      "type": "heading",
+      "text": "11. Marketing Communications"
+    },
+    {
+      "type": "paragraph",
+      "text": "The website does not currently offer marketing mailing subscriptions or send marketing communications."
+    },
+    {
+      "type": "paragraph",
+      "text": "If marketing communications are introduced, consent will be requested separately through an optional checkbox that is not pre-selected. Declining marketing communications will not prevent you from submitting an application or attending the Studio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Organisational messages relating to an application or participation do not require a subscription to marketing communications."
+    },
+    {
+      "type": "heading",
+      "text": "12. Protection of Personal Data"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Studio implements proportionate technical and organisational measures to protect data against unlawful access, disclosure, alteration, accidental loss and destruction."
+    },
+    {
+      "type": "paragraph",
+      "text": "Access is granted only to the extent necessary for work. When using external services, the Studio takes into account their data processing terms and security measures."
+    },
+    {
+      "type": "heading",
+      "text": "13. Your Rights"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subject to the conditions set out in the GDPR, you have the right to:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "obtain information about processing and a copy of your personal data;",
+        "request the correction of inaccurate data or completion of incomplete data;",
+        "request the erasure of data;",
+        "request restriction of processing;",
+        "object to processing based on legitimate interests on grounds relating to your particular situation;",
+        "exercise the right to data portability where processing is carried out by automated means and is based on a contract or consent;",
+        "withdraw consent where a particular processing activity is based on consent."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The applicability of individual rights depends on the legal basis and circumstances of processing."
+    },
+    {
+      "type": "paragraph",
+      "text": "A parent or legal representative may submit requests concerning the data of the child they represent."
+    },
+    {
+      "type": "paragraph",
+      "text": "Requests should be sent to artlabtallinn\\@gmail.com. If there are reasonable doubts about the applicant’s identity or authority to act, the Studio may request the necessary supporting information."
+    },
+    {
+      "type": "paragraph",
+      "text": "A response will be provided without undue delay, normally within one month of receiving the request. Where necessary, this period may be extended by a further two months, taking into account the complexity and number of requests. The Studio will notify you of any extension and the reasons for it within the first month."
+    },
+    {
+      "type": "paragraph",
+      "text": "Data will not be erased to the extent that its retention is necessary to comply with a legal obligation or for the establishment, exercise or defence of legal claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "You have the right to lodge a complaint with Andmekaitse Inspektsioon — the Estonian Data Protection Inspectorate: www\\.aki.ee, and to seek a remedy before a competent court."
+    },
+    {
+      "type": "heading",
+      "text": "14. Changes to This Policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Studio updates this Policy when the purposes or methods of processing, or the services used, change."
+    },
+    {
+      "type": "paragraph",
+      "text": "The current version is published on the website with its update date. A change to this Policy does not, by itself, replace the requirement to obtain separate consent where consent is required by law."
+    }
+  ]
 }

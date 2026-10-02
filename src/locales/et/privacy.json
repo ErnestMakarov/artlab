@@ -5,7 +5,418 @@
   },
   "intro": {
     "eyebrow": "Privaatsus ja andmed",
-    "title": "Privaatsuspoliitika",
-    "description": "Siit leiad teabe selle kohta, kuidas ARTLab Studio OÜ kogub, kasutab ja kaitseb isikuandmeid."
-  }
+    "title": "Art Labi stuudio privaatsuspoliitika"
+  },
+  "content": [
+    {
+      "type": "date",
+      "text": "Redaktsiooni kuupäev: 2. oktoober 2026"
+    },
+    {
+      "type": "paragraph",
+      "text": "Käesolev privaatsuspoliitika kirjeldab isikuandmete töötlemist Art Labi stuudio veebilehe külastamisel ning tundidesse, töötubadesse, Art Campi ja teistele stuudio üritustele registreerimistaotluste esitamisel."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isikuandmeid töödeldakse kooskõlas **Euroopa Parlamendi ja nõukogu määrusega (EL) 2016/679 ehk isikuandmete kaitse üldmäärusega (IKÜM)** ning Eestis kohaldatavate õigusaktidega."
+    },
+    {
+      "type": "heading",
+      "text": "1. Vastutav töötleja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Isikuandmete vastutav töötleja on **ARTLab Studio OÜ**, edaspidi „Stuudio“."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Stuudio aadress:** Peterburi tee 46, ruum 417, Tallinn, Eesti."
+    },
+    {
+      "type": "paragraph",
+      "text": "**E-post:** artlabtallinn\\@gmail.com."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isikuandmete töötlemise ja oma õiguste kasutamisega seotud küsimustes võib pöörduda Stuudio poole eespool nimetatud e-posti aadressil."
+    },
+    {
+      "type": "heading",
+      "text": "2. Milliseid isikuandmeid töödeldakse"
+    },
+    {
+      "type": "subheading",
+      "text": "2.1. Registreerimistaotluses esitatud andmed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehe vormi täitmisel saab Stuudio järgmised andmed:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "osaleja ees- ja perekonnanimi;",
+        "osaleja vanus;",
+        "e-posti aadress;",
+        "telefoninumber;",
+        "valitud tund või osalemisvorm;",
+        "kommentaar, kui kasutaja otsustab selle lisada."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Lapse registreerimisel esitatakse lapse ees- ja perekonnanimi ning vanus, samuti lapsevanema või seadusliku esindaja e-posti aadress ja telefoninumber."
+    },
+    {
+      "type": "paragraph",
+      "text": "Koos taotlusega edastatakse veebilehe keel, taotluse saatmise kuupäev ja kellaaeg, selle lehe aadress, millelt taotlus saadeti, ning kinnitus käesoleva privaatsuspoliitikaga tutvumise kohta."
+    },
+    {
+      "type": "subheading",
+      "text": "2.2. Tehnilised andmed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehe külastamisel võib veebimajutusteenuse pakkuja **Vercel** töödelda järgmisi andmeid:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "IP-aadress;",
+        "teave veebilehitseja ja seadme kohta;",
+        "päringu kuupäev ja kellaaeg;",
+        "külastatava lehe aadress;",
+        "teenuse toimimise ja turvalisusega seotud tehnilised logid."
+      ]
+    },
+    {
+      "type": "subheading",
+      "text": "2.3. Kommentaarides ja kirjavahetuses esitatud teave"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stuudio saab ka teavet, mille kasutaja esitab vabatahtlikult taotluse kommentaaris või hilisemas kirjavahetuses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taotlusvorm ei ole mõeldud terviseandmete, isikut tõendavate dokumentide koopiate ega muude tundlike andmete kogumiseks. Kui osalemise korraldamiseks on vaja täiendavat teavet, lepitakse selle esitamise ja töötlemise kord kokku eraldi."
+    },
+    {
+      "type": "heading",
+      "text": "3. Töötlemise eesmärgid ja õiguslikud alused"
+    },
+    {
+      "type": "subheading",
+      "text": "3.1. Taotluse läbivaatamine ja registreerimine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Andmeid kasutatakse pöördumisele vastamiseks, sobiva tunni ja vanuserühma leidmiseks, osalemistingimuste kokkuleppimiseks, registreerimiseks ning lepingu ettevalmistamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Täisealise taotleja andmeid, mis on vajalikud tema soovil lepingu sõlmimisele eelnevate meetmete võtmiseks ja lepingu täitmiseks, töödeldakse **IKÜM artikli 6 lõike 1 punkti b** alusel."
+    },
+    {
+      "type": "subheading",
+      "text": "3.2. Lapse osalemise korraldamine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lapse ees- ja perekonnanime ning vanust kasutatakse osaleja tuvastamiseks, sobiva rühma leidmiseks ja lapsevanema soovitud osalemise korraldamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Õiguslik alus on **IKÜM artikli 6 lõike 1 punkt f** — Stuudio õigustatud huvi korraldada tunde ja üritusi lapsevanema või seadusliku esindaja taotluse alusel. Seejuures arvestatakse lapse õiguste ja huvidega ning töödeldakse ainult vajalikke andmeid."
+    },
+    {
+      "type": "subheading",
+      "text": "3.3. Korralduslik suhtlus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kontaktandmeid kasutatakse taotluse või lepinguga seotud teadete edastamiseks, sealhulgas registreerimise kinnitamiseks, aja kokkuleppimiseks, toimumiskoha kohta teabe jagamiseks ja muudatustest teatamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Õiguslik alus on IKÜM artikli 6 lõike 1 punkt b. Pöördumiste puhul, mis ei ole seotud lepingu sõlmimisega, on aluseks Stuudio õigustatud huvi vastata saadud päringule vastavalt IKÜM artikli 6 lõike 1 punktile f."
+    },
+    {
+      "type": "subheading",
+      "text": "3.4. Veebilehe toimimine ja turvalisus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tehnilisi andmeid töödeldakse veebilehe kuvamiseks, selle toimimise tagamiseks, vigade tuvastamiseks ja väärkasutuse ennetamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Õiguslik alus on **IKÜM artikli 6 lõike 1 punkt f** — õigustatud huvi tagada veebilehe kättesaadavus ja turvalisus."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taotluse saatmise ja privaatsuspoliitikaga tutvumise andmeid kasutatakse samal alusel pöördumise saamise ning kasutajale andmetöötluse kohta teabe esitamise kinnitamiseks."
+    },
+    {
+      "type": "subheading",
+      "text": "3.5. Õiguslike kohustuste täitmine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kui andmete töötlemine või säilitamine on vajalik seadusest tuleneva kohustuse täitmiseks, kohaldatakse **IKÜM artikli 6 lõike 1 punkti c**."
+    },
+    {
+      "type": "heading",
+      "text": "4. Andmete esitamise kohustuslikkus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kohustuslikud väljad on taotlusvormis märgitud. Need andmed on vajalikud osaleja tuvastamiseks, sobiva tunni leidmiseks ja taotlejaga ühenduse võtmiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vajalike andmete esitamata jätmine võib muuta taotluse läbivaatamise või registreerimise kinnitamise võimatuks. Kommentaari lisamine on vabatahtlik."
+    },
+    {
+      "type": "paragraph",
+      "text": "Käesoleva privaatsuspoliitikaga tutvumise kinnitus tähendab, et kasutajale on esitatud teave andmete töötlemise kohta. See ei ole nõusolek reklaamteadete saatmiseks ega muudeks taotlusega mitteseotud eesmärkideks."
+    },
+    {
+      "type": "heading",
+      "text": "5. Laste andmete töötlemise erisused"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lapse osalemistaotluse esitab tema lapsevanem või seaduslik esindaja."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stuudio kasutab lapse andmeid taotluse läbivaatamiseks ja osalemise korraldamiseks. Taotluse saatmine ei anna luba lapse nime, fotode ega videosalvestiste avaldamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pildistamise, filmimise ja vastavate materjalide kasutamise tingimused vormistatakse eraldi."
+    },
+    {
+      "type": "heading",
+      "text": "6. Taotluste edastamine ja andmete saajad"
+    },
+    {
+      "type": "subheading",
+      "text": "6.1. EmailJS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pärast vormi saatmist edastatakse andmed kasutaja veebilehitsejast otse teenuse **EmailJS Pte. Ltd.** kaudu Stuudio e-posti aadressile **artlabtallinn\\@gmail.com**."
+    },
+    {
+      "type": "paragraph",
+      "text": "EmailJS võib sõnumi edastamiseks ja teenuse toimimise tagamiseks töödelda taotluse sisu, päringu tehnilisi metaandmeid ja ajutisi logisid."
+    },
+    {
+      "type": "subheading",
+      "text": "6.2. Google Gmail"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pärast kohaletoimetamist säilitatakse taotlust sisaldav kiri e-posti teenuses **Google Gmail**. Stuudio kasutab seda pöördumise läbivaatamiseks ja edasiseks kirjavahetuseks."
+    },
+    {
+      "type": "subheading",
+      "text": "6.3. Vercel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebileht on majutatud teenusepakkuja **Vercel** juures. Vercel võib töödelda punktis 2.2 nimetatud tehnilisi külastusandmeid."
+    },
+    {
+      "type": "subheading",
+      "text": "6.4. Juurdepääs Stuudios"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taotlustele pääsevad juurde volitatud isikud, kellel on neid andmeid tööülesannete täitmiseks vaja. Õpetajatele edastatakse ainult tundide korraldamiseks ja läbiviimiseks vajalik teave."
+    },
+    {
+      "type": "subheading",
+      "text": "6.5. Muud andmete saajad"
+    },
+    {
+      "type": "paragraph",
+      "text": "Andmeid võidakse edastada pädevatele asutustele, kui see tuleneb seadusest, ning erialastele nõustajatele, kui see on vajalik õigusnõuete kaitsmiseks ja olemas on asjakohane õiguslik alus."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stuudio ei müü isikuandmeid."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehel puudub eraldi taotluste andmebaas. Veebilehel ei looda taotlusest eraldi koopiat, kuid sõnum säilitatakse e-posti teenuses ning tehnilised teenused võivad säilitada oma töötlemisega seotud logisid."
+    },
+    {
+      "type": "paragraph",
+      "text": "**GitHubi** kasutatakse veebilehe lähtekoodi ja piltide hoidmiseks. Saadetud taotluste andmeid GitHubi ei edastata."
+    },
+    {
+      "type": "heading",
+      "text": "7. Andmete rahvusvaheline edastamine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehe toimimine ja taotluste kohaletoimetamine on seotud rahvusvaheliste teenuste kasutamisega. Isikuandmeid võidakse töödelda väljaspool Euroopa Majanduspiirkonda, sealhulgas Ameerika Ühendriikides."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vercel on Ameerika Ühendriikide teenusepakkuja. EmailJSi taristu asub Ameerika Ühendriikides. Google võib töödelda andmeid riikides, kus paikneb tema taristu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Teenusepakkujate dokumentides on ette nähtud rahvusvahelise andmeedastuse mehhanismid, sealhulgas Euroopa Komisjoni isikuandmete kaitse tüüptingimused. Verceli ja Google’i puhul võib kohalduda ka ELi–USA andmekaitseraamistik nende vastava sertifitseeringu ulatuses. Kohaldatav mehhanism sõltub teenusest, andmete saajast ja töötlemistingimustest."
+    },
+    {
+      "type": "paragraph",
+      "text": "Teavet konkreetsele edastusele kohaldatavate kaitsemeetmete ja nende koopia saamise võimaluse kohta saab küsida Stuudiolt aadressil **artlabtallinn\\@gmail.com**."
+    },
+    {
+      "type": "heading",
+      "text": "8. Isikuandmete säilitamine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Säilitamise kestus määratakse töötlemise eesmärgi järgi:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Taotlused ja kirjavahetus, mille tulemusel lepingut ei sõlmita:** kuni pöördumise läbivaatamise ja osalemise kokkuleppimise lõpetamiseni. Seejärel andmed kustutatakse, kui nende säilitamiseks puudub muu õiguslik alus.",
+        "**Lepingu täitmiseks vajalikud andmed:** osalemise ja lepingu täitmise perioodil.",
+        "**Dokumendid, mille säilitamine on kohustuslik:** kohaldatavates õigusaktides sätestatud tähtaja jooksul.",
+        "**Õigusnõuete jaoks vajalikud andmed:** nõuete esitamiseks kohaldatava tähtaja jooksul ning vaidluse tekkimisel kuni selle lõpliku lahendamise ja vastavate kohustuste täitmiseni."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Säilitatakse ainult vastava eesmärgi jaoks vajalikku teavet. Kirja olemasolu e-postkastis ei ole iseenesest alus selle tähtajatuks säilitamiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Verceli tehniliste logide, EmailJSi ajutiste andmete ja e-posti teenuse teeninduskoopiate säilitamise tähtajad määratakse vastavate teenusepakkujate tingimuste ja kohaldatavate seadistuste järgi."
+    },
+    {
+      "type": "heading",
+      "text": "9. Küpsised ja veebilehitseja lokaalne salvestusruum"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebileht ei paigalda küpsiseid ega kasuta Google Analyticsit, Meta Pixelit, reklaamisüsteeme ega muid analüütilisi jälgimisvahendeid."
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehitseja **localStorage’i** salvestatakse ainult kasutaja valitud keel tehnilise võtme **artlab-language** all."
+    },
+    {
+      "type": "paragraph",
+      "text": "See kirje on vajalik keele-eelistuse säilitamiseks. Seda ei kasutata reklaamiks, analüütikaks, profiilianalüüsiks ega külastajate jälgimiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Keele-eelistus säilib kuni kasutaja muudab seda või kustutab veebilehe andmed oma veebilehitsejas. Kirje saab eemaldada veebilehitseja seadete kaudu."
+    },
+    {
+      "type": "heading",
+      "text": "10. Välised lingid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instagram, WhatsApp, Facebook ja Google Maps on veebilehel esitatud tavaliste väliste linkidena."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nende teenustega võetakse ühendust pärast seda, kui kasutaja ise vastavale lingile vajutab. Teenusesse üleminekul või sõnumi saatmisel töötleb vastav teenusepakkuja andmeid oma privaatsuspoliitika kohaselt."
+    },
+    {
+      "type": "heading",
+      "text": "11. Reklaamteated"
+    },
+    {
+      "type": "paragraph",
+      "text": "Veebilehe kaudu praegu reklaamteateid ei saadeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kui selline võimalus lisandub, küsitakse selleks eraldi nõusolekut vabatahtliku märkeruudu kaudu, mis ei ole eelnevalt märgitud. Reklaamteadetest keeldumine ei takista taotluse esitamist ega Stuudio tegevustes osalemist."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taotluse ja osalemisega seotud korralduslike teadete saamiseks ei pea kasutaja reklaamteadetega nõustuma."
+    },
+    {
+      "type": "heading",
+      "text": "12. Isikuandmete kaitse"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stuudio rakendab proportsionaalseid tehnilisi ja korralduslikke meetmeid, et kaitsta andmeid õigusvastase juurdepääsu, avaldamise, muutmise ning juhusliku kaotsimineku või hävimise eest."
+    },
+    {
+      "type": "paragraph",
+      "text": "Juurdepääs antakse ainult tööks vajalikus ulatuses. Väliste teenuste kasutamisel arvestatakse nende andmetöötlustingimuste ja turvameetmetega."
+    },
+    {
+      "type": "heading",
+      "text": "13. Kasutaja õigused"
+    },
+    {
+      "type": "paragraph",
+      "text": "IKÜMis sätestatud tingimustel on kasutajal õigus:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "saada teavet andmete töötlemise kohta ja oma isikuandmete koopia;",
+        "nõuda ebaõigete andmete parandamist või puudulike andmete täiendamist;",
+        "nõuda andmete kustutamist;",
+        "taotleda töötlemise piiramist;",
+        "esitada oma konkreetsest olukorrast lähtudes vastuväiteid õigustatud huvil põhinevale töötlemisele;",
+        "kasutada andmete ülekandmise õigust, kui töötlemine toimub automatiseeritult lepingu või nõusoleku alusel;",
+        "võtta nõusolek tagasi, kui konkreetne töötlemine põhineb nõusolekul."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Üksikute õiguste kohaldumine sõltub töötlemise õiguslikust alusest ja asjaoludest."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lapsevanem või seaduslik esindaja võib pöörduda tema esindatava lapse andmetega seotud küsimustes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taotlused tuleb saata aadressile **artlabtallinn\\@gmail.com**. Kui tekib põhjendatud kahtlus taotleja isikusamasuse või esindusõiguse suhtes, võib Stuudio küsida vajalikke kinnitusi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vastus antakse põhjendamatu viivituseta, üldjuhul ühe kuu jooksul taotluse saamisest. Vajaduse korral võib tähtaega pikendada veel kahe kuu võrra, arvestades taotluste keerukust ja hulka. Pikendamisest ja selle põhjustest teatab Stuudio esimese kuu jooksul."
+    },
+    {
+      "type": "paragraph",
+      "text": "Andmeid ei kustutata ulatuses, milles nende säilitamine on vajalik õigusliku kohustuse täitmiseks või õigusnõuete koostamiseks, esitamiseks või kaitsmiseks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kasutajal on õigus esitada kaebus **Andmekaitse Inspektsioonile**: www\\.aki.ee⁠, ning pöörduda pädevasse kohtusse."
+    },
+    {
+      "type": "heading",
+      "text": "14. Privaatsuspoliitika muutmine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stuudio ajakohastab käesolevat privaatsuspoliitikat, kui muutuvad andmete töötlemise eesmärgid, viisid või kasutatavad teenused."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kehtiv redaktsioon avaldatakse veebilehel koos uuendamise kuupäevaga. Privaatsuspoliitika muutmine ei asenda eraldi nõusoleku küsimist juhtudel, kui seadus seda nõuab."
+    }
+  ]
 }
