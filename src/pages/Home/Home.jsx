@@ -10,6 +10,8 @@ import HomeHero from "./HomeHero.jsx";
 import GiftCardsCta from "../../components/sections/GiftCardsCta.jsx";
 import HomeWhyUs from "./HomeWhyUs.jsx";
 import TrialLessonCta from "../../components/sections/TrialLessonCta.jsx";
+import StudioLocation from "../../components/sections/StudioLocation.jsx";
+
 
 export default function HomePage() {
   const { t } = useTranslation("home");
@@ -30,6 +32,7 @@ export default function HomePage() {
       <GiftCardsCta />
       <HomeWhyUs />
       <TrialLessonCta />
+      <StudioLocation />
     </>
   );
 }

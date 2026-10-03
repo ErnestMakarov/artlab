@@ -81,5 +81,21 @@
     "copyright": "ARTLab Studio OÜ. Kõik õigused kaitstud.",
     "privacy": "Privaatsuspoliitika",
     "tagline": "Looming algab siit."
+  },
+  "location": {
+    "eyebrow": "Kus me asume",
+    "title": "Ootame teid ART Labi",
+    "description": "Tulge looma ja inspiratsiooni ammutama. Meie stuudio asub Tallinnas Peterburi teel.",
+    "addressLabel": "Stuudio aadress",
+    "address": "Peterburi tee 46, Tallinn",
+    "floorLabel": "Korrus",
+    "roomLabel": "Ruum",
+    "helpTitle": "Ei leia stuudiot üles?",
+    "helpDescription": "Kui ruumi leidmisega tekib raskusi, helistage — aitame teid.",
+    "callLabel": "Helista ART Labi: {{phone}}",
+    "directions": "Näita teekonda",
+    "mapLabel": "Stuudio kaardil",
+    "mapTitle": "Kaart: ART Lab, {{address}}",
+    "openMap": "Ava Google Maps"
   }
 }

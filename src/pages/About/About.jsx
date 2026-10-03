@@ -5,6 +5,7 @@ import Seo from "../../components/seo/Seo.jsx";
 import Container from "../../components/ui/Container.jsx";
 import AboutHero from "./AboutHero.jsx";
 import AboutTeam from "./AboutTeam.jsx";
+import StudioLocation from "../../components/sections/StudioLocation.jsx";
 
 const formatStyles = [
   {
@@ -171,7 +172,7 @@ export default function AboutPage() {
         </section>
       </div>
 
-      <TrialLessonCta />
+      <StudioLocation /> 
     </>
   );
 }

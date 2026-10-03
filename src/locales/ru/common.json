@@ -81,5 +81,21 @@
     "copyright": "ARTLab Studio OÜ. Все права защищены.",
     "privacy": "Политика конфиденциальности",
     "tagline": "Творчество начинается здесь."
+  },
+  "location": {
+    "eyebrow": "Где мы находимся",
+    "title": "Ждём вас в ART Lab",
+    "description": "Приходите творить и вдохновляться. Наша студия — в Таллине, на Peterburi tee.",
+    "addressLabel": "Адрес студии",
+    "address": "Peterburi tee 46, Tallinn",
+    "floorLabel": "Этаж",
+    "roomLabel": "Кабинет",
+    "helpTitle": "Не можете найти кабинет?",
+    "helpDescription": "Если возникают трудности с поиском кабинета, позвоните — мы поможем.",
+    "callLabel": "Позвонить в ART Lab: {{phone}}",
+    "directions": "Построить маршрут",
+    "mapLabel": "Студия на карте",
+    "mapTitle": "Карта: ART Lab, {{address}}",
+    "openMap": "Открыть Google Maps"
   }
 }
