@@ -70,6 +70,19 @@
       "success": "Aitäh! Päring on saadetud. Võtame teiega peagi ühendust.",
       "error": "Päringu saatmine ebaõnnestus. Proovige uuesti või kirjutage meile otse.",
       "configuration": "Vormi seadistamine on veel pooleli. Palun kasutage paremal olevat e-posti või telefoninumbrit."
+    },
+    "booking": {
+      "label": "Valitud tund",
+      "day": "Nädalapäev",
+      "time": "Kellaaeg",
+      "age": "Vanuserühm",
+      "ageValue": "Vanuserühm {{age}}",
+      "description": "Kontrollime vabade kohtade olemasolu ja võtame teiega ühendust registreerumise kinnitamiseks.",
+      "change": "Vali teine tund",
+      "remove": "Eemalda valik",
+      "unavailable": "Seda tundi ei ole enam tunniplaanis. Võite valida teise tunni või saata üldise päringu.",
+      "openSchedule": "Ava tunniplaan",
+      "chooseLabel": "Vali tund tunniplaanist"
     }
   },
   "sidebar": {

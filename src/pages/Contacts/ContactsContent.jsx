@@ -3,6 +3,12 @@ import { Link, useSearchParams } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import Container from "../../components/ui/Container.jsx";
+import {
+  days,
+  lessons,
+  getLessonById,
+  getLessonInterest,
+} from "../../data/schedule.js";
 
 const interestOptions = [
   "group",
@@ -120,13 +126,36 @@ function ContactIcon({ type }) {
 
 export default function ContactsContent() {
   const formRef = useRef(null);
+  const sendingRef = useRef(false);
   const [status, setStatus] = useState("idle");
-  const [searchParams] = useSearchParams();
+  const [isChoosingLesson, setIsChoosingLesson] = useState(false);
+  const [searchParams, setSearchParams] = useSearchParams();
   const { t, i18n } = useTranslation("contacts");
+  const { t: scheduleT } = useTranslation("schedule");
+  const requestedLessonId = searchParams.get("lesson");
+  const selectedLesson = getLessonById(requestedLessonId);
   const requestedInterest = searchParams.get("interest");
   const initialInterest = interestOptions.includes(requestedInterest)
     ? requestedInterest
     : null;
+  const lessonTitle = selectedLesson
+    ? scheduleT(`board.classes.${selectedLesson.title}`)
+    : "";
+  const lessonDay = selectedLesson
+    ? scheduleT(`board.days.${selectedLesson.day}`)
+    : "";
+  const lessonTime = selectedLesson
+    ? selectedLesson.time ?? scheduleT("board.byAgreement")
+    : "";
+  const lessonAge = selectedLesson?.age ?? "";
+  const lessonSummary = selectedLesson
+    ? [
+        lessonTitle,
+        lessonDay,
+        lessonTime,
+        lessonAge ? t("form.booking.ageValue", { age: lessonAge }) : "",
+      ].filter(Boolean).join(" · ")
+    : "";
 
   const facebookUrl = import.meta.env.VITE_FACEBOOK_URL?.trim() || "";
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID?.trim() || "";
@@ -169,8 +198,10 @@ export default function ContactsContent() {
   async function handleSubmit(event) {
     event.preventDefault();
 
+    if (sendingRef.current) return;
+
     const form = formRef.current;
-    if (!form) return;
+    if (!form || !form.reportValidity()) return;
 
     if (form.elements.website.value) {
       form.reset();
@@ -192,16 +223,53 @@ export default function ContactsContent() {
     ).format(new Date());
     form.elements.page_url.value = window.location.href;
 
+    // Capture values before the async import so later edits cannot change this enquiry.
+    const templateParams = Object.fromEntries(new FormData(form));
+    delete templateParams.website;
+    Object.assign(templateParams, {
+      lesson_id: selectedLesson?.id ?? "",
+      lesson_title: lessonTitle,
+      lesson_day: lessonDay,
+      lesson_time: lessonTime,
+      lesson_age: lessonAge,
+      lesson_summary: lessonSummary,
+      enquiry_subject: lessonSummary || templateParams.interest,
+    });
+
+    sendingRef.current = true;
     setStatus("sending");
 
     try {
       const { default: emailjs } = await import("@emailjs/browser");
-      await emailjs.sendForm(serviceId, templateId, form, { publicKey });
+      await emailjs.send(serviceId, templateId, templateParams, { publicKey });
       form.reset();
       setStatus("success");
     } catch {
       setStatus("error");
+    } finally {
+      sendingRef.current = false;
     }
+  }
+
+  function removeLesson() {
+    if (sendingRef.current) return;
+    const nextSearchParams = new URLSearchParams(searchParams);
+    nextSearchParams.delete("lesson");
+    nextSearchParams.delete("interest");
+    setSearchParams(nextSearchParams, { replace: true, preventScrollReset: true });
+    setIsChoosingLesson(false);
+    clearStatus();
+  }
+
+  function selectLesson(lessonId) {
+    if (sendingRef.current) return;
+    const lesson = getLessonById(lessonId);
+    if (!lesson) return;
+    const nextSearchParams = new URLSearchParams(searchParams);
+    nextSearchParams.set("lesson", lesson.id);
+    nextSearchParams.set("interest", getLessonInterest(lesson));
+    setSearchParams(nextSearchParams, { replace: true, preventScrollReset: true });
+    clearStatus();
   }
 
   function clearStatus() {
@@ -279,12 +347,104 @@ export default function ContactsContent() {
               <input type="hidden" name="submitted_at" defaultValue="" />
               <input type="hidden" name="page_url" defaultValue="" />
 
+              {selectedLesson ? (
+                <section
+                  className="relative mb-8 overflow-hidden rounded-[1.5rem] border border-brand/15 bg-gradient-to-br from-surface-lilac via-[#fbf9ff] to-surface-aqua p-5 sm:p-6"
+                  aria-labelledby="selected-lesson-title"
+                >
+                  <p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-brand sm:text-xs">
+                    {t("form.booking.label")}
+                  </p>
+                  <h3
+                    id="selected-lesson-title"
+                    className="mt-3 text-xl font-extrabold leading-tight tracking-[-0.035em] text-ink sm:text-2xl"
+                  >
+                    {lessonTitle}
+                  </h3>
+                  <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-4">
+                    <div>
+                      <dt className="text-xs font-semibold text-muted">{t("form.booking.day")}</dt>
+                      <dd className="mt-1 text-sm font-extrabold text-ink">{lessonDay}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-xs font-semibold text-muted">{t("form.booking.time")}</dt>
+                      <dd className="mt-1 text-sm font-extrabold text-ink">{lessonTime}</dd>
+                    </div>
+                    {lessonAge && (
+                      <div>
+                        <dt className="text-xs font-semibold text-muted">{t("form.booking.age")}</dt>
+                        <dd className="mt-1 text-sm font-extrabold text-ink">{lessonAge}</dd>
+                      </div>
+                    )}
+                  </dl>
+                  <p className="mt-4 text-xs leading-6 text-muted sm:text-sm">
+                    {t("form.booking.description")}
+                  </p>
+                  <div className="mt-5 flex flex-wrap gap-x-6 gap-y-3 border-t border-brand/10 pt-4 text-xs font-extrabold sm:text-sm">
+                    <button
+                      type="button"
+                      onClick={() => setIsChoosingLesson((current) => !current)}
+                      disabled={status === "sending"}
+                      className="text-brand underline decoration-brand/25 underline-offset-4 hover:decoration-brand disabled:cursor-wait disabled:opacity-50"
+                      aria-expanded={isChoosingLesson}
+                      aria-controls="lesson-selector"
+                    >
+                      {t("form.booking.change")}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={removeLesson}
+                      disabled={status === "sending"}
+                      className="text-muted underline decoration-muted/25 underline-offset-4 hover:text-ink disabled:cursor-wait disabled:opacity-50"
+                    >
+                      {t("form.booking.remove")}
+                    </button>
+                  </div>
+                  {isChoosingLesson && (
+                    <div id="lesson-selector" className="mt-5">
+                      <label htmlFor="booking-lesson" className="text-sm font-extrabold text-ink">
+                        {t("form.booking.chooseLabel")}
+                      </label>
+                      <select
+                        id="booking-lesson"
+                        value={selectedLesson.id}
+                        onChange={(event) => selectLesson(event.target.value)}
+                        disabled={status === "sending"}
+                        className={`${inputClassName} min-w-0 disabled:opacity-60`}
+                      >
+                        {days.map((day) => (
+                          <optgroup key={day} label={scheduleT(`board.days.${day}`)}>
+                            {lessons.filter((lesson) => lesson.day === day).map((lesson) => (
+                              <option key={lesson.id} value={lesson.id}>
+                                {[
+                                  lesson.time ?? scheduleT("board.byAgreement"),
+                                  scheduleT(`board.classes.${lesson.title}`),
+                                  lesson.age ?? "",
+                                ].filter(Boolean).join(" · ")}
+                              </option>
+                            ))}
+                          </optgroup>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+                </section>
+              ) : requestedLessonId ? (
+                <p className="mb-7 rounded-[1.2rem] bg-surface-pink p-4 text-sm leading-7 text-ink" role="status">
+                  {t("form.booking.unavailable")} {" "}
+                  <Link to="/schedule" className="font-bold text-brand underline underline-offset-4">
+                    {t("form.booking.openSchedule")}
+                  </Link>
+                </p>
+              ) : null}
+
               <div className="grid gap-x-5 gap-y-5 sm:grid-cols-2">
                 <label className="block text-sm font-extrabold text-ink">
                   {t("form.fields.name.label")} <span className="text-accent-pink">*</span>
                   <input
                     type="text"
                     name="participant_name"
+                    readOnly={status === "sending"}
                     required
                     autoComplete="given-name"
                     maxLength="80"
@@ -298,6 +458,7 @@ export default function ContactsContent() {
                   <input
                     type="text"
                     name="participant_last_name"
+                    readOnly={status === "sending"}
                     required
                     autoComplete="family-name"
                     maxLength="80"
@@ -311,6 +472,7 @@ export default function ContactsContent() {
                   <input
                     type="number"
                     name="participant_age"
+                    readOnly={status === "sending"}
                     required
                     min="4"
                     max="99"
@@ -325,6 +487,7 @@ export default function ContactsContent() {
                   <input
                     type="email"
                     name="email"
+                    readOnly={status === "sending"}
                     required
                     autoComplete="email"
                     maxLength="120"
@@ -338,6 +501,7 @@ export default function ContactsContent() {
                   <input
                     type="tel"
                     name="phone"
+                    readOnly={status === "sending"}
                     required
                     autoComplete="tel"
                     maxLength="40"
@@ -347,41 +511,51 @@ export default function ContactsContent() {
                 </label>
               </div>
 
-              <fieldset className="mt-7">
-                <legend className="text-sm font-extrabold text-ink">
-                  {t("form.fields.interest.label")} <span className="text-accent-pink">*</span>
-                </legend>
+              {selectedLesson ? (
+                <input
+                  type="hidden"
+                  name="interest"
+                  value={t(`form.fields.interest.options.${getLessonInterest(selectedLesson)}`)}
+                  readOnly
+                />
+              ) : (
+                <fieldset key={initialInterest ?? "general"} className="mt-7" disabled={status === "sending"}>
+                  <legend className="text-sm font-extrabold text-ink">
+                    {t("form.fields.interest.label")} <span className="text-accent-pink">*</span>
+                  </legend>
 
-                <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                  {interestOptions.map((option, index) => (
-                    <label
-                      key={option}
-                      className={`cursor-pointer ${
-                        index === interestOptions.length - 1
-                          ? "sm:col-span-2"
-                          : ""
-                      }`}
-                    >
-                      <input
-                        type="radio"
-                        name="interest"
-                        value={t(`form.fields.interest.options.${option}`)}
-                        defaultChecked={option === initialInterest}
-                        required={index === 0}
-                        className="peer sr-only"
-                      />
-                      <span className="flex min-h-16 items-center gap-3 rounded-[1.15rem] border border-line bg-white px-4 py-3.5 text-sm font-bold leading-5 text-muted transition-all before:block before:size-5 before:shrink-0 before:rounded-full before:border-2 before:border-muted/40 before:content-[''] hover:border-brand/25 hover:text-ink peer-checked:border-brand peer-checked:bg-surface-lilac peer-checked:text-brand peer-checked:ring-4 peer-checked:ring-brand/8 peer-checked:before:border-[6px] peer-checked:before:border-brand sm:px-5">
-                        {t(`form.fields.interest.options.${option}`)}
-                      </span>
-                    </label>
-                  ))}
-                </div>
-              </fieldset>
+                  <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                    {interestOptions.map((option, index) => (
+                      <label
+                        key={option}
+                        className={`cursor-pointer ${
+                          index === interestOptions.length - 1
+                            ? "sm:col-span-2"
+                            : ""
+                        }`}
+                      >
+                        <input
+                          type="radio"
+                          name="interest"
+                          value={t(`form.fields.interest.options.${option}`)}
+                          defaultChecked={option === initialInterest}
+                          required={index === 0}
+                          className="peer sr-only"
+                        />
+                        <span className="flex min-h-16 items-center gap-3 rounded-[1.15rem] border border-line bg-white px-4 py-3.5 text-sm font-bold leading-5 text-muted transition-all before:block before:size-5 before:shrink-0 before:rounded-full before:border-2 before:border-muted/40 before:content-[''] hover:border-brand/25 hover:text-ink peer-checked:border-brand peer-checked:bg-surface-lilac peer-checked:text-brand peer-checked:ring-4 peer-checked:ring-brand/8 peer-checked:before:border-[6px] peer-checked:before:border-brand sm:px-5">
+                          {t(`form.fields.interest.options.${option}`)}
+                        </span>
+                      </label>
+                    ))}
+                  </div>
+                </fieldset>
+              )}
 
               <label className="mt-7 block text-sm font-extrabold text-ink">
                 {t("form.fields.message.label")}
                 <textarea
                   name="message"
+                  readOnly={status === "sending"}
                   rows="5"
                   maxLength="1500"
                   placeholder={t("form.fields.message.placeholder")}
@@ -394,6 +568,7 @@ export default function ContactsContent() {
                   id="privacy-consent"
                   type="checkbox"
                   name="privacy_consent"
+                  disabled={status === "sending"}
                   value={t("form.privacy.value")}
                   required
                   className="mt-0.5 size-5 shrink-0 cursor-pointer accent-brand"

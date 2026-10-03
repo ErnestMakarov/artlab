@@ -2,6 +2,7 @@ import { Link, useSearchParams } from "react-router";
 import { useTranslation } from "react-i18next";
 
 import Container from "../../components/ui/Container.jsx";
+import { days, lessons, getLessonBookingUrl } from "../../data/schedule.js";
 
 const filters = [
   "all",
@@ -10,133 +11,6 @@ const filters = [
   "handicraft",
   "estonian",
   "individual",
-];
-
-const days = [
-  "monday",
-  "tuesday",
-  "wednesday",
-  "thursday",
-  "friday",
-  "saturday",
-  "sunday",
-];
-
-const individualLessons = days.map((day) => ({
-  id: `${day}-individual`,
-  day,
-  time: null,
-  category: "individual",
-  title: "individual",
-  age: null,
-}));
-
-const lessons = [
-  {
-    id: "monday-art-1700",
-    day: "monday",
-    time: "17:00",
-    category: "art",
-    title: "art",
-    age: "8+",
-  },
-  {
-    id: "tuesday-art-1600",
-    day: "tuesday",
-    time: "16:00",
-    category: "art",
-    title: "art",
-    age: "6+",
-  },
-  {
-    id: "tuesday-estonian-1700",
-    day: "tuesday",
-    time: "17:00",
-    category: "estonian",
-    title: "estonian",
-    age: "4+",
-  },
-  {
-    id: "tuesday-handicraft-1815",
-    day: "tuesday",
-    time: "18:15",
-    category: "handicraft",
-    title: "handicraft",
-    age: "8+",
-  },
-  {
-    id: "thursday-art-1600",
-    day: "thursday",
-    time: "16:00",
-    category: "art",
-    title: "art",
-    age: "7+",
-  },
-  {
-    id: "friday-creative-1600",
-    day: "friday",
-    time: "16:00",
-    category: "creative",
-    title: "creative",
-    age: "4+",
-  },
-  {
-    id: "friday-adults-1700",
-    day: "friday",
-    time: "17:00",
-    category: "art",
-    title: "artAdults",
-    age: "18+",
-  },
-  {
-    id: "saturday-creative-1000",
-    day: "saturday",
-    time: "10:00",
-    category: "creative",
-    title: "creative",
-    age: "4+",
-  },
-  {
-    id: "saturday-art-1100",
-    day: "saturday",
-    time: "11:00",
-    category: "art",
-    title: "art",
-    age: "6+",
-  },
-  {
-    id: "saturday-art-1200",
-    day: "saturday",
-    time: "12:00",
-    category: "art",
-    title: "art",
-    age: "10+",
-  },
-  {
-    id: "saturday-art-1300",
-    day: "saturday",
-    time: "13:00",
-    category: "art",
-    title: "art",
-    age: "12+",
-  },
-  {
-    id: "sunday-creative-1130",
-    day: "sunday",
-    time: "11:30",
-    category: "creative",
-    title: "creative",
-    age: "5+",
-  },
-  {
-    id: "sunday-art-1230",
-    day: "sunday",
-    time: "12:30",
-    category: "art",
-    title: "art",
-    age: "6+",
-  },
-  ...individualLessons,
 ];
 
 const categoryStyles = {
@@ -184,17 +58,16 @@ const lessonGridStyles = {
   4: "sm:grid-cols-2 xl:grid-cols-4",
 };
 
-function LessonCard({ lesson, t }) {
+function LessonCard({ lesson, t, language }) {
   const style = categoryStyles[lesson.category];
   const title = t(`board.classes.${lesson.title}`);
   const day = t(`board.days.${lesson.day}`);
   const time = lesson.time ?? t("board.byAgreement");
-  const interest = lesson.category === "individual" ? "individual" : "group";
 
   return (
     <li className="min-w-0">
       <Link
-        to={`/contacts?interest=${interest}#booking`}
+        to={getLessonBookingUrl(lesson, language)}
         aria-label={t("board.bookAria", { title, day, time })}
         className={`group relative flex min-h-36 h-full overflow-hidden rounded-[1.4rem] border border-white/90 bg-gradient-to-br p-5 shadow-[0_12px_35px_rgba(51,39,73,0.055)] transition-all duration-200 hover:-translate-y-1 hover:border-brand/15 hover:shadow-[0_18px_45px_rgba(51,39,73,0.11)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand/20 ${style.surface}`}
       >
@@ -243,7 +116,7 @@ function LessonCard({ lesson, t }) {
 }
 
 export default function ScheduleBoard() {
-  const { t } = useTranslation("schedule");
+  const { t, i18n } = useTranslation("schedule");
   const [searchParams, setSearchParams] = useSearchParams();
   const requestedFilter = searchParams.get("direction");
   const requestedDay = searchParams.get("day");
@@ -467,7 +340,12 @@ export default function ScheduleBoard() {
 
             <ul className={`grid gap-3 p-3 sm:p-4 ${activeGridStyle}`}>
               {activeDayData.lessons.map((lesson) => (
-                <LessonCard key={lesson.id} lesson={lesson} t={t} />
+                <LessonCard
+                  key={lesson.id}
+                  lesson={lesson}
+                  t={t}
+                  language={i18n.resolvedLanguage}
+                />
               ))}
             </ul>
           </div>

@@ -70,6 +70,19 @@
       "success": "Thank you! Your enquiry has been sent. We will contact you shortly.",
       "error": "We could not send your enquiry. Please try again or contact us directly.",
       "configuration": "The form is still being configured. Please use the email address or phone number shown on the right."
+    },
+    "booking": {
+      "label": "Your selected class",
+      "day": "Day",
+      "time": "Time",
+      "age": "Age group",
+      "ageValue": "Age group {{age}}",
+      "description": "We will check availability and contact you to confirm your booking.",
+      "change": "Choose another class",
+      "remove": "Remove selection",
+      "unavailable": "This class is no longer available in the schedule. Choose another class or send a general enquiry.",
+      "openSchedule": "Open the schedule",
+      "chooseLabel": "Choose a class from the schedule"
     }
   },
   "sidebar": {

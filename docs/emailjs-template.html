@@ -41,6 +41,42 @@
                   {{interest}}
                 </div>
 
+                {{#lesson_id}}
+                <div style="margin-bottom: 26px; padding: 22px; border: 1px solid #e4d8f6; border-radius: 18px; background-color: #faf7ff;">
+                  <div style="margin-bottom: 10px; font-size: 11px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #6b39d3;">
+                    Выбранное занятие из расписания
+                  </div>
+                  <div style="margin-bottom: 16px; font-size: 20px; line-height: 1.4; font-weight: 800; color: #332749;">
+                    {{lesson_title}}
+                  </div>
+                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; font-size: 14px; line-height: 1.6;">
+                    <tr>
+                      <td width="38%" valign="top" style="padding-bottom: 8px; color: #6f687d;">День недели</td>
+                      <td valign="top" style="padding-bottom: 8px; font-weight: 700; color: #332749;">{{lesson_day}}</td>
+                    </tr>
+                    <tr>
+                      <td width="38%" valign="top" style="padding-bottom: 8px; color: #6f687d;">Время</td>
+                      <td valign="top" style="padding-bottom: 8px; font-weight: 700; color: #332749;">{{lesson_time}}</td>
+                    </tr>
+                    {{#lesson_age}}
+                    <tr>
+                      <td width="38%" valign="top" style="color: #6f687d;">Возрастная группа</td>
+                      <td valign="top" style="font-weight: 700; color: #332749;">{{lesson_age}}</td>
+                    </tr>
+                    {{/lesson_age}}
+                  </table>
+                  <div style="margin-top: 14px; font-size: 11px; line-height: 1.6; color: #81798c;">
+                    Код занятия: {{lesson_id}}<br />
+                    Заявка требует подтверждения студией.
+                  </div>
+                </div>
+                {{/lesson_id}}
+                {{^lesson_id}}
+                <div style="margin-bottom: 26px; padding: 14px 18px; border-radius: 14px; background-color: #effafa; font-size: 13px; line-height: 1.6; color: #6f687d;">
+                  Обращение без выбора конкретного занятия из расписания.
+                </div>
+                {{/lesson_id}}
+
                 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width: 100%; border-collapse: separate; border-spacing: 0 10px;">
                   <tr>
                     <td width="38%" valign="top" style="padding: 13px 16px; border-radius: 14px 0 0 14px; background-color: #faf7ff; font-size: 12px; font-weight: 700; color: #6f687d;">
