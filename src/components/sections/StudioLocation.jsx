@@ -3,12 +3,16 @@ import { useTranslation } from "react-i18next";
 
 import Container from "../ui/Container.jsx";
 
+const studioAddress = "Peterburi tee 46, 11415 Tallinn, Estonia";
+const studioPlaceId = "ChIJi9rZEqbskkYRbTs5cACbQ20";
+const studioMapCid = "7873306999758863213";
 const mapsUrl =
-  "https://www.google.com/maps/search/?api=1&query=Peterburi+tee+46+Tallinn";
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(studioAddress)}&query_place_id=${studioPlaceId}`;
 const directionsUrl =
-  "https://www.google.com/maps/dir/?api=1&destination=Peterburi+tee+46+Tallinn";
+  `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(studioAddress)}&destination_place_id=${studioPlaceId}`;
+// Select this building directly: a text search can highlight multiple matches.
 const mapEmbedUrl =
-  "https://maps.google.com/maps?q=Peterburi%20tee%2046%2C%20Tallinn%2C%20Estonia&z=16&output=embed";
+  `https://maps.google.com/maps?cid=${studioMapCid}&z=17&output=embed`;
 const phone = "+372 566 378 00";
 const phoneUrl = "tel:+37256637800";
 
