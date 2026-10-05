@@ -1,0 +1,185 @@
+{
+  "settings": {
+    "googleMapsUrl": "https://www.google.com/maps/place/ArtLab/@59.4261803,24.8190128/data=!4m7!3m6!1s0x4692ed72bf30b0e5:0x29783ace9012814c!8m2!3d59.4261803!4d24.8190128!9m1!1b1",
+    "googleRating": { "value": 5, "scale": 5 },
+    "instagramUrl": "https://www.instagram.com/artlab_est/"
+  },
+  "home": [
+    {
+      "id": "creative-portal",
+      "author": "",
+      "authorLabel": "parent",
+      "source": "message",
+      "text": {
+        "ru": "Дети ходили на рисования в другие студии и худ.школы. Но, самое главное для нас, чтобы ребенок не терял интерес, вдохновение и мотивацию, это очень важно! С приходом в вашу студию у детей как-будто снова открылся творческий портал! Вижу, что вы даёте базовые знания, правила и техники и дети при этом не потеряли желания писать и творить 🤍",
+        "en": "The children used to attend drawing classes at other studios and art schools. But what matters most to us is that they do not lose their interest, inspiration and motivation — that is so important! Since joining your studio, it feels as though a creative portal has opened up for them again! I can see that you teach the foundations, rules and techniques, while the children still want to paint and create 🤍",
+        "et": "Lapsed käisid varem joonistamas teistes stuudiotes ja kunstikoolides. Meie jaoks on aga kõige tähtsam, et laps ei kaotaks huvi, inspiratsiooni ega motivatsiooni — see on väga oluline! Teie stuudiosse tulles oleks lastel justkui taas avanenud loominguline maailm! Näen, et annate põhiteadmisi ning õpetate reegleid ja tehnikaid, kuid lastel on endiselt soov maalida ja luua 🤍"
+      }
+    },
+    {
+      "id": "irina",
+      "author": "Irina Rešetnjak",
+      "source": "google",
+      "rating": 5,
+      "text": {
+        "ru": "Это самое замечательное место для деток! Дочка с радостью ходит на занятия. И я вижу прогресс в ее художестве, и это все благодаря Марине — человеку с таким добрым сердцем! В студии всегда очень уютная атмосфера. Спасибо за все! ❤️",
+        "en": "This is the most wonderful place for children! My daughter is happy to go to classes. I can see her progress in art, and it is all thanks to Marina — a person with such a kind heart! The studio always has a very cosy atmosphere. Thank you for everything! ❤️",
+        "et": "See on lastele kõige imelisem koht! Tütar käib tundides rõõmuga. Näen tema kunstilist arengut ja see kõik on tänu Marinale — nii sooja südamega inimesele! Stuudios on alati väga hubane õhkkond. Aitäh kõige eest! ❤️"
+      }
+    },
+    {
+      "id": "nadiia",
+      "author": "NADIIA PREOBRAZENSKAJA",
+      "source": "google",
+      "rating": 5,
+      "text": {
+        "ru": "Aleksandr с ART LAB с самых истоков, и за это время школа стала для него гораздо больше, чем просто местом, где учат рисовать. Здесь душевная, творческая атмосфера.\nНо настоящее сердце и главный магнит этого креативного пространства — Марина. Она умеет увидеть сильные стороны каждого ребёнка, раскрыть их и вдохновить на творчество.\n\nИ результат говорит сам за себя: теперь мой сын рисует везде, где только видит чистый лист и карандаш. 😊\nСпасибо ART LAB за любовь к искусству и бесценное вдохновение!",
+        "en": "Aleksandr has been with ART LAB since the very beginning, and over that time the school has become much more to him than just a place to learn to draw. There is a warm, creative atmosphere here.\nBut the true heart and main attraction of this creative space is Marina. She knows how to see each child's strengths, bring them out and inspire creativity.\n\nThe result speaks for itself: now my son draws wherever he finds a blank sheet of paper and a pencil. 😊\nThank you, ART LAB, for your love of art and priceless inspiration!",
+        "et": "Aleksandr on olnud ART LABiga päris algusest peale ning selle ajaga on kool muutunud tema jaoks palju enamaks kui lihtsalt kohaks, kus õpitakse joonistama. Siin on soe ja loominguline õhkkond.\nSelle loova paiga tõeline süda ja suurim tõmbenumber on aga Marina. Ta oskab märgata iga lapse tugevaid külgi, neid arendada ja loominguks innustada.\n\nTulemus räägib enda eest: nüüd joonistab mu poeg kõikjal, kus näeb puhast paberit ja pliiatsit. 😊\nAitäh, ART LAB, armastuse eest kunsti vastu ja hindamatu inspiratsiooni eest!"
+      }
+    },
+    {
+      "id": "valeria",
+      "author": "Валерия Бируля",
+      "source": "google",
+      "rating": 5,
+      "text": {
+        "ru": "Сын (4 года) ходит всегда с радостью в студию. После занятий начал уверенней держать карандаши и самостоятельно рисовать дома сам. Занятия подобраны под возраст детей. Делают перерыв, чтобы дети немного передохнули. Есть печеньки :) студия светлая и уютная. Ходим уже полгода.",
+        "en": "My son (4 years old) always enjoys going to the studio. After the classes, he started holding pencils more confidently and drawing on his own at home. The classes are tailored to the children's age. There is a break so the children can have a little rest. There are cookies :) The studio is bright and cosy. We have been coming for six months now.",
+        "et": "Poeg (4-aastane) läheb stuudiosse alati rõõmuga. Pärast tundides käimist hoiab ta pliiatseid kindlamalt ja joonistab kodus iseseisvalt. Tunnid on kohandatud laste vanusele. Tehakse paus, et lapsed saaksid veidi puhata. On ka küpsiseid :) Stuudio on valgusküllane ja hubane. Oleme käinud juba pool aastat."
+      }
+    },
+    {
+      "id": "ernest",
+      "author": "Ernest",
+      "source": "google",
+      "rating": 5,
+      "text": {
+        "ru": "Дочка с нетерпением ждёт следующих занятий, а для меня очень удобно, что все материалы уже включены в стоимость",
+        "en": "My daughter cannot wait for her next classes, and it is very convenient for me that all the materials are already included in the price.",
+        "et": "Tütar ootab järgmisi tunde suure põnevusega ning minu jaoks on väga mugav, et kõik materjalid on juba hinna sees."
+      }
+    }
+  ],
+  "camp": [
+    {
+      "id": "miron",
+      "author": "",
+      "authorLabel": "parent",
+      "source": "message",
+      "text": {
+        "ru": "Марина, добрый вечер!\n\nСпасибо вам огромное за первую смену лагеря! Огромная благодарность за ваш подход, правильный настрой, поддержку и умение вовлечь каждого ребёнка.\n\nМирон остался в полном восторге! Для меня было особенно ценно видеть, что он чувствовал себя принятым, с удовольствием участвовал во всех активностях и был настоящей частью команды..... 🥹💐🥰",
+        "en": "Good evening, Marina!\n\nThank you so much for the first camp session! We are so grateful for your approach, positive attitude, support and ability to involve every child.\n\nMiron absolutely loved it! It was especially meaningful to me to see that he felt accepted, enjoyed taking part in all the activities and was truly part of the team..... 🥹💐🥰",
+        "et": "Tere õhtust, Marina!\n\nSuur aitäh esimese laagrivahetuse eest! Oleme väga tänulikud teie lähenemise, õige häälestuse, toetuse ja oskuse eest kaasata iga last.\n\nMiron jäi täiesti vaimustusse! Minu jaoks oli eriti väärtuslik näha, et ta tundis end omaks võetuna, osales rõõmuga kõigis tegevustes ja oli tõeliselt osa meeskonnast..... 🥹💐🥰"
+      }
+    },
+    {
+      "id": "sabina",
+      "author": "Sabina",
+      "source": "message",
+      "text": {
+        "ru": "Спасибо вам 😊 Джессика действительно очень классно провела время! Говорит очень будет теперь скучать по всем!",
+        "en": "Thank you 😊 Jessica really had a wonderful time! She says she is going to miss everyone so much!",
+        "et": "Aitäh teile 😊 Jessical oli tõesti väga tore! Ta ütleb, et hakkab nüüd kõiki väga igatsema!"
+      }
+    },
+    {
+      "id": "elena",
+      "author": "Elena",
+      "source": "message",
+      "text": {
+        "ru": "Спасибо за новые знания и навыки, которые дети приобрели за эту неделю в лагере! За настроение, смех и улыбки! За вашу заботу и ежедневную обратную связь для родителей! Процветания лагерю и всем вашим начинаниям 🌺",
+        "en": "Thank you for the new knowledge and skills the children gained during this week at camp! For the good spirits, laughter and smiles! For your care and daily feedback for parents! Wishing the camp and all your projects every success 🌺",
+        "et": "Aitäh uute teadmiste ja oskuste eest, mille lapsed selle laagrinädala jooksul omandasid! Hea tuju, naeru ja naeratuste eest! Teie hoolivuse ja vanematele antud igapäevase tagasiside eest! Soovin edu laagrile ja kõigile teie ettevõtmistele 🌺"
+      }
+    },
+    {
+      "id": "karina",
+      "author": "Karina",
+      "source": "message",
+      "text": {
+        "ru": "Спасибо огромное за качественно-проведенное время, Полина в восторге. 😍",
+        "en": "Thank you so much for such a well-spent time. Polina is delighted. 😍",
+        "et": "Suur aitäh sisukalt veedetud aja eest, Polina on vaimustuses. 😍"
+      }
+    },
+    {
+      "id": "olga",
+      "author": "Olga",
+      "source": "message",
+      "text": {
+        "ru": "Спасибо за проведенное с детками время, Варя в восторге. Отдельное спасибо за разнообразие и интересную подачу в занятиях! Творческого вдохновения Вам и развития в вашем замечательном деле 🌹",
+        "en": "Thank you for the time spent with the children. Varya is delighted. A special thank-you for the variety and engaging way you present the activities! Wishing you creative inspiration and growth in your wonderful work 🌹",
+        "et": "Aitäh lastega veedetud aja eest, Varja on vaimustuses. Eriline tänu mitmekesiste tegevuste ja huvitava õpetamisviisi eest! Soovin teile loomingulist inspiratsiooni ja arengut selles imelises töös 🌹"
+      }
+    }
+  ],
+  "celebrations": [
+    {
+      "id": "plates",
+      "author": "",
+      "authorLabel": "guest",
+      "source": "message",
+      "text": {
+        "ru": "Марина, благодарим вас за вчерашний МК! Детям очень понравилось, получились такие красивые тарелочки! 😍",
+        "en": "Marina, thank you for yesterday's workshop! The children loved it, and the plates turned out so beautiful! 😍",
+        "et": "Marina, aitäh eilse töötoa eest! Lastele meeldis väga ja valmisid nii ilusad taldrikud! 😍"
+      }
+    },
+    {
+      "id": "maria",
+      "author": "",
+      "authorLabel": "guest",
+      "source": "message",
+      "text": {
+        "ru": "Марина, спасибо Вам и Марии огромное за этот невероятный чудесный опыт!! Мы все просто в диком восторге!! Это такие эмоции получили!!",
+        "en": "Marina, a huge thank-you to you and Maria for this incredible, wonderful experience!! We are all absolutely thrilled!! We felt so many emotions!!",
+        "et": "Marina, suur aitäh teile ja Mariale selle uskumatult imelise kogemuse eest!! Oleme kõik täiesti vaimustuses!! Saime nii palju emotsioone!!"
+      }
+    },
+    {
+      "id": "best-decision",
+      "author": "",
+      "authorLabel": "guest",
+      "source": "message",
+      "text": {
+        "ru": "Спасибо Вам еще раз за организацию и подход к нам!! Это было лучшее решение проведения праздника!! 💐",
+        "en": "Thank you again for the organisation and the way you treated us!! This was the best choice for our celebration!! 💐",
+        "et": "Aitäh veel kord korralduse ja teie suhtumise eest!! See oli parim valik meie peo korraldamiseks!! 💐"
+      }
+    },
+    {
+      "id": "corporate",
+      "author": "",
+      "authorLabel": "participant",
+      "source": "message",
+      "text": {
+        "ru": "Поддерживаю! Спасибо огромное за организацию чудесного корпоратива!",
+        "en": "I agree! Thank you so much for organising a wonderful company event!",
+        "et": "Olen nõus! Suur aitäh imelise firmaürituse korraldamise eest!"
+      }
+    },
+    {
+      "id": "want-to-paint-again",
+      "author": "",
+      "authorLabel": "participant",
+      "source": "message",
+      "text": {
+        "ru": "Очень понравилось все, спасибо)) хочется ещё что-нибудь рисовать)",
+        "en": "I really enjoyed everything, thank you)) I want to paint something else now)",
+        "et": "Kõik meeldis väga, aitäh)) Tahaks veel midagi maalida)"
+      }
+    },
+    {
+      "id": "time-flew",
+      "author": "",
+      "authorLabel": "guest",
+      "source": "message",
+      "text": {
+        "ru": "Большое спасибо за организацию мероприятия\n\nВсе приглашенные в восторге, в прекрасном воодушевлённом настроении :)\n\nИзвиняемся за задержку времени, оно пролетело просто незаметно\n\nОбязательно всем порекомендую вашу студию\n\nСпасибо ❤️",
+        "en": "Thank you so much for organising the event.\n\nAll the guests are delighted and in a wonderful, inspired mood :)\n\nSorry for staying longer — the time simply flew by.\n\nI will definitely recommend your studio to everyone.\n\nThank you ❤️",
+        "et": "Suur aitäh ürituse korraldamise eest.\n\nKõik külalised on vaimustuses ja suurepärases, inspireeritud meeleolus :)\n\nVabandame, et jäime kauemaks — aeg lendas lihtsalt märkamatult.\n\nSoovitan teie stuudiot kindlasti kõigile.\n\nAitäh ❤️"
+      }
+    }
+  ]
+}

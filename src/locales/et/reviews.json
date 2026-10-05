@@ -1,0 +1,38 @@
+{
+  "pages": {
+    "home": {
+      "eyebrow": "Arvustused stuudiost",
+      "title": "Kõige olulisemad sõnad tulevad",
+      "accent": "pärast.",
+      "description": "Rõõm tundidest, esimesed edusammud ja soov luua. Just seda märkavad meie õpilaste vanemad.",
+      "listLabel": "Arvustused ART Labi tundidest"
+    },
+    "camp": {
+      "eyebrow": "Vanemad laagrist",
+      "title": "Vaheaeg lõpeb.",
+      "accent": "Mälestused jäävad.",
+      "description": "Uued sõbrad, avastused ja looming iga päev. Vanemate soojad sõnad pärast kunstilaagrit.",
+      "listLabel": "Vanemate arvustused kunstilaagrist"
+    },
+    "celebrations": {
+      "eyebrow": "Arvustused pidudest",
+      "title": "Pidu lõpeb.",
+      "accent": "Rõõm jääb.",
+      "description": "Ühine loominguline kogemus peo tähistamiseks. Nii kirjutavad meile külalised ja osalejad.",
+      "listLabel": "Arvustused pidudest ja loomingulistest üritustest"
+    }
+  },
+  "authors": { "parent": "Osaleja lapsevanem", "guest": "Peokülaline", "participant": "Üritusel osaleja" },
+  "sources": { "message": "Sõnumist stuudiole" },
+  "expand": "Loe täispikkuses",
+  "collapse": "Näita vähem",
+  "expandAria": "Loe kogu arvustust — {{author}}",
+  "collapseAria": "Peida arvustuse täistekst — {{author}}",
+  "ratingAria": "Hinnang: {{rating}} / {{scale}}",
+  "googleRatingAria": "{{value}} / {{scale}} Google Mapsis — ava stuudio arvustused",
+  "googleRatingLabel": "Stuudio hinnang",
+  "sourceAria": "Ava ART Labi arvustused Google Mapsis — {{author}}",
+  "googleLink": "Arvustused Google Mapsis",
+  "instagramLink": "Rohkem lugusid Instagramis",
+  "translationNote": "Arvustused on tõlgitud vene keelest."
+}

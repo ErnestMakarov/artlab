@@ -1,0 +1,38 @@
+{
+  "pages": {
+    "home": {
+      "eyebrow": "Studio reviews",
+      "title": "The words that matter come",
+      "accent": "afterwards.",
+      "description": "The joy of classes, first achievements and a desire to create. This is what our students' parents notice.",
+      "listLabel": "Reviews of classes at ART Lab"
+    },
+    "camp": {
+      "eyebrow": "Parents about camp",
+      "title": "The holidays end.",
+      "accent": "The memories stay.",
+      "description": "New friends, discoveries and creativity every day. Warm words from parents after art camp.",
+      "listLabel": "Parents' reviews of art camp"
+    },
+    "celebrations": {
+      "eyebrow": "Celebration reviews",
+      "title": "The party ends.",
+      "accent": "The joy stays.",
+      "description": "A shared creative experience for your celebration. Here is what our guests and participants write to us.",
+      "listLabel": "Reviews of celebrations and creative events"
+    }
+  },
+  "authors": { "parent": "A participant's parent", "guest": "A celebration guest", "participant": "An event participant" },
+  "sources": { "message": "From a message to the studio" },
+  "expand": "Read in full",
+  "collapse": "Show less",
+  "expandAria": "Read the full review — {{author}}",
+  "collapseAria": "Collapse the review — {{author}}",
+  "ratingAria": "Rating: {{rating}} out of {{scale}}",
+  "googleRatingAria": "{{value}} out of {{scale}} on Google Maps — open studio reviews",
+  "googleRatingLabel": "Studio rating",
+  "sourceAria": "Open ART Lab reviews on Google Maps — {{author}}",
+  "googleLink": "Reviews on Google Maps",
+  "instagramLink": "More stories on Instagram",
+  "translationNote": "Reviews are translated from Russian."
+}

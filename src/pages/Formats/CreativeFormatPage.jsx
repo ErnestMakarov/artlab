@@ -12,6 +12,7 @@ import InnerPageHero from "../../components/sections/InnerPageHero.jsx";
 import WorkshopCard from "../../components/sections/WorkshopCard.jsx";
 import Seo from "../../components/seo/Seo.jsx";
 import Container from "../../components/ui/Container.jsx";
+import ReviewsSection from "../../components/sections/ReviewsSection.jsx";
 
 const instagramUrl = "https://www.instagram.com/artlab_est/";
 
@@ -800,6 +801,10 @@ export default function CreativeFormatPage({ formatKey }) {
       {formatKey === "workshops" && <WorkshopsShowcase t={t} />}
 
       {formatKey === "workshops" && <WorkshopsPricingNotice t={t} />}
+
+      {(isCampPage || isCelebrationsPage) && (
+        <ReviewsSection variant={formatKey} />
+      )}
 
       <section className="bg-white pb-20 sm:pb-24 lg:pb-28">
         <Container>

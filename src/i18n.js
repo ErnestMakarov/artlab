@@ -12,6 +12,7 @@ import etGallery from "./locales/et/gallery.json";
 import etContacts from "./locales/et/contacts.json";
 import etPrivacy from "./locales/et/privacy.json";
 import etNotFound from "./locales/et/notFound.json";
+import etReviews from "./locales/et/reviews.json";
 
 import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
@@ -23,6 +24,7 @@ import enGallery from "./locales/en/gallery.json";
 import enContacts from "./locales/en/contacts.json";
 import enPrivacy from "./locales/en/privacy.json";
 import enNotFound from "./locales/en/notFound.json";
+import enReviews from "./locales/en/reviews.json";
 
 import ruCommon from "./locales/ru/common.json";
 import ruHome from "./locales/ru/home.json";
@@ -34,6 +36,7 @@ import ruGallery from "./locales/ru/gallery.json";
 import ruContacts from "./locales/ru/contacts.json";
 import ruPrivacy from "./locales/ru/privacy.json";
 import ruNotFound from "./locales/ru/notFound.json";
+import ruReviews from "./locales/ru/reviews.json";
 
 const resources = {
   et: {
@@ -47,6 +50,7 @@ const resources = {
     contacts: etContacts,
     privacy: etPrivacy,
     notFound: etNotFound,
+    reviews: etReviews,
   },
   en: {
     common: enCommon,
@@ -59,6 +63,7 @@ const resources = {
     contacts: enContacts,
     privacy: enPrivacy,
     notFound: enNotFound,
+    reviews: enReviews,
   },
   ru: {
     common: ruCommon,
@@ -71,6 +76,7 @@ const resources = {
     contacts: ruContacts,
     privacy: ruPrivacy,
     notFound: ruNotFound,
+    reviews: ruReviews,
   },
 };
 
@@ -94,6 +100,7 @@ i18n
       "contacts",
       "privacy",
       "notFound",
+      "reviews",
     ],
     interpolation: {
       escapeValue: false,
